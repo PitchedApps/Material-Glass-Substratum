@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="notification_number_text_color" type="drawable">@color/text</item>
+    <item name="ticker_background_color" type="drawable">@color/backgroundt</item>
+    <item name="system_bar_background" type="drawable">@color/backgroundt</item>
+    <item name="status_bar_recents_app_thumbnail_background" type="drawable">@color/backgroundt
+    </item>
+    <item name="status_bar_notification_row_background_color" type="drawable">@color/backgroundt
+    </item>
+    <item name="recents_callout_line" type="drawable">#20000000</item>
+    <item name="heads_up_notification_bg_pressed" type="drawable">@color/backgroundd</item>
+</resources>

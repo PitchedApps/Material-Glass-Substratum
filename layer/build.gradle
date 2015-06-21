@@ -1,11 +1,19 @@
 apply plugin: 'com.android.application'
 
+tasks.whenTaskAdded { task ->
+    if (task.name.equals("lint")) {
+        task.enabled = false
+    } else if (task.name.equals("lintVitalRelease")) {
+        task.enabled = false
+    }
+}
+
 android {
     compileSdkVersion 22
     buildToolsVersion "22.0.1"
 
     defaultConfig {
-        applicationId "com.android"
+        applicationId "com.pitchedapps.material.glass.layer.test"
         minSdkVersion 21
         targetSdkVersion 22
         versionCode 1
@@ -16,6 +24,14 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
+    }
+    productFlavors {
+        aframework {}
+        asystemui {}
+        asettings {}
+    }
+    lintOptions {
+        abortOnError false
     }
 }
 

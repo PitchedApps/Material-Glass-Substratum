@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="target_package"></string>
+    <string name="info_short"></string>
+    <string name="info_long"></string>
+</resources>
