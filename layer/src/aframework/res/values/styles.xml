@@ -1,73 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="Theme" parent="@android:style/Theme">
-        <item name="android:panelColorBackground">@color/backgroundt</item>
-        <item name="android:panelColorForeground">@color/text</item>
-        <item name="android:colorBackground">@color/backgroundt</item>
-        <item name="android:colorForeground">@color/text</item>
-        <item name="android:windowBackground">@color/backgroundt</item>
+        <item name="android:panelColorBackground">@color/background_dark</item>
+        <item name="android:panelColorForeground">@color/primary_text_default_material_dark</item>
+        <item name="android:colorBackground">@color/background_dark</item>
+        <item name="android:colorForeground">@color/primary_text_default_material_dark</item>
+        <item name="android:windowBackground">@color/background_dark</item>
         <item name="android:windowShowWallpaper">true</item>
-        <item name="android:colorBackgroundCacheHint">@color/backgroundt</item>
-        <item name="android:colorControlActivated">@color/text</item>
+        <item name="android:colorBackgroundCacheHint">@color/background_dark</item>
+        <item name="android:colorControlActivated">@color/primary_text_default_material_dark</item>
     </style>
     <style name="Theme.Black" parent="@android:style/Theme.Black">
-        <item name="android:panelColorBackground">@color/background</item>
-        <item name="android:panelColorForeground">@color/text</item>
-        <item name="android:colorBackground">@color/background</item>
-        <item name="android:colorForeground">@color/text</item>
-        <item name="android:windowBackground">@color/background</item>
+        <item name="android:panelColorBackground">@color/primary_material_dark</item>
+        <item name="android:panelColorForeground">@color/primary_text_default_material_dark</item>
+        <item name="android:colorBackground">@color/primary_material_dark</item>
+        <item name="android:colorForeground">@color/primary_text_default_material_dark</item>
+        <item name="android:windowBackground">@color/primary_material_dark</item>
         <item name="android:windowShowWallpaper">false</item>
-        <item name="android:colorBackgroundCacheHint">@color/background</item>
-        <item name="android:colorControlActivated">@color/text</item>
+        <item name="android:colorBackgroundCacheHint">@color/primary_material_dark</item>
+        <item name="android:colorControlActivated">@color/primary_text_default_material_dark</item>
         <item name="android:statusBarColor">@android:color/black</item>
     </style>
     <style name="Theme.Holo" parent="@android:style/Theme.Holo">
-        <item name="android:panelColorBackground">@color/backgroundt</item>
-        <item name="android:panelColorForeground">@color/text</item>
-        <item name="android:colorBackground">@color/backgroundt</item>
-        <item name="android:colorForeground">@color/text</item>
-        <item name="android:windowBackground">@color/backgroundt</item>
+        <item name="android:panelColorBackground">@color/background_dark</item>
+        <item name="android:panelColorForeground">@color/primary_text_default_material_dark</item>
+        <item name="android:colorBackground">@color/background_dark</item>
+        <item name="android:colorForeground">@color/primary_text_default_material_dark</item>
+        <item name="android:windowBackground">@color/background_dark</item>
         <item name="android:windowShowWallpaper">true</item>
-        <item name="android:colorBackgroundCacheHint">@color/backgroundt</item>
-        <item name="android:colorControlActivated">@color/text</item>
+        <item name="android:colorBackgroundCacheHint">@color/background_dark</item>
+        <item name="android:colorControlActivated">@color/primary_text_default_material_dark</item>
 
-        <item name="android:textColorLink">@color/textt</item>
+        <item name="android:textColorLink">#ddffffff</item>
 
-        <item name="android:listChoiceBackgroundIndicator">@drawable/item_background_pitch</item>
-        <item name="android:selectableItemBackground">@drawable/item_background_pitch</item>
-        <item name="android:selectableItemBackgroundBorderless">
-            @drawable/item_background_borderless_pitch
-        </item>
-        <item name="android:actionBarItemBackground">@drawable/item_background_borderless_pitch
-        </item>
+        <!--<item name="android:listChoiceBackgroundIndicator">@drawable/item_background_pitch</item>-->
+        <!--<item name="android:selectableItemBackground">@drawable/item_background_pitch</item>-->
+        <!--<item name="android:selectableItemBackgroundBorderless">-->
+            <!--@drawable/item_background_borderless_pitch-->
+        <!--</item>-->
+        <!--<item name="android:actionBarItemBackground">@drawable/item_background_borderless_pitch-->
+        <!--</item>-->
     </style>
     <style name="Theme.Holo.Light" parent="@android:style/Theme.Holo.Light">
-        <item name="android:panelColorBackground">@color/backgroundt_light</item>
+        <item name="android:panelColorBackground">@color/background_light</item>
         <item name="android:panelColorForeground">@android:color/black</item>
-        <item name="android:colorBackground">@color/backgroundt_light</item>
+        <item name="android:colorBackground">@color/background_light</item>
         <item name="android:colorForeground">@android:color/black</item>
-        <item name="android:windowBackground">@color/backgroundt_light</item>
+        <item name="android:windowBackground">@color/background_light</item>
         <item name="android:windowShowWallpaper">true</item>
-        <item name="android:colorBackgroundCacheHint">@color/backgroundt_light</item>
+        <item name="android:colorBackgroundCacheHint">@color/background_light</item>
         <item name="android:colorControlActivated">@android:color/black</item>
     </style>
     <style name="Theme.Holo.Wallpaper" parent="@android:style/Theme.Holo.Wallpaper">
-        <item name="android:panelColorBackground">@color/backgroundt</item>
-        <item name="android:panelColorForeground">@color/text</item>
-        <item name="android:colorBackground">@color/backgroundt</item>
-        <item name="android:colorForeground">@color/text</item>
-        <item name="android:windowBackground">@color/backgroundtt</item>
+        <item name="android:panelColorBackground">@color/background_dark</item>
+        <item name="android:panelColorForeground">@color/primary_text_default_material_dark</item>
+        <item name="android:colorBackground">@color/background_dark</item>
+        <item name="android:colorForeground">@color/primary_text_default_material_dark</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:windowShowWallpaper">true</item>
-        <item name="android:colorBackgroundCacheHint">@color/backgroundtt</item>
-        <item name="android:colorControlActivated">@color/text</item>
+        <item name="android:colorBackgroundCacheHint">@android:color/transparent</item>
+        <item name="android:colorControlActivated">@color/primary_text_default_material_dark</item>
 
-        <item name="android:listChoiceBackgroundIndicator">@drawable/item_background_pitch</item>
-        <item name="android:selectableItemBackground">@drawable/item_background_pitch</item>
-        <item name="android:selectableItemBackgroundBorderless">
-            @drawable/item_background_borderless_pitch
-        </item>
-        <item name="android:actionBarItemBackground">@drawable/item_background_borderless_pitch
-        </item>
+        <!--<item name="android:listChoiceBackgroundIndicator">@drawable/item_background_pitch</item>-->
+        <!--<item name="android:selectableItemBackground">@drawable/item_background_pitch</item>-->
+        <!--<item name="android:selectableItemBackgroundBorderless">-->
+            <!--@drawable/item_background_borderless_pitch-->
+        <!--</item>-->
+        <!--<item name="android:actionBarItemBackground">@drawable/item_background_borderless_pitch-->
+        <!--</item>-->
     </style>
 
     <style name="Widget.Holo.ActionBar" parent="@android:style/Widget.Holo.ActionBar">
@@ -84,44 +84,44 @@
 
 
     <style name="Theme.Material" parent="@android:style/Theme.Material">
-        <item name="android:panelColorBackground">@color/backgroundt</item>
-        <item name="android:panelColorForeground">@color/text</item>
-        <item name="android:colorBackground">@color/backgroundt</item>
-        <item name="android:colorForeground">@color/text</item>
-        <item name="android:windowBackground">@color/backgroundt</item>
+        <item name="android:panelColorBackground">@color/background_dark</item>
+        <item name="android:panelColorForeground">@color/primary_text_default_material_dark</item>
+        <item name="android:colorBackground">@color/background_dark</item>
+        <item name="android:colorForeground">@color/primary_text_default_material_dark</item>
+        <item name="android:windowBackground">@color/background_dark</item>
         <item name="android:windowShowWallpaper">true</item>
-        <item name="android:colorBackgroundCacheHint">@color/backgroundt</item>
-        <item name="android:colorControlActivated">@color/text</item>
-        <item name="android:navigationBarColor">@color/black_t</item>
+        <item name="android:colorBackgroundCacheHint">@color/background_dark</item>
+        <item name="android:colorControlActivated">@color/primary_text_default_material_dark</item>
+        <item name="android:navigationBarColor">@color/background_dark</item>
     </style>
     <style name="Theme.Material.Wallpaper" parent="@android:style/Theme.Material.Wallpaper">
-        <item name="android:panelColorBackground">@color/backgroundt</item>
-        <item name="android:panelColorForeground">@color/text</item>
-        <item name="android:colorBackground">@color/backgroundt</item>
-        <item name="android:colorForeground">@color/text</item>
-        <item name="android:windowBackground">@color/backgroundtt</item>
+        <item name="android:panelColorBackground">@color/background_dark</item>
+        <item name="android:panelColorForeground">@color/primary_text_default_material_dark</item>
+        <item name="android:colorBackground">@color/background_dark</item>
+        <item name="android:colorForeground">@color/primary_text_default_material_dark</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:windowShowWallpaper">true</item>
-        <item name="android:colorBackgroundCacheHint">@color/backgroundtt</item>
-        <item name="android:colorControlActivated">@color/text</item>
+        <item name="android:colorBackgroundCacheHint">@android:color/transparent</item>
+        <item name="android:colorControlActivated">@color/primary_text_default_material_dark</item>
     </style>
     <style name="Theme.Material.Light" parent="@android:style/Theme.Material.Light">
-        <item name="android:panelColorBackground">@color/backgroundt_light</item>
+        <item name="android:panelColorBackground">@color/background_light</item>
         <item name="android:panelColorForeground">@android:color/black</item>
-        <item name="android:colorBackground">@color/backgroundt_light</item>
+        <item name="android:colorBackground">@color/background_light</item>
         <item name="android:colorForeground">@android:color/black</item>
-        <item name="android:windowBackground">@color/backgroundt_light</item>
+        <item name="android:windowBackground">@color/background_light</item>
         <item name="android:windowShowWallpaper">true</item>
-        <item name="android:colorBackgroundCacheHint">@color/backgroundt_light</item>
+        <item name="android:colorBackgroundCacheHint">@color/background_light</item>
         <item name="android:colorControlActivated">@android:color/black</item>
-        <item name="android:navigationBarColor">@color/black_t</item>
+        <item name="android:navigationBarColor">@color/background_dark</item>
     </style>
 
     <!--DeviceDefault-->
     <style name="Theme.DeviceDefault.Light" parent="@android:style/Theme.DeviceDefault">
-        <item name="android:windowBackground">@color/backgroundt</item>
+        <item name="android:windowBackground">@color/background_dark</item>
         <item name="android:windowShowWallpaper">true</item>
-        <item name="android:colorBackgroundCacheHint">@color/backgroundt</item>
-        <item name="android:statusBarColor">@color/backgroundt</item>
+        <item name="android:colorBackgroundCacheHint">@color/background_dark</item>
+        <item name="android:statusBarColor">@color/background_dark</item>
     </style>
 
     <style name="AlertDialog.DeviceDefault" parent="@android:style/Theme.DeviceDefault.Dialog" />
@@ -309,34 +309,34 @@
     <style name="Theme.Material.Settings" parent="@android:style/Theme.Material" />
     <style name="Theme.Leanback.Settings.Dialog.Alert"
         parent="@android:style/Theme.Material.Dialog">
-        <item name="android:colorBackground">@color/backgroundt</item>
+        <item name="android:colorBackground">@color/background_dark</item>
     </style>
     <style name="Theme.Material.Settings.BaseDialog" parent="@android:style/Theme.Material.Dialog">
-        <item name="android:colorBackground">@color/backgroundt</item>
+        <item name="android:colorBackground">@color/background_dark</item>
     </style>
     <style name="Theme.Material.Settings.Dialog.BaseAlert"
         parent="@android:style/Theme.Material.Dialog">
-        <item name="android:colorBackground">@color/backgroundt</item>
+        <item name="android:colorBackground">@color/background_dark</item>
     </style>
     <style name="Theme.Material.Settings.Dialog.Presentation"
         parent="@android:style/Theme.Material.Dialog.Presentation">
-        <item name="android:colorBackground">@color/backgroundt</item>
+        <item name="android:colorBackground">@color/background_dark</item>
     </style>
     <style name="Theme.Material.Settings.SearchBar" parent="@android:style/Theme.Material">
-        <item name="android:colorBackground">@color/backgroundt</item>
+        <item name="android:colorBackground">@color/background_dark</item>
     </style>
     <style name="Theme.Material.Settings.CompactMenu"
         parent="@android:style/Theme.Material.Settings">
-        <item name="android:colorBackground">@color/backgroundt</item>
+        <item name="android:colorBackground">@color/background_dark</item>
     </style>
     <style name="Theme.Micro" parent="@android:style/Theme.Material.NoActionBar">
-        <item name="android:colorBackground">@color/backgroundt</item>
+        <item name="android:colorBackground">@color/background_dark</item>
         <item name="android:windowIsFloating">false</item>
         <item name="android:windowIsTranslucent">true</item>
         <item name="android:windowContentOverlay">@null</item>
     </style>
     <style name="Theme.Micro.Light" parent="@android:style/Theme.Material.NoActionBar">
-        <item name="android:colorBackground">@color/backgroundt</item>
+        <item name="android:colorBackground">@color/background_dark</item>
         <item name="android:windowIsFloating">false</item>
         <item name="android:windowIsTranslucent">true</item>
         <item name="android:windowContentOverlay">@null</item>
@@ -345,7 +345,7 @@
     <!--TextAppearance-->
     <style name="TextAppearance.Material.Notification"
         parent="@android:style/TextAppearance.Material">
-        <item name="android:textColor">@color/textt</item>
+        <item name="android:textColor">#ddffffff</item>
     </style>
     <style name="TextAppearance.Material.Notification.Emphasis"
         parent="@style/TextAppearance.Material.Notification">
@@ -353,15 +353,15 @@
     </style>
     <style name="TextAppearance.Material.Notification.Title"
         parent="@style/TextAppearance.Material.Notification">
-        <item name="android:textColor">@color/text</item>
+        <item name="android:textColor">@color/primary_text_default_material_dark</item>
     </style>
 
     <style name="TextAppearance.Widget.Button" parent="@android:style/TextAppearance.Small">
-        <item name="android:textColor">@color/text</item>
+        <item name="android:textColor">@color/primary_text_default_material_dark</item>
     </style>
     <style name="TextAppearance.Widget.EditText" parent="@android:style/TextAppearance.Widget">
-        <item name="android:textColor">@color/text</item>
-        <item name="android:textColorHint">@color/textt</item>
+        <item name="android:textColor">@color/primary_text_default_material_dark</item>
+        <item name="android:textColorHint">#ddffffff</item>
     </style>
     <style name="Theme.Material.Panel" parent="@android:style/Theme.Material.Panel">
         <item name="android:windowShowWallpaper">false</item>
@@ -376,11 +376,11 @@
 
     <!--materialization -->
     <style name="Widget.Holo.Button" parent="@android:style/Widget.Material.Button">
-        <item name="android:textColor">@color/text</item>
+        <item name="android:textColor">@color/primary_text_default_material_dark</item>
         <item name="android:showText">false</item>
     </style>
     <style name="Widget.Holo.Light.Button" parent="@android:style/Widget.Material.Light.Button">
-        <item name="android:textColor">@color/background</item>
+        <item name="android:textColor">@color/primary_material_dark</item>
     </style>
 
 
