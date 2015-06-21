@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_padding_horizontal_material">8.0dip</dimen>
+    <item name="button_inset_horizontal_material" type="dimen">@dimen/control_inset_material</item>
+    <dimen name="control_inset_material">4.0dip</dimen>
+    <item name="button_padding_vertical_material" type="dimen">@dimen/control_padding_material
+    </item>
+    <dimen name="control_padding_material">4.0dip</dimen>
+    <dimen name="control_corner_material">2.0dip</dimen>
+    <dimen name="button_inset_vertical_material">6.0dip</dimen>
+</resources>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_dark">@color/backgroundt</color>
+    <color name="background_light">#90ffffff</color>
+    <color name="holo_blue_light">@color/pblue</color>
+    <color name="holo_blue_dark">@color/pbluee</color>
+    <color name="holo_blue_bright">@color/backgrounddt</color>
+    <color name="system_notification_accent_color">@color/text</color>
+    <color name="background_holo_dark">@color/backgroundt</color>
+    <color name="highlighted_text_holo_dark">#66666666</color>
+    <color name="highlighted_text_holo_light">#66666666</color>
+    <color name="background_material_dark">#90303030</color>
+    <color name="background_material_light">#90eeeeee</color>
+    <color name="background_floating_material_dark">#cc111111</color>
+    <color name="background_floating_material_light">#cceeeeee</color>
+    <!--warning-->
+    <color name="primary_text_default_material_light">#ff060606</color>
+    <color name="secondary_text_default_material_light">#ff121212</color>
+    <color name="primary_text_default_material_dark">#ffffffff</color>
+    <color name="secondary_text_default_material_dark">#ffeeeeee</color>
+    <color name="primary_material_dark">#ff000000</color>
+    <color name="material_deep_teal_200">@color/text</color>
+    <color name="material_deep_teal_500">@color/text</color>
+    <color name="material_blue_grey_800">@color/backgroundd</color>
+    <color name="material_blue_grey_900">@color/backgroundd</color>
+    <color name="material_blue_grey_950">@color/backgroundd</color>
+    <color name="config_defaultNotificationColor">#aa000000</color>
+    <color name="battery_saver_mode_color">#fff4511e</color>
+
+    <color name="bright_foreground_dark">@color/text</color>
+    <color name="bright_foreground_light">@color/background</color>
+    <color name="bright_foreground_dark_disabled">#ffdddddd</color>
+    <color name="bright_foreground_light_disabled">#ff222222</color>
+    <color name="bright_foreground_dark_inverse">@color/bright_foreground_light</color>
+    <color name="bright_foreground_light_inverse">@color/bright_foreground_dark</color>
+    <color name="dim_foreground_dark">#ffdddddd</color>
+    <color name="dim_foreground_dark_disabled">#ffbbbbbb</color>
+    <color name="dim_foreground_dark_inverse">#ff222222</color>
+    <color name="dim_foreground_dark_inverse_disabled">#ff444444</color>
+    <color name="hint_foreground_dark">#ffdddddd</color>
+    <color name="dim_foreground_light">#ff222222</color>
+    <color name="dim_foreground_light_disabled">#ff444444</color>
+    <color name="dim_foreground_light_inverse">#ffdddddd</color>
+    <color name="dim_foreground_light_inverse_disabled">#ffbbbbbb</color>
+
+    <color name="bright_foreground_holo_dark">@color/text</color>
+    <color name="bright_foreground_holo_light">@color/background</color>
+    <color name="bright_foreground_disabled_holo_dark">#ffdddddd</color>
+    <color name="bright_foreground_disabled_holo_light">#ff222222</color>
+    <color name="bright_foreground_inverse_holo_dark">@color/bright_foreground_holo_light</color>
+    <color name="bright_foreground_inverse_holo_light">@color/bright_foreground_holo_dark</color>
+    <color name="dim_foreground_holo_dark">#ffdddddd</color>
+    <color name="dim_foreground_disabled_holo_dark">#ffbbbbbb</color>
+    <color name="dim_foreground_inverse_holo_dark">#ff222222</color>
+    <color name="dim_foreground_inverse_disabled_holo_dark">#ff444444</color>
+    <color name="hint_foreground_holo_dark">#ffdddddd</color>
+    <color name="dim_foreground_holo_light">#ff222222</color>
+    <color name="dim_foreground_disabled_holo_light">#ff444444</color>
+    <color name="dim_foreground_inverse_holo_light">#ffdddddd</color>
+    <color name="dim_foreground_inverse_disabled_holo_light">#ffbbbbbb</color>
+
+    <color name="search_url_text_selected">@color/text</color>
+    <color name="search_url_text_pressed">@color/text</color>
+    <color name="search_widget_corpus_item_background">@color/backgroundt</color>
+    <color name="sliding_tab_text_color_active">@color/text</color>
+    <color name="sliding_tab_text_color_shadow">@color/text</color>
+    <color name="micro_text_light">@color/textt</color>
+    <color name="notification_icon_bg_color">@color/backgrounddt</color>
+    <color name="timepicker_default_ampm_selected_background_color_holo_light">@color/textt</color>
+    <color name="timepicker_default_ampm_selected_background_color_holo_dark">@color/backgrounddt
+    </color>
+    <color name="datepicker_default_normal_text_color_holo_light">@color/backgroundd</color>
+    <color name="datepicker_default_normal_text_color_holo_dark">@color/text</color>
+    <color name="accent_material_light">@color/background</color>
+    <color name="accent_material_dark">@color/text</color>
+    <color name="button_material_dark">#50505050</color>
+    <color name="button_material_light">#50afafaf</color>
+    <color name="link_text_material_dark">@color/textt</color>
+    <color name="link_text_material_light">@color/backgroundd</color>
+    <color name="timepicker_default_ampm_selected_background_color_material">@color/backgrounddt
+    </color>
+    <color name="timepicker_default_selector_color_material">@color/backgrounddt</color>
+
+    <color name="timepicker_default_background_material">
+        @color/datepicker_default_header_selector_background_material_dark
+    </color>
+    <color name="timepicker_default_text_color_material">@color/text</color>
+    <color name="datepicker_default_header_selector_background_material_dark">#bb303030</color>
+    <color name="datepicker_default_view_animator_color_material_dark">#bb303030</color>
+
+    <!--euphoria-->
+    <color name="notification_material_action_textcolor">@color/textt</color>
+    <color name="notification_template_material_big_picture_background_color">#cc000000</color>
+
+    <color name="notification_media_primary_color">@color/text</color>
+    <color name="notification_media_secondary_color">@color/textt</color>
+    <color name="notification_action_color_filter">@color/textt</color>
+
+    <color name="black_t">#90000000</color>
+    <color name="background">#ff000000</color>
+    <color name="backgroundd">#ff161616</color>
+    <color name="backgrounddd">#ff323232</color>
+    <color name="backgroundt">#90000000</color>
+    <color name="backgroundtt">#00000000</color>
+    <color name="backgroundt_light">#90ffffff</color>
+    <color name="background_t">#90000000</color>
+    <color name="backgrounddt">#90161616</color>
+    <color name="backgroundddt">#90323232</color>
+    <color name="text">#fff0f0f0</color>
+    <color name="textb">#ffeeeeee</color>
+    <color name="textt">#ddffffff</color>
+    <color name="texttt">#bbffffff</color>
+    <color name="link">#ff29abe2</color>
+    <color name="hint">#cc000000</color>
+    <color name="pblue">#ff748B96</color>
+    <color name="pbluee">#ff62757e</color>
+    <color name="dblue">#ff343d41</color>
+    <color name="pblue_t">#cc748B96</color>
+    <color name="pbluee_t">#cc62757e</color>
+    <color name="dblue_t">#cc343d41</color>
+    <color name="ripple">#40ffffff</color>
+
+    <!--<color name="white">#ffe0e0e0</color>-->
+    <color name="neutral">#ff555555</color>
+    <color name="resolver_selected">#66222222</color>
+
+    <!--<color name="bright_foreground_inverse_holo_light">@color/neutral</color>-->
+
+    <color name="notification_mtrl_action_textcolor">@color/textt</color>
+    <color name="notification_mtrl_big_picture_bg">@color/backgroundt</color>
+    <color name="resolver_list_bg">@color/backgroundt</color>
+</resources>
