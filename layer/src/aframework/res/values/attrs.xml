@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="windowBackground" format="reference" />
+    <attr name="windowNoTitle" format="boolean" />
+    <attr name="windowIsTranslucent" format="boolean" />
+    <attr name="windowContentOverlay" format="reference" />
+    <attr name="backgroundDimEnabled" format="boolean" />
+    <attr name="windowTranslucentStatus" format="boolean" />
+    <attr name="windowTranslucentNavigation" format="boolean" />
+    <attr name="windowDrawsSystemBarBackgrounds" format="boolean" />
+    <attr name="colorControlActivated" format="color" />
+    <attr name="textColor" format="reference|color" />
+    <attr name="textColorHighlight" format="reference|color" />
+    <attr name="textColorHint" format="reference|color" />
+    <attr name="textColorLink" format="reference|color" />
+    <attr name="colorBackgroundCacheHint" format="color" />
+    <attr name="colorBackground" format="color" />
+    <attr name="colorForeground" format="color" />
+    <attr name="panelColorForeground" format="reference|color" />
+    <attr name="panelColorBackground" format="reference|color" />
+    <attr name="windowShowWallpaper" format="boolean" />
+    <attr name="statusBarColor" format="color" />
+    <attr name="navigationBarColor" format="color" />
+    <attr name="background" format="reference|color" />
+    <attr name="showText" format="boolean" />
+    <attr name="windowIsFloating" format="boolean" />
+
+</resources>
