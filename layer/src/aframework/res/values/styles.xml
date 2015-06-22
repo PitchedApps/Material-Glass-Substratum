@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-
+    <style name="Theme.Material" parent="@android:style/Theme.Material">
+        <item name="windowShowWallpaper">true</item>
+    </style>
+    <style name="Theme.Material.Light" parent="@android:style/Theme.Material">
+        <item name="windowShowWallpaper">true</item>
+    </style>
+    <style name="Theme.Holo" parent="@android:style/Theme.Holo">
+        <item name="windowShowWallpaper">true</item>
+    </style>
 
     <!--DeviceDefault-->
-    <style name="Theme.DeviceDefault.Light" parent="@android:style/Theme.DeviceDefault">
-        <!--<item name="windowBackground">#90000000</item>-->
+    <style name="Theme.DeviceDefault.Light" parent="@android:style/Theme.Material">
         <item name="windowShowWallpaper">true</item>
-        <item name="colorBackgroundCacheHint">#90000000</item>
-        <item name="statusBarColor">#90000000</item>
     </style>
 
     <style name="AlertDialog.DeviceDefault" parent="@android:style/Theme.DeviceDefault.Dialog" />
@@ -179,17 +184,17 @@
         parent="@android:style/Theme.Material.Dialog.Alert" />
     <style name="Theme.DeviceDefault.Light.SearchBar"
         parent="@android:style/Theme.Material.Panel" />
-    <!--<style name="Theme.DeviceDefault.Resolver" parent="@android:style/Theme.Material">-->
-        <!--<item name="windowBackground">@android:color/transparent</item>-->
-        <!--<item name="windowNoTitle">true</item>-->
-        <!--<item name="windowIsTranslucent">true</item>-->
-        <!--<item name="windowContentOverlay">@null</item>-->
-        <!--<item name="backgroundDimEnabled">true</item>-->
-        <!--<item name="windowTranslucentStatus">false</item>-->
-        <!--<item name="windowTranslucentNavigation">false</item>-->
-        <!--<item name="colorControlActivated">#66222222</item>-->
-        <!--<item name="windowDrawsSystemBarBackgrounds">false</item>-->
-    <!--</style>-->
+    <style name="Theme.DeviceDefault.Resolver" parent="@android:style/Theme.Material">
+        <item name="windowBackground">@android:color/transparent</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowIsTranslucent">true</item>
+        <item name="windowContentOverlay">@null</item>
+        <item name="backgroundDimEnabled">true</item>
+        <item name="windowTranslucentStatus">false</item>
+        <item name="windowTranslucentNavigation">false</item>
+        <item name="colorControlActivated">#66222222</item>
+        <item name="windowDrawsSystemBarBackgrounds">false</item>
+    </style>
 
 
     <!--Settings-->

@@ -96,4 +96,13 @@
     <color name="running_processes_system_ram">#ccffffff</color>
     <color name="running_processes_apps_ram">#99dddddd</color>
     <color name="running_processes_free_ram">#55bbbbbb</color>
+	
+	<!--slim-->
+	<color name="exposed_bg_dark">#30000000</color>
+	<color name="exposed_barPrimaryColor">#ff748B96</color>
+    <color name="exposed_barPredictionColor">#60ffffff</color>
+    <color name="exposed_datachartfillcolor">#ff748B96</color>
+    <color name="exposed_datachartfillcolor_secondary">#ff343d41</color>
+    <color name="exposed_data_limit_chart_labelcolor">#ffffffff</color>
+
 </resources>

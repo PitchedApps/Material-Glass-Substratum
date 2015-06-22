@@ -125,4 +125,18 @@
     <color name="notification_mtrl_action_textcolor">#ddffffff</color>
     <color name="notification_mtrl_big_picture_bg">#90000000</color>
     <color name="resolver_list_bg">#90000000</color>
+	
+	<!--exposed-->
+	<color name="exposed_primary_text_light">#deffffff</color>
+    <color name="exposed_secondary_text_light">#8affffff</color>
+    <color name="exposed_primary_text_dark">#ffffffff</color>
+    <color name="exposed_notification_big_pic_bg">#a0000000</color>
+    <color name="exposed_resolver_list_bg">#a0000000</color>
+    <color name="exposed_notify_action_text">#8affffff</color>
+    <color name="exposed_navigation_bar">#cc000000</color>
+    <color name="exposed_TextAppearance.StatusBar.EventContent">#ddffffff</color>
+    <color name="exposed_TextAppearance.StatusBar.EventContent.Emphasis">#ffcccccc</color>
+    <color name="exposed_TextAppearance.EasyCorrectSuggestion">#88c8c8c8</color>
+    <color name="exposed_Widget.Material.Light.Button_TS">#ff555555</color>
+	
 </resources>

@@ -26,9 +26,9 @@ android {
         }
     }
     productFlavors {
-        aframework {}
-        asystemui {}
-        asettings {}
+        aframework { applicationId "com.pitchedapps.material.glass.layer.framework" }
+        asystemui { applicationId "com.pitchedapps.material.glass.layer.systemui" }
+        asettings { applicationId "com.pitchedapps.material.glass.layer.settings" }
     }
     lintOptions {
         abortOnError false
