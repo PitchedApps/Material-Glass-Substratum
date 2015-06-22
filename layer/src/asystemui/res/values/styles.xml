@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Theme.SystemUI.Dialog" parent="@android:style/Theme.Material.Dialog">
-        <item name="android:colorControlActivated">#ffe8e8e8</item>
-        <item name="android:colorPrimary">#ff000000</item>
-        <item name="android:colorBackground">#a0000000</item>
-    </style>
+    <!--<style name="Theme.SystemUI.Dialog" parent="@android:style/Theme.Material.Dialog">-->
+        <!--<item name="android:colorControlActivated">#ffe8e8e8</item>-->
+        <!--<item name="android:colorPrimary">#ff000000</item>-->
+        <!--<item name="android:colorBackground">#a0000000</item>-->
+    <!--</style>-->
 
     <style name="Widget.TransportControl.SeekBar"
         parent="@android:style/Widget.DeviceDefault.SeekBar">
