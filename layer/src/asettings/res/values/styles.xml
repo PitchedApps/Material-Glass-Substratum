@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.SettingsBase" parent="@android:style/Theme.Material.Wallpaper">
+        <item name="android:statusBarColor">@color/actionbar</item>
+        <item name="android:colorBackground">@color/background</item>
+    </style>
+
+    <style name="SecurityPreferenceButtonContainer"
+        parent="@android:style/Widget.Material.SegmentedButton">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:weightSum">2.0</item>
+        <item name="android:dividerPadding">8.0dip</item>
+    </style>
+    <style name="SecurityPreferenceButton"
+        parent="@android:style/Widget.Material.Button.Borderless">
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="Widget.TimePicker" parent="@android:style/Widget.Material.TimePicker">
+        <item name="android:numbersBackgroundColor">@color/background</item>
+    </style>
+
+    <style name="Theme.ActionBar" parent="@android:style/Widget.Material.ActionBar">
+        <item name="android:contentInsetStart">@dimen/actionbar_contentInsetStart</item>
+        <item name="android:background">@color/actionbar</item>
+    </style>
+    <style name="Theme.DialogWhenLarge" parent="@android:style/Theme.Material.DialogWhenLarge">
+        <item name="android:colorBackground">@color/background</item>
+        <item name="android:actionBarStyle">@style/Theme.ActionBar</item>
+        <item name="android:colorPrimary">@color/theme_primary</item>
+        <item name="android:colorPrimaryDark">@color/theme_primary_dark</item>
+        <item name="android:colorAccent">@color/theme_accent</item>
+        <item name="preferenceBackgroundColor">@drawable/preference_background</item>
+    </style>
+    <style name="Theme.AlertDialog" parent="@android:style/Theme.Material.Dialog.Alert">
+        <item name="android:colorBackground">@color/background</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+        <item name="android:actionBarStyle">@style/Theme.ActionBar</item>
+        <item name="android:colorPrimary">@color/theme_primary</item>
+        <item name="android:colorPrimaryDark">@color/theme_primary_dark</item>
+        <item name="android:colorAccent">@color/theme_accent</item>
+        <item name="ic_menu_add">@drawable/ic_menu_add_dark</item>
+    </style>
+
+    <style name="TextAppearance.CategoryTitle"
+        parent="@android:style/TextAppearance.Material.Small">
+        <item name="android:textColor">@color/text</item>
+    </style>
+    <style name="TextAppearance.TileTitle" parent="@android:style/TextAppearance.Material.Medium">
+        <item name="android:textColor">@color/text</item>
+    </style>
+    <style name="TextAppearance.TileSubTitle" parent="@android:style/TextAppearance.Material.Small">
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="wifi_item_label">
+        <item name="android:textColor">@color/theme_accent</item>
+    </style>
+    <style name="wifi_item_content">
+        <item name="android:textColor">@color/theme_accent</item>
+    </style>
+    <style name="wifi_item_edit_content">
+        <item name="android:textColor">@color/theme_accent</item>
+    </style>
+</resources>
