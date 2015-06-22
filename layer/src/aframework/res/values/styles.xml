@@ -1,120 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Theme" parent="@android:style/Theme">
-        <item name="panelColorBackground">#90000000</item>
-        <item name="panelColorForeground">#ffffffff</item>
-        <item name="colorBackground">#90000000</item>
-        <item name="colorForeground">#ffffffff</item>
-        <!--<item name="windowBackground">#90000000</item>-->
-        <item name="windowShowWallpaper">true</item>
-        <item name="colorBackgroundCacheHint">#90000000</item>
-        <item name="colorControlActivated">#ffffffff</item>
-    </style>
-    <!--<style name="Theme.Black" parent="@android:style/Theme.Black">-->
-        <!--<item name="panelColorBackground">#ff000000</item>-->
-        <!--<item name="panelColorForeground">#ffffffff</item>-->
-        <!--<item name="colorBackground">#ff000000</item>-->
-        <!--<item name="colorForeground">#ffffffff</item>-->
-        <!--<item name="windowBackground">#ff000000</item>-->
-        <!--<item name="windowShowWallpaper">false</item>-->
-        <!--<item name="colorBackgroundCacheHint">#ff000000</item>-->
-        <!--<item name="colorControlActivated">#ffffffff</item>-->
-        <!--<item name="statusBarColor">@android:color/black</item>-->
-    <!--</style>-->
-    <style name="Theme.Holo" parent="@android:style/Theme.Holo">
-        <item name="panelColorBackground">#90000000</item>
-        <item name="panelColorForeground">#ffffffff</item>
-        <item name="colorBackground">#90000000</item>
-        <item name="colorForeground">#ffffffff</item>
-        <!--<item name="windowBackground">#90000000</item>-->
-        <item name="windowShowWallpaper">true</item>
-        <item name="colorBackgroundCacheHint">#90000000</item>
-        <item name="colorControlActivated">#ffffffff</item>
-
-        <item name="textColorLink">#ddffffff</item>
-
-        <!--<item name="listChoiceBackgroundIndicator">@drawable/item_background_pitch</item>-->
-        <!--<item name="selectableItemBackground">@drawable/item_background_pitch</item>-->
-        <!--<item name="selectableItemBackgroundBorderless">-->
-            <!--@drawable/item_background_borderless_pitch-->
-        <!--</item>-->
-        <!--<item name="actionBarItemBackground">@drawable/item_background_borderless_pitch-->
-        <!--</item>-->
-    </style>
-    <style name="Theme.Holo.Light" parent="@android:style/Theme.Holo.Light">
-        <item name="panelColorBackground">#90ffffff</item>
-        <item name="panelColorForeground">@android:color/black</item>
-        <item name="colorBackground">#90ffffff</item>
-        <item name="colorForeground">@android:color/black</item>
-        <!--<item name="windowBackground">#90ffffff</item>-->
-        <item name="windowShowWallpaper">true</item>
-        <item name="colorBackgroundCacheHint">#90ffffff</item>
-        <item name="colorControlActivated">@android:color/black</item>
-    </style>
-    <style name="Theme.Holo.Wallpaper" parent="@android:style/Theme.Holo.Wallpaper">
-        <item name="panelColorBackground">#90000000</item>
-        <item name="panelColorForeground">#ffffffff</item>
-        <item name="colorBackground">#90000000</item>
-        <item name="colorForeground">#ffffffff</item>
-        <item name="windowBackground">@android:color/transparent</item>
-        <item name="windowShowWallpaper">true</item>
-        <item name="colorBackgroundCacheHint">@android:color/transparent</item>
-        <item name="colorControlActivated">#ffffffff</item>
-
-        <!--<item name="listChoiceBackgroundIndicator">@drawable/item_background_pitch</item>-->
-        <!--<item name="selectableItemBackground">@drawable/item_background_pitch</item>-->
-        <!--<item name="selectableItemBackgroundBorderless">-->
-            <!--@drawable/item_background_borderless_pitch-->
-        <!--</item>-->
-        <!--<item name="actionBarItemBackground">@drawable/item_background_borderless_pitch-->
-        <!--</item>-->
-    </style>
-
-    <style name="Widget.Holo.ActionBar" parent="@android:style/Widget.Holo.ActionBar">
-        <item name="background">@null</item>
-    </style>
-
-    <!--Dialog, fixes wallpaper issue-->
-    <style name="Theme.Material.Dialog" parent="@android:style/Theme.Material.Dialog">
-        <item name="windowShowWallpaper">false</item>
-    </style>
-    <style name="Theme.Material.Light.Dialog" parent="@android:style/Theme.Material.Light.Dialog">
-        <item name="windowShowWallpaper">false</item>
-    </style>
 
 
-    <style name="Theme.Material" parent="@android:style/Theme.Material">
-        <item name="panelColorBackground">#90000000</item>
-        <item name="panelColorForeground">#ffffffff</item>
-        <item name="colorBackground">#90000000</item>
-        <item name="colorForeground">#ffffffff</item>
-        <!--<item name="windowBackground">#90000000</item>-->
-        <item name="windowShowWallpaper">true</item>
-        <item name="colorBackgroundCacheHint">#90000000</item>
-        <item name="colorControlActivated">#ffffffff</item>
-        <item name="navigationBarColor">#90000000</item>
-    </style>
-    <style name="Theme.Material.Wallpaper" parent="@android:style/Theme.Material.Wallpaper">
-        <item name="panelColorBackground">#90000000</item>
-        <item name="panelColorForeground">#ffffffff</item>
-        <item name="colorBackground">#90000000</item>
-        <item name="colorForeground">#ffffffff</item>
-        <item name="windowBackground">@android:color/transparent</item>
-        <item name="windowShowWallpaper">true</item>
-        <item name="colorBackgroundCacheHint">@android:color/transparent</item>
-        <item name="colorControlActivated">#ffffffff</item>
-    </style>
-    <style name="Theme.Material.Light" parent="@android:style/Theme.Material.Light">
-        <item name="panelColorBackground">#90ffffff</item>
-        <item name="panelColorForeground">@android:color/black</item>
-        <item name="colorBackground">#90ffffff</item>
-        <item name="colorForeground">@android:color/black</item>
-        <!--<item name="windowBackground">#90ffffff</item>-->
-        <item name="windowShowWallpaper">true</item>
-        <item name="colorBackgroundCacheHint">#90ffffff</item>
-        <item name="colorControlActivated">@android:color/black</item>
-        <item name="navigationBarColor">#90000000</item>
-    </style>
 
     <!--DeviceDefault-->
     <style name="Theme.DeviceDefault.Light" parent="@android:style/Theme.DeviceDefault">
@@ -292,96 +179,99 @@
         parent="@android:style/Theme.Material.Dialog.Alert" />
     <style name="Theme.DeviceDefault.Light.SearchBar"
         parent="@android:style/Theme.Material.Panel" />
-    <style name="Theme.DeviceDefault.Resolver" parent="@android:style/Theme.Material">
-        <item name="windowBackground">@android:color/transparent</item>
-        <item name="windowNoTitle">true</item>
-        <item name="windowIsTranslucent">true</item>
-        <item name="windowContentOverlay">@null</item>
-        <item name="backgroundDimEnabled">true</item>
-        <item name="windowTranslucentStatus">false</item>
-        <item name="windowTranslucentNavigation">false</item>
-        <item name="colorControlActivated">#66222222</item>
-        <item name="windowDrawsSystemBarBackgrounds">false</item>
-    </style>
+    <!--<style name="Theme.DeviceDefault.Resolver" parent="@android:style/Theme.Material">-->
+        <!--<item name="windowBackground">@android:color/transparent</item>-->
+        <!--<item name="windowNoTitle">true</item>-->
+        <!--<item name="windowIsTranslucent">true</item>-->
+        <!--<item name="windowContentOverlay">@null</item>-->
+        <!--<item name="backgroundDimEnabled">true</item>-->
+        <!--<item name="windowTranslucentStatus">false</item>-->
+        <!--<item name="windowTranslucentNavigation">false</item>-->
+        <!--<item name="colorControlActivated">#66222222</item>-->
+        <!--<item name="windowDrawsSystemBarBackgrounds">false</item>-->
+    <!--</style>-->
 
 
     <!--Settings-->
     <style name="Theme.Material.Settings" parent="@android:style/Theme.Material" />
-    <style name="Theme.Leanback.Settings.Dialog.Alert"
-        parent="@android:style/Theme.Material.Dialog">
-        <item name="colorBackground">#90000000</item>
-    </style>
-    <style name="Theme.Material.Settings.BaseDialog" parent="@android:style/Theme.Material.Dialog">
-        <item name="colorBackground">#90000000</item>
-    </style>
-    <style name="Theme.Material.Settings.Dialog.BaseAlert"
-        parent="@android:style/Theme.Material.Dialog">
-        <item name="colorBackground">#90000000</item>
-    </style>
-    <style name="Theme.Material.Settings.Dialog.Presentation"
-        parent="@android:style/Theme.Material.Dialog.Presentation">
-        <item name="colorBackground">#90000000</item>
-    </style>
-    <style name="Theme.Material.Settings.SearchBar" parent="@android:style/Theme.Material">
-        <item name="colorBackground">#90000000</item>
-    </style>
-    <style name="Theme.Material.Settings.CompactMenu"
-        parent="@android:style/Theme.Material.Settings">
-        <item name="colorBackground">#90000000</item>
-    </style>
-    <style name="Theme.Micro" parent="@android:style/Theme.Material.NoActionBar">
-        <item name="colorBackground">#90000000</item>
-        <item name="windowIsFloating">false</item>
-        <item name="windowIsTranslucent">true</item>
-        <item name="windowContentOverlay">@null</item>
-    </style>
-    <style name="Theme.Micro.Light" parent="@android:style/Theme.Material.NoActionBar">
-        <item name="colorBackground">#90000000</item>
-        <item name="windowIsFloating">false</item>
-        <item name="windowIsTranslucent">true</item>
-        <item name="windowContentOverlay">@null</item>
-    </style>
+    <!--<style name="Theme.Leanback.Settings.Dialog.Alert"-->
+        <!--parent="@android:style/Theme.Material.Dialog">-->
+        <!--<item name="colorBackground">#90000000</item>-->
+    <!--</style>-->
+    <!--<style name="Theme.Material.Settings.BaseDialog" parent="@android:style/Theme.Material.Dialog">-->
+        <!--<item name="colorBackground">#90000000</item>-->
+    <!--</style>-->
+    <!--<style name="Theme.Material.Settings.Dialog.BaseAlert"-->
+        <!--parent="@android:style/Theme.Material.Dialog">-->
+        <!--<item name="colorBackground">#90000000</item>-->
+    <!--</style>-->
+    <!--<style name="Theme.Material.Settings.Dialog.Presentation"-->
+        <!--parent="@android:style/Theme.Material.Dialog.Presentation">-->
+        <!--<item name="colorBackground">#90000000</item>-->
+    <!--</style>-->
+    <!--<style name="Theme.Material.Settings.SearchBar" parent="@android:style/Theme.Material">-->
+        <!--<item name="colorBackground">#90000000</item>-->
+    <!--</style>-->
+    <!--<style name="Theme.Material.Settings.CompactMenu"-->
+        <!--parent="@android:style/Theme.Material.Settings">-->
+        <!--<item name="colorBackground">#90000000</item>-->
+    <!--</style>-->
+    <!--<style name="Theme.Micro" parent="@android:style/Theme.Material.NoActionBar">-->
+        <!--<item name="colorBackground">#90000000</item>-->
+        <!--<item name="windowIsFloating">false</item>-->
+        <!--<item name="windowIsTranslucent">true</item>-->
+        <!--<item name="windowContentOverlay">@null</item>-->
+    <!--</style>-->
+    <!--<style name="Theme.Micro.Light" parent="@android:style/Theme.Material.NoActionBar">-->
+        <!--<item name="colorBackground">#90000000</item>-->
+        <!--<item name="windowIsFloating">false</item>-->
+        <!--<item name="windowIsTranslucent">true</item>-->
+        <!--<item name="windowContentOverlay">@null</item>-->
+    <!--</style>-->
 
     <!--TextAppearance-->
-    <style name="TextAppearance.Material.Notification"
-        parent="@android:style/TextAppearance.Material">
-        <item name="textColor">#ddffffff</item>
-    </style>
-    <style name="TextAppearance.Material.Notification.Emphasis"
-        parent="@style/TextAppearance.Material.Notification">
-        <item name="textColor">#66ffffff</item>
-    </style>
-    <style name="TextAppearance.Material.Notification.Title"
-        parent="@style/TextAppearance.Material.Notification">
-        <item name="textColor">#ffffffff</item>
-    </style>
-
-    <style name="TextAppearance.Widget.Button" parent="@android:style/TextAppearance.Small">
-        <item name="textColor">#ffffffff</item>
-    </style>
-    <style name="TextAppearance.Widget.EditText" parent="@android:style/TextAppearance.Widget">
-        <item name="textColor">#ffffffff</item>
-        <item name="textColorHint">#ddffffff</item>
-    </style>
-    <style name="Theme.Material.Panel" parent="@android:style/Theme.Material.Panel">
-        <item name="windowShowWallpaper">false</item>
-    </style>
+    <!--<style name="TextAppearance.Material.Notification"-->
+        <!--parent="@android:style/TextAppearance.Material">-->
+        <!--<item name="textColor">#ddffffff</item>-->
     <!--</style>-->
-    <style name="Theme.Material.Panel.Light" parent="@android:style/Theme.Material.Light.Panel">
-        <item name="windowShowWallpaper">false</item>
-    </style>
-    <style name="Theme.Material.DialogWhenLarge" parent="@android:style/Theme.Material">
-        <item name="windowShowWallpaper">false</item>
-    </style>
+    <!--<style name="TextAppearance.Material.Notification.Emphasis"-->
+        <!--parent="@style/TextAppearance.Material.Notification">-->
+        <!--<item name="textColor">#66ffffff</item>-->
+    <!--</style>-->
+    <!--<style name="TextAppearance.Material.Notification.Title"-->
+        <!--parent="@style/TextAppearance.Material.Notification">-->
+        <!--<item name="textColor">#ffffffff</item>-->
+    <!--</style>-->
+
+    <!--<style name="TextAppearance.Widget.Button" parent="@android:style/TextAppearance.Small">-->
+        <!--<item name="textColor">#ffffffff</item>-->
+    <!--</style>-->
+    <!--<style name="TextAppearance.Widget.EditText" parent="@android:style/TextAppearance.Widget">-->
+        <!--<item name="textColor">#ffffffff</item>-->
+        <!--<item name="textColorHint">#ddffffff</item>-->
+    <!--</style>-->
+    <!--<style name="Theme.Material.Panel" parent="@android:style/Theme.Material.Panel">-->
+        <!--<item name="windowShowWallpaper">false</item>-->
+    <!--</style>-->
+
+
+    <!--<style name="Theme.Material.Panel.Light" parent="@android:style/Theme.Material.Light.Panel">-->
+        <!--<item name="windowShowWallpaper">false</item>-->
+    <!--</style>-->
+    <!--<style name="Theme.Material.DialogWhenLarge" parent="@android:style/Theme.Material">-->
+        <!--<item name="windowShowWallpaper">false</item>-->
+    <!--</style>-->
 
     <!--materialization -->
-    <style name="Widget.Holo.Button" parent="@android:style/Widget.Material.Button">
-        <item name="textColor">#ffffffff</item>
-        <item name="showText">false</item>
-    </style>
-    <style name="Widget.Holo.Light.Button" parent="@android:style/Widget.Material.Light.Button">
-        <item name="textColor">#ff000000</item>
-    </style>
+
+    <!-- -->
+    <!--<style name="Widget.Holo.Button" parent="@android:style/Widget.Material.Button">-->
+        <!--<item name="textColor">#ffffffff</item>-->
+        <!--<item name="showText">false</item>-->
+    <!--</style>-->
+    <!--<style name="Widget.Holo.Light.Button" parent="@android:style/Widget.Material.Light.Button">-->
+        <!--<item name="textColor">#ff000000</item>-->
+    <!--</style>-->
 
 
 </resources>
