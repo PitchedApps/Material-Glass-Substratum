@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+    <!-- MainActivity Strings -->
+    <string name="app_name">Material Glass</string>
+    <string name="app_long_name">Material Glass by Pitched Apps</string>
+    <string name="package_name">com.pitchedapps.material.glass.free</string>
+    <string name="theme_description">Pitched Apps is proud to present Material Glass, cm12\'s first and longest lasting theme!
+        \nMade by 1 themer
+        \nTweaked for 300+ hours
+        \nUsed by 19 000+ users</string>
+    <!-- Muzei Stuff -->
+    <string name="artsource_name">@string/app_name</string>
+    <string name="artsource_desc">Beautiful wallpapers for a beautiful theme</string>
+    <string name="muzei_settings">Muzei Settings</string>
+    <string name="json_file_url">"https://raw.githubusercontent.com/asdfasdfvful/Pitched-Wallpapers/master/Material_Glass/0wallpapers.json"</string>    <!-- Sharing wallpaper from Muzei -->
+    <string name="partone">"My wallpaper for today is "</string>
+    <string name="parttwo">" by "</string>
+    <string name="partthree">" from "</string>
+    <string name="partfour">".\nGet it now at "</string>
+
+    <!-- Developer Account Link -->
+    <string name="play_store_dev_link">https://play.google.com/store/apps/developer?id=Pitched+Apps</string>
+    <!-- Icon Pack designer/owner e-mail -->
+    <string name="email_id">pitchedapps@gmail.com</string>
+
+    <!-- Mail subjects for simple e-mail and requests e-mail -->
+    <string name="email_subject">Material Glass Support</string>
+    <string name="email_request_subject">Material Glass - Secret Icon Request</string>
+    <string name="request_save_location">"/Material_Glass/Requests"</string>
+
+    <!-- This are the strings for the cards in the main screen -->
+    <string name="welcome_title">Let your wallpaper shine through with material darkness!</string>
+
+    <string name="play_card_title">Pitched Apps on Google Play</string>
+    <string name="play_card_content">Check out my other apps!</string>
+
+    <string name="pitched_glass_title">Pitched Glass</string>
+    <string name="pitched_glass_content">Want more icons? Check out my free icon pack with over 2000 hand crafted drawables.</string>
+    <string name="pitched_glass_link">https://play.google.com/store/apps/details?id=com.pitchedapps.icons.glass</string>
+
+    <string name="xda_title">XDA Thread</string>
+    <string name="xda_content">Help the development and receive beta builds! Feedback is also welcome in this thread.</string>
+    <string name="xda_link">http://forum.xda-developers.com/google-nexus-5/themes-apps/theme-material-glass-t3005025</string>
+
+    <string name="donate_home_title">Donations</string>
+    <string name="donate_home_content">Donations are always appreciated, and help me justify the countless hours I spend on creating this theme, as well as supporting apps I don\'t use.</string>
+
+
+    <string name="app_one_title">@string/donate_home_title</string>
+    <string name="app_one_content">@string/donate_home_content</string>
+    <!--<string name="app_one_package">com.pitchedapps.icons.glass</string>-->
+
+    <string name="app_two_title">@string/xda_title</string>
+    <string name="app_two_content">@string/xda_content</string>
+    <string name="app_two_package">@string/xda_link</string>
+
+    <string name="app_three_title">@string/pitched_glass_title</string>
+    <string name="app_three_content">@string/pitched_glass_content</string>
+    <string name="app_three_package">com.pitchedapps.icons.glass</string>
+
+    <string name="app_four_title">Team Black Out</string>
+    <string name="app_four_content">Want more dark and clear apps? Check out Team Black Out\'s updater! It contains apps that are otherwise unthemeable by the theme chooser itself. (Please note that for apps themed by Material Glass, you must keep the stock app to maintain compatibility)</string>
+    <string name="app_four_package">com.blackout.paidupdater</string>
+    <string name="tbo_link">https://www.androidfilehost.com/?fid=95784891001604630</string>
+    <string name="tbo_xda">http://forum.xda-developers.com/showthread.php?t=2283828</string>
+
+    <!-- Your card in About The App section (In desc you can use html markup)-->
+    <string name="iconpack_designer">Pitched Apps</string>
+    <string name="iconpack_designer_desc">
+         <![CDATA[
+        <b>Allan W</b> or asdfasdfvful on xda, is an avid themer who has spent countless hours in hopes of creating the best cm theme ever.
+        ]]>
+    </string>
+    <!-- A link to your web page, if you have one -->
+    <string name="dev_link">@string/play_store_dev_link</string>
+    <string name="dev_gplus_link">https://plus.google.com/+AllanWPitchedApps</string>
+
+    <!-- All about Ivon -->
+    <string name="ivon_play">https://play.google.com/store/apps/developer?id=Ivon+Liu</string>
+    <string name="ivon_gplus_link">https://plus.google.com/+IvonLiu</string>
+
+    <string name="ivon">Ivon Liu</string>
+    <string name="ivon_desc">
+        <![CDATA[
+        Just another bored guy who happens to make apps and stuff. Check out his stuff here:
+        ]]>
+    </string>
+
+    <!-- Feature picture that appears above the description -->
+    <string name="theme_feature">icons_banner</string>
+
+    <!-- Previews Pictures Names -->
+    <string name="theme_preview1">preview1</string>
+    <string name="theme_preview2">preview2</string>
+
+    <!-- Tabs Names list -->
+    <string-array name="tabs">
+        <item>SYSTEM</item>
+        <item>GOOGLE APPS</item>
+        <item>USER</item>
+        <item>XPOSED</item>
+        <item>ALL</item>
+    </string-array>
+
+    <!-- Strings for Wallpapers -->
+    <string name="walls_save_location">"/Material_Glass/Wallpapers/"</string>
+    <string name="walls_prefix_name">Material_Glass_</string>
+
+
+    <!-- Messages shown when using LicenseChecker -->
+    <string name="license_failed">"You are not downloading Material Glass from the Google Play Store. You now have two options:"</string>
+    <string name="license_success">"Thank you for downloading Material Glass. If you like it, don't forget to rate and write a review at Google Play Store."</string>
+
+    <!-- Texts you don't want to get when user downloads that wallpapers -->
+    <!-- Examples: the url of the wall, and prefixes, etc. -->
+    <!-- It replaces the texts in the order as shown. I.e. url is
+    https://raw.githubusercontent.com/MinDesigns/MinDesigns-Wallpapers/master/Wallpapers/Lines/Circles/Text/text/whatever/WallpaperName.png"
+     it will delete texts in this order:
+     1. https://raw.githubusercontent.com/MinDesigns/MinDesigns-Wallpapers/master/Wallpapers/
+     2. Lines
+     3. Circles
+     4. Text
+     5. text
+     6. whatever
+     7. (Empty text won't replace anything else).
+     And at the end the only text that will stay is "WallpaperName.png" which will be the final name of downloaded file.
+     -->
+    <string name="replace_one">"https://raw.githubusercontent.com/asdfasdfvful/Pitched-Wallpapers/master/Material_Glass/"</string>    <string name="replace_two">"Lines"</string>
+    <string name="replace_three">"Material_Glass"</string>
+    <string name="replace_four">"Text"</string>
+    <string name="replace_five">"text"</string>
+    <string name="replace_six">"whatever"</string>
+    <string name="replace_seven">""</string>
+
+    <!-- These things are needed for some launchers (Feel free to edit, though is not needed) -->
+    <string name="theme_title">@string/app_name</string>
+    <string name="theme_name">@string/theme_title</string>
+    <string name="developer_name">@string/iconpack_designer</string>
+    <string name="developerName">@string/developer_name</string>
+    <string name="theme_author">@string/developer_name</string>
+    <string name="authorName">@string/developer_name</string>
+    <string name="authorLink">@string/dev_link</string>
+    <string name="theme_info">@string/theme_description</string>
+    <string name="theme_ad_msg">@string/theme_description</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+
+    <string-array name="donation_google_catalog_values">
+        <item>$1</item>
+        <item>$2</item>
+        <item>$3</item>
+        <item>$5</item>
+        <item>$10</item>
+        <item>$20</item>
+    </string-array>
+
+    <string name="donation_paypal_item">Donation</string>
+    <string name="xda">XDA LINK</string>
+    <string name="cm_not_installed">CyanogenMod theme engine is not found!</string>
+
+    <string name="layers_apps">" ,aframework,asystemui,asettings,ainstaller"</string>
+    <string name="layers_new">See in app changelog</string>
+
+</resources>
