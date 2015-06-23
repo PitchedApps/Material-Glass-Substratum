@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="${applicationId}">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.pitchedapps.material.glass.layer.test">
 
     <!-- This will set the Icon, Target package to overlay & priority for this apk -->
     <application android:icon="@drawable/theme_application_icon" />
