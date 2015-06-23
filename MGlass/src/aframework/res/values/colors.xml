@@ -125,7 +125,7 @@
 
     <color name="notification_mtrl_action_textcolor">#ddffffff</color>
     <color name="notification_mtrl_big_picture_bg">#ff000000</color>
-    <color name="resolver_list_bg">#ff000000</color>
+    <color name="resolver_list_bg">#a0000000</color>
 	
 	<!--exposed-->
 	<color name="exposed_primary_text_light">#deffffff</color>
