@@ -13,11 +13,23 @@ android {
     buildToolsVersion "22.0.1"
 
     defaultConfig {
-//        applicationId "com.pitchedapps.material.glass.layer.test"
+        applicationId "com.pitchedapps.material.glass.layer"
         minSdkVersion 21
         targetSdkVersion 22
         versionCode 1
         versionName "1.0"
+    }
+    applicationVariants.all { variant ->
+        variant.outputs.each { output ->
+            output.outputFile = new File(
+                    output.outputFile.parent,
+                    output.outputFile.name.replace("layer-", "MGlass_"))
+        }
+        variant.outputs.each { output ->
+            output.outputFile = new File(
+                    output.outputFile.parent,
+                    output.outputFile.name.replace("-release.apk", ".apk"))
+        }
     }
     buildTypes {
         release {

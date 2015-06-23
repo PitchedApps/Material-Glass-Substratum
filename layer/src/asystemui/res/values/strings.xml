@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="app_package">com.pitchedapps.material.glass.layer.systemui</string>
-    <string name="target_package">com.android.systemui</string>
-    <string name="info_short">Glass SystemUI</string>
-    <string name="info_long">Glass SystemUI</string>
-</resources>
