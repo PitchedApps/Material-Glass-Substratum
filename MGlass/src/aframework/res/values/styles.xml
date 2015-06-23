@@ -30,7 +30,7 @@
     <style name="DeviceDefault.Light.ButtonBar.AlertDialog" parent="@android:style/Widget.Material.ButtonBar.AlertDialog" />
     <style name="DeviceDefault.Light.SegmentedButton" parent="@android:style/Widget.Material.SegmentedButton" />
     <style name="DialogWindowTitle.DeviceDefault.Light" parent="@android:style/Theme.DeviceDefault.Dialog" />
-    <style name="Theme.DeviceDefault.Light.DarkActionBar" parent="@android:style/Theme.Material.Wallpaper" />
+    <style name="Theme.DeviceDefault.Light.DarkActionBar" parent="@android:style/Theme.DeviceDefault" />
     <style name="Theme.DeviceDefault.Light.Dialog" parent="@android:style/Theme.DeviceDefault.Dialog" />
     <style name="Theme.DeviceDefault.Light.Dialog.Alert" parent="@android:style/Theme.Material.Dialog.Alert" />
     <style name="Theme.DeviceDefault.Light.Dialog.FixedSize" parent="@android:style/Theme.DeviceDefault.Dialog" />
@@ -120,7 +120,7 @@
         <item name="android:backgroundDimEnabled">true</item>
         <item name="android:windowTranslucentStatus">false</item>
         <item name="android:windowTranslucentNavigation">false</item>
-        <!--<item name="android:colorControlActivated">#66222222</item>-->
+        <item name="android:colorControlActivated">#66222222</item>
         <item name="android:windowDrawsSystemBarBackgrounds">false</item>
     </style>
 
