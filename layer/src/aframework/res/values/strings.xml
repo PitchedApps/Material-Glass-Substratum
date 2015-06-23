@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="target_package">android</string>
-    <string name="info_short">Theme for framework</string>
-    <string name="info_long">This will change a lot of the core styles</string>
-</resources>
