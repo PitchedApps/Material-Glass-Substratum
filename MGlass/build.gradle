@@ -23,7 +23,7 @@ android {
         variant.outputs.each { output ->
             output.outputFile = new File(
                     output.outputFile.parent,
-                    output.outputFile.name.replace("layer-", "MGlass_"))
+                    output.outputFile.name.replace("MGlass-", "MGlass_"))
         }
         variant.outputs.each { output ->
             output.outputFile = new File(
@@ -41,6 +41,7 @@ android {
         aframework { applicationId "com.pitchedapps.material.glass.layer.framework" }
         asystemui { applicationId "com.pitchedapps.material.glass.layer.systemui" }
         asettings { applicationId "com.pitchedapps.material.glass.layer.settings" }
+		ainstaller { applicationId "com.pitchedapps.material.glass.layer.packageinstaller" }
     }
     lintOptions {
         abortOnError false
