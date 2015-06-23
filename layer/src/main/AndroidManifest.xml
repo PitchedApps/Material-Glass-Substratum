@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pitchedapps.material.glass.layers"
+    android:sharedUserId="android.uid.MGlass"
+    android:process="com.android.Layers">
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <application android:label="Material Glass"
+        android:icon="@drawable/icon">
+        <service android:name=".Overlay"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.layers.plugins.PICK_OVERLAYS" />
+                <category android:name="Overlay" />
+            </intent-filter>
+
+        </service>
+
+        <meta-data android:name="Layers_Name" android:value="Material Glass"/>
+        <meta-data android:name="Layers_Developer" android:value="Pitched Apps"/>
+        <meta-data android:name="Layers_Colors" android:value=""/>
+        <meta-data android:name="Layers_Description" android:value="test"/>
+        <meta-data android:name="Layers_OverlayNames" android:value="@string/layers_apps"/>
+        <meta-data android:name="Layers_WhatsNew" android:value="Everything"/>
+
+    </application>
+
+
+</manifest>
