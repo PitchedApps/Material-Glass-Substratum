@@ -1,13 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <!--<style name="Theme.Material" parent="@android:style/Theme.Material">-->
+        <!--<item name="android:windowShowWallpaper">true</item>-->
+    <!--</style>-->
+    <!--<style name="Theme.Material.Light" parent="@android:style/Theme.Material">-->
+        <!--<item name="android:windowShowWallpaper">true</item>-->
+    <!--</style>-->
+    <!--<style name="Theme.Holo" parent="@android:style/Theme.Holo">-->
+        <!--<item name="android:windowShowWallpaper">true</item>-->
+    <!--</style>-->
+
     <!--DeviceDefault-->
     <style name="Theme.DeviceDefault" parent="@android:style/Theme.Material.Wallpaper">
-        <item name="android:windowBackground">@color/background_dark</item>
-        <item name="android:colorBackground">@color/background_dark</item>
+        <item name="android:windowBackground">@android:color/background_dark</item>
+        <item name="android:colorBackground">@android:color/background_dark</item>
     </style>
-    <style name="Theme.DeviceDefault.NoActionBar" parent="@android:style/Theme.Material.Wallpaper">
-        <item name="android:windowBackground">@color/background_dark</item>
-        <item name="android:colorBackground">@color/background_dark</item>
+    <style name="Theme.DeviceDefault.NoActionBar" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:windowBackground">@android:color/background_dark</item>
+        <item name="android:colorBackground">@android:color/background_dark</item>
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowActionBar">false</item>
     </style>
@@ -19,7 +30,7 @@
     <style name="DeviceDefault.Light.ButtonBar.AlertDialog" parent="@android:style/Widget.Material.ButtonBar.AlertDialog" />
     <style name="DeviceDefault.Light.SegmentedButton" parent="@android:style/Widget.Material.SegmentedButton" />
     <style name="DialogWindowTitle.DeviceDefault.Light" parent="@android:style/Theme.DeviceDefault.Dialog" />
-    <style name="Theme.DeviceDefault.Light.DarkActionBar" parent="@android:style/Theme.DeviceDefault" />
+    <style name="Theme.DeviceDefault.Light.DarkActionBar" parent="@android:style/Theme.Material.Wallpaper" />
     <style name="Theme.DeviceDefault.Light.Dialog" parent="@android:style/Theme.DeviceDefault.Dialog" />
     <style name="Theme.DeviceDefault.Light.Dialog.Alert" parent="@android:style/Theme.Material.Dialog.Alert" />
     <style name="Theme.DeviceDefault.Light.Dialog.FixedSize" parent="@android:style/Theme.DeviceDefault.Dialog" />
@@ -101,9 +112,9 @@
     <style name="Widget.DeviceDefault.Spinner.DropDown.ActionBar" parent="@android:style/Widget.Material" />
     <style name="Theme.DeviceDefault.Dialog.Alert" parent="@android:style/Theme.Material.Dialog.Alert" />
     <style name="Theme.DeviceDefault.Light.SearchBar" parent="@android:style/Theme.Material.Panel" />
-    <style name="Theme.DeviceDefault.Resolver" parent="@android:style/Theme.DeviceDefault.NoActionBar">
-        <item name="android:windowBackground">@color/transparent</item>
-        <!--<item name="android:windowNoTitle">true</item>-->
+    <style name="Theme.DeviceDefault.Resolver" parent="@android:style/Theme.Material">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
         <item name="android:windowIsTranslucent">true</item>
         <item name="android:windowContentOverlay">@null</item>
         <item name="android:backgroundDimEnabled">true</item>
@@ -115,13 +126,25 @@
 
 
     <!--Settings-->
-    <style name="Theme.Material.Settings" parent="@android:style/Theme.DeviceDefault" />
-    <style name="Theme.Leanback.Settings.Dialog.Alert" parent="@android:style/Theme.Material.Dialog" />
-    <style name="Theme.Material.Settings.BaseDialog" parent="@android:style/Theme.Material.Dialog" />
-    <style name="Theme.Material.Settings.Dialog.BaseAlert" parent="@android:style/Theme.Material.Dialog" />
-    <style name="Theme.Material.Settings.Dialog.Presentation" parent="@android:style/Theme.Material.Dialog.Presentation" />
-    <style name="Theme.Material.Settings.SearchBar" parent="@android:style/Theme.Material.Settings" />
-    <style name="Theme.Material.Settings.CompactMenu" parent="@android:style/Theme.DeviceDefault" />
+    <style name="Theme.Material.Settings" parent="@android:style/Theme.Material.Wallpaper" />
+    <style name="Theme.Leanback.Settings.Dialog.Alert" parent="@android:style/Theme.Material.Dialog">
+        <item name="android:colorBackground">#90000000</item>
+    </style>
+    <style name="Theme.Material.Settings.BaseDialog" parent="@android:style/Theme.Material.Dialog">
+        <item name="android:colorBackground">#90000000</item>
+    </style>
+    <style name="Theme.Material.Settings.Dialog.BaseAlert" parent="@android:style/Theme.Material.Dialog">
+        <item name="android:colorBackground">#90000000</item>
+    </style>
+    <style name="Theme.Material.Settings.Dialog.Presentation" parent="@android:style/Theme.Material.Dialog.Presentation">
+        <item name="android:colorBackground">#90000000</item>
+    </style>
+    <style name="Theme.Material.Settings.SearchBar" parent="@android:style/Theme.Material.Settings">
+        <item name="android:colorBackground">#90000000</item>
+    </style>
+    <style name="Theme.Material.Settings.CompactMenu" parent="@android:style/Theme.Material.Wallpaper">
+        <item name="android:colorBackground">#90000000</item>
+    </style>
     <!--<style name="Theme.Micro" parent="@android:style/Theme.Material.NoActionBar">-->
     <!--<item name="android:colorBackground">#90000000</item>-->
     <!--<item name="android:windowIsFloating">false</item>-->
@@ -147,7 +170,6 @@
     </style>
     <style name="Widget.Holo.Light.Button" parent="@android:style/Widget.Material.Light.Button">
         <item name="android:textColor">#ff000000</item>
-        <item name="android:showText">false</item>
     </style>
 
 
