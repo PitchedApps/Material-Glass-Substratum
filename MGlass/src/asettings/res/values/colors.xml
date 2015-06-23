@@ -41,7 +41,7 @@
     <color name="ownerinfo_divider_color">#22ffffff</color>
     <!-- Installed app details -->
     <color name="security_settings_billing_desc_color">#ffffffff</color>
-
+<!--
     <color name="black_t">#a0000000</color>
     <color name="backgroundt">#50000000</color>
     <color name="background_t">#50000000</color>
@@ -65,7 +65,7 @@
     <color name="pbluel">#ffa7b8c0</color>
     <color name="pbluee">#ff62757e</color>
     <color name="dblue">#ff343d41</color>
-
+-->
     <color name="actionbar">#99000000</color>
     <color name="ripple">#40ffffff</color>
     <color name="selectable_mask">#ffffffff</color>
@@ -99,7 +99,7 @@
 	
 	<!--slim-->
 	<color name="exposed_bg_dark">#30000000</color>
-	<color name="exposed_barPrimaryColor">#ff748B96</color>
+	<color name="exposed_barPrimaryColor">#cc343d41</color>
     <color name="exposed_barPredictionColor">#60ffffff</color>
     <color name="exposed_datachartfillcolor">#ff748B96</color>
     <color name="exposed_datachartfillcolor_secondary">#ff343d41</color>

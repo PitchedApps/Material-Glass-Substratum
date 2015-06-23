@@ -24,7 +24,11 @@
         <item name="android:numbersBackgroundColor">#bb000000</item>
     </style>
 
-    <style name="Theme.ActionBar" parent="@android:style/Widget.Material.ActionBar" />
+    <style name="Theme.ActionBar" parent="@android:style/Widget.Material.ActionBar">
+        <item name="android:colorBackground">#50000000</item>
+        <item name="android:background">#50000000</item>
+        <item name="android:windowShowWallpaper">true</item>
+    </style>
     <style name="Theme.DialogWhenLarge" parent="@android:style/Theme.Material.DialogWhenLarge">
         <item name="android:colorBackground">#bb000000</item>
         <!--<item name="android:actionBarStyle">@style/Theme.ActionBar</item>-->
@@ -63,4 +67,9 @@
     <style name="wifi_item_edit_content">
         <item name="android:textColor">#ffffffff</item>
     </style>
+
+    <!--slim-->
+    <style name="CryptKeeperBlankTheme" parent="@android:style/Theme.DeviceDefault.NoActionBar" />
+
+
 </resources>

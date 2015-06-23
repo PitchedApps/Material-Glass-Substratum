@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <attr name="windowBackground" format="reference" />
+    <attr name="colorBackground" format="color" />
+    <attr name="colorControlActivated" format="color" />
+
     <attr name="windowNoTitle" format="boolean" />
+    <attr name="windowActionBar" format="boolean" />
+
     <attr name="windowIsTranslucent" format="boolean" />
     <attr name="windowContentOverlay" format="reference" />
     <attr name="backgroundDimEnabled" format="boolean" />

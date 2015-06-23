@@ -6,5 +6,5 @@
     <item name="status_bar_recents_app_thumbnail_background" type="drawable">#a0000000</item>
     <item name="status_bar_notification_row_background_color" type="drawable">#a0000000</item>
     <item name="recents_callout_line" type="drawable">#20000000</item>
-    <item name="heads_up_notification_bg_pressed" type="drawable">#ff161616</item>
+    <item name="heads_up_notification_bg_pressed" type="drawable">#a0161616</item>
 </resources>

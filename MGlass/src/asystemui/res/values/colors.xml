@@ -84,7 +84,7 @@
 	
 
     <!--exposed-->
-   <color name="exposed_bg_light">#a0000000</color>
+    <color name="exposed_bg_light">#a0000000</color>
     <color name="exposed_primary_text_light">#deffffff</color>
     <color name="exposed_secondary_text_light">#8affffff</color>
     <color name="exposed_TextAppearance.Material.Notification.Parenthetical">#60ffffff</color>
