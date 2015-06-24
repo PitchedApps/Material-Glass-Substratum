@@ -24,7 +24,8 @@
     <color name="navring_edit_fill">#a0000000</color>
     <color name="navring_edit_tint">#a0323232</color>
     <color name="notification_guts_bg_color">#89060606</color>
-    <color name="notification_guts_btn_color">#ffffffff</color>
+    <!--text color?-->
+    <color name="notification_guts_btn_color">#80060606</color>
     <color name="notification_guts_text_color">#ffffffff</color>
     <color name="notification_guts_title_color">#ffffffff</color>
     <color name="notification_header">#89060606</color>
