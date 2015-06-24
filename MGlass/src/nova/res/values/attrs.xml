@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="md_btn_negative_selector" format="reference" />
+    <attr name="md_btn_neutral_selector" format="reference" />
+    <attr name="md_btn_positive_selector" format="reference" />
+    <attr name="md_btn_stacked_selector" format="reference" />
+    <attr name="md_divider" format="color" />
+    <attr name="md_list_selector" format="reference" />
+</resources>

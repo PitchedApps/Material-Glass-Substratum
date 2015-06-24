@@ -93,35 +93,36 @@
     <color name="notification_media_secondary_color">#ddffffff</color>
     <color name="notification_action_color_filter">#ddffffff</color>
 
-    <!--<color name="black_t">#ff000000</color>-->
-    <!--<color name="background">#ff000000</color>-->
-    <!--<color name="backgroundd">#ff161616</color>-->
-    <!--<color name="backgrounddd">#ff323232</color>-->
-    <!--<color name="backgroundt">#ff000000</color>-->
-    <!--<color name="backgroundtt">#00000000</color>-->
-    <!--<color name="backgroundt_light">#ffffffff</color>-->
-    <!--<color name="background_t">#ff000000</color>-->
-    <!--<color name="backgrounddt">#ff161616</color>-->
-    <!--<color name="backgroundddt">#ff323232</color>-->
-    <!--<color name="text">#fff0f0f0</color>-->
-    <!--<color name="textb">#ffeeeeee</color>-->
-    <!--<color name="textt">#ddffffff</color>-->
-    <!--<color name="texttt">#bbffffff</color>-->
-    <!--<color name="link">#ff29abe2</color>-->
-    <!--<color name="hint">#cc000000</color>-->
-    <!--<color name="pblue">#ff748B96</color>-->
-    <!--<color name="pbluee">#ff62757e</color>-->
-    <!--<color name="dblue">#ff343d41</color>-->
-    <!--<color name="pblue_t">#cc748B96</color>-->
-    <!--<color name="pbluee_t">#cc62757e</color>-->
-    <!--<color name="dblue_t">#cc343d41</color>-->
-    <!--<color name="ripple">#40ffffff</color>-->
+<!--
+    <color name="black_t">#ff000000</color>
+    <color name="background">#ff000000</color>
+    <color name="backgroundd">#ff161616</color>
+    <color name="backgrounddd">#ff323232</color>
+    <color name="backgroundt">#ff000000</color>
+    <color name="backgroundtt">#00000000</color>
+    <color name="backgroundt_light">#ffffffff</color>
+    <color name="background_t">#ff000000</color>
+    <color name="backgrounddt">#ff161616</color>
+    <color name="backgroundddt">#ff323232</color>
+    <color name="text">#fff0f0f0</color>
+    <color name="textb">#ffeeeeee</color>
+    <color name="textt">#ddffffff</color>
+    <color name="texttt">#bbffffff</color>
+    <color name="link">#ff29abe2</color>
+    <color name="hint">#cc000000</color>
+    <color name="pblue">#ff748B96</color>
+    <color name="pbluee">#ff62757e</color>
+    <color name="dblue">#ff343d41</color>
+    <color name="pblue_t">#cc748B96</color>
+    <color name="pbluee_t">#cc62757e</color>
+    <color name="dblue_t">#cc343d41</color>
+    <color name="ripple">#40ffffff</color>
 
-    <!--<color name="white">#ffe0e0e0</color>-->
-    <!--<color name="neutral">#ff555555</color>-->
+    <color name="white">#ffe0e0e0</color>
+    <color name="neutral">#ff555555</color>
+-->
+
     <color name="resolver_selected">#66222222</color>
-
-    <!--<color name="bright_foreground_inverse_holo_light">@color/neutral</color>-->
 
     <color name="notification_mtrl_action_textcolor">#ddffffff</color>
     <color name="notification_mtrl_big_picture_bg">#ff000000</color>

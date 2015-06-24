@@ -120,7 +120,7 @@
         <item name="android:backgroundDimEnabled">true</item>
         <item name="android:windowTranslucentStatus">false</item>
         <item name="android:windowTranslucentNavigation">false</item>
-        <item name="android:colorControlActivated">#66222222</item>
+        <item name="android:colorControlActivated">#80333333</item>
         <item name="android:windowDrawsSystemBarBackgrounds">false</item>
     </style>
 
@@ -164,13 +164,8 @@
     <!--materialization -->
 
 
-    <style name="Widget.Holo.Button" parent="@android:style/Widget.Material.Button">
-        <item name="android:textColor">#ffffffff</item>
-        <item name="android:showText">false</item>
-    </style>
-    <style name="Widget.Holo.Light.Button" parent="@android:style/Widget.Material.Light.Button">
-        <item name="android:textColor">#ff000000</item>
-    </style>
+    <style name="Widget.Holo.Button" parent="@android:style/Widget.Material.Button" />
+    <style name="Widget.Holo.Light.Button" parent="@android:style/Widget.Material.Light.Button" />
 
 
 </resources>
