@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="md_button_inset_horizontal">4.0dip</dimen>
+    <dimen name="md_button_inset_vertical">6.0dip</dimen>
+    <dimen name="md_button_padding_horizontal">8.0dip</dimen>
+    <dimen name="md_button_padding_vertical">4.0dip</dimen>
+    <dimen name="md_action_corner_radius">2.0dip</dimen>
+
+    <dimen name="abc_button_padding_horizontal_material">8.0dip</dimen>
+    <item name="abc_button_padding_vertical_material" type="dimen">
+        @dimen/abc_control_padding_material
+    </item>
+    <dimen name="abc_control_padding_material">4.0dip</dimen>
+    <item name="abc_button_inset_horizontal_material" type="dimen">
+        @dimen/abc_control_inset_material
+    </item>
+    <dimen name="abc_button_inset_vertical_material">6.0dip</dimen>
+    <dimen name="abc_control_inset_material">4.0dip</dimen>
+    <dimen name="abc_control_corner_material">2.0dip</dimen>
+</resources>
