@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Platform.AppCompat" parent="@android:style/Theme.Material.Wallpaper">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+    <style name="Platform.AppCompat.Light" parent="@android:style/Theme.Material.Wallpaper">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+
+    <style name="AppTheme" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:colorPrimary">#ff3f51b5</item>
+        <item name="android:colorPrimaryDark">#ff303f9f</item>
+        <item name="android:colorAccent">#ffffffff</item>
+        <item name="android:statusBarColor">#ff303f9f</item>
+        <item name="android:navigationBarColor">#ff3f51b5</item>
+    </style>
+</resources>

@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <!--<style name="Theme.Material" parent="@android:style/Theme.Material.Wallpaper">-->
-        <!--<item name="android:windowBackground">@android:color/background_dark</item>-->
-        <!--<item name="android:colorBackground">@android:color/background_dark</item>-->
-    <!--</style>-->
-    <!--<style name="Theme.Material.Light" parent="@android:style/Theme.Material">-->
-        <!--<item name="android:windowShowWallpaper">true</item>-->
-    <!--</style>-->
-    <!--<style name="Theme.Material" parent="@android:style/Theme.DeviceDefault">-->
-        <!--<item name="android:windowBackground">@android:color/background_dark</item>-->
-        <!--<item name="android:colorBackground">@android:color/background_dark</item>-->
-    <!--</style>-->
-
     <!--DeviceDefault-->
     <style name="Theme.DeviceDefault" parent="@android:style/Theme.Material.Wallpaper">
         <item name="android:windowBackground">@android:color/background_dark</item>
         <item name="android:colorBackground">@android:color/background_dark</item>
+        <item name="android:colorBackgroundCacheHint">@android:color/background_dark</item>
     </style>
     <style name="Theme.DeviceDefault.NoActionBar" parent="@android:style/Theme.DeviceDefault">
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowActionBar">false</item>
+    </style>
+    <style name="Theme.DeviceDefault.DialogWhenLarge.NoActionBar" parent="@android:style/Theme.Material.DialogWhenLarge.NoActionBar">
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:windowBackground">@android:color/background_dark</item>
+        <item name="android:colorBackground">@android:color/background_dark</item>
+        <item name="android:colorBackgroundCacheHint">@android:color/background_dark</item>
+    </style>
+    <style name="Theme.DeviceDefault.NoActionBar.Fullscreen" parent="@android:style/Theme.Material.NoActionBar.Fullscreen">
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:windowBackground">@android:color/background_dark</item>
+        <item name="android:colorBackground">@android:color/background_dark</item>
+        <item name="android:colorBackgroundCacheHint">@android:color/background_dark</item>
     </style>
     <style name="Theme.DeviceDefault.Light" parent="@android:style/Theme.DeviceDefault" />
 
@@ -40,7 +40,7 @@
     <style name="Theme.DeviceDefault.Light.Dialog.NoActionBar.MinWidth" parent="@android:style/Theme.Material.Dialog.NoActionBar.MinWidth" />
     <style name="Theme.DeviceDefault.Light.Dialog.Presentation" parent="@android:style/Theme.Material.Dialog.Presentation" />
     <style name="Theme.DeviceDefault.Light.DialogWhenLarge" parent="@android:style/Theme.Material.DialogWhenLarge" />
-    <style name="Theme.DeviceDefault.Light.DialogWhenLarge.NoActionBar" parent="@android:style/Theme.Material.DialogWhenLarge.NoActionBar" />
+    <style name="Theme.DeviceDefault.Light.DialogWhenLarge.NoActionBar" parent="@android:style/Theme.DeviceDefault.DialogWhenLarge.NoActionBar" />
     <style name="Theme.DeviceDefault.Light.NoActionBar" parent="@android:style/Theme.DeviceDefault.NoActionBar" />
     <style name="Theme.DeviceDefault.Light.NoActionBar.Fullscreen" parent="@android:style/Theme.DeviceDefault.NoActionBar.Fullscreen" />
     <style name="Theme.DeviceDefault.Light.NoActionBar.Overscan" parent="@android:style/Theme.Material.NoActionBar.Overscan" />

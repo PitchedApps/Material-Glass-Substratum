@@ -42,8 +42,12 @@ android {
         asystemui { applicationId "com.pitchedapps.material.glass.layer.systemui" }
         asettings { applicationId "com.pitchedapps.material.glass.layer.settings" }
 		ainstaller { applicationId "com.pitchedapps.material.glass.layer.packageinstaller" }
+		alayers { applicationId "com.pitchedapps.material.glass.layer.layersmanager" }
+		acontacts { applicationId "com.pitchedapps.material.glass.layer.contacts" }
+		adialer { applicationId "com.pitchedapps.material.glass.layer.dialer" }
 		googleplus { applicationId "com.pitchedapps.material.glass.layer.googleplus" }
 		nova { applicationId "com.pitchedapps.material.glass.layer.novalauncher" }
+		swiftkey { applicationId "com.pitchedapps.material.glass.layer.swiftkey" }
     }
     lintOptions {
         abortOnError false
