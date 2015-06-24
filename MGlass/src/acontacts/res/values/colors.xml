@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="cardview_light_background">#80000000</color>
+    <color name="cardview_dark_background">#80000000</color>
+    <color name="cardview_shadow_start_color">#37000000</color>
+    <color name="cardview_shadow_end_color">#03000000</color>
+    <color name="dialer_theme_color">#ff0288d1</color>
+    <color name="dialer_theme_color_dark">#ff0277bd</color>
+    <color name="background_dialpad">#ff000000</color>
+    <color name="background_dialpad_pressed">#80161616</color>
+    <color name="dialpad_primary_text_color">#ff0288d1</color>
+    <color name="dialpad_secondary_text_color">#ddffffff</color>
+    <color name="dialpad_digits_text_color">#ffffffff</color>
+    <color name="dialpad_separator_line_color">#11ffffff</color>
+    <color name="dialpad_icon_tint">#ffffffff</color>
+    <color name="dialpad_voicemail_tint">#ffffffff</color>
+    <!--was transparent-->
+    <color name="holo_list_background_color">#ff000000</color>
+    <color name="focus_color">#44ffffff</color>
+    <color name="ripple_material_dark">#20ffffff</color>
+    <color name="primary_text_color">#ffffffff</color>
+    <color name="secondary_text_color">#ddffffff</color>
+    <color name="section_header_text_color">#ffffffff</color>
+    <color name="main_header_separator_color">#22ffffff</color>
+    <color name="secondary_header_separator_color">#11ffffff</color>
+    <color name="people_app_theme_color">#80161616</color>
+    <color name="dialtacts_theme_color">#ff0288d1</color>
+    <color name="image_placeholder">#80161616</color>
+    <color name="dialtacts_secondary_text_color">#ddffffff</color>
+    <color name="contact_tile_shadow_box_color">#7f000000</color>
+    <color name="people_contact_tile_status_color">#ddffffff</color>
+    <color name="shortcut_overlay_text_background">#7f000000</color>
+    <color name="textColorIconOverlay">#ffffffff</color>
+    <color name="textColorIconOverlayShadow">#ff000000</color>
+    <color name="quickcontact_default_photo_tint_color">#ff607d8b</color>
+    <color name="quickcontact_default_photo_tint_color_dark">#ff455a64</color>
+    <color name="letter_tile_default_color">#ffcccccc</color>
+    <color name="letter_tile_font_color">#ffffffff</color>
+    <color name="text_highlight_color">#ff3b77e7</color>
+    <color name="actionbar_background_color">#ff0288d1</color>
+    <color name="actionbar_icon_color">#ffffffff</color>
+    <color name="actionbar_background_color_dark">#ff0277bd</color>
+    <color name="tab_ripple_color">#ffffffff</color>
+    <color name="tab_accent_color">#ffffffff</color>
+    <color name="tab_selected_underline_color">#ffffffff</color>
+    <color name="frequently_contacted_title_color">#ff0288d1</color>
+    <color name="actionbar_text_color">#ffffffff</color>
+    <color name="actionbar_unselected_text_color">#a6ffffff</color>
+    <color name="searchbox_text_color">#ffffffff</color>
+    <color name="searchbox_background_color">#80161616</color>
+    <color name="searchbox_hint_text_color">#ddffffff</color>
+    <color name="searchbox_icon_tint">#ddffffff</color>
+    <color name="search_shortcut_background_color">#ff000000</color>
+    <color name="search_shortcut_icon_color">#fff8f8f8</color>
+    <color name="background_primary">#ff000000</color>
+    <!--t-->
+    <color name="contact_all_list_background_color">#ff000000</color>
+    <color name="quickcontact_name_detail_background">#66000000</color>
+    <color name="quickcontact_entry_sub_header_text_color">#ffffffff</color>
+    <color name="quickcontact_entry_header_text_color">#ffffffff</color>
+    <color name="background_social_updates">#ff000000</color>
+    <color name="action_bar_background">#ff0288d1</color>
+    <color name="action_bar_background_highlight">#80323232</color>
+    <color name="action_bar_button_text_color">#ffffffff</color>
+    <color name="primary_color_dark">#ff0277bd</color>
+    <color name="primary_color">#ff0288d1</color>
+    <!--check-->
+    <color name="contacts_accent_color">#ddffffff</color>
+    <color name="floating_action_button_icon_color">#ddffffff</color>
+    <color name="expanding_entry_card_item_separator_color">#22ffffff</color>
+    <color name="expanding_entry_card_button_text_color">#ffffffff</color>
+    <color name="expanding_entry_card_background_color">#80161616</color>
+    <color name="card_margin_color">#06ffffff</color>
+    <color name="call_arrow_green">#ff2aad6f</color>
+    <color name="call_arrow_red">#ffff2e58</color>
+    <!--t-->
+    <color name="contact_favorites_list_background_color">#ff000000</color>
+    <!--t-->
+    <color name="group_list_background_color">#ff000000</color>
+    <!--t-->
+    <color name="list_item_pinned_header_color">#ff000000</color>
+    <color name="tab_text_color">#ffffffff</color>
+
+    <!--new-->
+    <color name="contact_tile_text_color">#ddffffff</color>
+    <color name="frequent_contact_text_color">#ffffffff</color>
+    <color name="list_item_name_text_color">#ffffffff</color>
+    <color name="editor_account_header_bg">#ff000000</color>
+
+    <color name="letter_tile_red_color">#aaDB4437</color>
+    <color name="letter_tile_pink_color">#aaE91E63</color>
+    <color name="letter_tile_purple_color">#aa9C27B0</color>
+    <color name="letter_tile_deep_purple_color">#aa673AB7</color>
+    <color name="letter_tile_indigo_color">#aa3F51B5</color>
+    <color name="letter_tile_blue_color">#aa4285F4</color>
+    <color name="letter_tile_light_blue_color">#aa039BE5</color>
+    <color name="letter_tile_cyan_color">#aa0097A7</color>
+    <color name="letter_tile_teal_color">#aa009688</color>
+    <color name="letter_tile_green_color">#aa0F9D58</color>
+    <color name="letter_tile_light_green_color">#aa689F38</color>
+    <color name="letter_tile_orange_color">#aaEF6C00</color>
+    <color name="letter_tile_deep_orange_color">#aaFF5722</color>
+    <color name="letter_tile_grey_color">#aa757575</color>
+    <color name="letter_tile_red_color_dark">#aaC53929</color>
+    <color name="letter_tile_pink_color_dark">#aaC2185B</color>
+    <color name="letter_tile_purple_color_dark">#aa7B1FA2</color>
+    <color name="letter_tile_deep_purple_color_dark">#aa512DA8</color>
+    <color name="letter_tile_indigo_color_dark">#aa303F9F</color>
+    <color name="letter_tile_blue_color_dark">#aa3367D6</color>
+    <color name="letter_tile_light_blue_color_dark">#aa0277BD</color>
+    <color name="letter_tile_cyan_color_dark">#aa006064</color>
+    <color name="letter_tile_teal_color_dark">#aa00796B</color>
+    <color name="letter_tile_green_color_dark">#aa0B8043</color>
+    <color name="letter_tile_light_green_color_dark">#aa33691E</color>
+    <color name="letter_tile_orange_color_dark">#aaE65100</color>
+    <color name="letter_tile_deep_orange_color_dark">#aaE64A19</color>
+    <color name="letter_tile_grey_color_dark">#aa424242</color>
+
+    <color name="exposed_account_header_bg">#ff0288d1</color>
+    <color name="exposed_bg_dark">#ff000000</color>
+    <color name="exposed_contact_list_name_text_color">#eeffffff</color>
+    <color name="exposed_ContactsActionBarTheme_hint">#ccffffff</color>
+    <color name="exposed_ContactsActionBarTheme_text">#ddffffff</color>
+    <color name="exposed_SectionDivider">#22ffffff</color>
+    <color name="exposed_EditKindTextAppearanceStyle">#ccffffff</color>
+</resources>

@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="app_text_secondary">#ddffffff</color>
+    <color name="background">#90000000</color>
+    <color name="card_background">#50000000</color>
+    <color name="cardview_dark_background">#50000000</color>
+    <color name="cardview_light_background">#50000000</color>
+    <color name="cardview_shadow_end_color">#03000000</color>
+    <color name="cardview_shadow_start_color">#08000000</color>
+    <color name="divider">#22ffffff</color>
+    <color name="textColorPrimary">#ffffffff</color>
+    <color name="text_color_inverse">#ffffffff</color>
+    <color name="text_color_secondary">#ddffffff</color>
+    <color name="accent">#ffffffff</color>
+    <color name="snackbar_background_color">#80000000</color>
+    <!--default-->
+    <!--
+        <color name="accent">#ffff5252</color>
+        <color name="primary">#ff3f51b5</color>
+        <color name="primary_dark">#ff303f9f</color>
+    -->
     <!--appcompat-->
 
     <color name="abc_input_method_navigation_guard">#ffffffff</color>
