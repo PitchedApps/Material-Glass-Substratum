@@ -1,15 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Platform.AppCompat" parent="@android:style/Theme.DeviceDefault" />
-	<style name="Platform.AppCompat.Light" parent="@android:style/Theme.DeviceDefault" />
-
-
-    <style name="MD_Light" parent="@android:style/Theme.Material.Dialog.Alert">
-        <item name="md_btn_negative_selector">@drawable/md_btn_selector_ripple</item>
-        <item name="md_btn_neutral_selector">@drawable/md_btn_selector_ripple</item>
-        <item name="md_btn_positive_selector">@drawable/md_btn_selector_ripple</item>
-        <item name="md_btn_stacked_selector">?android:selectableItemBackground</item>
-        <item name="md_divider">@color/md_divider_black</item>
-        <item name="md_list_selector">?android:selectableItemBackground</item>
+    <style name="Platform.AppCompat" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
     </style>
+    <style name="Platform.AppCompat.Light" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+
+    <!--<style name="MD_Light" parent="@android:style/Theme.Material.Dialog.Alert">-->
+        <!--<item name="md_btn_negative_selector">@drawable/md_btn_selector_ripple</item>-->
+        <!--<item name="md_btn_neutral_selector">@drawable/md_btn_selector_ripple</item>-->
+        <!--<item name="md_btn_positive_selector">@drawable/md_btn_selector_ripple</item>-->
+        <!--<item name="md_btn_stacked_selector">?android:selectableItemBackground</item>-->
+        <!--<item name="md_divider">@color/md_divider_black</item>-->
+        <!--<item name="md_list_selector">?android:selectableItemBackground</item>-->
+    <!--</style>-->
+
+    <!--<style name="Nova.Light" parent="@style/Nova.Base.Light">-->
+        <!--<item name="colorPrimary">#ffd64526</item>-->
+        <!--<item name="colorPrimaryDark">#ffbd3926</item>-->
+        <!--<item name="colorAccent">#ffd64526</item>-->
+    <!--</style>-->
+    <!--<style name="Nova.Base.Light" parent="@style/Theme.AppCompat.Light.NoActionBar" />-->
+    <!--<style name="Theme.AppCompat.Light.NoActionBar" parent="@style/Platform.AppCompat.Light">-->
+        <!--<item name="windowActionBar">false</item>-->
+        <!--<item name="windowNoTitle">true</item>-->
+    <!--</style>-->
 </resources>
