@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Platform.AppCompat" parent="@android:style/Theme.DeviceDefault">
-        <item name="android:windowNoTitle">true</item>
-        <item name="android:windowActionBar">false</item>
-    </style>
-    <style name="Platform.AppCompat.Light" parent="@android:style/Theme.DeviceDefault">
-        <item name="android:windowNoTitle">true</item>
-        <item name="android:windowActionBar">false</item>
-    </style>
+    <style name="Base.Widget.AppCompat.Light.PopupMenu" parent="@android:style/Widget.Material.PopupMenu" />
 
     <!--<style name="MD_Light" parent="@android:style/Theme.Material.Dialog.Alert">-->
         <!--<item name="md_btn_negative_selector">@drawable/md_btn_selector_ripple</item>-->

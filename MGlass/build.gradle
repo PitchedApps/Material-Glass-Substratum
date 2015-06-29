@@ -49,6 +49,7 @@ android {
 		googleplay { applicationId "com.pitchedapps.material.glass.layer.googleplay" }
 		nova { applicationId "com.pitchedapps.material.glass.layer.novalauncher" }
 		novaunread { applicationId "com.pitchedapps.material.glass.layer.novaunread" }
+		rootexplorer { applicationId "com.pitchedapps.material.glass.layer.rootexplorer" }
 		softreboot { applicationId "com.pitchedapps.material.glass.layer.softreboot" }
 		ztest { applicationId "com.pitchedapps.material.glass.layer.ztest" }
     }
