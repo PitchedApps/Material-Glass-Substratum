@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="conversation_header_padding_side">16.0dip</dimen>
+    <dimen name="compose_content_end_padding">16.0dip</dimen>
+    <dimen name="chip_height">32.0dip</dimen>
+</resources>

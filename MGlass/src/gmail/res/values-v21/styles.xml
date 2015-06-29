@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ConversationListFadeBase" parent="@android:style/Widget.Material.ListView">
+        <item name="android:windowShowWallpaper">true</item>
+    </style>
+
+    <style name="MinTimeProgressViewStyle" parent="@android:style/Widget.Material.ProgressBar" />
+    <style name="MinTimeProgressDialogStyleBase" parent="@android:style/Theme.Material.Dialog" />
+    <style name="UnifiedEmailTheme" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:listViewWhiteStyle">@android:style/Widget.Material.ListView</item>
+        <item name="android:actionModeBackground">@android:color/background_dark</item>
+        <item name="android:actionOverflowButtonStyle">@style/ActionBarOverflowButtonStyle</item>
+        <item name="android:colorPrimary">#ff161616</item>
+        <item name="android:colorPrimaryDark">#ff161616</item>
+        <item name="android:colorAccent">#ffffffff</item>
+        <item name="android:colorEdgeEffect">#ffffffff</item>
+        <item name="android:statusBarColor">#ff000000</item>
+        <item name="android:colorBackground">#80000000</item>
+        <item name="android:windowBackground">@android:color/background_dark</item>
+        <item name="android:colorBackgroundCacheHint">#80000000</item>
+        <item name="android:cacheColorHint">#80000000</item>
+    </style>
+    <style name="ActionBarOverflowButtonStyle"
+        parent="@android:style/Widget.Material.ActionButton.Overflow" />
+    <style name="AccountSetupDialogActivityTheme"
+        parent="@android:style/Theme.Material.Dialog.NoActionBar">
+        <item name="android:colorPrimary">#ff000000</item>
+        <item name="android:colorPrimaryDark">#ff000000</item>
+        <item name="android:colorAccent">#ffffffff</item>
+    </style>
+    <style name="LabelSyncTheme" parent="@android:style/Theme.Material.Dialog" />
+    <style name="GmailTheme.NoActionBar" parent="@android:style/Theme.DeviceDefault.NoActionBar">
+        <item name="android:colorPrimary">#ff000000</item>
+        <item name="android:colorPrimaryDark">#ff000000</item>
+        <item name="android:colorAccent">#ffffffff</item>
+        <item name="android:colorEdgeEffect">#ffffffff</item>
+        <item name="android:statusBarColor">#ff000000</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackground">#40000000</item>
+    </style>
+    <style name="GmailTheme.NoActionBar.Fullscreen"
+        parent="@android:style/Theme.DeviceDefault.NoActionBar.Fullscreen">
+        <item name="android:colorPrimary">#ff161616</item>
+        <item name="android:colorPrimaryDark">#ff161616</item>
+        <item name="android:colorAccent">#ffffffff</item>
+        <item name="android:colorEdgeEffect">#ffffffff</item>
+
+        <item name="android:statusBarColor">#ff000000</item>
+        <!--<item name="android:actionBarStyle">@*common:style/Pitch.ActionBar</item>-->
+        <item name="android:navigationBarColor">#80000000</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+
+
+    <style name="GmailTheme.NoActionBar.SetupAddresses" parent="@style/GmailTheme.NoActionBar">
+        <item name="android:colorPrimary">#ff000000</item>
+        <item name="android:colorPrimaryDark">#ff000000</item>
+    </style>
+    <style name="GmailTheme.NoActionBar.WelcomeTour" parent="@style/GmailTheme.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorPrimaryDark">#ff000000</item>
+    </style>
+    <!--<style name="UnifiedEmailTheme.Appcompat.Toolbar" parent="@style/Theme.AppCompat.NoActionBar">-->
+        <!--<item name="windowActionModeOverlay">true</item>-->
+        <!--<item name="actionBarPopupTheme">@style/Base.ThemeOverlay.AppCompat</item>-->
+        <!--<item name="actionModeBackground">@color/action_mode_background</item>-->
+        <!--<item name="homeAsUpIndicator">@drawable/ic_arrow_back_wht_24dp_with_rtl</item>-->
+        <!--<item name="popupMenuStyle">@style/MessageHeaderPopupStyle</item>-->
+        <!--<item name="colorPrimary">#ff000000</item>-->
+        <!--<item name="colorPrimaryDark">#ff000000</item>-->
+        <!--<item name="colorAccent">#ffffffff</item>-->
+    <!--</style>-->
+    <!--<style name="MessageHeaderPopupStyle" parent="@*common:style/Widget.AppCompat.PopupMenu">-->
+        <!--<item name="android:overlapAnchor">true</item>-->
+        <!--<item name="overlapAnchor">true</item>-->
+    <!--</style>-->
+    <!--<style name="MailActivityTheme" parent="@style/UnifiedEmailTheme.Appcompat.Toolbar">-->
+        <!--<item name="android:windowBackground">#80000000</item>-->
+        <!--<item name="android:colorBackground">#80000000</item>-->
+    <!--</style>-->
+
+    <!--<style name="UnifiedEmailTheme.Appcompat" parent="@style/Theme.AppCompat">-->
+        <!--<item name="android:colorEdgeEffect">#ffffffff</item>-->
+        <!--<item name="actionModeBackground">@color/action_mode_background</item>-->
+        <!--<item name="homeAsUpIndicator">@drawable/ic_arrow_back_wht_24dp_with_rtl</item>-->
+        <!--<item name="colorPrimary">#ff000000</item>-->
+        <!--<item name="colorPrimaryDark">#ff000000</item>-->
+        <!--<item name="colorAccent">#ffffffff</item>-->
+    <!--</style>-->
+</resources>
