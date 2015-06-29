@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!--<color name="appsearch_icon_dark">#ffdddddd</color>-->
-    <!--<color name="appsearch_icon_lightgrey">#ffaaaaaa</color>-->
+    <color name="appsearch_icon_dark">#ffdddddd</color>
+    <color name="appsearch_icon_lightgrey">#ffaaaaaa</color>
     <color name="appwidget_error_color">#bb161616</color>
     <color name="bg_dialog_dark">#cc111111</color>
     <color name="bg_dialog_light">#cc111111</color>
@@ -14,7 +14,7 @@
     <color name="cling_scrim_background">#80000000</color>
     <color name="delete_target_hover_tint">#daf44336</color>
     <color name="edit_target_hover_tint">#daffffff</color>
-    <color name="focused_background">#bb000000</color>
+    <color name="focused_background">#a0111111</color>
     <color name="info_target_hover_tint">#da2196f3</color>
     <color name="md_divider_black">#10ffffff</color>
     <color name="md_divider_white">#10ffffff</color>
