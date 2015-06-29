@@ -49,7 +49,8 @@ android {
 		googleplay { applicationId "com.pitchedapps.material.glass.layer.googleplay" }
 		nova { applicationId "com.pitchedapps.material.glass.layer.novalauncher" }
 		novaunread { applicationId "com.pitchedapps.material.glass.layer.novaunread" }
-		swiftkey { applicationId "com.pitchedapps.material.glass.layer.swiftkey" }
+		softreboot { applicationId "com.pitchedapps.material.glass.layer.softreboot" }
+		ztest { applicationId "com.pitchedapps.material.glass.layer.ztest" }
     }
     lintOptions {
         abortOnError false

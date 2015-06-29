@@ -2,5 +2,5 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:color="#aaffffff" android:state_enabled="false" />
     <item android:color="#ddffffff" android:state_pressed="true" />
-    <item android:color="@color/play_fg_secondary" />
+    <item android:color="#ddffffff" />
 </selector>
