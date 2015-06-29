@@ -3,7 +3,7 @@
 
     <!-- This will set the Icon, Target package to overlay & priority for this apk -->
     <application android:icon="@mipmap/aaa" />
-    <overlay android:targetPackage="aaaaa" android:priority="99" />
+    <overlay android:targetPackage="lb.themike10452.hellscorekernelupdater" android:priority="99" />
 
     <!-- This tells the layers application about this theme apk -->
     <meta-data android:name="rom" android:value="Material_Glass" />
