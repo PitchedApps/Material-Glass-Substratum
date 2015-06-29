@@ -6,4 +6,12 @@
     <attr name="colorPrimary" format="color" />
     <attr name="colorPrimaryDark" format="color" />
     <attr name="colorAccent" format="color" />
+
+    <attr name="height" format="dimension" />
+    <attr name="width" format="dimension" />
+    <attr name="viewportWidth" format="float" />
+    <attr name="viewportHeight" format="float" />
+    <attr name="pathData" format="string" />
+    <attr name="fillColor" format="color" />
+
 </resources>
