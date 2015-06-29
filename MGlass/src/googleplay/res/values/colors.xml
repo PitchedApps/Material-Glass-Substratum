@@ -32,13 +32,15 @@
     <color name="play_movies_primary">#a2ed3b3b</color>
     <color name="play_music_primary">#a2ef6c00</color>
     <color name="play_newsstand_primary">#a2536dfe</color>
-    <color name="play_multi_primary">#a2455a64</color>
+    <!--for settings-->
+    <color name="play_multi_primary">#ff455a64</color>
     <color name="play_apps_primary_disabled">#a2689f38</color>
     <color name="play_books_primary_disabled">#a2039be5</color>
     <color name="play_movies_primary_disabled">#a2ed3b3b</color>
     <color name="play_music_primary_disabled">#a2ef6c00</color>
     <color name="play_newsstand_primary_disabled">#a2536dfe</color>
-    <color name="play_multi_primary_disabled">#a2455a64</color>
+    <!--for settings-->
+    <color name="play_multi_primary_disabled">#ff455a64</color>
     <color name="play_apps_secondary">#a2558b2f</color>
     <color name="play_books_secondary">#a20277bd</color>
     <color name="play_movies_secondary">#a2d23f31</color>
