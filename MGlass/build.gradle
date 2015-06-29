@@ -41,12 +41,15 @@ android {
         FrameworkRes { applicationId "com.pitchedapps.material.glass.layer.framework" }
         SystemUi { applicationId "com.pitchedapps.material.glass.layer.systemui" }
         Settings { applicationId "com.pitchedapps.material.glass.layer.settings" }
+        CellBroadcastReceiver { applicationId "com.pitchedapps.material.glass.layer.cellbroadcastreceiver" }
 		NavBar { applicationId "com.pitchedapps.material.glass.layer.navigationbar" }
 		Layers { applicationId "com.pitchedapps.material.glass.layer.layersmanager" }
 		Contacts { applicationId "com.pitchedapps.material.glass.layer.contacts" }
 		Dialer { applicationId "com.pitchedapps.material.glass.layer.dialer" }
+		Gmail { applicationId "com.pitchedapps.material.glass.layer.gmail" }
 		GooglePlus { applicationId "com.pitchedapps.material.glass.layer.googleplus" }
 		GooglePlay { applicationId "com.pitchedapps.material.glass.layer.googleplay" }
+		HellsCoreUpdater { applicationId "com.pitchedapps.material.glass.layer.hellscoreupdater" }
 		NovaLauncher { applicationId "com.pitchedapps.material.glass.layer.novalauncher" }
 		TeslaUnread { applicationId "com.pitchedapps.material.glass.layer.teslaunread" }
 		SoftReboot { applicationId "com.pitchedapps.material.glass.layer.softreboot" }
