@@ -12,6 +12,7 @@
     <color name="theme_accent">#ffffffff</color>
     <color name="dashboard_background_color">#30000000</color>
     <color name="switchbar_background_color">#50000000</color>
+    <color name="switch_accent_color">#ffffffff</color>
     <color name="ga_gesture_color">#ff343d41</color>
 
     <!-- Hard coded background and text colors exposed for better theme support -->
@@ -99,10 +100,21 @@
 	
 	<!--slim-->
 	<color name="exposed_bg_dark">#30000000</color>
+	<color name="exposed_bg_light">#30000000</color>
+    <color name="exposed_primary_text_light">#ffffffff</color>
+    <color name="exposed_secondary_text_light">#ddffffff</color>
 	<color name="exposed_barPrimaryColor">#cc343d41</color>
     <color name="exposed_barPredictionColor">#60ffffff</color>
-    <color name="exposed_datachartfillcolor">#ff748B96</color>
-    <color name="exposed_datachartfillcolor_secondary">#ff343d41</color>
+    <color name="exposed_datachartfillcolor">#cc343d41</color>
+    <color name="exposed_datachartfillcolor_secondary">#60ffffff</color>
     <color name="exposed_data_limit_chart_labelcolor">#ffffffff</color>
+
+    <!--cataclysm-->
+    <color name="blocked_number_background_color">#50000000</color>
+    <color name="wifi_divider">#22ffffff</color>
+	
+	<!-- DSLV colors, AOSIP -->
+    <color name="dslv_icon_dark">#ffffffff</color>
+    <color name="dslv_float_cackground_color">#80000000</color>
 
 </resources>

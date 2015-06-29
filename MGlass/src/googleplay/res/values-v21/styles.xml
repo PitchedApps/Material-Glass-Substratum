@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="PlayDrawerProfileNameText" parent="@style/PlayMediumPlainText">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="PlayMediumPlainText">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="Theme.Base.InstrumentManager.Light" parent="@android:style/Theme.Material.NoActionBar" />
+    <!--causes layering issues-->
+    <!--
+    <style name="FinskyTheme" parent="@style/Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@android:color/background_dark</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:colorPrimaryDark">#ff000000</item>
+    </style>
+
+    <style name="SettingsTheme" parent="@style/Theme.AppCompat">
+        <item name="android:windowBackground">@android:color/background_dark</item>
+        <item name="android:actionBarStyle">@style/SettingsActionBarStyle</item>
+        <item name="android:colorPrimaryDark">#ff000000</item>
+        <item name="colorPrimary">#ff000000</item>
+        <item name="colorPrimaryDark">#ff000000</item>
+    </style>
+
+    <style name="FinskyLightDialogTheme" parent="@style/Theme.AppCompat.Dialog">
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="RateReviewTheme" parent="@style/FinskyLightDialogTheme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    -->
+    <style name="SettingsActionBarStyle" parent="@android:style/Widget.Material.ActionBar">
+        <item name="android:background">#88000000</item>
+    </style>
+    <style name="SetupWizardTheme.Light" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:textColorSecondary">#ddffffff</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+</resources>
