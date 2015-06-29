@@ -49,7 +49,6 @@ android {
 		GooglePlay { applicationId "com.pitchedapps.material.glass.layer.googleplay" }
 		NovaLauncher { applicationId "com.pitchedapps.material.glass.layer.novalauncher" }
 		TeslaUnread { applicationId "com.pitchedapps.material.glass.layer.teslaunread" }
-		RootExplorer { applicationId "com.pitchedapps.material.glass.layer.rootexplorer" }
 		SoftReboot { applicationId "com.pitchedapps.material.glass.layer.softreboot" }
 		ztest { applicationId "com.pitchedapps.material.glass.layer.ztest" }
     }
