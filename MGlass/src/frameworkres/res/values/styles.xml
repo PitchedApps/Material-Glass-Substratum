@@ -24,8 +24,6 @@
     </style>
     <style name="Theme.DeviceDefault.Light" parent="@android:style/Theme.DeviceDefault" />
 
-    <style name="AlertDialog.DeviceDefault" parent="@android:style/Theme.DeviceDefault.Dialog" />
-    <style name="AlertDialog.DeviceDefault.Light" parent="@android:style/Theme.DeviceDefault.Dialog" />
     <style name="DeviceDefault.Light.ButtonBar" parent="@android:style/Widget.Material.ButtonBar" />
     <style name="DeviceDefault.Light.ButtonBar.AlertDialog" parent="@android:style/Widget.Material.ButtonBar.AlertDialog" />
     <style name="DeviceDefault.Light.SegmentedButton" parent="@android:style/Widget.Material.SegmentedButton" />
