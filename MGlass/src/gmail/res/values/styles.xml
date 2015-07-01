@@ -54,13 +54,13 @@
         <item name="android:layout_height">fill_parent</item>
         <item name="android:animateLayoutChanges">true</item>
     </style>
-    <style name="ComposeTheme" parent="@style/UnifiedEmailTheme.Appcompat">
-        <item name="android:textColor">#ffffffff</item>
-        <item name="android:colorBackground">#80000000</item>
-        <item name="android:windowBackground">@android:color/background_dark</item>
-        <item name="android:dropDownListViewStyle">@style/ComposeDropdownListViewStyle</item>
-        <item name="android:colorBackgroundCacheHint">#80000000</item>
-    </style>
+    <!--<style name="ComposeTheme" parent="@style/UnifiedEmailTheme.Appcompat">-->
+        <!--<item name="android:textColor">#ffffffff</item>-->
+        <!--<item name="android:colorBackground">#80000000</item>-->
+        <!--<item name="android:windowBackground">@android:color/background_dark</item>-->
+        <!--<item name="android:dropDownListViewStyle">@style/ComposeDropdownListViewStyle</item>-->
+        <!--<item name="android:colorBackgroundCacheHint">#80000000</item>-->
+    <!--</style>-->
     <style name="ComposeDropdownListViewStyle" parent="@android:style/Widget.Material.ListView">
         <item name="android:divider">@null</item>
         <item name="android:dividerHeight">0.0dip</item>
@@ -73,7 +73,7 @@
         <item name="android:background">@null</item>
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:minHeight">@dimen/chip_height</item>
+        <item name="android:minHeight">32.0dip</item>
         <item name="android:popupBackground">#80000000</item>
         <item name="android:inputType">textEmailAddress|textMultiLine</item>
         <item name="android:textDirection">locale</item>

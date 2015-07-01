@@ -42,6 +42,7 @@ android {
         SystemUi { applicationId "com.pitchedapps.material.glass.layer.systemui" }
         Settings { applicationId "com.pitchedapps.material.glass.layer.settings" }
         CellBroadcastReceiver { applicationId "com.pitchedapps.material.glass.layer.cellbroadcastreceiver" }
+        DocumentsUI { applicationId "com.pitchedapps.material.glass.layer.documentsui" }
 		NavBar { applicationId "com.pitchedapps.material.glass.layer.navigationbar" }
 		Layers { applicationId "com.pitchedapps.material.glass.layer.layersmanager" }
 		Contacts { applicationId "com.pitchedapps.material.glass.layer.contacts" }

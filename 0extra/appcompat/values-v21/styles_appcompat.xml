@@ -7,5 +7,7 @@
     <style name="Platform.AppCompat.Light" parent="@android:style/Theme.DeviceDefault">
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowActionBar">false</item>
+        <!--<item name="android:backgroundTint">#80000000</item>-->
+        <!--<item name="android:statusBarColor">#80000000</item>-->
     </style>
 </resources>

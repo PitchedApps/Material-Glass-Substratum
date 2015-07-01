@@ -3,9 +3,9 @@
     android:color="#30ffffff">
     <item>
         <selector>
-            <item android:drawable="#80000000"
+            <item android:drawable="@android:color/background_dark"
                 android:state_checked="true" />
-            <item android:drawable="#80161616"
+            <item android:drawable="@android:color/background_dark"
                 android:state_activated="true" />
             <item android:drawable="@android:color/transparent" />
         </selector>
