@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ActionBarStyle" parent="@android:style/Widget.Material.ActionBar">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+    <!--<style name="Theme.Photos.ActionBar.Overflow" parent="@android:style/Widget.Material.ActionButton.Overflow" />-->
+    <!--<style name="Theme.Photos.ActionBar.Inverse.Overflow" parent="@android:style/Widget.Material.ActionButton.Overflow" />-->
+    <style name="StoriesEditTextTheme" parent="@android:style/Theme.Material.NoActionBar" />
+
+    <!--<style name="Theme.EmeraldSea.Dialog" parent="@style/Platform.AppCompat.Dialog" />-->
+    <!--<style name="Theme.EmeraldSea.Preference.Dialog" parent="@style/Platform.AppCompat.Dialog" />-->
+    <style name="DateTimePickerButton" parent="@android:style/Widget.Material.Spinner">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:paddingLeft">16.0dip</item>
+        <item name="android:paddingRight">16.0dip</item>
+        <item name="android:paddingStart">16.0dip</item>
+        <item name="android:paddingEnd">16.0dip</item>
+    </style>
+    <style name="Theme.Settings" parent="@android:style/Theme.Material" />
+
+    <style name="notificationCounter">
+        <item name="android:textSize">10.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">end|center|top</item>
+        <item name="android:background">@drawable/notification_count_background</item>
+        <item name="android:layout_width">18.0dip</item>
+        <item name="android:layout_height">18.0dip</item>
+        <item name="android:layout_marginTop">10.0dip</item>
+        <item name="android:layout_marginRight">6.0dip</item>
+        <item name="android:layout_marginEnd">6.0dip</item>
+    </style>
+
+    <style name="FlatButtonSeparator">
+        <item name="android:background">#22ffffff</item>
+        <item name="android:layout_width">1.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginTop">8.0dip</item>
+        <item name="android:layout_marginBottom">8.0dip</item>
+        <item name="android:maxHeight">56.0dip</item>
+    </style>
+    <style name="FlatButtonBar">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">#80000000</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">50.0dip</item>
+    </style>
+    <style name="FlatButtonBorder">
+        <item name="android:background">#80161616</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1.0dip</item>
+    </style>
+
+    <style name="Base.Widget.AppCompat.ActionButton" parent="">
+        <item name="android:gravity">center</item>
+        <item name="android:background">#80000000</item>
+        <item name="android:paddingLeft">12.0dip</item>
+        <item name="android:paddingRight">12.0dip</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:minWidth">48.0dip</item>
+        <item name="android:minHeight">48.0dip</item>
+        <item name="android:maxLines">2</item>
+        <item name="textAllCaps">true</item>
+    </style>
+</resources>

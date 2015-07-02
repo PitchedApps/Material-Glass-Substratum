@@ -55,6 +55,7 @@ android {
 		PushBullet { applicationId "com.pitchedapps.material.glass.layer.pushbullet" }
 		TeslaUnread { applicationId "com.pitchedapps.material.glass.layer.teslaunread" }
 		SoftReboot { applicationId "com.pitchedapps.material.glass.layer.softreboot" }
+		XposedInstaller { applicationId "com.pitchedapps.material.glass.layer.xposedinstaller" }
 		ztest { applicationId "com.pitchedapps.material.glass.layer.ztest" }
     }
     lintOptions {
