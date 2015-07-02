@@ -410,8 +410,6 @@
     <color name="separator">#33ffffff</color>
     <color name="sharekit_light_background">#80000000</color>
     <color name="sharekit_text_normal">#ddffffff</color>
-    <color name="solid_black">#ffffffff</color>
-    <color name="solid_white">#80000000</color>
     <color name="sort_of_toothpastey">#ff8ecec3</color>
     <color name="soundtrack_item_error_background">#80000000</color>
     <color name="soundtrack_item_text">#ffffffff</color>
@@ -574,4 +572,7 @@
     <color name="black_alpha54">#89ffffff</color>
     <color name="black_alpha80">#ccffffff</color>
 
+    <!--07/02/2015-->
+    <color name="guns_notification_item_background_unread">#80000000</color>
+    <color name="text_gray_accessible_on_grey200">#ccffffff</color>
 </resources>
