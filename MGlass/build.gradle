@@ -52,6 +52,7 @@ android {
 		GooglePlay { applicationId "com.pitchedapps.material.glass.layer.googleplay" }
 		HellsCoreUpdater { applicationId "com.pitchedapps.material.glass.layer.hellscoreupdater" }
 		NovaLauncher { applicationId "com.pitchedapps.material.glass.layer.novalauncher" }
+		Snapchat { applicationId "com.pitchedapps.material.glass.layer.snapchat" }
 		PushBullet { applicationId "com.pitchedapps.material.glass.layer.pushbullet" }
 		SoftReboot { applicationId "com.pitchedapps.material.glass.layer.softreboot" }
 		ztest { applicationId "com.pitchedapps.material.glass.layer.ztest" }

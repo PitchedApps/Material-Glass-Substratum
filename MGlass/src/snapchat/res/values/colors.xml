@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bright_yellow">#ff000000</color>
+    <color name="bright_yellow_pressed">#ff2f2f2f</color>
+    <color name="dark_yellow">#ff000000</color>
+    <color name="dark_yellow_semi_transparent">#dd000000</color>
+</resources>
