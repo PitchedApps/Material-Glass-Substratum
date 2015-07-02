@@ -54,7 +54,6 @@ android {
 		NovaLauncher { applicationId "com.pitchedapps.material.glass.layer.novalauncher" }
 		PushBullet { applicationId "com.pitchedapps.material.glass.layer.pushbullet" }
 		SoftReboot { applicationId "com.pitchedapps.material.glass.layer.softreboot" }
-		XposedInstaller { applicationId "com.pitchedapps.material.glass.layer.xposedinstaller" }
 		ztest { applicationId "com.pitchedapps.material.glass.layer.ztest" }
     }
     lintOptions {
