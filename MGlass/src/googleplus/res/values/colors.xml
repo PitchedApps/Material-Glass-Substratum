@@ -377,7 +377,7 @@
     <color name="quantum_orangeA400">#80161616</color>
     <color name="quantum_orangeA700">#80161616</color>
 
-    <color name="quantum_white_100">#ff000000</color>
+    <color name="quantum_white_100">#ffffffff</color>
     <color name="quantum_white_divider">#1fffffff</color>
     <color name="quantum_white_hint_text">#4dffffff</color>
     <color name="quantum_white_secondary_text">#ddffffff</color>
@@ -457,9 +457,9 @@
     <color name="switcher_background">#80000000</color>
     <color name="tab_background_color">#80000000</color>
     <color name="talladega_promo_upcoming_birthdays_background">#80000000</color>
-    <color name="tb_item_title_active">#ff4285f4</color>
-    <color name="tb_item_title_disabled">#6e000000</color>
-    <color name="tb_item_title_normal">#ff646464</color>
+    <color name="tb_item_title_active">#ffffffff</color>
+    <color name="tb_item_title_disabled">#6effffff</color>
+    <color name="tb_item_title_normal">#ffffffff</color>
     <color name="text_black_26_percent">#42ffffff</color>
     <color name="text_black_54_percent">#89ffffff</color>
     <color name="text_black_87_percent">#ddffffff</color>
