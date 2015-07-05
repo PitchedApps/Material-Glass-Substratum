@@ -21,4 +21,12 @@
     <!--<style name="Base.Widget.AppCompat.ListView.Menu" parent="@android:style/Widget.Material.ListView.Menu" />-->
     <style name="Base.Widget.AppCompat.ListPopupWindow" parent="@android:style/Widget.Material.ListPopupWindow" />
     <style name="Base.Widget.AppCompat.PopupMenu" parent="@android:style/Widget.Material.PopupMenu" />
+
+    <style name="Base.Widget.AppCompat.Light.ActionBar" parent="@android:style/Widget.Material.ActionBar" />
+    <style name="Base.TextAppearance.AppCompat.Light.Widget.DropDownItem" parent="@android:style/TextAppearance.Small">
+        <item name="android:textColor">?android:textColorPrimaryDisableOnly</item>
+    </style>
+    <style name="Base.TextAppearance.Widget.AppCompat.Light.ExpandedMenu.Item" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">?android:textColorPrimaryDisableOnly</item>
+    </style>
 </resources>
