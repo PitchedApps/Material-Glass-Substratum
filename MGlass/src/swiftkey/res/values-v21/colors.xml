@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="cardview_light_background">#30000000</color>
+    <color name="cardview_shadow_end_color">#01000000</color>
+    <color name="cardview_shadow_start_color">#05000000</color>
+	
+	<color name="quick_settings_card_selected">#30111111</color>
+    <color name="quick_settings_card_selected_lollipop">#20ffffff</color>
+    <color name="quick_settings_hamburger">#ffffffff</color>
+    <color name="quick_settings_main_background">#80000000</color>
+    <color name="quick_settings_tab_background">#80000000</color>
+    <color name="quick_settings_tab_icon_selected">#ffffffff</color>
+    <color name="quick_settings_tab_icon_unselected">#ccffffff</color>
+    <color name="quick_settings_tab_underline_selected">#ffffffff</color>
+    <color name="quick_settings_tab_underline_unselected">#ccffffff</color>
+    <color name="quick_settings_text_color">#ccffffff</color>
+</resources>
