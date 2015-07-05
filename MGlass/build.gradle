@@ -47,6 +47,8 @@ android {
 		Layers { applicationId "com.pitchedapps.material.glass.layer.layersmanager" }
 		Contacts { applicationId "com.pitchedapps.material.glass.layer.contacts" }
 		Dialer { applicationId "com.pitchedapps.material.glass.layer.dialer" }
+		AOSPKeyboard { applicationId "com.pitchedapps.material.glass.layer.aospkeyboard" }
+		GoogleKeyboard { applicationId "com.pitchedapps.material.glass.layer.googlekeyboard" }
 		Gmail { applicationId "com.pitchedapps.material.glass.layer.gmail" }
 		GooglePlus { applicationId "com.pitchedapps.material.glass.layer.googleplus" }
 		GooglePlay { applicationId "com.pitchedapps.material.glass.layer.googleplay" }
@@ -55,6 +57,7 @@ android {
 		Snapchat { applicationId "com.pitchedapps.material.glass.layer.snapchat" }
 		PushBullet { applicationId "com.pitchedapps.material.glass.layer.pushbullet" }
 		SoftReboot { applicationId "com.pitchedapps.material.glass.layer.softreboot" }
+		Swiftkey { applicationId "com.pitchedapps.material.glass.layer.swiftkey" }
 		ztest { applicationId "com.pitchedapps.material.glass.layer.ztest" }
     }
     lintOptions {
