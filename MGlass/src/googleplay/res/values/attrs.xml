@@ -13,4 +13,10 @@
     <attr name="star_color" format="color" />
     <attr name="star_bg_color" format="color" />
     <attr name="gap" format="dimension" />
+
+    <attr name="playCardBackgroundColor" format="color" />
+    <attr name="playCardCornerRadius" format="dimension" />
+    <attr name="playCardElevation" format="dimension" />
+    <attr name="playCardInset" format="dimension" />
+    <attr name="playCardClipToOutline" format="boolean" />
 </resources>
