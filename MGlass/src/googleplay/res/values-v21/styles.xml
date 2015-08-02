@@ -6,6 +6,7 @@
     </style>
     <style name="PlayMediumPlainText">
         <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">#ffffffff</item>
     </style>
     <style name="Theme.Base.InstrumentManager.Light" parent="@android:style/Theme.Material.NoActionBar" />
     <!--causes layering issues-->

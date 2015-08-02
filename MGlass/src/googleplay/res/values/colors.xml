@@ -119,7 +119,8 @@
     <color name="now_playing_widget_hotseat_bg">#f2ffffff</color>
     <color name="now_playing_widget_empty_bg">#66000000</color>
     <color name="now_playing_widget_empty_fg">#66ffffff</color>
-    <color name="status_bar_multi">#8837474f</color>
+    <!--is a primary color-->
+    <color name="status_bar_multi">#ff37474f</color>
     <color name="status_bar_apps">#88558b2f</color>
     <color name="status_bar_books">#880277bd</color>
     <color name="status_bar_music">#88e65100</color>
