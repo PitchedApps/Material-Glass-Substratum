@@ -36,25 +36,8 @@
     </style>
 
     <!--play_white text colors-->
+    <!--### PlayClusterMore causes crash with layers-->
 
-    <style name="PlayClusterMore" parent="@style/PlayMediumPlainText">
-        <item name="android:textSize">12.0sp</item>
-        <item name="android:textColor">#ffffffff</item>
-        <item name="android:paddingLeft">8.0dip</item>
-        <item name="android:paddingTop">5.0dip</item>
-        <item name="android:paddingRight">8.0dip</item>
-        <item name="android:paddingBottom">6.0dip</item>
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:singleLine">true</item>
-
-        <item name="playCardBackgroundColor">#11000000</item>
-        <item name="playCardCornerRadius">2.0dip</item>
-        <!--<item name="playCardCornerRadius">@dimen/play_action_button_corner</item>-->
-        <item name="playCardElevation">1.0dip</item>
-        <item name="playCardInset">0.0dip</item>
-        <item name="playCardClipToOutline">true</item>
-    </style>
     <style name="Play_Purchase_Button" parent="@style/PlayPlainText">
         <item name="android:textSize">14.0sp</item>
         <item name="android:textStyle">bold</item>
