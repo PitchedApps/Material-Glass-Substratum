@@ -143,24 +143,8 @@
     <style name="Theme.Material.Settings.CompactMenu" parent="@android:style/Theme.Material.Wallpaper">
         <item name="android:colorBackground">#90000000</item>
     </style>
-    <!--<style name="Theme.Micro" parent="@android:style/Theme.Material.NoActionBar">-->
-    <!--<item name="android:colorBackground">#90000000</item>-->
-    <!--<item name="android:windowIsFloating">false</item>-->
-    <!--<item name="android:windowIsTranslucent">true</item>-->
-    <!--<item name="android:windowContentOverlay">@null</item>-->
-    <!--</style>-->
-    <!--<style name="Theme.Micro.Light" parent="@android:style/Theme.Material.NoActionBar">-->
-    <!--<item name="android:colorBackground">#90000000</item>-->
-    <!--<item name="android:windowIsFloating">false</item>-->
-    <!--<item name="android:windowIsTranslucent">true</item>-->
-    <!--<item name="android:windowContentOverlay">@null</item>-->
-    <!--</style>-->
-
-
-
 
     <!--materialization -->
-
 
     <style name="Widget.Holo.Button" parent="@android:style/Widget.Material.Button">
         <item name="android:textColor">#ffffffff</item>
@@ -169,5 +153,9 @@
         <item name="android:textColor">#ff000000</item>
     </style>
 
+    <!--just for layers, material compatibility-->
 
+    <style name="Theme.Material.DialogWhenLarge" parent="@android:style/Theme.DeviceDefault" />
+    <style name="Theme.Material.DialogWhenLarge.NoActionBar" parent="@android:style/Theme.DeviceDefault.NoActionBar" />
+    <style name="Theme.Material.Dialog.Presentation" parent="@android:style/Theme.DeviceDefault.NoActionBar.Fullscreen" />
 </resources>
