@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="DocumentsTheme" parent="@android:style/Theme.DeviceDefault">
-        <item name="android:tint">#ffffffff</item>
-
         <item name="android:actionBarWidgetTheme">@null</item>
         <item name="android:actionBarTheme">@android:style/ThemeOverlay.Material.Dark.ActionBar</item>
         <item name="android:actionBarPopupTheme">@android:style/ThemeOverlay.Material.Dark</item>

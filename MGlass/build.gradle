@@ -54,11 +54,11 @@ android {
 		GooglePlay { applicationId "com.pitchedapps.material.glass.layer.googleplay" }
 		Youtube { applicationId "com.pitchedapps.material.glass.layer.youtube" }
 		HellsCoreUpdater { applicationId "com.pitchedapps.material.glass.layer.hellscoreupdater" }
-		KernelAdiutor { applicationId "com.pitchedapps.material.glass.layer.kerneladiutor" }
 		NovaLauncher { applicationId "com.pitchedapps.material.glass.layer.novalauncher" }
 		Snapchat { applicationId "com.pitchedapps.material.glass.layer.snapchat" }
 		PushBullet { applicationId "com.pitchedapps.material.glass.layer.pushbullet" }
-		SoftReboot { applicationId "com.pitchedapps.material.glass.layer.softreboot" }
+        Pedometer { applicationId "com.pitchedapps.material.glass.layer.ivonpedometer" }
+        SoftReboot { applicationId "com.pitchedapps.material.glass.layer.softreboot" }
 		Swiftkey { applicationId "com.pitchedapps.material.glass.layer.swiftkey" }
 		ztest { applicationId "com.pitchedapps.material.glass.layer.ztest" }
     }
