@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_floating_material_dark">#cc060606</color>
+    <color name="background_material_dark">#55000000</color>
+    <color name="black">#55000000</color>
+    <color name="button_material_dark">#33000000</color>
+    <color name="card_background_dark">#30000000</color>
+    <color name="cardview_dark_background">#55000000</color>
+    <color name="fab_normal">#cc060606</color>
+    <color name="fab_pressed">#cc121212</color>
+    <color name="navigationdrawer_background_dark">#b0000000</color>
+    <color name="primary_material_dark">#ff000000</color>
+    <color name="primary_dark_material_dark">#ff000000</color>
+    <color name="profile_list_background">#70000000</color>
+    <color name="cardview_shadow_end_color">#03000000</color>
+    <color name="cardview_shadow_start_color">#09000000</color>
+</resources>
