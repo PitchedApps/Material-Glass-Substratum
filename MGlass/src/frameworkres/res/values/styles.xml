@@ -27,14 +27,14 @@
     <style name="DeviceDefault.Light.ButtonBar" parent="@android:style/Widget.Material.ButtonBar" />
     <style name="DeviceDefault.Light.ButtonBar.AlertDialog" parent="@android:style/Widget.Material.ButtonBar.AlertDialog" />
     <style name="DeviceDefault.Light.SegmentedButton" parent="@android:style/Widget.Material.SegmentedButton" />
-    <style name="DialogWindowTitle.DeviceDefault.Light" parent="@android:style/Theme.DeviceDefault.Dialog" />
+    <!--<style name="DialogWindowTitle.DeviceDefault.Light" parent="@*android:style/DialogWindowTitle.Material" />-->
     <style name="Theme.DeviceDefault.Light.DarkActionBar" parent="@android:style/Theme.DeviceDefault" />
     <style name="Theme.DeviceDefault.Light.Dialog" parent="@android:style/Theme.DeviceDefault.Dialog" />
     <style name="Theme.DeviceDefault.Light.Dialog.Alert" parent="@android:style/Theme.Material.Dialog.Alert" />
-    <style name="Theme.DeviceDefault.Light.Dialog.FixedSize" parent="@android:style/Theme.DeviceDefault.Dialog" />
+    <!--<style name="Theme.DeviceDefault.Light.Dialog.FixedSize" parent="@android:style/Theme.DeviceDefault.Dialog" />-->
     <style name="Theme.DeviceDefault.Light.Dialog.MinWidth" parent="@android:style/Theme.Material.Dialog.MinWidth" />
     <style name="Theme.DeviceDefault.Light.Dialog.NoActionBar" parent="@android:style/Theme.Material.Dialog.NoActionBar" />
-    <style name="Theme.DeviceDefault.Light.Dialog.NoActionBar.FixedSize" parent="@android:style/Theme.DeviceDefault.Dialog.NoActionBar" />
+    <!--<style name="Theme.DeviceDefault.Light.Dialog.NoActionBar.FixedSize" parent="@android:style/Theme.DeviceDefault.Dialog.NoActionBar" />-->
     <style name="Theme.DeviceDefault.Light.Dialog.NoActionBar.MinWidth" parent="@android:style/Theme.Material.Dialog.NoActionBar.MinWidth" />
     <style name="Theme.DeviceDefault.Light.Dialog.Presentation" parent="@android:style/Theme.Material.Dialog.Presentation" />
     <style name="Theme.DeviceDefault.Light.DialogWhenLarge" parent="@android:style/Theme.Material.DialogWhenLarge" />
@@ -44,9 +44,9 @@
     <style name="Theme.DeviceDefault.Light.NoActionBar.Overscan" parent="@android:style/Theme.Material.NoActionBar.Overscan" />
     <style name="Theme.DeviceDefault.Light.NoActionBar.TranslucentDecor" parent="@android:style/Theme.Material.NoActionBar.TranslucentDecor" />
     <style name="Theme.DeviceDefault.Light.Panel" parent="@android:style/Theme.Material.Panel" />
-    <style name="Theme.Dialog.AppError" parent="@android:style/Theme.Material.Dialog" />
-    <style name="Theme.Dialog.RecentApplications" parent="@android:style/Theme.DeviceDefault.Dialog" />
-    <style name="Widget.DeviceDefault.AbsListView" parent="@android:style/Widget.Material" />
+    <!--<style name="Theme.Dialog.AppError" parent="@android:style/Theme.Material.Dialog" />-->
+    <!--<style name="Theme.Dialog.RecentApplications" parent="@android:style/Theme.DeviceDefault.Dialog" />-->
+    <!--<style name="Widget.DeviceDefault.AbsListView" parent="@android:style/Widget.Material" />-->
     <style name="Widget.DeviceDefault.Light" parent="@android:style/Widget.Material" />
     <style name="Widget.DeviceDefault.Light.ActionBar" parent="@android:style/Widget.Material.ActionBar" />
     <style name="Widget.DeviceDefault.Light.ActionBar.Solid" parent="@android:style/Widget.Material.ActionBar" />
