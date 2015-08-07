@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="card_bg_dark">#30000000</color>
+	<color name="card_grey">#30333333</color>
+	<color name="cd__defaultBackground">#80000000</color>
+	<color name="sidebar_dark">#bb000000</color>
+	<color name="slidemenu_account_dropdown_dark">#bb000000</color>
+	<color name="slidemenu_account_main_dark">#bb000000</color>
+	<color name="slidemenu_main_dark">#bb000000</color>
+	<color name="slidemenu_main_highlight_dark">#bb121212</color>
+	<color name="slidemenu_secondary_dark">#bb000000</color>
+	<color name="slidemenu_secondary_divider_dark">#22ffffff</color>
+    <color name="fabRed">#ff121212</color>
+</resources>
