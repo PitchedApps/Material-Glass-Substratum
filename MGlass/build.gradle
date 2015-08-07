@@ -56,6 +56,7 @@ android {
 		HellsCoreUpdater { applicationId "com.pitchedapps.material.glass.layer.hellscoreupdater" }
 		NovaLauncher { applicationId "com.pitchedapps.material.glass.layer.novalauncher" }
 		Snapchat { applicationId "com.pitchedapps.material.glass.layer.snapchat" }
+		Pandora { applicationId "com.pitchedapps.material.glass.layer.pandora" }
 		PushBullet { applicationId "com.pitchedapps.material.glass.layer.pushbullet" }
         Pedometer { applicationId "com.pitchedapps.material.glass.layer.ivonpedometer" }
         SoftReboot { applicationId "com.pitchedapps.material.glass.layer.softreboot" }
