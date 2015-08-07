@@ -59,6 +59,7 @@ android {
 		Pandora { applicationId "com.pitchedapps.material.glass.layer.pandora" }
 		PushBullet { applicationId "com.pitchedapps.material.glass.layer.pushbullet" }
         Pedometer { applicationId "com.pitchedapps.material.glass.layer.ivonpedometer" }
+        Relay { applicationId "com.pitchedapps.material.glass.layer.relay.reddit" }
         SoftReboot { applicationId "com.pitchedapps.material.glass.layer.softreboot" }
 		Swiftkey { applicationId "com.pitchedapps.material.glass.layer.swiftkey" }
 		WeatherBug { applicationId "com.pitchedapps.material.glass.layer.weatherbug" }
