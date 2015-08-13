@@ -144,5 +144,4 @@
     <color name="exposed_TextAppearance.StatusBar.EventContent.Emphasis">#ffcccccc</color>
     <color name="exposed_TextAppearance.EasyCorrectSuggestion">#88c8c8c8</color>
     <color name="exposed_Widget.Material.Light.Button_TS">#ff555555</color>
-	
 </resources>
