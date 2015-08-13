@@ -13,7 +13,7 @@
         <!--<item name="android:background">#ff000000</item>-->
     <!--</style>-->
     <style name="BackgroundOnlyTheme" parent="@android:style/Theme.Material">
-        <item name="android:windowBackground">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowIsFloating">true</item>
         <item name="android:windowContentOverlay">@null</item>
