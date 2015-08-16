@@ -2,42 +2,23 @@
 <resources>
     <style name="DetailActivityTheme" parent="@android:style/Theme.Material">
         <item name="android:actionBarStyle">@style/ContactsActionBarStyle</item>
-        <!--<item name="android:homeAsUpIndicator">@drawable/ic_menu_back</item>-->
-        <!--<item name="android:actionOverflowButtonStyle">@style/ContactsActionBarOverflow</item>-->
-        <!--<item name="android:actionBarItemBackground">@drawable/action_bar_item_background</item>-->
-        <!--<item name="android:actionBarWidgetTheme">@style/ContactsActionBarTheme</item>-->
-        <!--<item name="android:textColorPrimary">@color/primary_text_color</item>-->
-        <!--<item name="android:textColorSecondary">@color/secondary_text_color</item>-->
-        <!--<item name="android:listViewStyle">@style/ListViewStyle</item>-->
     </style>
 
     <style name="PeopleTheme1" parent="@android:style/Theme.Material">
         <item name="android:actionBarStyle">@style/ContactsActionBarStyle</item>
         <item name="android:actionBarTabBarStyle">@style/ContactsActionBarTabBarStyle</item>
-        <!--<item name="android:actionBarTabTextStyle">@style/ContactsActionBarTabTextStyle</item>-->
-        <!--<item name="android:textColorPrimary">@color/primary_text_color</item>-->
-        <!--<item name="android:textColorSecondary">@color/secondary_text_color</item>-->
-        <!--<item name="android:listViewStyle">@style/ListViewStyle</item>-->
         <item name="android:windowBackground">@android:color/black</item>
         <item name="android:colorPrimaryDark">#ff0277bd</item>
         <item name="android:colorPrimary">#ff0288d1</item>
         <item name="android:colorAccent">#ff0288d1</item>
+
+        <item name="android:navigationBarColor">#ff000000</item>
     </style>
 
     <style name="ContactsActionBarStyle" parent="@android:style/Widget.Material.ActionBar">
         <item name="android:background">#ff0288d1</item>
-        <!--<item name="android:titleTextStyle">@style/ContactsActionBarTitleText</item>-->
-        <!--<item name="android:backgroundStacked">@color/actionbar_background_color</item>-->
-        <!-- Empty icon -->
         <item name="android:icon">@android:color/transparent</item>
     </style>
-
-    <!--<style name="ContactsActionBarTheme" parent="@android:style/Theme.Material">-->
-        <!--<item name="android:textColorHint">@color/contacts_action_bar_text_hint</item>-->
-        <!--<item name="android:textColor">@color/contacts_action_bar_text_color</item>-->
-        <!--<item name="android:popupMenuStyle">@android:style/Widget.Holo.Light.PopupMenu</item>-->
-        <!--<item name="android:dropDownListViewStyle">@style/ListViewDropdownStyle</item>-->
-    <!--</style>-->
 
     <style name="SelectableItem" parent="@android:style/Theme.Material">
         <item name="android:background">?android:attr/selectableItemBackground</item>
@@ -56,10 +37,6 @@
     <style name="ContactsAlertDialogTheme" parent="@android:style/Theme.Material.Dialog">
         <item name="android:colorAccent">#ff0288d1</item>
     </style>
-
-    <!--<style name="ListViewStyle" parent="@android:style/Widget.Material.ListView">-->
-        <!--<item name="android:overScrollMode">always</item>-->
-    <!--</style>-->
 
     <style name="ContactsActionBarTabBarStyle"
         parent="@android:style/Widget.Material.ActionBar.TabBar">
