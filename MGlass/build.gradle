@@ -47,7 +47,9 @@ android {
 		Layers { applicationId "com.pitchedapps.material.glass.layer.layersmanager" }
 		LayersShowcase { applicationId "com.pitchedapps.material.glass.layer.layersshowcase" }
 		Contacts { applicationId "com.pitchedapps.material.glass.layer.contacts" }
+		ContactsPitchBlack { applicationId "com.pitchedapps.material.glass.layer.contacts.black" }
 		Dialer { applicationId "com.pitchedapps.material.glass.layer.dialer" }
+		DialerPitchBlack { applicationId "com.pitchedapps.material.glass.layer.dialer.black" }
 		AOSPKeyboard { applicationId "com.pitchedapps.material.glass.layer.aospkeyboard" }
 		GoogleKeyboard { applicationId "com.pitchedapps.material.glass.layer.googlekeyboard" }
 		Gmail { applicationId "com.pitchedapps.material.glass.layer.gmail" }
