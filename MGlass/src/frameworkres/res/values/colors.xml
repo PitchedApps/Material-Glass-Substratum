@@ -6,7 +6,7 @@
     <color name="holo_blue_light">#ff748B96</color>
     <color name="holo_blue_dark">#ff62757e</color>
     <color name="holo_blue_bright">#ff161616</color>
-    <color name="system_notification_accent_color">#fff0f0f0</color>
+    <color name="system_notification_accent_color">#cc62757e</color>
     <color name="background_holo_dark">#ff000000</color>
     <color name="highlighted_text_holo_dark">#66666666</color>
     <color name="highlighted_text_holo_light">#66666666</color>
