@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="text">#ffffffff</color>
+    <color name="textt">#ccffffff</color>
+    <color name="texttt">#99ffffff</color>
+    <color name="backgroundt">#30000000</color>
+    <color name="background">#88000000</color>
+    <color name="backgroundd">#30111111</color>
+    <!--<color name="backgrounddd">#88323232</color>-->
+    <color name="backgroundx">#ff000000</color>
+    <!--<color name="backgrounddx">#ff161616</color>-->
+    <!--<color name="backgroundddx">#ff323232</color>-->
+</resources>

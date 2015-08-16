@@ -66,8 +66,8 @@ android {
         RelayPro { applicationId "com.pitchedapps.material.glass.layer.relay.reddit.pro" }
         SoftReboot { applicationId "com.pitchedapps.material.glass.layer.softreboot" }
 		Swiftkey { applicationId "com.pitchedapps.material.glass.layer.swiftkey" }
+		Tapatalk { applicationId "com.pitchedapps.material.glass.layer.tapatalkpro" }
 		WeatherBug { applicationId "com.pitchedapps.material.glass.layer.weatherbug" }
-		ztest { applicationId "com.pitchedapps.material.glass.layer.ztest" }
     }
     lintOptions {
         abortOnError false
