@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.pitchedapps.material.glass.layer.test">
 
     <!-- This will set the Icon, Target package to overlay & priority for this apk -->
-    <!--<application android:icon="@drawable/aaa" />-->
+    <application android:icon="@drawable/aaa" />
     <overlay android:targetPackage="com.android.dialer" android:priority="99" />
 
     <!-- This tells the layers application about this theme apk -->
