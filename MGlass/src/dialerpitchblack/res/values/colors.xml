@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dialer_theme_color">#ff000000</color>
+    <color name="dialer_theme_color_dark">#ff000000</color>
+    <color name="background_dialpad">#ff000000</color>
+    <color name="background_dialpad_pressed">#ff111111</color>
+
+    <color name="people_app_theme_color">#ff111111</color>
+    <color name="dialtacts_theme_color">#ff000000</color>
+
+    <color name="quickcontact_default_photo_tint_color">#ff333333</color>
+    <color name="quickcontact_default_photo_tint_color_dark">#ff000000</color>
+
+    <color name="actionbar_background_color">#ff000000</color>
+
+    <color name="actionbar_background_color_dark">#ff000000</color>
+
+    <color name="frequently_contacted_title_color">#ffffff</color>
+
+    <color name="letter_tile_red_color">#ff060606</color>
+    <color name="letter_tile_pink_color">#ff060606</color>
+    <color name="letter_tile_purple_color">#ff060606</color>
+    <color name="letter_tile_deep_purple_color">#ff060606</color>
+    <color name="letter_tile_indigo_color">#ff060606</color>
+    <color name="letter_tile_blue_color">#ff060606</color>
+    <color name="letter_tile_light_blue_color">#ff060606</color>
+    <color name="letter_tile_cyan_color">#ff060606</color>
+    <color name="letter_tile_teal_color">#ff060606</color>
+    <color name="letter_tile_green_color">#ff060606</color>
+    <color name="letter_tile_light_green_color">#ff060606</color>
+    <color name="letter_tile_orange_color">#ff060606</color>
+    <color name="letter_tile_deep_orange_color">#ff060606</color>
+    <color name="letter_tile_grey_color">#ff060606</color>
+    <color name="letter_tile_red_color_dark">#ff060606</color>
+    <color name="letter_tile_pink_color_dark">#ff060606</color>
+    <color name="letter_tile_purple_color_dark">#ff060606</color>
+    <color name="letter_tile_deep_purple_color_dark">#ff060606</color>
+    <color name="letter_tile_indigo_color_dark">#ff060606</color>
+    <color name="letter_tile_blue_color_dark">#ff060606</color>
+    <color name="letter_tile_light_blue_color_dark">#ff060606</color>
+    <color name="letter_tile_cyan_color_dark">#ff060606</color>
+    <color name="letter_tile_teal_color_dark">#ff060606</color>
+    <color name="letter_tile_green_color_dark">#ff060606</color>
+    <color name="letter_tile_light_green_color_dark">#ff060606</color>
+    <color name="letter_tile_orange_color_dark">#ff060606</color>
+    <color name="letter_tile_deep_orange_color_dark">#ff060606</color>
+    <color name="letter_tile_grey_color_dark">#ff060606</color>
+
+    <color name="incall_background_color">#ff060606</color>
+
+    <color name="incall_banner_secondary_background_color">#ff060606</color>
+
+    <color name="incall_dialpad_background">#ff060606</color>
+    <color name="incall_dialpad_background_pressed">#ff111111</color>
+
+    <color name="button_background_color">#ff060606</color>
+    <color name="button_selected_color">#ff121212</color>
+
+    <color name="glowpad_call_widget_normal_tint">#ffffff</color>
+
+    <color name="call_log_action_text">#ffffff</color>
+
+
+    <color name="exposed_secondary_bg_color">#ff060606</color>
+    <color name="exposed_call_log_header">#ff33b5e5</color>
+</resources>
