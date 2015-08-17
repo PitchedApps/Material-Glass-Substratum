@@ -40,6 +40,7 @@ android {
     productFlavors {
         FrameworkRes { applicationId "com.pitchedapps.material.glass.layer.framework" }
         SystemUi { applicationId "com.pitchedapps.material.glass.layer.systemui" }
+        StatusBar { applicationId "com.pitchedapps.material.glass.layer.systemui.status" }
         Settings { applicationId "com.pitchedapps.material.glass.layer.settings" }
         CellBroadcastReceiver { applicationId "com.pitchedapps.material.glass.layer.cellbroadcastreceiver" }
         DocumentsUI { applicationId "com.pitchedapps.material.glass.layer.documentsui" }
