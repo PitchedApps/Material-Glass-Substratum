@@ -8,7 +8,7 @@
     <color name="actionbar_background_color">#ff000000</color>
     <color name="actionbar_background_color_dark">#ff000000</color>
     <color name="frequently_contacted_title_color">#ffffff</color>
-    <color name="text_highlight_color">#ddffffff</color>
+    <color name="text_highlight_color">#bbffffff</color>
 
     <color name="letter_tile_red_color">#ff060606</color>
     <color name="letter_tile_pink_color">#ff060606</color>

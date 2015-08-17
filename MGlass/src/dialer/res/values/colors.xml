@@ -46,7 +46,7 @@
     <color name="search_shortcut_icon_color">#ddffffff</color>
     <color name="background_primary">#ff000000</color>
     <color name="contact_all_list_background_color">#ff000000</color>
-    <color name="text_highlight_color">#ddffffff</color>
+    <color name="text_highlight_color">#ff3b77e7</color>
     <color name="contact_tile_text_color">#ffffffff</color>
     <color name="starred_quick_contact_name_text_color">#ffffffff</color>
     <color name="frequent_contact_text_color">#ffffffff</color>
