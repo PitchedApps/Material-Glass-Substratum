@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dialer_theme_color">#ff000000</color>
+    <color name="dialer_theme_color_dark">#ff000000</color>
+    <color name="background_dialpad">#ff000000</color>
+    <color name="background_dialpad_pressed">#ff111111</color>
+    <color name="dialtacts_theme_color">#ff000000</color>
+    <color name="actionbar_background_color">#ff000000</color>
+    <color name="actionbar_background_color_dark">#ff000000</color>
+    <color name="frequently_contacted_title_color">#ffffff</color>
+    <color name="text_highlight_color">#ddffffff</color>
+
+    <color name="letter_tile_red_color">#ff060606</color>
+    <color name="letter_tile_pink_color">#ff060606</color>
+    <color name="letter_tile_purple_color">#ff060606</color>
+    <color name="letter_tile_deep_purple_color">#ff060606</color>
+    <color name="letter_tile_indigo_color">#ff060606</color>
+    <color name="letter_tile_blue_color">#ff060606</color>
+    <color name="letter_tile_light_blue_color">#ff060606</color>
+    <color name="letter_tile_cyan_color">#ff060606</color>
+    <color name="letter_tile_teal_color">#ff060606</color>
+    <color name="letter_tile_green_color">#ff060606</color>
+    <color name="letter_tile_light_green_color">#ff060606</color>
+    <color name="letter_tile_orange_color">#ff060606</color>
+    <color name="letter_tile_deep_orange_color">#ff060606</color>
+    <color name="letter_tile_grey_color">#ff060606</color>
+    <color name="letter_tile_red_color_dark">#ff060606</color>
+    <color name="letter_tile_pink_color_dark">#ff060606</color>
+    <color name="letter_tile_purple_color_dark">#ff060606</color>
+    <color name="letter_tile_deep_purple_color_dark">#ff060606</color>
+    <color name="letter_tile_indigo_color_dark">#ff060606</color>
+    <color name="letter_tile_blue_color_dark">#ff060606</color>
+    <color name="letter_tile_light_blue_color_dark">#ff060606</color>
+    <color name="letter_tile_cyan_color_dark">#ff060606</color>
+    <color name="letter_tile_teal_color_dark">#ff060606</color>
+    <color name="letter_tile_green_color_dark">#ff060606</color>
+    <color name="letter_tile_light_green_color_dark">#ff060606</color>
+    <color name="letter_tile_orange_color_dark">#ff060606</color>
+    <color name="letter_tile_deep_orange_color_dark">#ff060606</color>
+    <color name="letter_tile_grey_color_dark">#ff060606</color>
+
+    <color name="action_bar_background">#ff000000</color>
+    <color name="primary_color_dark">#ff000000</color>
+    <color name="primary_color">#ff000000</color>
+</resources>
