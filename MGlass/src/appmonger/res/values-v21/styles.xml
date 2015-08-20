@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppmongerTheme" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:windowTitleSize">42.0dip</item>
+        <item name="android:actionBarStyle">@android:style/Widget.Holo.ActionBar</item>
+    </style>
+
+    <style name="TitleBar">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:drawableLeft">@drawable/icon_small</item>
+        <item name="android:drawablePadding">5.0dip</item>
+    </style>
+    <style name="Setting">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">5.0dip</item>
+        <item name="android:layout_marginRight">5.0dip</item>
+    </style>
+    <style name="Warning" parent="@style/Setting">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:layout_marginLeft">10.0dip</item>
+        <item name="android:layout_marginRight">10.0dip</item>
+        <item name="android:layout_marginBottom">5.0dip</item>
+    </style>
+
+    <style name="WidgetStatus" parent="@style/Label">
+        <item name="android:textSize">11.0sp</item>
+        <item name="android:textColor">#ddffffff</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <style name="Label">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+</resources>

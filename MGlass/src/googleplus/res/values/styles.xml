@@ -4,12 +4,8 @@
     <style name="ActionBarStyle" parent="@android:style/Widget.Material.ActionBar">
         <item name="android:background">@android:color/transparent</item>
     </style>
-    <!--<style name="Theme.Photos.ActionBar.Overflow" parent="@android:style/Widget.Material.ActionButton.Overflow" />-->
-    <!--<style name="Theme.Photos.ActionBar.Inverse.Overflow" parent="@android:style/Widget.Material.ActionButton.Overflow" />-->
     <style name="StoriesEditTextTheme" parent="@android:style/Theme.Material.NoActionBar" />
 
-    <!--<style name="Theme.EmeraldSea.Dialog" parent="@style/Platform.AppCompat.Dialog" />-->
-    <!--<style name="Theme.EmeraldSea.Preference.Dialog" parent="@style/Platform.AppCompat.Dialog" />-->
     <style name="DateTimePickerButton" parent="@android:style/Widget.Material.Spinner">
         <item name="android:textAppearance">?android:textAppearanceSmall</item>
         <item name="android:paddingLeft">16.0dip</item>

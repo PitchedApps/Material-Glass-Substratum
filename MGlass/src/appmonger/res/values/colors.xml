@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="status_error">#ffff9900</color>-->
+    <color name="status_ok">#ddffffff</color>
+    <color name="window_background">#a0000000</color>
+    <color name="appmonger_bluegreen">#80000000</color>
+    <color name="not_set">#aaffffff</color>
+</resources>
