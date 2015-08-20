@@ -6,8 +6,8 @@
     <color name="acl_header_view_background">#80000000</color>
     <color name="acl_list_background">#80000000</color>
     <color name="acl_person_color">#ddffffff</color>
-    <color name="acl_picker_actionbar_background">#80000000</color>
-    <color name="acl_picker_checkmark_color">#ffffffff</color>
+    <color name="acl_picker_actionbar_background">#000</color>
+    <color name="acl_picker_checkmark_color">#fff</color>
     <color name="acl_picker_search_text">#ffffffff</color>
     <color name="acl_picker_section_divider">#33ffffff</color>
     <color name="acl_picker_selection_list_blue">#ff4285f4</color>
@@ -139,7 +139,7 @@
     <color name="friend_locations_onboarding_b_background">#80161616</color>
     <color name="friend_locations_opt_in_background">#80000000</color>
     <color name="friend_locations_white_text">#dfffffff</color>
-    <color name="generic_selected_item">#66aaaaaa</color>
+    <color name="generic_selected_item">#ff222222</color>
     <color name="gray_90_percent">#e6262626</color>
     <color name="gray_button_ripple">#40ffffff</color>
     <color name="gray_pink">#ffd2c5c3</color>
@@ -197,11 +197,11 @@
     <color name="notification_bar_background">#bb000000</color>
     <color name="notification_count_background">#80000000</color>
     <color name="notification_divider">#33ffffff</color>
-    <color name="notification_item_background_read">#aa000000</color>
-    <color name="notification_item_background_unread">#aa111111</color>
-    <color name="notification_item_background_unseen">#aa111111</color>
+    <color name="notification_item_background_read">#ff000000</color>
+    <color name="notification_item_background_unread">#ff111111</color>
+    <color name="notification_item_background_unseen">#ff111111</color>
     <color name="notification_more_actors_dots">#ffbbbbbb</color>
-    <color name="no_notifications_view_background">#80000000</color>
+    <color name="no_notifications_view_background">#ff000000</color>
     <color name="off_white">#80000000</color>
     <color name="old_orange">#ffcc7a2f</color>
     <color name="one_up_divider">#22ffffff</color>
@@ -573,6 +573,6 @@
     <color name="black_alpha80">#ccffffff</color>
 
     <!--07/02/2015-->
-    <color name="guns_notification_item_background_unread">#80000000</color>
+    <color name="guns_notification_item_background_unread">#ff000000</color>
     <color name="text_gray_accessible_on_grey200">#ccffffff</color>
 </resources>

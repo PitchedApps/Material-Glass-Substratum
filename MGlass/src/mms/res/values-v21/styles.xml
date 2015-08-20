@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MmsTheme" parent="@android:style/Theme.Material.Wallpaper">
+        <item name="android:actionBarStyle">@style/MmsActionBarStyle</item>
+        <item name="android:statusBarColor">#80000000</item>
+    </style>
+    <style name="MmsActionBarStyle" parent="@android:style/Widget.Material.ActionBar">
+        <item name="android:icon">@android:color/transparent</item>
+        <item name="android:background">#80000000</item>
+        <item name="android:elevation">2.0dip</item>
+    </style>
+    <style name="WidgetTitle" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Title">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="NotificationPrimaryText">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="NotificationSecondaryText">
+        <item name="android:textColor">#ddffffff</item>
+    </style>
+    <style name="NotificationSubjectText">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+</resources>
