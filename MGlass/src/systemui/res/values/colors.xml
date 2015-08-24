@@ -25,7 +25,7 @@
     <color name="navring_edit_tint">#a0323232</color>
     <color name="notification_guts_bg_color">#89060606</color>
     <!--text color?-->
-    <color name="notification_guts_btn_color">#80060606</color>
+    <color name="notification_guts_btn_color">#ffffffff</color>
     <color name="notification_guts_text_color">#ffffffff</color>
     <color name="notification_guts_title_color">#ffffffff</color>
     <color name="notification_header">#89060606</color>
@@ -110,4 +110,21 @@
     <color name="exposed_qs_user_detail_name">#66ffffff</color>
     <color name="exposed_headsup_scrim_start">#55000000</color>
     <color name="exposed_headsup_scrim_end">#00000000</color>
+
+    <!--android m support-->
+    <color name="qs_detail_button">#b3ffffff</color>
+    <color name="qs_detail_button_white">#b3ffffff</color>
+
+    <color name="segmented_button_unselected">#88222222</color>
+    <!--<color name="dark_mode_icon_color_single_tone">#99000000</color>-->
+    <!--<color name="dark_mode_icon_color_dual_tone_background">#3d000000</color>-->
+    <!--<color name="dark_mode_icon_color_dual_tone_fill">#7a000000</color>-->
+    <!--<color name="light_mode_icon_color_single_tone">#ffffffff</color>-->
+    <!--<color name="light_mode_icon_color_dual_tone_background">#4dffffff</color>-->
+    <!--<color name="light_mode_icon_color_dual_tone_fill">#ffffffff</color>-->
+    <color name="zen_introduction_message_background">#b0000000</color>
+    <color name="volume_icon_color">#ffffffff</color>
+    <color name="volume_settings_icon_color">#7fffffff</color>
+    <color name="volume_slider_inactive">#bbffffff</color>
+
 </resources>

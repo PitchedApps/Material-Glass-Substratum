@@ -119,5 +119,11 @@
 
     <!--android m support-->
     <color name="card_background">#30000000</color>
+    <color name="fingerprint_title_area_bg">#90000000</color>
     <color name="fingerprint_message_color">#deffffff</color>
+
+    <color name="suw_color_accent_dark">#ffffffff</color>
+    <color name="suw_color_secondary_dark">#ddffffff</color>
+    <color name="suw_link_color_dark">#ddffffff</color>
+    <color name="suw_progress_bar_color_dark">#33ffffff</color>
 </resources>

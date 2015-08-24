@@ -22,7 +22,7 @@
     </style>
     <style name="TextAppearance.Material.Notification.Parenthetical"
         parent="@android:style/TextAppearance.Material.Notification">
-        <item name="android:textStyle">bold|italic</item>
+        <item name="android:textStyle">italic</item>
         <item name="android:textColor">#80ffffff</item>
     </style>
 
@@ -40,5 +40,13 @@
         <item name="android:colorControlActivated">#ffe8e8e8</item>
         <item name="android:colorPrimary">#ff000000</item>
     </style>
+
+    <!--
+    <style name="TextAppearance.StatusBar.SystemPanel" parent="@android:style/TextAppearance.StatusBar">
+        <item name="android:textAppearance">?android:textAppearance</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ddffffff</item>
+    </style>
+    -->
 
 </resources>

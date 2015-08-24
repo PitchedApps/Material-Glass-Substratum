@@ -78,7 +78,10 @@ android {
 		EvolveSMS { applicationId "com.pitchedapps.material.glass.layer.evolvesms" }
 		AutoHideSoftKey { applicationId "com.pitchedapps.material.glass.layer.gmd.ahsk" }
         SimpleReboot { applicationId "com.pitchedapps.material.glass.franco.simplereboot" }
-
+        FaceUnlock { applicationId "com.pitchedapps.material.glass.faceunlock" }
+        // GoogleContacts { applicationId "com.pitchedapps.material.glass.google.contacts" }
+        // GoogleDialer { applicationId "com.pitchedapps.material.glass.google.dialer" }
+        Telecom { applicationId "com.pitchedapps.material.glass.system.telecom" }
     }
     lintOptions {
         abortOnError false
