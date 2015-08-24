@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!--DeviceDefault-->
+
     <style name="Theme.DeviceDefault" parent="@android:style/Theme.Material.Wallpaper">
         <item name="android:windowBackground">@android:color/background_dark</item>
         <item name="android:colorBackground">@android:color/background_dark</item>
         <item name="android:colorBackgroundCacheHint">@android:color/background_dark</item>
     </style>
+
     <style name="Theme.DeviceDefault.NoActionBar" parent="@android:style/Theme.DeviceDefault">
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowActionBar">false</item>
@@ -22,6 +24,7 @@
         <item name="android:colorBackground">@android:color/background_dark</item>
         <item name="android:colorBackgroundCacheHint">@android:color/background_dark</item>
     </style>
+
     <style name="Theme.DeviceDefault.Light" parent="@android:style/Theme.DeviceDefault" />
 
     <style name="DeviceDefault.Light.ButtonBar" parent="@android:style/Widget.Material.ButtonBar" />
@@ -110,6 +113,7 @@
         <item name="android:windowTranslucentStatus">false</item>
         <item name="android:windowTranslucentNavigation">false</item>
         <item name="android:colorControlActivated">#80333333</item>
+        <item name="android:backgroundTint">#80000000</item>
         <item name="android:windowDrawsSystemBarBackgrounds">false</item>
     </style>
 
