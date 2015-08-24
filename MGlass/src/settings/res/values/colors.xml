@@ -117,4 +117,7 @@
     <color name="dslv_icon_dark">#ffffffff</color>
     <color name="dslv_float_cackground_color">#80000000</color>
 
+    <!--android m support-->
+    <color name="card_background">#30000000</color>
+    <color name="fingerprint_message_color">#deffffff</color>
 </resources>
