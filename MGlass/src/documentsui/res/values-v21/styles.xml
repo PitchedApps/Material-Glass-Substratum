@@ -22,4 +22,5 @@
 
         <item name="android:windowSoftInputMode">stateUnspecified|adjustUnspecified</item>
     </style>
+    <style name="DialogWhenReallyLarge" parent="@android:style/Theme.DeviceDefault" />
 </resources>
