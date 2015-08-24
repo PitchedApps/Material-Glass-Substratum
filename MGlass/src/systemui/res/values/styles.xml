@@ -30,4 +30,15 @@
     <style name="RecentBaseStyle"  parent="@android:style/Theme.Material">
         <item name="android:popupMenuStyle">@android:style/Widget.Material.ListPopupWindow</item>
     </style>
+
+    <!--android m support-->
+    <style name="systemui_theme" parent="@android:style/Theme.Material">
+        <item name="android:colorControlActivated">#ffe8e8e8</item>
+        <item name="android:colorPrimary">#ff000000</item>
+    </style>
+    <style name="systemui_theme_light" parent="@android:style/Theme.Material">
+        <item name="android:colorControlActivated">#ffe8e8e8</item>
+        <item name="android:colorPrimary">#ff000000</item>
+    </style>
+
 </resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--appcompat-->
+
+    <color name="abc_input_method_navigation_guard">#ffffffff</color>
+    <color name="abc_search_url_text_normal">#ffffffff</color>
+    <color name="abc_search_url_text_pressed">#ffffffff</color>
+    <color name="abc_search_url_text_selected">#ffffffff</color>
+    <color name="background_floating_material_dark">#cc060606</color>
+    <color name="background_material_dark">#90000000</color>
+    <color name="button_material_dark">#55555555</color>
+    <color name="cardview_dark_background">#30000000</color>
+    <color name="cardview_shadow_end_color">#01000000</color>
+    <color name="cardview_shadow_start_color">#10000000</color>
+    <color name="highlighted_text_material_dark">#66666666</color>
+    <color name="material_blue_grey_800">#ff000000</color>
+    <color name="material_blue_grey_900">#ff000000</color>
+    <color name="material_blue_grey_950">#ff000000</color>
+    <color name="material_deep_teal_200">#ffffffff</color>
+    <color name="material_deep_teal_500">#ffffffff</color>
+</resources>

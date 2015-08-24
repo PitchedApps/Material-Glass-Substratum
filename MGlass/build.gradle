@@ -75,6 +75,10 @@ android {
 		Instagram { applicationId "com.pitchedapps.material.glass.layer.instagram" }
 		MMS { applicationId "com.pitchedapps.material.glass.layer.mms" }
 		GoogleMMS { applicationId "com.pitchedapps.material.glass.layer.google.mms" }
+		EvolveSMS { applicationId "com.pitchedapps.material.glass.layer.evolvesms" }
+		AutoHideSoftKey { applicationId "com.pitchedapps.material.glass.layer.gmd.ahsk" }
+        SimpleReboot { applicationId "com.pitchedapps.material.glass.franco.simplereboot" }
+
     }
     lintOptions {
         abortOnError false
