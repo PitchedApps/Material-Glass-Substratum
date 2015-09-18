@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="darkgray2">#80000000</color>
+    <color name="yellow">#fff</color>
+    <color name="darkergray">#80000000</color>
+    <color name="darkestgray">#80000000</color>
+    <color name="gray">#ccffffff</color>
+    <color name="dividerColour">#22ffffff</color>
+    <color name="lux_notification_bg">#89060606</color>
+</resources>

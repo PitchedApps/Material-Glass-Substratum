@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppBaseTheme" parent="@android:style/Theme.Material.Wallpaper">
+        <item name="android:statusBarColor">#80000000</item>
+    </style>
+</resources>

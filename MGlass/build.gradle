@@ -39,6 +39,7 @@ android {
     }
     productFlavors {
         FrameworkRes { applicationId "com.pitchedapps.material.glass.layer.framework" }
+        FrameworkMTest { applicationId "com.pitchedapps.material.glass.layer.framework.m.test" }
         SystemUi { applicationId "com.pitchedapps.material.glass.layer.systemui" }
         StatusBar { applicationId "com.pitchedapps.material.glass.layer.systemui.status" }
         Settings { applicationId "com.pitchedapps.material.glass.layer.settings" }
@@ -82,6 +83,8 @@ android {
         // GoogleContacts { applicationId "com.pitchedapps.material.glass.google.contacts" }
         // GoogleDialer { applicationId "com.pitchedapps.material.glass.google.dialer" }
         Telecom { applicationId "com.pitchedapps.material.glass.system.telecom" }
+        LuxLite { applicationId "com.pitchedapps.material.glass.lux.lite" }
+        GravityBox { applicationId "com.pitchedapps.material.glass.gravitybox" }
     }
     lintOptions {
         abortOnError false
