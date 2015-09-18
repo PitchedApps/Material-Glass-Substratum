@@ -2,12 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.pitchedapps.material.glass.layer.test">
 
     <!-- This will set the Icon, Target package to overlay & priority for this apk -->
-    <!--<application android:icon="@drawable/aaa" />-->
-    <overlay android:targetPackage="com.android.facelock" android:priority="99" />
+    <overlay android:targetPackage="android" android:priority="100"/>
 
     <!-- This tells the layers application about this theme apk -->
     <meta-data android:name="rom" android:value="Material_Glass" />
-    <meta-data android:name="infoShort" android:value="" />
-    <meta-data android:name="infoLong" android:value="" />
+    <meta-data android:name="infoShort" android:value="Glass Framework" />
+    <meta-data android:name="infoLong" android:value="Glass Framework" />
     <meta-data android:name="author" android:value="Pitched Apps" />
 </manifest>

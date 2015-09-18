@@ -155,6 +155,7 @@
     <style name="Theme.Material.Dialog.Presentation" parent="@android:style/Theme.DeviceDefault.NoActionBar.Fullscreen" />
 
     <!--android m support-->
+
     <style name="TextAppearance.Material.Notification.Emphasis" parent="@android:style/TextAppearance.Material.Notification">
         <item name="android:textColor">#66ffffff</item>
     </style>
@@ -167,21 +168,23 @@
         <item name="android:textColor">#ffffffff</item>
     </style>
 
-    <!--
-    <style name="TextAppearance.StatusBar.EventContent" parent="@*android:style/TextAppearance.StatusBar">
+    <style name="TextAppearance.StatusBar" parent="@android:style/TextAppearance">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+    </style>
+    <style name="TextAppearance.StatusBar.EventContent" parent="@style/TextAppearance.StatusBar">
         <item name="android:textSize">14.0sp</item>
         <item name="android:textColor">#ffffffff</item>
     </style>
-    <style name="TextAppearance.StatusBar.EventContent.Info" parent="@*android:style/TextAppearance.StatusBar.EventContent">
+    <style name="TextAppearance.StatusBar.EventContent.Info" parent="@style/TextAppearance.StatusBar.EventContent">
         <item name="android:textSize">12.0sp</item>
         <item name="android:textColor">#ffffffff</item>
     </style>
-    <style name="TextAppearance.StatusBar.EventContent.Time" parent="@*android:style/TextAppearance.StatusBar.EventContent">
+    <style name="TextAppearance.StatusBar.EventContent.Time" parent="@style/TextAppearance.StatusBar.EventContent">
         <item name="android:textSize">12.0sp</item>
         <item name="android:textColor">#ffffffff</item>
     </style>
-    <style name="TextAppearance.StatusBar.EventContent.Emphasis" parent="@*android:style/TextAppearance.StatusBar.EventContent">
+    <style name="TextAppearance.StatusBar.EventContent.Emphasis" parent="@style/TextAppearance.StatusBar.EventContent">
         <item name="android:textColor">#ffffffff</item>
     </style>
-    -->
+
 </resources>
