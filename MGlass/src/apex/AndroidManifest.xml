@@ -3,7 +3,7 @@
 
     <!-- This will set the Icon, Target package to overlay & priority for this apk -->
     <!--<application android:icon="@drawable/aaa" />-->
-    <overlay android:targetPackage="paste" android:priority="99" />
+    <overlay android:targetPackage="com.anddoes.launcher" android:priority="99" />
 
     <!-- This tells the layers application about this theme apk -->
     <meta-data android:name="rom" android:value="Material_Glass" />

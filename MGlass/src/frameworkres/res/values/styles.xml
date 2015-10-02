@@ -186,5 +186,4 @@
     <style name="TextAppearance.StatusBar.EventContent.Emphasis" parent="@style/TextAppearance.StatusBar.EventContent">
         <item name="android:textColor">#ffffffff</item>
     </style>
-
 </resources>
