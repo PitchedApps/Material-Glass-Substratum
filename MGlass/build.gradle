@@ -83,8 +83,9 @@ android {
         // GoogleContacts { applicationId "com.pitchedapps.material.glass.google.contacts" }
         // GoogleDialer { applicationId "com.pitchedapps.material.glass.google.dialer" }
         Telecom { applicationId "com.pitchedapps.material.glass.system.telecom" }
-        LuxLite { applicationId "com.pitchedapps.material.glass.lux.lite" }
+        Apex { applicationId "com.pitchedapps.material.glass.apex" }
         GravityBox { applicationId "com.pitchedapps.material.glass.gravitybox" }
+        Spotify { applicationId "com.pitchedapps.material.glass.spotify" }
     }
     lintOptions {
         abortOnError false
