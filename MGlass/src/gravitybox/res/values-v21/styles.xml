@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="AppBaseTheme" parent="@android:style/Theme.Material.DarkActionBar" />
+    <style name="AppBaseTheme" parent="@android:style/Theme.DeviceDefault" />
     <style name="DialogBaseTheme" parent="@android:style/Theme.Material.Dialog" />
     <style name="AlertDialogBaseTheme" parent="@android:style/Theme.Material.Dialog.Alert" />
 </resources>

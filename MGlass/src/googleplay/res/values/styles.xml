@@ -167,54 +167,25 @@
         <item name="android:gravity">center_vertical</item>
         <item name="android:singleLine">true</item>
     </style>
-<!--
-    <style name="WarmWelcomeV2CardAction" parent="@style/PlayMediumBoldText">
-        <item name="android:textSize">@dimen/play_card_action_size</item>
-        <item name="android:textColor">@color/text</item>
-        <item name="android:gravity">center</item>
-        <item name="android:paddingLeft">16.0dip</item>
+
+    <style name="PlayDrawerBaseText" parent="@style/PlayMediumPlainText">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center_vertical</item>
         <item name="android:paddingRight">16.0dip</item>
-        <item name="android:minWidth">88.0dip</item>
-        <item name="android:minHeight">36.0dip</item>
-    </style>
-
-    <style name="PlayMediumBoldText">
-        <item name="android:fontFamily">sans-serif-medium</item>
-    </style>
-
-    <style name="WarmWelcomeV2CardDescription" parent="@style/PlayEduCardDescription">
-        <item name="android:textColor">@color/text</item>
-        <item name="android:paddingLeft">@dimen/warm_welcome_v2_card_text_padding</item>
-        <item name="android:paddingRight">@dimen/warm_welcome_v2_card_text_padding</item>
-    </style>
-
-    <style name="PlayEduCardDescription" parent="@style/PlayPlainText">
-        <item name="android:textSize">@dimen/play_edu_body_size</item>
-        <item name="android:textColor">@color/play_fg_secondary</item>
-        <item name="android:paddingLeft">@dimen/play_edu_main_content_padding</item>
-        <item name="android:paddingRight">@dimen/play_edu_main_content_padding</item>
-        <item name="android:layout_width">wrap_content</item>
+        <item name="android:paddingLeft">16.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:lineSpacingMultiplier">1.1</item>
-        <item name="allowsCompactLineSpacing">true</item>
+        <item name="android:minHeight">48.0dip</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">32.0dip</item>
     </style>
 
-    <style name="WarmWelcomeV2CardTitle" parent="@style/PlayEduCardTitle">
-        <item name="android:textColor">@color/text</item>
-        <item name="android:paddingLeft">@dimen/warm_welcome_v2_card_text_padding</item>
-        <item name="android:paddingRight">@dimen/warm_welcome_v2_card_text_padding</item>
-    </style>
+    <!--darken play store drawer selector-->
 
-    <style name="PlayEduCardTitle" parent="@style/PlayMediumPlainText">
-        <item name="android:textSize">@dimen/play_edu_title_size</item>
-        <item name="android:textColor">@color/play_fg_primary</item>
-        <item name="android:paddingLeft">@dimen/play_edu_main_content_padding</item>
-        <item name="android:paddingRight">@dimen/play_edu_main_content_padding</item>
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:lineSpacingMultiplier">1.05</item>
+    <style name="PlayDrawerSelectedText" parent="@style/PlayDrawerBaseText">
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">#80121212</item>
     </style>
-
-    <style name="PlayMediumPlainText" parent="@style/PlayPlainText" />
-    -->
 </resources>

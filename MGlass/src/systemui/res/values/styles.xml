@@ -41,12 +41,17 @@
         <item name="android:colorPrimary">#ff000000</item>
     </style>
 
-    <!--
-    <style name="TextAppearance.StatusBar.SystemPanel" parent="@android:style/TextAppearance.StatusBar">
-        <item name="android:textAppearance">?android:textAppearance</item>
-        <item name="android:textStyle">normal</item>
-        <item name="android:textColor">#ddffffff</item>
-    </style>
-    -->
+    <!--<style name="Theme.AlertDialogHost" parent="@android:style/Theme.Material">-->
+        <!--<item name="android:windowBackground">@android:color/transparent</item>-->
+        <!--<item name="android:windowNoTitle">true</item>-->
+        <!--<item name="android:windowIsFloating">true</item>-->
+        <!--<item name="android:windowIsTranslucent">true</item>-->
+        <!--<item name="android:windowContentOverlay">@null</item>-->
+        <!--<item name="android:backgroundDimEnabled">false</item>-->
+        <!--<item name="android:alertDialogTheme">@android:style/Theme.Material.Dialog.Alert</item>-->
+    <!--</style>-->
+
+    <!--<style name="Theme.SystemUI.Dialog" parent="@android:style/Theme.Material.Dialog" />-->
+    <!--<style name="Theme.SystemUI.Dialog.Alert" parent="@android:style/Theme.Material.Dialog.Alert" />-->
 
 </resources>

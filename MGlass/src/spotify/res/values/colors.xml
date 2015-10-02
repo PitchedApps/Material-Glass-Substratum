@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="cat_grayscale_8">#80000000</color>
+    <!--grayscale 8 must be opaque as it is a primary color-->
+    <color name="cat_grayscale_8">#ff000000</color>
     <color name="cat_grayscale_12">#80000000</color>
     <color name="cat_grayscale_20">#55111111</color>
     <color name="cat_grayscale_15">#80000000</color>

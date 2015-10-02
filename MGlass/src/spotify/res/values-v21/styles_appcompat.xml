@@ -15,4 +15,6 @@
         <item name="android:windowActionBar">false</item>
     </style>
     <style name="Base.ThemeOverlay.AppCompat.Light" parent="@android:style/ThemeOverlay.Material.Dark" />
+
+    <color name="notification_bg_color">#89060606</color>
 </resources>
