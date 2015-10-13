@@ -21,6 +21,7 @@
         <item name="*android:windowFixedHeightMinor">90%</item>
 
         <item name="android:windowSoftInputMode">stateUnspecified|adjustUnspecified</item>
+        <item name="android:backgroundTint">#c0000000</item>
     </style>
     <style name="DialogWhenReallyLarge" parent="@android:style/Theme.DeviceDefault" />
 </resources>

@@ -167,25 +167,4 @@
         <item name="android:gravity">center_vertical</item>
         <item name="android:singleLine">true</item>
     </style>
-
-    <style name="PlayDrawerBaseText" parent="@style/PlayMediumPlainText">
-        <item name="android:textSize">14.0sp</item>
-        <item name="android:textColor">#fff</item>
-        <item name="android:ellipsize">marquee</item>
-        <item name="android:gravity">center_vertical</item>
-        <item name="android:paddingRight">16.0dip</item>
-        <item name="android:paddingLeft">16.0dip</item>
-        <item name="android:layout_width">fill_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:minHeight">48.0dip</item>
-        <item name="android:singleLine">true</item>
-        <item name="android:drawablePadding">32.0dip</item>
-    </style>
-
-    <!--darken play store drawer selector-->
-
-    <style name="PlayDrawerSelectedText" parent="@style/PlayDrawerBaseText">
-        <item name="android:textStyle">bold</item>
-        <item name="android:background">#80121212</item>
-    </style>
 </resources>
