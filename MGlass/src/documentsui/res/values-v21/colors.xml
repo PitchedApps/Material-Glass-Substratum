@@ -5,7 +5,7 @@
 
     <color name="item_doc_grid_background">@android:color/transparent</color>
 
-    <color name="item_doc_grid_protect_background">#33000000</color>
+    <color name="item_doc_grid_protect_background">#55000000</color>
 
     <color name="item_doc_grid_overlay_activated">#33ffffff</color>
     <color name="item_doc_grid_overlay_disabled">#33000000</color>

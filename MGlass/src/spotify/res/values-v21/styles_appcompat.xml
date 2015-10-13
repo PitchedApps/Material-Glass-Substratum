@@ -7,14 +7,12 @@
     <style name="Platform.AppCompat.Light" parent="@android:style/Theme.DeviceDefault">
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowActionBar">false</item>
-        <!--<item name="android:backgroundTint">#80000000</item>-->
-        <!--<item name="android:statusBarColor">#80000000</item>-->
+        <!--<item name="android:backgroundTint">#a0000000</item>-->
+        <!--<item name="android:statusBarColor">#a0000000</item>-->
     </style>
     <style name="Platform.AppCompat.Light.Dialog" parent="@android:style/Theme.Material.Dialog">
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowActionBar">false</item>
     </style>
     <style name="Base.ThemeOverlay.AppCompat.Light" parent="@android:style/ThemeOverlay.Material.Dark" />
-
-    <color name="notification_bg_color">#89060606</color>
 </resources>

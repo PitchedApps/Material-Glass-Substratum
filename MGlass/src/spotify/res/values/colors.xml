@@ -30,4 +30,6 @@
     <color name="txt_premium_signup_error_web_title">#ffffffff</color>
     <color name="txt_update_footer">#ffffffff</color>
 
+    <color name="notification_bg_color">#80060606</color>
+
 </resources>

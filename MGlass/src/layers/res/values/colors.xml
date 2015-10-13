@@ -13,6 +13,7 @@
     <color name="text_color_secondary">#ddffffff</color>
     <color name="accent">#ffffffff</color>
     <color name="snackbar_background_color">#80000000</color>
+    <color name="fab_tint">#ffffffff</color>
     <!--default-->
     <!--
         <color name="accent">#ffff5252</color>
