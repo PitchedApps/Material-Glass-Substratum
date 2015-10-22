@@ -359,4 +359,17 @@
     <color name="widgets_view_item_text_color">#ffffffff</color>
     <color name="widgets_view_section_text_color">#ffffffff</color>
     <color name="workspace_edge_effect_color">#ffffffff</color>
+
+    <!--10/16/2015-->
+    <color name="quantum_panel_bg_color">#90000000</color>
+    <color name="quantum_panel_bg_color_dark">#90000000</color>
+    <color name="widgets_cell_color">#90000000</color>
+    <color name="recurrence_edit_event_text">#ffffffff</color>
+    <color name="recurrence_edit_event_text_hint">#aaffffff</color>
+    <color name="recurrence_edit_event_text_highlight">#55ffffff</color>
+    <color name="recurrence_edit_event_text_link">#ddffffff</color>
+    <color name="recurrence_edit_event_button_background_stroke">#33ffffff</color>
+    <color name="recurrence_pressed">#33ffffff</color>
+    <color name="launcher_accent_color">#ffffffff</color>
+    <color name="folder_edge_effect_color">#ffffffff</color>
 </resources>
