@@ -12,7 +12,7 @@
     <color name="play_disabled_black">#ddffffff</color>
     <color name="play_disabled_grey">#aaffffff</color>
     <color name="play_transparent">#00000000</color>
-    <color name="play_fg_secondary_half_transparent">#70616161</color>
+    <color name="play_fg_secondary_half_transparent">#70ffffff</color>
     <color name="play_translucent_separator_line">#26ffffff</color>
     <color name="play_main_background">#88000000</color>
     <color name="play_reason_separator">#19ffffff</color>
@@ -170,5 +170,12 @@
     <color name="play_dismissed_overlay">#80000000</color>
     <color name="play_download_arc_background_color_download">#ffbbbbbb</color>
     <color name="play_download_arc_background_color_press">#ff000000</color>
+
+    <!--10/22/2015-->
+    <color name="design_snackbar_background_color">#80000000</color>
+    <color name="details_screenshot_placeholder">#80000000</color>
+    <color name="foreground_material_light">@android:color/white</color>
+    <color name="play_commerce_primary">#a203838f</color>
+    <color name="play_commerce_primary_disabled">#8003838f</color>
 
 </resources>

@@ -84,8 +84,9 @@ android {
         Apex { applicationId "com.pitchedapps.material.glass.apex" }
         Spotify { applicationId "com.pitchedapps.material.glass.spotify" }
         Google { applicationId "com.pitchedapps.material.glass.google" }
-        DeskClock { applicationId "com.pitchedapps.material.glass.google.deskclock" }
+        GoogleDeskClock { applicationId "com.pitchedapps.material.glass.google.deskclock" }
         GoogleCalendar { applicationId "com.pitchedapps.material.glass.google.calendar" }
+        GooglePackageInstaller { applicationId "com.pitchedapps.material.glass.google.packageinstaller" }
     }
     lintOptions {
         abortOnError false
