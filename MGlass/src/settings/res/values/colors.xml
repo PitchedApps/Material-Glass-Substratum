@@ -117,6 +117,10 @@
     <color name="dslv_icon_dark">#ffffffff</color>
     <color name="dslv_float_cackground_color">#80000000</color>
 
+    <!--chroma 10/24/2015-->
+    <color name="setting_separator">#22ffffff</color>
+    <!--<color name="extension_list_item_color">#ff999999</color>-->
+
     <!--android m support-->
     <color name="card_background">#30000000</color>
     <color name="fingerprint_title_area_bg">#90000000</color>

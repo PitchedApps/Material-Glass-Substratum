@@ -88,6 +88,7 @@ android {
         GoogleCalendar { applicationId "com.pitchedapps.material.glass.google.calendar" }
         GooglePackageInstaller { applicationId "com.pitchedapps.material.glass.google.packageinstaller" }
         K9Mail { applicationId "com.pitchedapps.material.glass.k9mail" }
+        oneWeather { applicationId "com.pitchedapps.material.glass.1weather" }
     }
     lintOptions {
         abortOnError false

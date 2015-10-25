@@ -49,12 +49,8 @@
     <color name="qs_tile_divider">#29ffffff</color>
     <color name="qs_tile_text">#B3FFFFFF</color>
     <color name="qs_user_detail_icon_muted">#FFFFFFFF</color>
-    <color name="recents_task_bar_dark_dismiss_color">#ddffffff</color>
-    <color name="recents_task_bar_dark_text_color">#ddffffff</color>
     <color name="recents_task_bar_default_background_color">#a0000000</color>
     <color name="recents_task_bar_highlight_color">#28ffffff</color>
-    <color name="recents_task_bar_light_dismiss_color">#ddffffff</color>
-    <color name="recents_task_bar_light_text_color">#ddffffff</color>
     <color name="recents_task_view_lock_to_app_button_background_color">#a0000000</color>
     <color name="recents_task_view_lock_to_app_button_color">#ff343d41</color>
     <color name="screen_pinning_nav_icon_highlight_outer">#ff343d41</color>
