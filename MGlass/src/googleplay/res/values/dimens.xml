@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--10/24/2015-->
+    <dimen name="play_card_default_elevation">0.5dip</dimen>
+</resources>
