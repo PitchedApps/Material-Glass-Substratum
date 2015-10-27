@@ -29,8 +29,8 @@
     <color name="button_pressed_color">#80060606</color>
     <color name="calendar_header">#80000000</color>
     <color name="calendar_selected_date_text">#ffffffff</color>
-    <color name="cardview_dark_background">#dd000000</color>
-    <color name="cardview_light_background">#dd000000</color>
+    <color name="cardview_dark_background">#90000000</color>
+    <color name="cardview_light_background">#90000000</color>
     <color name="cardview_shadow_end_color">#03000000</color>
     <color name="cardview_shadow_start_color">#37000000</color>
     <color name="card_action_overlay_button_highlight">#18ffffff</color>
@@ -40,7 +40,7 @@
     <color name="card_grid_text">#ddffffff</color>
     <!--<color name="card_image_background">#dd111111</color>-->
     <color name="card_light_text">#ddffffff</color>
-    <color name="card_pressed_bg">#dd111111</color>
+    <color name="card_pressed_bg">#90111111</color>
     <color name="card_separator">#22ffffff</color>
     <color name="card_text">#ddffffff</color>
     <color name="card_title_text">#ffffffff</color>
@@ -344,8 +344,8 @@
     <color name="all_apps_search_market_button_focused_bg_color">#80111111</color>
     <color name="assist_beta_branding_background_color">#33000000</color>
     <color name="assist_beta_branding_text_color">#ccffffff</color>
-    <color name="container_fastscroll_thumb_active_color">#ffffffff</color>
-    <color name="container_fastscroll_thumb_inactive_color">#ccffffff</color>
+    <color name="container_fastscroll_thumb_active_color">#ff748B96</color>
+    <color name="container_fastscroll_thumb_inactive_color">#ff62757e</color>
     <color name="corpus_bar_background_color">#80000000</color>
     <color name="corpus_top_bar_background_color">#80000000</color>
     <color name="corpus_top_container_select_bar">#80111111</color>
