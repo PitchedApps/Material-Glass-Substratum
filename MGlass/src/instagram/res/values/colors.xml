@@ -97,4 +97,9 @@
     <color name="result_bar_active_color">#ff4999da</color>
     <color name="disabled_text_off_white">#50ffffff</color>
     <color name="white_30_alpha">#4dffffff</color>
+
+    <!--10/27/2015-->
+    <color name="green_6">#90111111</color>
+    <color name="green_5">#90000000</color>
+    <color name="green_4">#90000000</color>
 </resources>
