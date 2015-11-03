@@ -323,7 +323,8 @@
     <color name="quantum_googred300">#ff000000</color>
     <color name="quantum_googred400">#ff000000</color>
     <color name="quantum_googred50">#ff000000</color>
-    <color name="quantum_googred500">#ff000000</color>
+    <!--11/03/2015-->
+    <color name="quantum_googred500">#ffaaaaaa</color>
     <color name="quantum_googred600">#ff000000</color>
     <color name="quantum_googred700">#ff000000</color>
     <color name="quantum_googred800">#ff000000</color>

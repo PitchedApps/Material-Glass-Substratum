@@ -47,4 +47,14 @@
     <color name="chip_background">#cc000000</color>
     <color name="chip_background_selected">#cc111111</color>
     <color name="chip_background_invalid">#ccdb4437</color>
+
+    <!--slimsaber 11/03/2015-->
+    <color name="outgoing_message_bg">#80000000</color>
+    <color name="incoming_message_bg_default">#80060606</color>
+    <color name="selected_list_item_bg">#80111111</color>
+    <color name="bottom_panel_background">#80000000</color>
+    <color name="edit_text_background">#80000000</color>
+    <color name="slot_indicator_background">#80111111</color>
+    <color name="cache_color_hint">#80000000</color>
+    <color name="edit_text_color">#ffffffff</color>
 </resources>

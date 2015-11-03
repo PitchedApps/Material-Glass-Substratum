@@ -89,6 +89,8 @@ android {
         GooglePackageInstaller { applicationId "com.pitchedapps.material.glass.google.packageinstaller" }
         K9Mail { applicationId "com.pitchedapps.material.glass.k9mail" }
         FreeOTP { applicationId "com.pitchedapps.material.glass.freeotp" }
+        PackageInstaller { applicationId "com.pitchedapps.material.glass.packageinstaller" }
+        Launcher3 { applicationId "com.pitchedapps.material.glass.launcher3" }
     }
     lintOptions {
         abortOnError false
