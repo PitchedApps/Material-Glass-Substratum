@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="dialer_theme_color">#ff000000</color>
+    <!--dialer theme color conflicts with dialpad number colors-->
+    <!--<color name="dialer_theme_color">#000</color>-->
     <color name="dialer_theme_color_dark">#ff000000</color>
     <color name="background_dialpad">#ff000000</color>
     <color name="background_dialpad_pressed">#ff111111</color>
     <color name="people_app_theme_color">#ff111111</color>
-    <color name="dialtacts_theme_color">#ff000000</color>
+    <color name="dialtacts_theme_color">#000</color>
     <color name="quickcontact_default_photo_tint_color">#ff333333</color>
     <color name="quickcontact_default_photo_tint_color_dark">#ff000000</color>
     <color name="actionbar_background_color">#ff000000</color>
@@ -52,4 +53,8 @@
     <color name="call_log_action_text">#ffffff</color>
     <color name="exposed_secondary_bg_color">#ff060606</color>
     <color name="exposed_call_log_header">#ff33b5e5</color>
+
+    <!--make text that are based on primary color white 11/03/2015-->
+    <color name="voicemail_playpause_icon_tint">#fff</color>
+    <color name="voicemail_playback_seek_bar_already_played">#fff</color>
 </resources>

@@ -34,8 +34,12 @@
     <color name="workspace_all_apps_and_delete_zone_text_shadow_color">#a0000000</color>
     <color name="workspace_icon_text_color">#ffdddddd</color>
 
-    <!--05/14-->
+    <!--05/14/2015-->
     <color name="settings_background_idle_color">@android:color/transparent</color>
     <color name="widgetdrawer_shortcut_textcolor">#ffdddddd</color>
+
+    <!--10/27/2015-->
+    <color name="image_placeholder">#80000000</color>
+    <color name="quantum_panel_dark">#bb000000</color>
 
 </resources>

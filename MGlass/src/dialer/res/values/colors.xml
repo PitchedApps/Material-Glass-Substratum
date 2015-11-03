@@ -118,4 +118,9 @@
     <color name="exposed_call_log_voicemail_status_action_text">#ffffff</color>
     <color name="exposed_floating_action_button_solid">#ff111111</color>
     <color name="exposed_recents_list_footer_bg">#ff000000</color>
+
+    <!--11/03/2015-->
+    <color name="voicemail_icon_disabled_tint">#80ffffff</color>
+    <color name="call_log_icon_tint">#b3ffffff</color>
+
 </resources>

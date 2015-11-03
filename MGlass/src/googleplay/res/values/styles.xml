@@ -113,6 +113,15 @@
         <item name="star_bg_color">#88000000</item>
         <item name="gap">1.0dip</item>
     </style>
+    <style name="PlayRatingBarSmall">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="star_height">11.0dip</item>
+        <item name="star_color">#ffffffff</item>
+        <item name="star_bg_color">#88000000</item>
+        <item name="gap">1.0dip</item>
+        <item name="android:background">#50ffffff</item>
+    </style>
 
     <style name="PlayCardLabel" parent="@style/PlayPlainText">
         <item name="android:textSize">12.0sp</item>
