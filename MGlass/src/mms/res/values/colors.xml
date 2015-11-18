@@ -57,4 +57,15 @@
     <color name="slot_indicator_background">#80111111</color>
     <color name="cache_color_hint">#80000000</color>
     <color name="edit_text_color">#ffffffff</color>
+
+    <!--broken os 11/10/2015-->
+    <color name="holo_list_background_color">#80000000</color>
+    <color name="image_placeholder">#80222222</color>
+    <color name="searchbox_text_color">#fff</color>
+    <color name="searchbox_background_color">#90000000</color>
+    <color name="searchbox_hint_text_color">#aaffffff</color>
+    <color name="background_primary">#80000000</color>
+    <color name="contact_all_list_background_color">#80000000</color>
+    <color name="message_bubble_incoming_selected">#80111111</color>
+    <color name="message_bubble_outgoing_selected">#80111111</color>
 </resources>
