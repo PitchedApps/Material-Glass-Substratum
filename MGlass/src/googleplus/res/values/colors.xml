@@ -53,7 +53,7 @@
     <color name="blue_button_ripple">#40ffffff</color>
     <color name="blue_separator">#33ffffff</color>
     <color name="blue_steel">#ffa0a0a0</color>
-  
+
     <color name="bt_stroke_grey">#22ffffff</color>
     <color name="bt_toastbar_button">#22ffffff</color>
     <color name="bt_toastbar_shadow">@android:color/black</color>
@@ -161,7 +161,7 @@
     <color name="histogram_red_stroke">#ffb14d4d</color>
     <color name="host_background">#40000000</color>
     <color name="ics_blue_glow">#ff33b5e5</color>
-    <color name="image_selected_stroke">@android:color/white</color>
+    <!--<color name="image_selected_stroke">@android:color/white</color>-->
     <color name="item_selector_sub_panel_item_border_color">#22ffffff</color>
     <color name="jungle_green">#80161616</color>
     <color name="jungle_green_80_percent">#cc32b679</color>
@@ -172,8 +172,8 @@
     <color name="lightest_grey_90_percent">#e5e5e5e5</color>
     <color name="light_gray">#ddffffff</color>
     <color name="light_slate_gray">#80161616</color>
-    <color name="link_text_material_dark">#ddffffff</color>
-    <color name="link_text_material_light">#ddffffff</color>
+    <!--<color name="link_text_material_dark">#ddffffff</color>-->
+    <!--<color name="link_text_material_light">#ddffffff</color>-->
     <color name="local_business_review_embed_background">#80000000</color>
     <color name="locations_widget_empty_view_background">#80000000</color>
     <color name="locations_widget_item_background">#80000000</color>
@@ -182,7 +182,7 @@
     <color name="main_text">#ffffffff</color>
     <color name="map_circle_fill">#2292b8db</color>
     <color name="map_circle_stroke">#ff92b8db</color>
-   
+
     <color name="mediapicker_tile_text">#ffffffff</color>
     <color name="media_card_images_background">@android:color/transparent</color>
     <color name="mid_gray">#ffaaaaaa</color>
@@ -238,7 +238,7 @@
     <color name="photo_processing_background_color">#80000000</color>
     <color name="photo_selected_background_color">#66000000</color>
     <color name="photo_tile_loading_backgrond">#80000000</color>
-    <color name="picker_background">#80000000</color>
+    <!--<color name="picker_background">#80000000</color>-->
     <color name="playback_error_background">#80000000</color>
     <color name="player_soundtrack_error_text">#ffffffff</color>
     <color name="play_fg_tabs">#ffffffff</color>
@@ -262,7 +262,7 @@
     <color name="preview_controls_background">#80000000</color>
     <color name="preview_edge_fade">#af000000</color>
     <color name="preview_stroke">#22ffffff</color>
-   
+
     <color name="profile_about_color_hours_highlighted_background">#80000000</color>
     <color name="profile_cover_photo_bg">#80000000</color>
     <color name="profile_edit_bg">#80000000</color>
@@ -288,56 +288,21 @@
 
     <color name="quantum_bluegrey50">#80000000</color>
 
-    <color name="quantum_deeporange100">#80161616</color>
-    <color name="quantum_deeporange200">#80161616</color>
-    <color name="quantum_deeporange300">#80161616</color>
-    <color name="quantum_deeporange400">#80161616</color>
-    <color name="quantum_deeporange50">#80161616</color>
-    <color name="quantum_deeporange500">#80161616</color>
-    <color name="quantum_deeporange600">#80161616</color>
-    <color name="quantum_deeporange700">#80161616</color>
-    <color name="quantum_deeporange800">#80161616</color>
-    <color name="quantum_deeporange900">#80161616</color>
-    <color name="quantum_deeporangeA100">#80161616</color>
-    <color name="quantum_deeporangeA200">#80161616</color>
-    <color name="quantum_deeporangeA400">#80161616</color>
-    <color name="quantum_deeporangeA700">#80161616</color>
+    <color name="quantum_googblue500">#fff</color>
+    <color name="quantum_googblue600">#80000000</color>
+    <color name="quantum_googblue900">#80222222</color>
 
-    <color name="quantum_googblue100">#ffaaaaaa</color>
-    <color name="quantum_googblue200">#ffaaaaaa</color>
-    <color name="quantum_googblue300">#ffaaaaaa</color>
-    <color name="quantum_googblue400">#ffaaaaaa</color>
-    <color name="quantum_googblue50">#ffaaaaaa</color>
-    <color name="quantum_googblue500">#ffaaaaaa</color>
-    <color name="quantum_googblue600">#ffaaaaaa</color>
-    <color name="quantum_googblue700">#ffaaaaaa</color>
-    <color name="quantum_googblue800">#ffaaaaaa</color>
-    <color name="quantum_googblue900">#ffaaaaaa</color>
-    <color name="quantum_googblueA100">#ffaaaaaa</color>
-    <color name="quantum_googblueA200">#ffaaaaaa</color>
-    <color name="quantum_googblueA400">#ffaaaaaa</color>
-    <color name="quantum_googblueA700">#ffaaaaaa</color>
+    <color name="quantum_googred">#fff</color>
+    <color name="quantum_googred500">#000</color>
+    <color name="quantum_googred700">#000</color>
+    <color name="quantum_googred900">#80333333</color>
 
-    <color name="quantum_googred100">#ff000000</color>
-    <color name="quantum_googred200">#ff000000</color>
-    <color name="quantum_googred300">#ff000000</color>
-    <color name="quantum_googred400">#ff000000</color>
-    <color name="quantum_googred50">#ff000000</color>
     <!--11/03/2015-->
-    <color name="quantum_googred500">#ffaaaaaa</color>
-    <color name="quantum_googred600">#ff000000</color>
-    <color name="quantum_googred700">#ff000000</color>
-    <color name="quantum_googred800">#ff000000</color>
-    <color name="quantum_googred900">#ff000000</color>
-    <color name="quantum_googredA100">#ff000000</color>
-    <color name="quantum_googredA200">#ff000000</color>
-    <color name="quantum_googredA400">#ff000000</color>
-    <color name="quantum_googredA700">#ff000000</color>
 
     <color name="quantum_grey">#ffaaaaaa</color>
     <color name="quantum_grey100">#80000000</color>
     <color name="quantum_grey200">#80000000</color>
-    <color name="quantum_grey300">#80000000</color>
+    <color name="quantum_grey300">#80222222</color>
     <color name="quantum_grey400">#ffaaaaaa</color>
     <color name="quantum_grey50">#80000000</color>
     <!--controls number count text-->
@@ -352,11 +317,11 @@
     <color name="quantum_lightblue100">#aaffffff</color>
     <color name="quantum_lightblue200">#aaffffff</color>
     <color name="quantum_lightblue300">#aaffffff</color>
-    <color name="quantum_lightblue400">#aaffffff</color>
+    <color name="quantum_lightblue400">#000</color>
     <color name="quantum_lightblue50">#aaffffff</color>
-    <color name="quantum_lightblue500">#aaffffff</color>
+    <color name="quantum_lightblue500">#000</color>
     <color name="quantum_lightblue600">#aaffffff</color>
-    <color name="quantum_lightblue700">#aaffffff</color>
+    <color name="quantum_lightblue700">#000</color>
     <color name="quantum_lightblue800">#aaffffff</color>
     <color name="quantum_lightblue900">#aaffffff</color>
     <color name="quantum_lightblueA100">#aaffffff</color>
@@ -378,7 +343,7 @@
     <color name="quantum_orangeA400">#80161616</color>
     <color name="quantum_orangeA700">#80161616</color>
 
-    <color name="quantum_white_100">#ffffffff</color>
+    <color name="quantum_white_100">#ffcccccc</color>
     <color name="quantum_white_divider">#1fffffff</color>
     <color name="quantum_white_hint_text">#4dffffff</color>
     <color name="quantum_white_secondary_text">#ddffffff</color>
@@ -402,7 +367,7 @@
     <color name="scrubber_remaining_bar">#ddffffff</color>
     <color name="search_opaque_bg_color">#80000000</color>
     <color name="search_query_highlight_color">#ff6f8fc7</color>
-  
+
     <color name="section_header_color">#ffffffff</color>
     <color name="selected_photo_background">#66000000</color>
     <color name="selector_background">#80000000</color>
@@ -529,7 +494,7 @@
     <color name="transparent">#00000000</color>
     <color name="transparent_bg">#00000000</color>
     <color name="video_poster_loading_background">#80000000</color>
-   
+
     <color name="warm_welcome_background_color">#ff03a9f4</color>
     <color name="warm_welcome_button_pressed_color">#ff0288d1</color>
     <color name="warm_welcome_button_stroke">#ffffffff</color>
@@ -576,4 +541,44 @@
     <!--07/02/2015-->
     <color name="guns_notification_item_background_unread">#ff000000</color>
     <color name="text_gray_accessible_on_grey200">#ccffffff</color>
+
+    <!--11/20/2015-->
+    <!--<color name="acl_circle_chip_color">@color/quantum_grey300</color>-->
+    <color name="avatar_selected_stroke">@android:color/white</color>
+    <color name="collexion_learn_more_button_bg">#80000000</color>
+    <color name="collexion_learn_more_create_collexion_bg">#80000000</color>
+    <color name="collexion_learn_more_illustration_page_bg">#80000000</color>
+    <!--<color name="design_fab_shadow_end_color">@android:color/transparent</color>-->
+    <!--<color name="design_fab_shadow_mid_color">#14000000</color>-->
+    <!--<color name="design_fab_shadow_start_color">#44000000</color>-->
+    <!--<color name="design_fab_stroke_end_inner_color">#0a000000</color>-->
+    <!--<color name="design_fab_stroke_end_outer_color">#0f000000</color>-->
+    <!--<color name="design_fab_stroke_top_inner_color">#1affffff</color>-->
+    <!--<color name="design_fab_stroke_top_outer_color">#2effffff</color>-->
+    <color name="design_snackbar_background_color">#80000000</color>
+    <!--<color name="design_textinput_error_color">#ffdd2c00</color>-->
+    <!--<color name="dialog_background_transparent_0x33">#33000000</color>-->
+    <!--<color name="dim_overlay_color">#ff000000</color>-->
+    <!--<color name="foreground_material_dark">@android:color/white</color>-->
+    <color name="foreground_material_light">@android:color/white</color>
+    <color name="material_grey_100">#fff5f5f5</color>
+    <color name="material_grey_300">#ffe0e0e0</color>
+    <color name="material_grey_50">#fffafafa</color>
+    <color name="material_grey_600">#ff757575</color>
+    <color name="material_grey_800">#ff424242</color>
+    <color name="material_grey_850">#ff303030</color>
+    <color name="material_grey_900">#ff212121</color>
+    <color name="navigation_background">#cc000000</color>
+    <color name="navigation_selected_background">#cc222222</color>
+    <color name="profile_follow_button_blocked_color">#12ffffff</color>
+    <color name="profile_follow_button_ripple_color">#ddffffff</color>
+    <color name="profile_follow_button_selected_color">#12ffffff</color>
+    <color name="quantum_googblue500_54">#8b4285f4</color>
+    <color name="quantum_white_100_alpha_95">#f2ffffff</color>
+    <color name="search_grey_dark">#ddffffff</color>
+    <color name="search_grey_light">#ddffffff</color>
+
+    <color name="text_grey_accessible_on_grey200">#ddffffff</color>
+    <color name="white_alpha30">#4dffffff</color>
+
 </resources>
