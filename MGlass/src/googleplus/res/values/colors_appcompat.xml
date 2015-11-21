@@ -14,6 +14,10 @@
     <color name="bright_foreground_material_light">#ffffffff</color>
     <color name="button_material_dark">#55555555</color>
     <color name="button_material_light">#55555555</color>
+    <color name="cardview_dark_background">#55000000</color>
+    <color name="cardview_light_background">#55000000</color>
+    <color name="cardview_shadow_end_color">#01000000</color>
+    <color name="cardview_shadow_start_color">#10000000</color>
     <color name="dim_foreground_disabled_material_light">#80bebebe</color>
     <color name="dim_foreground_material_light">#ffbebebe</color>
     <color name="highlighted_text_material_dark">#66666666</color>

@@ -60,4 +60,9 @@
         <item name="android:maxLines">2</item>
         <item name="textAllCaps">true</item>
     </style>
+
+    <style name="Oob.Dialog" parent="@android:style/Theme.Material.Dialog">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">#ddffffff</item>
+    </style>
 </resources>
