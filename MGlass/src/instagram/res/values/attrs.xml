@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <attr name="switchStyle" format="reference" />
+    <attr name="igSwitchStyle" format="reference" />
     <attr name="thumbDrawable" format="reference" />
     <attr name="checkedDrawable" format="reference" />
     <attr name="uncheckedDrawable" format="reference" />

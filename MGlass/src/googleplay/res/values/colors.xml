@@ -178,4 +178,12 @@
     <color name="play_commerce_primary">#a203838f</color>
     <color name="play_commerce_primary_disabled">#8003838f</color>
 
+    <!--11/23/2015-->
+    <color name="highlight_banner_overlay_title_shadow">#20000000</color>
+    <color name="highlights_gradient_overlay_end">#30000000</color>
+    <color name="highlights_gradient_overlay_start">#30000000</color>
+    <color name="onboard_entertainment_bg_color">#80000000</color>
+    <color name="onboard_store_bg_color">#80000000</color>
+    <!--<color name="play_youtube_cluster_icon_background">#ffea2f10</color>-->
+
 </resources>
