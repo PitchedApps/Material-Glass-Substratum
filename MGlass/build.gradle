@@ -10,7 +10,7 @@ tasks.whenTaskAdded { task ->
 
 android {
     compileSdkVersion 23
-    buildToolsVersion "23.0.1"
+    buildToolsVersion "23.0.2"
 
     defaultConfig {
         applicationId "com.pitchedapps.material.glass.layer"
@@ -56,7 +56,6 @@ android {
 		GoogleKeyboard { applicationId "com.pitchedapps.material.glass.layer.googlekeyboard" }
 		Gmail { applicationId "com.pitchedapps.material.glass.layer.gmail" }
 		GoogleHangouts { applicationId "com.pitchedapps.material.glass.layer.googlehangouts" }
-		GoogleLauncher { applicationId "com.pitchedapps.material.glass.layer.googlelauncher" }
 		GooglePlus { applicationId "com.pitchedapps.material.glass.layer.googleplus" }
 		GooglePlay { applicationId "com.pitchedapps.material.glass.layer.googleplay" }
 		Youtube { applicationId "com.pitchedapps.material.glass.layer.youtube" }

@@ -6,13 +6,13 @@
         <item name="android:textColorLink">#ddffffff</item>
         <item name="android:soundEffectsEnabled">false</item>
         <item name="android:dialogTheme">@style/IgDialog</item>
-        <item name="switchStyle">@style/IgSwitchStyle</item>
+        <item name="igSwitchStyle">@style/IgSwitchStyle</item>
 
         <item name="android:backgroundTint">#a0000000</item>
         <item name="android:statusBarColor">#a0000000</item>
     </style>
-	
-	<style name="IgSwitchStyle">
+
+    <style name="IgSwitchStyle">
         <item name="thumbDrawable">@drawable/toggle_nub</item>
         <item name="checkedDrawable">@drawable/toggle_active</item>
         <item name="uncheckedDrawable">@drawable/toggle</item>
