@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="AppBaseTheme" parent="@android:style/Theme.DeviceDefault" />
-    <style name="Theme.Gsa" parent="@android:style/Theme.DeviceDefault">
+    <style name="Theme.Gsa" parent="@style/Theme.Shim.Light">
         <item name="qpActionIconAlpha">0.38</item>
         <item name="qpActionIconTint">@android:color/white</item>
         <item name="qpH1TextSize">24.0sp</item>

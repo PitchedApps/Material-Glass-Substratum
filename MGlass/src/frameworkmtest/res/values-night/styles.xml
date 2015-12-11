@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--12/10/2015 chroma night-->
+    <style name="Theme.Material.DayNight" parent="@android:style/Theme.DeviceDefault" />
+    <style name="Theme.Material.DayNight.DarkActionBar" parent="@android:style/Theme.DeviceDefault" />
+    <style name="Theme.Material.DayNight.NoActionBar" parent="@android:style/Theme.DeviceDefault.NoActionBar" />
+    <style name="Theme.Material.DayNight.NoActionBar.Fullscreen" parent="@android:style/Theme.DeviceDefault.NoActionBar.Fullscreen" />
+    <style name="Theme.Material.DayNight.NoActionBar.Overscan" parent="@android:style/Theme.DeviceDefault.NoActionBar.Overscan" />
+    <style name="Theme.Material.DayNight.NoActionBar.TranslucentDecor" parent="@android:style/Theme.DeviceDefault.NoActionBar.TranslucentDecor" />
+</resources>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+    Watch out
+    accounts_list_row.xml, print_dialog.xml, gview.xml layouts, black text
+
+
+    -->
+    <style name="AppBaseTheme" parent="@android:style/Theme.DeviceDefault" />
+    <style name="BaseAppTheme" parent="@android:style/Theme.DeviceDefault" />
+
+<!--base-->
+    <style name="BaseActionBar" parent="@android:style/Widget.Material.ActionBar">
+        <item name="android:background">@drawable/action_bar_background</item>
+        <item name="android:backgroundStacked">@drawable/action_bar_background</item>
+        <item name="android:backgroundSplit">@drawable/action_bar_background</item>
+        <item name="android:elevation">0.0dip</item>
+    </style>
+    <style name="BaseActionBarOverflow" parent="@android:style/Widget.Material.ActionButton.Overflow" />
+    <style name="BaseAutoCompleteTextView" parent="@android:style/Widget.Material.AutoCompleteTextView" />
+    <!--<style name="BaseDialogTheme" parent="@android:style/Theme.Material.Dialog.MinWidth" />-->
+    <style name="BaseDialogThemeWhenLarge" parent="@android:style/Theme.Material.DialogWhenLarge" />
+    <style name="ProgressBar.Horizontal" parent="@android:style/Widget.Material.ProgressBar.Horizontal">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:indeterminateBehavior">repeat</item>
+    </style>
+
+    <style name="UserFeedback" parent="@android:style/Theme.DeviceDefault" />
+    <style name="UserFeedback_Tablet" parent="@android:style/Theme.Material.Dialog" />
+    <style name="ProgressBarSpinner" parent="@android:style/Widget.Material.ProgressBar.Large">
+        <item name="android:indeterminateOnly">true</item>
+    </style>
+    <style name="DialogTitleBlack" parent="@android:style/TextAppearance.DialogWindowTitle">
+        <item name="android:textColor">#fff</item>
+    </style>
+    <style name="HoloLikeButtonBar" parent="@android:style/Holo.ButtonBar">
+        <item name="android:background">#22ffffff</item>
+    </style>
+
+<!--ds-->
+    <style name="ds_progress_bar_horizontal" parent="@android:style/Widget.Material.ProgressBar.Horizontal">
+        <item name="android:background">#80000000</item>
+        <item name="android:indeterminateOnly">true</item>
+    </style>
+    <style name="ds_progress_bar_spinner" parent="@android:style/Widget.Material.ProgressBar.Large">
+        <item name="android:indeterminateOnly">true</item>
+    </style>
+    <style name="ds_scanner_base_theme" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:actionBarStyle">@style/ds_action_bar</item>
+    </style>
+    <style name="ds_action_bar" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:background">#80000000</item>
+        <!--<item name="android:titleTextStyle">@style/ds_action_bar_compat_title</item>-->
+    </style>
+
+
+<!--cakemix-->
+    <style name="CakemixTheme.Projector" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:actionBarStyle">@style/ProjectorActionBar</item>
+    </style>
+    <style name="CakemixTheme.Upload" parent="@android:style/Theme.DeviceDefault" />
+    <style name="ProjectorActionBar" parent="@android:style/Widget.Holo.ActionBar">
+        <!--<item name="android:icon">@drawable/hack_empty_actionbar_icon</item>-->
+        <!--<item name="android:height">@dimen/action_bar_height</item>-->
+        <!--<item name="android:titleTextStyle">@style/ProjectorActionBarText</item>-->
+    </style>
+    <!--<style name="ProjectorActionBarText" parent="@style/ActionBarText">-->
+        <!--<item name="android:textColor">@android:color/white</item>-->
+    <!--</style>-->
+
+
+
+<!--TODO theme-->
+    <!--<style name="CommonTheme" parent="@style/Theme.AppCompat">-->
+        <!--<item name="android:actionBarStyle">@style/OverlayActionBarStyle</item>-->
+        <!--<item name="android:actionModeBackground">#80000000</item>-->
+        <!--<item name="android:actionModeCloseDrawable">@drawable/back_grey</item>-->
+        <!--<item name="android:windowActionBarOverlay">true</item>-->
+        <!--&lt;!&ndash;<item name="android:actionOverflowButtonStyle">@style/OverlayActionBarOverflowStyle</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:actionModeCloseButtonStyle">@style/OverlayActionBarCloseButtonStyle</item>&ndash;&gt;-->
+        <!--<item name="android:actionModeStyle">@style/OverlayActionBarStyleLight</item>-->
+        <!--<item name="android:actionBarDivider">@null</item>-->
+        <!--<item name="android:statusBarColor">@android:color/black</item>-->
+        <!--<item name="windowActionBarOverlay">true</item>-->
+        <!--&lt;!&ndash;<item name="actionOverflowButtonStyle">@style/OverlayActionBarOverflowStyle</item>&ndash;&gt;-->
+        <!--<item name="actionBarStyle">@style/OverlayActionBarStyle</item>-->
+        <!--<item name="actionBarDivider">@null</item>-->
+        <!--<item name="actionModeStyle">@style/OverlayActionBarStyleLight</item>-->
+        <!--&lt;!&ndash;<item name="actionModeCloseButtonStyle">@style/OverlayActionBarCloseButtonStyle</item>&ndash;&gt;-->
+        <!--<item name="actionModeBackground">#80000000</item>-->
+        <!--<item name="actionModeCloseDrawable">@drawable/back_grey</item>-->
+    <!--</style>-->
+
+    <!--<style name="OverlayActionBarStyle" parent="@style/Widget.AppCompat.ActionBar">-->
+        <!--<item name="android:background">@color/action_bar_overlay</item>-->
+        <!--<item name="android:height">@dimen/viewer:action_bar_height</item>-->
+        <!--&lt;!&ndash;<item name="android:titleTextStyle">@style/WhiteTitleText</item>&ndash;&gt;-->
+        <!--<item name="height">@dimen/viewer:action_bar_height</item>-->
+        <!--&lt;!&ndash;<item name="titleTextStyle">@style/WhiteTitleText</item>&ndash;&gt;-->
+        <!--<item name="background">@color/action_bar_overlay</item>-->
+    <!--</style>-->
+    <!--<style name="OverlayActionBarStyleLight" parent="@style/OverlayActionBarStyle" />-->
+</resources>

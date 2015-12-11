@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="actionBarStyle" format="reference" />
+    <attr name="actionBarDivider" format="reference" />
+    <attr name="actionModeStyle" format="reference" />
+    <attr name="actionModeBackground" format="reference" />
+    <attr name="actionModeCloseDrawable" format="reference" />
+    <attr name="height" format="dimension" />
+    <attr name="background" format="reference" />
+    <attr name="windowActionBarOverlay" format="boolean" />
+
+
+</resources>

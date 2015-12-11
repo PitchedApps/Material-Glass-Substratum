@@ -90,6 +90,8 @@ android {
         FreeOTP { applicationId "com.pitchedapps.material.glass.freeotp" }
         PackageInstaller { applicationId "com.pitchedapps.material.glass.packageinstaller" }
         Launcher3 { applicationId "com.pitchedapps.material.glass.launcher3" }
+        GoogleDrive { applicationId "com.pitchedapps.material.glass.google.drive" }
+        FBMessenger { applicationId "com.pitchedapps.material.glass.facebook.orca" }
     }
     lintOptions {
         abortOnError false

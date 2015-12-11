@@ -2,14 +2,14 @@
 <resources>
 	<color name="card_bg_dark">#00000000</color>
 	<color name="card_grey">#15000000</color>
-	<color name="cd__defaultBackground">#80000000</color>
-	<color name="md__defaultBackground">#bb000000</color>
-	<color name="sidebar_dark">#bb000000</color>
-	<color name="slidemenu_account_dropdown_dark">#bb000000</color>
-	<color name="slidemenu_account_main_dark">#bb000000</color>
-	<color name="slidemenu_main_dark">#bb000000</color>
-	<color name="slidemenu_main_highlight_dark">#bb121212</color>
-	<color name="slidemenu_secondary_dark">#bb000000</color>
+	<color name="cd__defaultBackground">#f00</color>
+	<color name="md__defaultBackground">#000</color>
+	<color name="sidebar_dark">#000</color>
+	<color name="slidemenu_account_dropdown_dark">#000</color>
+	<color name="slidemenu_account_main_dark">#000</color>
+	<color name="slidemenu_main_dark">#000</color>
+	<color name="slidemenu_main_highlight_dark">#ff121212</color>
+	<color name="slidemenu_secondary_dark">#000</color>
 	<color name="slidemenu_secondary_divider_dark">#22ffffff</color>
     <color name="fabRed">#88121212</color>
 </resources>
