@@ -25,7 +25,6 @@
     <color name="back_of_card_light_text">#ddffffff</color>
     <color name="blue">#80060606</color>
     <color name="blue_focused">#80121212</color>
-    <!--<color name="bubble_dark_background">#20ffffff</color>-->
     <color name="button_pressed_color">#80060606</color>
     <color name="calendar_header">#80000000</color>
     <color name="calendar_selected_date_text">#ffffffff</color>
@@ -34,11 +33,9 @@
     <color name="cardview_shadow_end_color">#03000000</color>
     <color name="cardview_shadow_start_color">#37000000</color>
     <color name="card_action_overlay_button_highlight">#18ffffff</color>
-    <!--<color name="card_background">#dd000000</color>-->
-    <color name="card_bg">#dd000000</color>
-    <color name="card_bg_training">#dd000000</color>
+    <color name="card_bg">#66000000</color>
+    <color name="card_bg_training">#66000000</color>
     <color name="card_grid_text">#ddffffff</color>
-    <!--<color name="card_image_background">#dd111111</color>-->
     <color name="card_light_text">#ddffffff</color>
     <color name="card_pressed_bg">#90111111</color>
     <color name="card_separator">#22ffffff</color>
@@ -144,7 +141,7 @@
     <color name="local_results_red">#ffe73030</color>
     <color name="manage_accounts_text_color">#ffffffff</color>
     <color name="medium_gray">#ff8d8d8d</color>
-    <color name="mini_card_reminder">#dd000000</color>
+    <color name="mini_card_reminder">#66000000</color>
     <color name="mini_card_reminders_text">#ddffffff</color>
     <color name="mini_card_text">#ddffffff</color>
     <!--check-->
@@ -231,7 +228,8 @@
     <color name="search_plate_suggestion_divider_background">#22ffffff</color>
     <color name="search_plate_text_color">#ffffffff</color>
     <!--verify-->
-    <color name="search_scrim">#dd000000</color>
+    <!--overlay color, keep original-->
+    <color name="search_scrim">#9e000000</color>
     <color name="secondary_text_disabled">#aaffffff</color>
     <color name="secondary_text_inverse">#ddffffff</color>
     <color name="secondary_text_normal">#ddffffff</color>
@@ -280,7 +278,7 @@
     <color name="suggest_text_disabled">#aaffffff</color>
     <color name="suggest_text_inverse">#ffffffff</color>
     <color name="suggest_text_normal">#ffffffff</color>
-    <color name="tinted_card_title_background">#dd000000</color>
+    <color name="tinted_card_title_background">#66000000</color>
     <color name="touch_feedback_color">#80121212</color>
     <color name="traffic_heavy">#ffcc0000</color>
     <color name="traffic_light">#ff669900</color>
@@ -322,7 +320,7 @@
     <color name="offline_header_text">#ffffffff</color>
     <color name="offline_text">#ddffffff</color>
 
-    <color name="lotic_training_card_bg">#dd000000</color>
+    <color name="lotic_training_card_bg">#66000000</color>
     <color name="lotic_default_cluster_background">#80000000</color>
     <color name="lotic_carousel_logo_image_background">#80000000</color>
     <color name="lotic_icon_background_neutral">#80000000</color>
@@ -374,4 +372,14 @@
     <color name="recurrence_pressed">#33ffffff</color>
     <color name="launcher_accent_color">#ffffffff</color>
     <color name="folder_edge_effect_color">#ffffffff</color>
+
+    <!--11/29/2015-->
+    <color name="voice_promo_suggestion_text">#ddffffff</color>
+    <!--<color name="suggestion_secondary_text_categorical">#ff47a3ff</color>-->
+    <!--<color name="compact_suggestion_background_normal">@android:color/transparent</color>-->
+    <color name="compact_suggestion_background_pressed">#33ffffff</color>
+
+    <color name="icon_notification_background">#a0000000</color>
+    <color name="slow_connection_text_normal">#fff</color>
+    <color name="slow_connection_secondary_text">#ddffffff</color>
 </resources>

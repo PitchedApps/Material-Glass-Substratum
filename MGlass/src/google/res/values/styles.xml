@@ -263,16 +263,16 @@
         <item name="android:textColor">#ffffffff</item>
     </style>
 
-    <style name="VoiceOfGoogle">
-        <item name="android:textSize">18.0sp</item>
-        <item name="android:textStyle">italic</item>
-        <item name="android:textColor">@android:color/black</item>
-        <item name="android:textColorLink">@android:color/black</item>
-        <item name="android:gravity">center</item>
-        <item name="android:paddingLeft">16.0dip</item>
-        <item name="android:paddingRight">16.0dip</item>
-        <item name="android:fontFamily">sans-serif-condensed</item>
-    </style>
+    <!--<style name="VoiceOfGoogle">-->
+        <!--<item name="android:textSize">18.0sp</item>-->
+        <!--<item name="android:textStyle">italic</item>-->
+        <!--<item name="android:textColor">@android:color/black</item>-->
+        <!--<item name="android:textColorLink">@android:color/black</item>-->
+        <!--<item name="android:gravity">center</item>-->
+        <!--<item name="android:paddingLeft">16.0dip</item>-->
+        <!--<item name="android:paddingRight">16.0dip</item>-->
+        <!--<item name="android:fontFamily">sans-serif-condensed</item>-->
+    <!--</style>-->
 
     <style name="Theme.HandsFree" parent="@android:style/Theme.DeviceDefault">
         <item name="android:windowBackground">@android:color/background_dark</item>
@@ -282,8 +282,8 @@
     </style>
 
     <style name="SearchPlate">
-        <item name="android:background">@android:color/black</item>
-        <item name="android:backgroundTint">@android:color/black</item>
+        <item name="android:background">#a0000000</item>
+        <item name="android:backgroundTint">#a0000000</item>
     </style>
 
     <!--<style name="SearchPlate.SearchBox" parent="@android:style/Widget.EditText">-->

@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Platform.AppCompat" parent="@android:style/Theme.DeviceDefault">
+    <style name="Platform.AppCompat" parent="@android:style/Theme.Material.Wallpaper">
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowActionBar">false</item>
-        <item name="android:backgroundTint">#bb000000</item>
-        <item name="android:statusBarColor">#bb000000</item>
+        <item name="android:colorBackground">#dd000000</item>
+        <item name="android:backgroundTint">#cc000000</item>
+        <item name="android:statusBarColor">#cc000000</item>
     </style>
 
 </resources>

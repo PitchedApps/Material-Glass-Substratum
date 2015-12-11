@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- to be modified
+    <color name="exposed_background_material_dark">@color/background_material_dark</color>
+    <color name="exposed_background_cache_hint_selector_material_dark">@color/background_cache_hint_selector_material_dark</color>
+    <color name="exposed_panel_material_background">#000</color>
+    <color name="exposed_window_material_background">@color/background_material_dark</color>
+    <bool name="exposed_transparent_material_theme">false</bool>
+    -->
+    <color name="exposed_background_material_dark">#80000000</color>
+    <color name="exposed_background_cache_hint_selector_material_dark">#80000000</color>
+    <color name="exposed_panel_material_background">#80000000</color>
+    <color name="exposed_window_material_background">#80000000</color>
+    <bool name="exposed_transparent_material_theme">true</bool>
+
+</resources>

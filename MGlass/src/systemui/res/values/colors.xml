@@ -112,9 +112,9 @@
     <color name="qs_detail_button_white">#b3ffffff</color>
 
     <color name="segmented_button_unselected">#88222222</color>
-    <!--<color name="dark_mode_icon_color_single_tone">#99000000</color>-->
-    <!--<color name="dark_mode_icon_color_dual_tone_background">#3d000000</color>-->
-    <!--<color name="dark_mode_icon_color_dual_tone_fill">#7a000000</color>-->
+    <color name="dark_mode_icon_color_single_tone">#99ffffff</color>
+    <color name="dark_mode_icon_color_dual_tone_background">#3dffffff</color>
+    <color name="dark_mode_icon_color_dual_tone_fill">#7affffff</color>
     <!--<color name="light_mode_icon_color_single_tone">#ffffffff</color>-->
     <!--<color name="light_mode_icon_color_dual_tone_background">#4dffffff</color>-->
     <!--<color name="light_mode_icon_color_dual_tone_fill">#ffffffff</color>-->

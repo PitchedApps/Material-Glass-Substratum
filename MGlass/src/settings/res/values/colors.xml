@@ -130,4 +130,5 @@
     <color name="suw_color_secondary_dark">#ddffffff</color>
     <color name="suw_link_color_dark">#ddffffff</color>
     <color name="suw_progress_bar_color_dark">#33ffffff</color>
+
 </resources>

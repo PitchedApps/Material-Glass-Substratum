@@ -5,6 +5,7 @@
         <!--<item name="android:colorPrimary">#ff000000</item>-->
         <!--<item name="android:colorBackground">#a0000000</item>-->
     <!--</style>-->
+    <!--</style>-->
 
     <style name="Widget.TransportControl.SeekBar"
         parent="@android:style/Widget.DeviceDefault.SeekBar">

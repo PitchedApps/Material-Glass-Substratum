@@ -11,7 +11,7 @@
     <color name="textColorPrimary">#ffffffff</color>
     <color name="text_color_inverse">#ffffffff</color>
     <color name="text_color_secondary">#ddffffff</color>
-    <color name="accent">#ffffffff</color>
+    <color name="accent">#ff748B96</color>
     <color name="snackbar_background_color">#80000000</color>
     <color name="fab_tint">#ffffffff</color>
     <!--default-->
@@ -61,4 +61,9 @@
     <color name="secondary_text_disabled_material_light">#36ffffff</color>
     <color name="switch_thumb_disabled_material_light">#ff616161</color>
     <color name="switch_thumb_normal_material_light">#ffbdbdbd</color>
+
+    <!--12/11/2015-->
+    <color name="navigationDrawerBackground">#a0000000</color>
+    <color name="primary">#ff748B96</color>
+    <color name="primary_dark">#ff62757e</color>
 </resources>
