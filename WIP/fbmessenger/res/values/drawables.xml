@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="url_image_upload_cover_color">#80000000</item>
+    <item type="drawable" name="thread_item_unread_background_color">#80000000</item>
+
+    <item type="drawable" name="loading_text_color">#fff</item>
+    <item type="drawable" name="dark_gray_text_color">#fff</item>
+    <item type="drawable" name="find_friends_gray_text_color">#fff</item>
+    <item type="drawable" name="blue_text_color">#fff</item>
+</resources>

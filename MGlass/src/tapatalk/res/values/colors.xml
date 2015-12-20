@@ -146,4 +146,21 @@
     <color name="ics_menu_selected">#30111111</color>
     <color name="ics_menu_selected_dark">#30111111</color>
     <color name="lgrey_end">#80000000</color>
+
+    <!--12/19/2015-->
+    <color name="background_tab_pressed">#55ffffff</color>
+    <!--<color name="blue_1095">#ff1095af</color>-->
+    <!--<color name="blue_14ba">#ff14badb</color>-->
+    <!--<color name="chat_sdk_button_anonymous_button_color">#ffaaaaaa</color>-->
+    <!--<color name="chat_sdk_button_anonymous_button_color_pressed">#ff888787</color>-->
+    <!--<color name="chat_sdk_shadow">#cc000000</color>-->
+    <!--<color name="chat_sdk_theme_background">@android:color/white</color>-->
+    <!--<color name="chat_sdk_theme_color">@android:color/holo_blue_dark</color>-->
+    <!--<color name="chat_sdk_theme_color_dark">#ff06769c</color>-->
+    <color name="divider7_d">#22ffffff</color>
+    <color name="divider8_d">#22ffffff</color>
+    <color name="follow_disable_dark">#aaffffff</color>
+    <!--<color name="tab_checked">#ffed6129</color>-->
+    <color name="tab_unchecked_dark">#aaffffff</color>
+
 </resources>

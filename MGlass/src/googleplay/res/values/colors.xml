@@ -5,7 +5,7 @@
     <color name="bind__remove_bar_background">#88161616</color>
     <color name="wallet_im_credit_card_invalid_text_color">#ffff0000</color>
 
-    <!--### buggy-->
+    <!--both main background and text-->
     <color name="play_white">#80161616</color>
     <color name="play_white_half_transparent">#32ffffff</color>
     <color name="play_white_disabled">#70000000</color>
@@ -108,15 +108,15 @@
     <color name="review_histogram_2_bar">#cc999999</color>
     <color name="review_histogram_1_bar">#cc777777</color>
     <color name="top_developer">#ff44b4c7</color>
-    <color name="screenshot_edge_fade">#dd222222</color>
+    <color name="screenshot_edge_fade">#000</color>
     <color name="hero_video_overlay">#80000000</color>
-    <color name="season_switching_overlay">#ccededed</color>
+    <color name="season_switching_overlay">#cc000000</color>
     <color name="tipper_sticker_explicit">#ffd77428</color>
     <color name="tipper_sticker_edited">#ffaaaaaa</color>
-    <color name="screenshot_background">#42262626</color>
+    <!--<color name="screenshot_background">#42262626</color>-->
     <color name="reviews_filtering_color">#ff797979</color>
     <color name="now_playing_widget_bg">#48000000</color>
-    <color name="now_playing_widget_hotseat_bg">#f2ffffff</color>
+    <color name="now_playing_widget_hotseat_bg">#60000000</color>
     <color name="now_playing_widget_empty_bg">#66000000</color>
     <color name="now_playing_widget_empty_fg">#66ffffff</color>
     <!--is a primary color-->
@@ -149,7 +149,7 @@
     <color name="editorial_overlay_end">#66000000</color>
     <color name="detailed_permissions_footer_bg">#88161616</color>
     <color name="detailed_permissions_footer_text">#ddffffff</color>
-    <color name="discovery_plus_one_background">#33ffffff</color>
+    <color name="discovery_plus_one_background">#33000000</color>
     <color name="setup_wizard_navbar_bg_dark">#88323232</color>
     <color name="setup_wizard_navbar_bg_light">#88323232</color>
     <color name="setup_wizard_navbar_text_dark">#deffffff</color>
@@ -158,7 +158,7 @@
     <color name="setup_wizard_color_secondary_light">#ff8e8e8e</color>
     <color name="setup_wizard_color_accent_dark">#ffffffff</color>
     <color name="setup_wizard_color_accent_light">#ffffffff</color>
-    <color name="action_bar_menu_color">#b0ffffff</color>
+    <!--<color name="action_bar_menu_color">#b0ffffff</color>-->
     <color name="suggest_card_bg">#11000000</color>
     <color name="person_follow_blue">#ff4285f4</color>
     <color name="person_follow_green">#ff56a843</color>
@@ -173,7 +173,7 @@
 
     <!--10/22/2015-->
     <color name="design_snackbar_background_color">#80000000</color>
-    <color name="details_screenshot_placeholder">#80000000</color>
+    <color name="details_screenshot_placeholder">#000</color>
     <color name="foreground_material_light">@android:color/white</color>
     <color name="play_commerce_primary">#a203838f</color>
     <color name="play_commerce_primary_disabled">#8003838f</color>
@@ -186,4 +186,6 @@
     <color name="onboard_store_bg_color">#80000000</color>
     <!--<color name="play_youtube_cluster_icon_background">#ffea2f10</color>-->
 
+    <!--12/19/2015-->
+    <color name="survey_prompt_title_fg">#fff</color>
 </resources>

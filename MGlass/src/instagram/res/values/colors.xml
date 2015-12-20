@@ -1,24 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="grey_9">#ffffffff</color>
-    <color name="grey_8">#ffffffff</color>
-    <color name="grey_7">#ffffffff</color>
-    <color name="grey_6">#ffffffff</color>
+    <color name="grey_9">#fff</color>
+    <!--12/13/2015 action bar button select color-->
+    <color name="grey_8">#30ffffff</color>
+    <color name="grey_7">#fff</color>
+    <color name="grey_6">#fff</color>
     <color name="grey_5">#aaffffff</color>
     <color name="grey_4">#aaffffff</color>
     <color name="grey_3">#ddffffff</color>
-    <color name="grey_2">#ffffffff</color>
+    <color name="grey_2">#fff</color>
     <color name="grey_1_5">#aaffffff</color>
     <color name="grey_1">#aaffffff</color>
-    <color name="grey_0_5">#ffffffff</color>
-    <color name="blue_9">#ffffffff</color>
-    <color name="blue_8">#ffffffff</color>
-    <color name="blue_7">#ffffffff</color>
-    <color name="blue_6">#ffffffff</color>
-    <color name="blue_5">#ffffffff</color>
-    <color name="blue_4">#ffffffff</color>
-    <color name="blue_3">#ffffffff</color>
-    <color name="blue_2">#ffffffff</color>
+    <color name="grey_0_5">#fff</color>
+    <color name="blue_9">#fff</color>
+    <color name="blue_8">#fff</color>
+    <color name="blue_7">#fff</color>
+    <!--12/12/2015 action bar button select color-->
+    <color name="blue_6">#33ffffff</color>
+    <color name="blue_5">#fff</color>
+    <color name="blue_4">#fff</color>
+    <color name="blue_3">#fff</color>
+    <color name="blue_2">#fff</color>
     <color name="blue_1">#80000000</color>
     <color name="accent_blue_9">#ffffffff</color>
     <color name="accent_blue_8">#ffffffff</color>
@@ -102,4 +104,11 @@
     <color name="green_6">#90111111</color>
     <color name="green_5">#90000000</color>
     <color name="green_4">#90000000</color>
+
+    <!--12/13/2015-->
+    <color name="grey_0_7">#80000000</color>
+    <color name="bugreporter_takescreenshot_capture_background">#99e5ffe5</color>
+    <color name="bugreporter_takescreenshot_cancel_background">#99ffe6cc</color>
+    <color name="bugreporter_takescreenshot_capture_background_border">#995bc25b</color>
+    <color name="bugreporter_takescreenshot_cancel_background_border">#99ffa736</color>
 </resources>
