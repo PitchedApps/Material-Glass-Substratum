@@ -96,6 +96,8 @@ android {
         Calculator { applicationId "com.pitchedapps.material.glass.calculator" }
         MatLog { applicationId "com.pitchedapps.material.glass.matlog" }
         NovaUnread { applicationId "com.pitchedapps.material.glass.nova.unread" }
+        UEMiniBoom { applicationId "com.pitchedapps.material.glass.ue.miniboom" }
+        KernelAdiutor { applicationId "com.pitchedapps.material.glass.kerneladiutor" }
     }
     lintOptions {
         abortOnError false
