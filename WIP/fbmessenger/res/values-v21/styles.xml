@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.OrcaDialog" parent="@android:style/Theme.Material.Dialog">
+        <item name="android:windowBackground">@drawable/orca_panel_background</item>
+        <item name="android:windowNoTitle">true</item>
+        <!--<item name="android:progressBarStyle">@style/FbProgressCircular</item>-->
+        <!--<item name="android:progressBarStyleSmall">@style/FbProgressCircular.Small</item>-->
+        <item name="android:textColor">#fff</item>
+        <item name="android:windowMinWidthMinor">96.0%</item>
+    </style>
+</resources>

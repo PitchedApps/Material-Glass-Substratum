@@ -92,6 +92,10 @@ android {
         Launcher3 { applicationId "com.pitchedapps.material.glass.launcher3" }
         GoogleDrive { applicationId "com.pitchedapps.material.glass.google.drive" }
         FBMessenger { applicationId "com.pitchedapps.material.glass.facebook.orca" }
+        PureNexusSettings { applicationId "com.pitchedapps.material.glass.purenexus.settings" }
+        Calculator { applicationId "com.pitchedapps.material.glass.calculator" }
+        MatLog { applicationId "com.pitchedapps.material.glass.matlog" }
+        NovaUnread { applicationId "com.pitchedapps.material.glass.nova.unread" }
     }
     lintOptions {
         abortOnError false

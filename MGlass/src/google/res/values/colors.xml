@@ -7,7 +7,8 @@
     <color name="action_card_continue_enabled">#ddffffff</color>
     <color name="action_card_continue_highlighted">#dd111111</color>
     <color name="action_card_dark_grey">#ffffffff</color>
-    <color name="action_card_intent_header_background">#dd111111</color>
+    <!--12/12/2015-->
+    <!--<color name="action_card_intent_header_background">#dd111111</color>-->
     <color name="action_card_light_blue">#aaffffff</color>
     <color name="action_card_light_grey">#ddffffff</color>
     <color name="action_card_light_red">#fff56b5c</color>
@@ -382,4 +383,9 @@
     <color name="icon_notification_background">#a0000000</color>
     <color name="slow_connection_text_normal">#fff</color>
     <color name="slow_connection_secondary_text">#ddffffff</color>
+
+    <!--12/12/2015-->
+    <color name="background_floating_material_dark">#cc060606</color>
+    <color name="background_floating_material_light">#cc060606</color>
+    <color name="onboarding_suggestion_header_background">#80000000</color>
 </resources>

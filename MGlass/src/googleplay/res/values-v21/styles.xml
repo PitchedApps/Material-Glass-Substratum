@@ -71,4 +71,270 @@
         <item name="android:lineSpacingExtra">8.0dip</item>
         <item name="android:fontFamily">sans-serif</item>
     </style>
+
+    <!--12/19/2015-->
+
+    <style name="PlayPopupSelector" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@style/PlayPopupSelectorAnimation</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowSoftInputMode">adjustResize|stateUnchanged</item>
+    </style>
+    <style name="PlayPopupSelectorAnimation" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/play_popup_selector_open</item>
+        <item name="android:windowExitAnimation">@anim/play_popup_selector_close</item>
+    </style>
+    <style name="FinskyProgressSmallInverse" parent="@android:style/Widget.ProgressBar.Small" />
+    <style name="SettingsListHeader">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">#88161616</item>
+        <item name="android:paddingLeft">12.0dip</item>
+        <item name="android:paddingTop">6.0dip</item>
+        <item name="android:paddingBottom">6.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="InstrumentTheme" parent="@android:style/Theme.Material.NoActionBar" />
+
+    <style name="ButtonBarDefaultStyle" parent="@android:style/Widget.Material.ButtonBar">
+        <item name="android:paddingLeft">2.0dip</item>
+        <item name="android:paddingTop">4.0dip</item>
+        <item name="android:paddingRight">2.0dip</item>
+    </style>
+
+    <!--play_white text colors-->
+    <!--### PlayClusterMore causes crash with layers-->
+
+    <style name="Play_Purchase_Button" parent="@style/PlayPlainText">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">1.0dip</item>
+        <item name="android:paddingBottom">1.0dip</item>
+        <item name="android:focusable">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minWidth">120.0dip</item>
+        <item name="android:minHeight">0.0dip</item>
+    </style>
+
+    <style name="Play_DetailsPage_ActionButton" parent="@style/PlayMediumPlainText">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minWidth">120.0dip</item>
+        <item name="android:minHeight">24.0dip</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="action_xpadding">16.0dip</item>
+        <item name="action_top_padding">7.0dip</item>
+        <item name="action_bottom_padding">8.0dip</item>
+    </style>
+
+    <style name="CirclesButton" parent="@style/PlayPlainText">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">30.0dip</item>
+        <item name="android:paddingRight">30.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minWidth">120.0dip</item>
+        <item name="android:minHeight">36.0dip</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="PlayImageClusterTitle" parent="@style/PlayPlainText">
+        <item name="android:textSize">21.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingLeft">16.0dip</item>
+        <item name="android:paddingTop">4.0dip</item>
+        <item name="android:paddingRight">16.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="PlayImageClusterSubtitle" parent="@style/PlayClusterSubtitle">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingLeft">16.0dip</item>
+        <item name="android:paddingRight">16.0dip</item>
+        <item name="android:paddingBottom">8.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">3</item>
+    </style>
+
+    <style name="DiscoveryRatingBar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="star_height">6.0dip</item>
+        <item name="star_color">#ffffffff</item>
+        <item name="star_bg_color">#88000000</item>
+        <item name="gap">1.0dip</item>
+    </style>
+    <style name="PlayRatingBarSmall">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="star_height">11.0dip</item>
+        <item name="star_color">#ffffffff</item>
+        <item name="star_bg_color">#88000000</item>
+        <item name="gap">1.0dip</item>
+        <item name="android:background">#50ffffff</item>
+    </style>
+
+    <style name="PlayCardLabel" parent="@style/PlayPlainText">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@null</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minWidth">0.0dip</item>
+        <item name="android:minHeight">0.0dip</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">4.0dip</item>
+    </style>
+
+    <style name="PlayDrawerProfileEmailText" parent="@style/PlayPlainText">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+
+    <style name="PlayPlainText">
+        <item name="android:fontFamily">sans</item>
+    </style>
+    <style name="PlayClusterSubtitle" parent="@style/PlayPlainText">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ddffffff</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="PlayDrawerList">
+        <item name="android:layout_gravity">start</item>
+        <item name="android:background">#88000000</item>
+        <item name="android:fadingEdgeLength">0.0dip</item>
+        <item name="android:layout_width">320.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:cacheColorHint">#88000000</item>
+        <item name="android:divider">@null</item>
+        <item name="android:choiceMode">none</item>
+    </style>
+
+
+    <style name="PlaySearchSuggestionText">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">middle</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="OnboardText">
+        <item name="android:textSize">24.0sp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:lineSpacingExtra">8.0dip</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:fontFamily">sans</item>
+    </style>
+
+    <style name="OnboardTab">
+        <item name="android:textColor">#fff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--caution!-->
+    <style name="BundleActionButton.TextView" parent="@style/BundleActionButton">
+        <item name="android:textColor">#fff</item>
+        <!--<item name="android:background">@drawable/explore_button_bg</item>-->
+        <item name="android:paddingLeft">28.0dip</item>
+        <item name="android:paddingTop">8.0dip</item>
+        <item name="android:paddingRight">28.0dip</item>
+        <item name="android:paddingBottom">8.0dip</item>
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">start</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minWidth">120.0dip</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="BundleActionButton">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">start</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minWidth">120.0dip</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="BundleInstallPreviewText" parent="@style/PlayPlainText">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:paddingTop">8.0dip</item>
+        <item name="android:paddingBottom">8.0dip</item>
+        <item name="android:focusable">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">5.0dip</item>
+    </style>
+
+    <style name="GiftEmailTitleText">
+        <item name="android:textSize">21.0sp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:layout_marginTop">-4.0dip</item>
+    </style>
+
+    <style name="HighlightBannerOverlaySubtitle" parent="@style/PlayPlainText">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:paddingBottom">16.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:shadowColor">#33000000</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">3.0</item>
+    </style>
+
+    <style name="HighlightBannerOverlayTitle" parent="@style/PlayMediumPlainText">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:shadowColor">#33000000</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">5.0</item>
+    </style>
+
 </resources>
