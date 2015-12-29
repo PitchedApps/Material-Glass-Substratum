@@ -74,7 +74,6 @@ android {
 		Appmonger { applicationId "com.pitchedapps.material.glass.layer.appmonger" }
 		Instagram { applicationId "com.pitchedapps.material.glass.layer.instagram" }
 		MMS { applicationId "com.pitchedapps.material.glass.layer.mms" }
-		GoogleMMS { applicationId "com.pitchedapps.material.glass.layer.google.mms" }
 		EvolveSMS { applicationId "com.pitchedapps.material.glass.layer.evolvesms" }
 		AutoHideSoftKey { applicationId "com.pitchedapps.material.glass.layer.gmd.ahsk" }
         SimpleReboot { applicationId "com.pitchedapps.material.glass.franco.simplereboot" }
@@ -98,6 +97,8 @@ android {
         NovaUnread { applicationId "com.pitchedapps.material.glass.nova.unread" }
         UEMiniBoom { applicationId "com.pitchedapps.material.glass.ue.miniboom" }
         KernelAdiutor { applicationId "com.pitchedapps.material.glass.kerneladiutor" }
+        GoogleMessenger { applicationId "com.pitchedapps.material.glass.google.messenger" }
+        GoogleTranslate { applicationId "com.pitchedapps.material.glass.google.translate" }
     }
     lintOptions {
         abortOnError false
