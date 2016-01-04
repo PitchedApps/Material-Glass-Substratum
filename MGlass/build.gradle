@@ -38,6 +38,7 @@ android {
         }
     }
     productFlavors {
+        zTest { applicationId "com.pitchedapps.material.glass.layer.ztest" }
         FrameworkRes { applicationId "com.pitchedapps.material.glass.layer.framework" }
         FrameworkMTest { applicationId "com.pitchedapps.material.glass.layer.framework.m.test" }
         SystemUI { applicationId "com.pitchedapps.material.glass.layer.systemui" }
@@ -100,6 +101,8 @@ android {
         GoogleMessenger { applicationId "com.pitchedapps.material.glass.google.messenger" }
         GoogleTranslate { applicationId "com.pitchedapps.material.glass.google.translate" }
         Dropbox { applicationId "com.pitchedapps.material.glass.dropbox" }
+        MaterialTerminal { applicationId "com.pitchedapps.material.glass.materialterminal" }
+        SettingsDoubleColumn { applicationId "com.pitchedapps.material.glass.settings.doublecolumn" }
     }
     lintOptions {
         abortOnError false

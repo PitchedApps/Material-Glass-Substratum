@@ -18,4 +18,12 @@
     <style name="AlertDialogTheme" parent="@android:style/Theme.Material.Dialog">
         <item name="android:colorAccent">#ffffff</item>
     </style>
+    <style name="TextAppearanceMedium" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="TextAppearanceSmall" parent="@android:style/TextAppearance.Small">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
 </resources>
