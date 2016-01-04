@@ -87,7 +87,7 @@
     <!--drawer color-->
     <color name="list_background_color">#a0000000</color>
     <color name="drawer_item_activated_background_color">#12ffffff</color>
-    <color name="mini_drawer_activated_background_color">#80000000</color>
+    <color name="mini_drawer_activated_background_color">#80111111</color>
     <color name="folder_list_divider_color">#22ffffff</color>
     <color name="compose_label_text">#ddffffff</color>
     <color name="compose_user_text">#ffffffff</color>
@@ -207,9 +207,6 @@
     <color name="quantum_lightblue700">#ff000000</color>
 
     <color name="quantum_grey400">#ff000000</color>
-    <!--???-->
-    <color name="grey_15pc">#99999999</color>
-    <color name="grey_5pc">#99999999</color>
     <color name="white_opacity_60pc">#99ffffff</color>
 
 
@@ -242,5 +239,51 @@
 
 
     <color name="abstractcomposearea">#88333333</color>
+
+    <!--2016/01/03-->
+    <color name="rte_background_default">#80000000</color>
+    <color name="rte_toolbar_separator_background">#11ffffff</color>
+    <color name="rte_button_background_on_default">#33ffffff</color>
+    <color name="rte_button_background_on_pressed">#66ffffff</color>
+    <color name="rte_button_background_off_default">#00000000</color>
+    <color name="rte_button_background_off_pressed">#33ffffff</color>
+    <color name="rte_swatch_button_background_pressed">#55ffffff</color>
+    <color name="rte_fade_edge_end_color">#11ffffff</color>
+    <color name="rte_button_background_ripple">#bbffffff</color>
+    <color name="rte_text_default">#fff</color>
+    <color name="rte_text_gray">#ddffffff</color>
+    <color name="rte_fill_tinted_gray">#ff666666</color><!--unknown function-->
+
+    <color name="gray_87pc">#aaffffff</color>
+    <color name="gray_85pc">#aaffffff</color>
+    <color name="gray_81pc">#aaffffff</color>
+    <color name="gray_80pc">#aaffffff</color>
+    <color name="gray_64pc">#aaffffff</color>
+    <color name="gray_62pc">#aaffffff</color>
+    <color name="gray_60pc">#aaffffff</color>
+    <color name="gray_54pc">#aaffffff</color>
+    <color name="gray_53pc">#aaffffff</color><!--text color-->
+    <color name="gray_50pc">#aaffffff</color>
+    <color name="gray_48pc">#aaffffff</color>
+    <color name="gray_42pc">#aaffffff</color>
+    <color name="gray_38pc">#aaffffff</color>
+    <color name="gray_26pc">#aaffffff</color>
+    <color name="gray_20pc">#fff</color>
+    <color name="gray_17pc">#aaffffff</color>
+    <color name="grey_15pc">#99999999</color>
+    <color name="gray_14pc">#f0f</color>
+    <color name="gray_13pc">#f0f</color>
+    <color name="gray_10pc">#f0f</color>
+    <color name="gray_9pc">#f0f</color>
+    <color name="gray_8pc">#f0f</color>
+    <color name="gray_7pc">#f0f</color>
+    <color name="gray_6pc">#f0f</color>
+    <color name="grey_5pc">#f0f</color>
+    <color name="gray_4pc">#f0f</color>
+    <color name="gray_3pc">#f0f</color>
+
+    <color name="text_primary_color">#fff</color>
+
+    <color name="conversation_calendar_promotion_background_color">#80000000</color>
 
 </resources>
