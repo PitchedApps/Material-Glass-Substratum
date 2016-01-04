@@ -39,7 +39,7 @@
     <!--check-->
     <color name="create_entry_dialog_list_background">#cc060606</color>
     <!--account name with white background-->
-    <color name="default_account_details_color">#ff000000</color>
+    <color name="default_account_details_color">#fff</color>
     <color name="default_list_divider">#22ffffff</color>
     <color name="default_text_color">#fff</color>
     <color name="default_text_highlighted_color">#fff</color>
@@ -89,7 +89,7 @@
     <color name="grid_sync_offlinestatus_text">#ffffffff</color>
     <color name="happiness_popup_background">#cc060606</color>
     <color name="happiness_popup_divider">#22ffffff</color>
-    <color name="helpcard_primary">#80457aee</color>
+    <color name="helpcard_primary">#ddffffff</color>
     <color name="helpcard_secondary">#80000000</color>
     <color name="helpcard_text_color">#fff</color>
 
@@ -174,7 +174,7 @@
     <color name="main_background">#80000000</color>
     <color name="main_overlay">#d0000000</color>
     <!--account switcher has hardcoded white background-->
-    <color name="manage_accounts_text_color">#ff000000</color>
+    <color name="manage_accounts_text_color">#fff</color>
 
     <color name="menu_item_default">#ddffffff</color>
     <color name="menu_item_pressed">#22ffffff</color>
@@ -258,5 +258,19 @@
     <color name="widget_text">#ffffffff</color>
 
     <!--12/11/2015-->
-    <color name="m_light_grey">#80000000</color>
+    <color name="m_light_grey">#f0f</color>
+
+    <!--2016/01/04-->
+    <color name="quantum_black_100">#bbffffff</color>
+    <color name="quantum_black_divider">#1fffffff</color>
+    <color name="quantum_black_hint_text">#42ffffff</color>
+    <color name="quantum_black_secondary_text">#89ffffff</color>
+    <color name="quantum_black_text">#ddffffff</color>
+
+    <color name="quantum_googblue500">#fff</color>
+    <color name="quantum_grey600">#bbffffff</color>
+    <color name="quantum_grey900">#bbffffff</color>
+    <color name="quantum_grey300">#22ffffff</color>
+
+
 </resources>

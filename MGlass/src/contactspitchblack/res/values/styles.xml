@@ -1,19 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <style name="DetailActivityTheme" parent="@android:style/Theme.Material">
+        <item name="android:actionBarStyle">@style/ContactsActionBarStyle</item>
+    </style>
+
     <style name="PeopleTheme1" parent="@android:style/Theme.Material">
         <item name="android:actionBarStyle">@style/ContactsActionBarStyle</item>
         <item name="android:actionBarTabBarStyle">@style/ContactsActionBarTabBarStyle</item>
         <item name="android:windowBackground">@android:color/black</item>
-        <item name="android:colorPrimaryDark">#ff000000</item>
-        <item name="android:colorPrimary">#ff000000</item>
-        <item name="android:colorAccent">#ffffffff</item>
+        <item name="android:colorPrimaryDark">#ff0277bd</item>
+        <item name="android:colorPrimary">#ff0288d1</item>
+        <item name="android:colorAccent">#ff0288d1</item>
 
         <item name="android:navigationBarColor">#ff000000</item>
     </style>
 
     <style name="ContactsActionBarStyle" parent="@android:style/Widget.Material.ActionBar">
-        <item name="android:background">#ff000000</item>
+        <item name="android:background">#ff0288d1</item>
         <item name="android:icon">@android:color/transparent</item>
+    </style>
+
+    <style name="SelectableItem" parent="@android:style/Theme.Material">
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+    </style>
+
+    <style name="Theme.PhotoSelector" parent="@android:style/Theme.Material">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="ContactsAlertDialogTheme" parent="@android:style/Theme.Material.Dialog">
+        <item name="android:colorAccent">#ff0288d1</item>
     </style>
 
     <style name="ContactsActionBarTabBarStyle"
@@ -21,7 +43,21 @@
         <item name="android:showDividers">none</item>
     </style>
 
-    <style name="ContactsAlertDialogTheme" parent="@android:style/Theme.Material.Dialog">
-        <item name="android:colorAccent">#ffffffff</item>
+    <style name="TextAppearanceMedium" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="TextAppearanceSmall" parent="@android:style/TextAppearance.Small">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ddffffff</item>
+    </style>
+
+    <style name="BackgroundOnlyTheme" parent="@android:style/Theme.Material">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowNoDisplay">false</item>
     </style>
 </resources>

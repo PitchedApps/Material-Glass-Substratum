@@ -9,5 +9,4 @@
     <attr name="background" format="reference" />
     <attr name="windowActionBarOverlay" format="boolean" />
 
-
 </resources>
