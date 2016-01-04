@@ -60,31 +60,31 @@
         <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:colorPrimaryDark">#ff000000</item>
     </style>
-    <!--<style name="UnifiedEmailTheme.Appcompat.Toolbar" parent="@style/Theme.AppCompat.NoActionBar">-->
-        <!--<item name="windowActionModeOverlay">true</item>-->
-        <!--<item name="actionBarPopupTheme">@style/Base.ThemeOverlay.AppCompat</item>-->
-        <!--<item name="actionModeBackground">@color/action_mode_background</item>-->
-        <!--<item name="homeAsUpIndicator">@drawable/ic_arrow_back_wht_24dp_with_rtl</item>-->
-        <!--<item name="popupMenuStyle">@style/MessageHeaderPopupStyle</item>-->
-        <!--<item name="colorPrimary">#ff000000</item>-->
-        <!--<item name="colorPrimaryDark">#ff000000</item>-->
-        <!--<item name="colorAccent">#ffffffff</item>-->
-    <!--</style>-->
-    <!--<style name="MessageHeaderPopupStyle" parent="@*common:style/Widget.AppCompat.PopupMenu">-->
-        <!--<item name="android:overlapAnchor">true</item>-->
-        <!--<item name="overlapAnchor">true</item>-->
-    <!--</style>-->
-    <!--<style name="MailActivityTheme" parent="@style/UnifiedEmailTheme.Appcompat.Toolbar">-->
-        <!--<item name="android:windowBackground">#80000000</item>-->
-        <!--<item name="android:colorBackground">#80000000</item>-->
-    <!--</style>-->
 
-    <!--<style name="UnifiedEmailTheme.Appcompat" parent="@style/Theme.AppCompat">-->
-        <!--<item name="android:colorEdgeEffect">#ffffffff</item>-->
-        <!--<item name="actionModeBackground">@color/action_mode_background</item>-->
-        <!--<item name="homeAsUpIndicator">@drawable/ic_arrow_back_wht_24dp_with_rtl</item>-->
-        <!--<item name="colorPrimary">#ff000000</item>-->
-        <!--<item name="colorPrimaryDark">#ff000000</item>-->
-        <!--<item name="colorAccent">#ffffffff</item>-->
-    <!--</style>-->
+    <!--2016/01/03-->
+    <style name="RecipientEditTextViewBase" parent="@android:style/Widget.DeviceDefault.AutoCompleteTextView">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:background">@null</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">32.0dip</item>
+        <item name="android:popupBackground">@android:color/black</item>
+        <item name="android:inputType">textEmailAddress|textMultiLine</item>
+    </style>
+
+    <style name="AbstractComposeArea">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:background">#80000000</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:animateLayoutChanges">true</item>
+    </style>
+
+    <style name="AbstractCalendarPromotionStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:background">#80000000</item>
+        <item name="android:paddingBottom">20.0dip</item>
+        <item name="android:layout_margin">8.0dip</item>
+        <item name="android:minHeight">60.0dip</item>
+    </style>
 </resources>

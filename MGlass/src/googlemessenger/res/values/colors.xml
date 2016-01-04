@@ -97,7 +97,7 @@
     <!--<color name="message_bubble_color_selected">@color/primary_color</color>-->
     <color name="message_image_selected_tint">#800288d1</color>
     <color name="generic_video_icon">#aaffffff</color>
-    <color name="color_filter_base_color">#ffff0000</color>
+    <color name="color_filter_base_color">#80000000</color><!--for message bubbles with no arrow-->
     <color name="compose_contact_text">@android:color/white</color>
     <color name="compose_contact_faint_text">#a0ffffff</color>
     <color name="compose_contact_divider">#22ffffff</color>
