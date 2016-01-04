@@ -103,6 +103,7 @@ android {
         Dropbox { applicationId "com.pitchedapps.material.glass.dropbox" }
         MaterialTerminal { applicationId "com.pitchedapps.material.glass.materialterminal" }
         SettingsDoubleColumn { applicationId "com.pitchedapps.material.glass.settings.doublecolumn" }
+        SettingsSingleColumn { applicationId "com.pitchedapps.material.glass.settings.singlecolumn" }
     }
     lintOptions {
         abortOnError false
