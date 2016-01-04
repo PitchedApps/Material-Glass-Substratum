@@ -48,7 +48,7 @@ local.properties
 #############################################################################
 
 # Built application files
-*.apk
+# *.apk
 *.zip
 #*.ap_
 
