@@ -68,7 +68,7 @@
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:minHeight">32.0dip</item>
-        <item name="android:popupBackground">@android:color/black</item>
+        <item name="android:popupBackground">#bb000000</item>
         <item name="android:inputType">textEmailAddress|textMultiLine</item>
     </style>
 

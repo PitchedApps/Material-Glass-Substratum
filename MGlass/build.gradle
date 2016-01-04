@@ -99,6 +99,7 @@ android {
         KernelAdiutor { applicationId "com.pitchedapps.material.glass.kerneladiutor" }
         GoogleMessenger { applicationId "com.pitchedapps.material.glass.google.messenger" }
         GoogleTranslate { applicationId "com.pitchedapps.material.glass.google.translate" }
+        Dropbox { applicationId "com.pitchedapps.material.glass.dropbox" }
     }
     lintOptions {
         abortOnError false
