@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<style name="InstagramTheme" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:textColorLink">#ddffffff</item>
+        <item name="android:soundEffectsEnabled">false</item>
+        <item name="android:dialogTheme">@style/IgDialog</item>
+        <item name="igSwitchStyle">@style/IgSwitchStyle</item>
+
+        <item name="android:backgroundTint">#a0000000</item>
+        <item name="android:statusBarColor">#a0000000</item>
+    </style>
+
+    <style name="IgSwitchStyle">
+        <item name="thumbDrawable">@drawable/toggle_nub</item>
+        <item name="checkedDrawable">@drawable/toggle_active</item>
+        <item name="uncheckedDrawable">@drawable/toggle</item>
+    </style>
+	
+	<style name="IgDialog" parent="@android:style/Theme.Material.Dialog">
+        <item name="android:backgroundDimAmount">0.6</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:windowAnimationStyle">@style/animationDialog</item>
+        <item name="android:listChoiceIndicatorSingle">@null</item>
+        <item name="android:listChoiceIndicatorMultiple">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:listChoiceBackgroundIndicator">@null</item>
+        <item name="android:activatedBackgroundIndicator">@null</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+    </style>
+	 <style name="animationDialog">
+        <item name="android:windowEnterAnimation">@anim/dialog_enter</item>
+        <item name="android:windowExitAnimation">@anim/dialog_exit</item>
+    </style>
+</resources>
