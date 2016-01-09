@@ -102,6 +102,8 @@ android {
         GoogleTranslate { applicationId "com.pitchedapps.material.glass.google.translate" }
         Dropbox { applicationId "com.pitchedapps.material.glass.dropbox" }
         MaterialTerminal { applicationId "com.pitchedapps.material.glass.materialterminal" }
+        WhatsApp { applicationId "com.pitchedapps.material.glass.whatsapp" }
+        OGInstagram { applicationId "com.pitchedapps.material.glass.oginstagm" }
     }
     lintOptions {
         abortOnError false
