@@ -114,7 +114,8 @@
     <color name="high_spam_warning_background_color">#ffdd4b39</color>
     <color name="low_spam_color">#ff333333</color>
     <color name="low_spam_warning_background_color">#80323232</color>
-    <color name="notification_icon_color">#ffffffff</color>
+    <!--notification icon color, transparency 01/20/2016-->
+    <color name="notification_icon_color">#22ffffff</color>
     <color name="search_query_hint_text">#ddffffff</color>
     <color name="search_query_text">#ffffffff</color>
     <color name="search_suggestion_item_text">#ddffffff</color>
@@ -196,7 +197,6 @@
     <color name="link_text">#ddffffff</color>
     <color name="grey_separator_color">#11ffffff</color>
     <color name="list_ad_background_color">#80000000</color>
-    <color name="google_account_letter_tile_default_color">#ffffffff</color>
 
     <color name="quantum_googred500">#ffda4336</color>
 
@@ -286,4 +286,7 @@
 
     <color name="conversation_calendar_promotion_background_color">#80000000</color>
 
+    <!--2016/01/20-->
+    <color name="material_grey_100">#000</color>
+    <color name="material_grey_50">#80000000</color>
 </resources>

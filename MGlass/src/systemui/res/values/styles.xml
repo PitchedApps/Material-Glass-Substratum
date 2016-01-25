@@ -52,7 +52,7 @@
         <!--<item name="android:alertDialogTheme">@android:style/Theme.Material.Dialog.Alert</item>-->
     <!--</style>-->
 
-    <!--<style name="Theme.SystemUI.Dialog" parent="@android:style/Theme.Material.Dialog" />-->
-    <!--<style name="Theme.SystemUI.Dialog.Alert" parent="@android:style/Theme.Material.Dialog.Alert" />-->
+    <style name="Theme.SystemUI.Dialog" parent="@android:style/Theme.Material.Dialog" />
+    <style name="Theme.SystemUI.Dialog.Alert" parent="@android:style/Theme.Material.Dialog.Alert" />
 
 </resources>
