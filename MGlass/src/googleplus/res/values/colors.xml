@@ -368,7 +368,7 @@
     <color name="search_opaque_bg_color">#80000000</color>
     <color name="search_query_highlight_color">#ff6f8fc7</color>
 
-    <color name="section_header_color">#ffffffff</color>
+    <color name="section_header_color">#80111111</color>
     <color name="selected_photo_background">#66000000</color>
     <color name="selector_background">#80000000</color>
     <color name="selector_text">#ffffffff</color>

@@ -19,7 +19,7 @@
     <color name="blue_focused">#ffc1e8f7</color>
     <color name="neutral_pressed">#33999999</color>
     <color name="darker_blue">#ff0099cc</color>
-    <color name="date_picker_text_normal">#ffffffff</color>
+    <color name="date_picker_text_normal">#f0f</color>
     <color name="date_picker_text_disabled">#aaffffff</color>
     <color name="calendar_header">#80000000</color>
     <color name="date_picker_view_animator">#bb000000</color>
@@ -29,7 +29,7 @@
     <color name="light_gray">#80000000</color>
     <color name="dark_gray">#80000000</color>
     <color name="line_dark">#22ffffff</color>
-    <color name="done_text_color_dark_normal">#ffffffff</color>
+    <color name="done_text_color_d  ark_normal">#ffffffff</color>
     <color name="done_text_color_dark_disabled">#aaffffff</color>
     <color name="done_disabled_dark">#80111111</color>
     <color name="common_signin_btn_dark_text_default">@android:color/white</color>
