@@ -114,13 +114,15 @@
     <color name="high_spam_warning_background_color">#ffdd4b39</color>
     <color name="low_spam_color">#ff333333</color>
     <color name="low_spam_warning_background_color">#80323232</color>
-    <!--notification icon color, transparency 01/20/2016-->
-    <color name="notification_icon_color">#22ffffff</color>
-    <color name="search_query_hint_text">#ddffffff</color>
-    <color name="search_query_text">#ffffffff</color>
-    <color name="search_suggestion_item_text">#ddffffff</color>
-    <color name="search_banner_bg">#80000000</color>
-    <color name="search_banner_text">#ddffffff</color>
+    <!--notification icon color, red 01/20/2016-->
+    <color name="notification_icon_color">#ffda4336</color>
+    <!--invert search colors-->
+    <color name="search_query_hint_text">#dd000000</color>
+    <color name="search_query_text">#ff000000</color>
+    <color name="search_suggestion_item_text">#dd000000</color>
+    <color name="search_banner_bg">#80ffffff</color>
+    <color name="search_banner_text">#dd000000</color>
+
     <color name="search_status_bar_color">#30000000</color>
     <color name="letter_tile_default_color">#fff48fb1</color>
     <color name="letter_tile_font_color">#ffffffff</color>
@@ -156,10 +158,11 @@
     <color name="edge_effect_color">#ffffffff</color>
     <color name="snack_bar_background_color">#80000000</color>
     <color name="snack_bar_action_text_color">#ffffffff</color>
-    <color name="conversation_list_background_color">@android:color/transparent</color>
-    <color name="conversation_item_blue_background_color">#80161616</color>
-    <color name="conversation_item_grey_background_color">#80000000</color>
-    <color name="conversation_item_grey_pressed_color">#80161616</color>
+    <!--conversation list can't be tinted, needs to be opaque-->
+    <color name="conversation_list_background_color">#060606</color>
+    <color name="conversation_item_blue_background_color">#ff161616</color>
+    <color name="conversation_item_grey_background_color">#ff000000</color>
+    <color name="conversation_item_grey_pressed_color">#ff161616</color>
     <color name="conversation_item_grey_ripple_color">#30ffffff</color>
     <color name="compose_button_background_color">#88444444</color>
     <color name="compose_button_pressed_background_color">#88666666</color>

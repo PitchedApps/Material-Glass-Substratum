@@ -284,7 +284,8 @@
     <color name="quantum_black_divider">#1fffffff</color>
     <color name="quantum_black_hint_text">#42ffffff</color>
     <color name="quantum_black_secondary_text">#89ffffff</color>
-    <color name="quantum_black_text">#ddffffff</color>
+    <!--main text, and also with the friends card with white background-->
+    <color name="quantum_black_text">#ccc</color>
 
     <color name="quantum_bluegrey50">#80000000</color>
 
@@ -430,7 +431,7 @@
     <color name="text_black_54_percent">#89ffffff</color>
     <color name="text_black_87_percent">#ddffffff</color>
     <color name="text_blue">#ffffffff</color>
-    <color name="text_gray">#ddffffff</color>
+    <color name="text_gray">#fff</color>
     <color name="text_hint">#ddffffff</color>
     <color name="text_normal">#ffaaaaaa</color>
     <color name="text_red">#ffc3352c</color>

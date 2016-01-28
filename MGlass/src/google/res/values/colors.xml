@@ -229,8 +229,8 @@
     <color name="search_plate_suggestion_divider_background">#22ffffff</color>
     <color name="search_plate_text_color">#ffffffff</color>
     <!--verify-->
-    <!--overlay color, keep original-->
-    <color name="search_scrim">#9e000000</color>
+    <!--overlay color, slightly darkened-->
+    <color name="search_scrim">#a0000000</color>
     <color name="secondary_text_disabled">#aaffffff</color>
     <color name="secondary_text_inverse">#ddffffff</color>
     <color name="secondary_text_normal">#ddffffff</color>

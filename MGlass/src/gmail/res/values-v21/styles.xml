@@ -6,19 +6,20 @@
 
     <style name="MinTimeProgressViewStyle" parent="@android:style/Widget.Material.ProgressBar" />
     <style name="MinTimeProgressDialogStyleBase" parent="@android:style/Theme.Material.Dialog" />
-    <style name="UnifiedEmailTheme" parent="@android:style/Theme.DeviceDefault">
+    <style name="UnifiedEmailTheme" parent="@android:style/Theme.Material">
         <item name="android:listViewWhiteStyle">@android:style/Widget.Material.ListView</item>
-        <item name="android:actionModeBackground">@android:color/background_dark</item>
+        <item name="android:actionModeBackground">@android:color/black</item>
         <item name="android:actionOverflowButtonStyle">@style/ActionBarOverflowButtonStyle</item>
         <item name="android:colorPrimary">#ff161616</item>
         <item name="android:colorPrimaryDark">#ff161616</item>
         <item name="android:colorAccent">#ffffffff</item>
         <item name="android:colorEdgeEffect">#ffffffff</item>
         <item name="android:statusBarColor">#ff000000</item>
-        <item name="android:colorBackground">#80000000</item>
-        <item name="android:windowBackground">@android:color/background_dark</item>
-        <item name="android:colorBackgroundCacheHint">#80000000</item>
-        <item name="android:cacheColorHint">#80000000</item>
+        <!--<item name="android:colorBackground">#80000000</item>-->
+        <!--<item name="android:windowBackground">@android:color/background_dark</item>-->
+        <!--<item name="android:colorBackgroundCacheHint">#80000000</item>-->
+        <!--<item name="android:cacheColorHint">#80000000</item>-->
+        <item name="android:background">#111</item>
     </style>
     <style name="ActionBarOverflowButtonStyle"
         parent="@android:style/Widget.Material.ActionButton.Overflow" />

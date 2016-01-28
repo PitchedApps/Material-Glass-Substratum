@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="recurrence_picker_background">@color/aaa</color>
+    <color name="recurrence_picker_background">#f0f</color>
     <color name="recurrence_bubble_text_normal">#ffffffff</color>
     <color name="recurrence_edit_event_text">#ffffffff</color>
     <color name="recurrence_edit_event_text_hint">#aaffffff</color>
