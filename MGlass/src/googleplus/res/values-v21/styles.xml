@@ -65,4 +65,8 @@
         <item name="android:textSize">20.0sp</item>
         <item name="android:textColor">#ddffffff</item>
     </style>
+
+    <style name="Base.Widget.AppCompat.ListView" parent="@android:style/Widget.Material.ListView">
+        <item name="android:backgroundTint">#80000000</item>
+    </style>
 </resources>
