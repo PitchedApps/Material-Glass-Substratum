@@ -55,31 +55,5 @@
     <color name="notification_icon_bg">#80000000</color>
     <color name="notification_pressed">#89111111</color>
 
-    <color name="color_accent">#ffffffff</color>
-
-    <!--- Colors modify the background of the clock and change hourly -->
-    <!--<color name="hour_00">#88212121</color>-->
-    <!--<color name="hour_01">#8827232e</color>-->
-    <!--<color name="hour_02">#882d253a</color>-->
-    <!--<color name="hour_03">#88332847</color>-->
-    <!--<color name="hour_04">#88382a53</color>-->
-    <!--<color name="hour_05">#883e2c5f</color>-->
-    <!--<color name="hour_06">#88442e6c</color>-->
-    <!--<color name="hour_07">#88393a7a</color>-->
-    <!--<color name="hour_08">#882e4687</color>-->
-    <!--<color name="hour_09">#88235395</color>-->
-    <!--<color name="hour_10">#88185fa2</color>-->
-    <!--<color name="hour_11">#880d6baf</color>-->
-    <!--<color name="hour_12">#880277bd</color>&lt;!&ndash; Noon &ndash;&gt;-->
-    <!--<color name="hour_13">#880d6cb1</color>-->
-    <!--<color name="hour_14">#881861a6</color>-->
-    <!--<color name="hour_15">#8823569b</color>-->
-    <!--<color name="hour_16">#882d4a8f</color>-->
-    <!--<color name="hour_17">#88383f84</color>-->
-    <!--<color name="hour_18">#88433478</color>-->
-    <!--<color name="hour_19">#883d3169</color>-->
-    <!--<color name="hour_20">#88382e5b</color>-->
-    <!--<color name="hour_21">#88322b4d</color>-->
-    <!--<color name="hour_22">#882c273e</color>-->
-    <!--<color name="hour_23">#88272430</color>-->
+    <color name="color_accent">#ff748B96</color>
 </resources>

@@ -55,7 +55,7 @@
     <color name="notification_icon_bg">#80000000</color>
     <color name="notification_pressed">#89111111</color>
 
-    <color name="color_accent">#ffffffff</color>
+    <color name="color_accent">#ff748B96</color>
 
     <!--- Colors modify the background of the clock and change hourly -->
     <color name="hour_00">#88212121</color>
