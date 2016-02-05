@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="about_bg">#30000000</color>
-    <color name="abs_drop_bg">#80000000</color>
+    <color name="abs_drop_bg">#80ff0000</color>
     <color name="add_color">#ff2e2e2e</color>
-    <color name="all_gray">#30000000</color>
+    <!--<color name="all_gray">#30000000</color>-->
+    <color name="all_gray">#f0f</color>
     <color name="app_sectiontitle_yellow">#ffffffff</color>
     <color name="author_name">#ffffffff</color>
     <color name="background_black_19">#30000000</color>
@@ -36,7 +37,6 @@
     <color name="background_blue_32c2e1">#80000000</color>
     <color name="background_blue_3d">#80000000</color>
     <color name="background_blue_d">#80000000</color>
-    <color name="background_blue_l">#80000000</color>
     <!--card colors-->
     <color name="background_gray_2c">#30000000</color>
     <color name="background_gray_32">#30000000</color>
@@ -142,7 +142,7 @@
     <!--menu = nav drawer-->
     <color name="ics_menu_backgroud">#a0000000</color>
     <color name="ics_menu_diver">#22ffffff</color>
-    <color name="ics_menu_noselected_dark">#80000000</color>
+    <color name="ics_menu_noselected_dark">#80ff0000</color>
     <color name="ics_menu_selected">#30111111</color>
     <color name="ics_menu_selected_dark">#30111111</color>
     <color name="lgrey_end">#80000000</color>
