@@ -107,6 +107,7 @@ android {
         OGInstagram { applicationId "com.pitchedapps.material.glass.oginstagm" }
         Bluetooth { applicationId "com.pitchedapps.material.glass.bluetooth" }
         Tag { applicationId "com.pitchedapps.material.glass.android.tag" }
+        EbayDarkNotification { applicationId "com.pitchedapps.material.glass.ebay.darknotification" }
     }
     lintOptions {
         abortOnError false
