@@ -97,7 +97,7 @@
     <color name="quantum_black_hint_text">#42000000</color>
     <color name="quantum_black_divider">#1f000000</color>
     <!--###-->
-    <color name="quantum_white_100">#ffffffff</color>
+    <color name="quantum_white_100">#fff</color>
     <color name="quantum_white_text">#ffffffff</color>
     <color name="quantum_white_secondary_text">#b3ffffff</color>
     <color name="quantum_white_hint_text">#4dffffff</color>
@@ -232,7 +232,7 @@
     <color name="focused_bg">#80060606</color>
     <color name="disabled_bg">#80000000</color>
     <!--convo window null issue-->
-    <color name="conversation_bg_color">#ff000000</color>
+    <color name="conversation_bg_color">#000</color>
     <color name="conversation_list_bg_color">#80000000</color>
     <color name="conversation_name">#ddffffff</color>
     <color name="conversation_hangout_color">#ff50aa38</color>
@@ -300,4 +300,17 @@
     <color name="alert_dialog_hyperlink">#ddffffff</color>
     <color name="hangouts_primary_color">#ffffffff</color>
     <color name="hangouts_text_color">#ffffffff</color>
+
+    <!--02/06/2016-->
+    <color name="quick_send_active_background_color">#80222222</color>
+    <color name="quick_send_inactive_background_color">#80000000</color>
+    <color name="quick_send_inactive_tint">#888</color>
+    <color name="accept_button_text_color">#fff</color>
+    <color name="hangout_ping_circle_color">#fff</color>
+    <color name="hangout_volume_circle_color">#fff</color>
+    <color name="audio_mute_overlay_background">#66000000</color>
+    <color name="quick_button_pressed_color">#80555555</color>
+    <color name="quick_button_unpressed_color">#80000000</color>
+    <color name="design_snackbar_background_color">#80000000</color>
+
 </resources>

@@ -3,7 +3,7 @@
     <color name="batterymeter_base_color">#ffffffff</color>
     <color name="batterymeter_bolt_color">#ffffffff</color>
     <color name="batterymeter_charge_color">#ffffffff</color>
-    <color name="batterymeter_frame_color">#66ffffff</color>
+    <color name="batterymeter_frame_color">#4dffffff</color>
     <color name="current_user_border_color">#ddffffff</color>
     <color name="data_usage_graph_track">#33FFFFFF</color>
     <color name="data_usage_graph_warning">#FFFFFFFF</color>
@@ -115,9 +115,9 @@
     <color name="dark_mode_icon_color_single_tone">#99ffffff</color>
     <color name="dark_mode_icon_color_dual_tone_background">#3dffffff</color>
     <color name="dark_mode_icon_color_dual_tone_fill">#7affffff</color>
-    <color name="light_mode_icon_color_single_tone">#99ffffff</color>
+    <color name="light_mode_icon_color_single_tone">#fff</color>
     <color name="light_mode_icon_color_dual_tone_background">#3dffffff</color>
-    <color name="light_mode_icon_color_dual_tone_fill">#7affffff</color>
+    <color name="light_mode_icon_color_dual_tone_fill">#fff</color>
     <color name="zen_introduction_message_background">#b0000000</color>
     <color name="volume_icon_color">#ffffffff</color>
     <color name="volume_settings_icon_color">#7fffffff</color>

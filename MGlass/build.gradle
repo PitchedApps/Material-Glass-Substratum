@@ -108,6 +108,15 @@ android {
         Bluetooth { applicationId "com.pitchedapps.material.glass.bluetooth" }
         Tag { applicationId "com.pitchedapps.material.glass.android.tag" }
         EbayDarkNotification { applicationId "com.pitchedapps.material.glass.ebay.darknotification" }
+        EventFlow { applicationId "com.pitchedapps.material.glass.eventflow" }
+        GoogleMaps { applicationId "com.pitchedapps.material.glass.google.maps" }
+        NativeClipboard { applicationId "com.pitchedapps.material.glass.nativeclipboard" }
+        ModernHub { applicationId "com.pitchedapps.material.glass.modernhub" }
+        GoogleSettings { applicationId "com.pitchedapps.material.glass.google.gms" }
+        GoogleGames { applicationId "com.pitchedapps.material.glass.google.games" }
+        AdobeReader { applicationId "com.pitchedapps.material.glass.adobereader" }
+        WebViewGoogle { applicationId "com.pitchedapps.material.glass.webviewgoogle" }
+        SuperSU { applicationId "com.pitchedapps.material.glass.supersu" }
     }
     lintOptions {
         abortOnError false
