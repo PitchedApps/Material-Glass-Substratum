@@ -131,4 +131,8 @@
     <color name="suw_link_color_dark">#ddffffff</color>
     <color name="suw_progress_bar_color_dark">#33ffffff</color>
 
+    <!--pure nexus 02/21/2016-->
+    <!-- BlackList colors -->
+    <color name="blacklist_disabled">#aaffffff</color>
+    <color name="storage_summary_title_color">#fff</color>
 </resources>

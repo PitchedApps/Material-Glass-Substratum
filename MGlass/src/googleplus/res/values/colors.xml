@@ -70,7 +70,7 @@
     <color name="card_links_image_border">#26ffffff</color>
     <color name="card_separator">#22ffffff</color>
     <color name="cheek_pink">#fffe7676</color>
-    <color name="clear">#00000000</color>
+    <color name="clear">@android:color/transparent</color>
     <color name="cloud_aam_promo_bg">#80161616</color>
     <color name="collapsed_genre_background_even">#80161616</color>
     <color name="collapsed_genre_background_odd">#80000000</color>
@@ -293,18 +293,18 @@
     <color name="quantum_googblue600">#80000000</color>
     <color name="quantum_googblue900">#80222222</color>
 
-    <color name="quantum_googred">#fff</color>
+    <color name="quantum_googred">#ff748B96</color>
     <color name="quantum_googred500">#000</color>
     <color name="quantum_googred700">#000</color>
     <color name="quantum_googred900">#80333333</color>
 
     <!--11/03/2015-->
 
-    <color name="quantum_grey">#ffaaaaaa</color>
+    <color name="quantum_grey">#ff748B96</color>
     <color name="quantum_grey100">#80000000</color>
     <color name="quantum_grey200">#80000000</color>
     <color name="quantum_grey300">#80222222</color>
-    <color name="quantum_grey400">#ffaaaaaa</color>
+    <color name="quantum_grey400">#ff748B96</color>
     <color name="quantum_grey50">#80000000</color>
     <!--controls number count text-->
     <color name="quantum_grey500">#ddffffff</color>
@@ -344,7 +344,7 @@
     <color name="quantum_orangeA400">#80161616</color>
     <color name="quantum_orangeA700">#80161616</color>
 
-    <color name="quantum_white_100">#ffcccccc</color>
+    <color name="quantum_white_100">#ff748B96</color>
     <color name="quantum_white_divider">#1fffffff</color>
     <color name="quantum_white_hint_text">#4dffffff</color>
     <color name="quantum_white_secondary_text">#ddffffff</color>
@@ -438,49 +438,32 @@
     <color name="text_white">#ffffffff</color>
     <color name="text_white_26_percent">#42ffffff</color>
     <color name="text_white_40_percent">#66ffffff</color>
-    <!--<color name="theme_cinemascope">@color/aqua_marine</color>-->
     <color name="theme_cinemascope_title">#ffffffff</color>
     <color name="theme_cinemascope_title_background">#4d000000</color>
     <color name="theme_dark_title_shadow">#aa000000</color>
     <color name="theme_default_title_shadow">#55000000</color>
-    <!--<color name="theme_documentary">@color/beige</color>-->
     <color name="theme_documentary_title">#ffffffff</color>
     <color name="theme_documentary_title_background">#80000000</color>
-    <!--<color name="theme_festival">@color/old_orange</color>-->
     <color name="theme_festival_title">#ffffffff</color>
     <color name="theme_fun_factory">#ffaaa090</color>
     <color name="theme_fun_factory_title_shadow">#c0000000</color>
-    <!--<color name="theme_glamour">@color/gray_pink</color>-->
     <color name="theme_glamour_title">#ffffffff</color>
-    <!--<color name="theme_great_outdoors">@color/blue_steel</color>-->
     <color name="theme_great_outdoors_title">#ffffffff</color>
-    <!--<color name="theme_hardcore">@color/a_blue_whale1111</color>-->
     <color name="theme_hardcore_title">#ffffffff</color>
     <color name="theme_hardcore_title_background">#80000000</color>
     <color name="theme_item_text">#ffffffff</color>
-    <!--<color name="theme_lomokino">@color/sad_red</color>-->
     <color name="theme_lomokino_title">#ffffffff</color>
-    <!--<color name="theme_memory_lane">@color/cheek_pink</color>-->
     <color name="theme_memory_lane_title">#ffffffff</color>
-    <!--<color name="theme_modernpop">@color/sort_of_toothpastey</color>-->
     <color name="theme_modern_pop_title">#ffffffff</color>
-    <!--<color name="theme_punk">@color/moldy_yellow</color>-->
     <color name="theme_punk_title">#ffffffff</color>
-    <!--<color name="theme_showtime">@color/cheek_pink</color>-->
     <color name="theme_showtime_title">#ffffffff</color>
     <color name="theme_showtime_title_background">#80000000</color>
-    <!--<color name="theme_silver_screen">@color/a_blue_whale1111</color>-->
     <color name="theme_silver_screen_title">#ffffffff</color>
-    <!--<color name="theme_super8">@color/old_orange</color>-->
     <color name="theme_super8_title">#ffffffff</color>
     <color name="theme_super8_title_background">#80000000</color>
-    <!--<color name="theme_teal_orange">@color/beige</color>-->
     <color name="theme_teal_orange_title">#ffffffff</color>
-    <!--<color name="theme_urban_landscape">@color/aqua_marine</color>-->
     <color name="theme_urban_landscape_title">#ffffffff</color>
     <color name="theme_urban_landscape_title_background">#80000000</color>
-    <!--<color name="theme_vanilla">@color/happy_blue</color>-->
-    <!--<color name="theme_vintage">@color/roses_or_something</color>-->
     <color name="theme_vintage_title">#ffffffff</color>
     <color name="tile_background">#80000000</color>
     <color name="tile_background_selected">#80161616</color>
@@ -516,7 +499,7 @@
     <!--check-->
     <color name="acl_collexion_color">#80161616</color>
     <color name="adb_override_title">#aaffffff</color>
-    <color name="adb_override_value">#22ff0000</color>
+    <color name="adb_override_value">#22000000</color>
     <color name="advanced_parameter_selector_active_item_background">#e64285f4</color>
     <color name="advanced_parameter_selector_active_item_text">#ffffffff</color>
     <color name="advanced_parameter_selector_background">#8a000000</color>
@@ -544,23 +527,11 @@
     <color name="text_gray_accessible_on_grey200">#ccffffff</color>
 
     <!--11/20/2015-->
-    <!--<color name="acl_circle_chip_color">@color/quantum_grey300</color>-->
     <color name="avatar_selected_stroke">@android:color/white</color>
     <color name="collexion_learn_more_button_bg">#80000000</color>
     <color name="collexion_learn_more_create_collexion_bg">#80000000</color>
     <color name="collexion_learn_more_illustration_page_bg">#80000000</color>
-    <!--<color name="design_fab_shadow_end_color">@android:color/transparent</color>-->
-    <!--<color name="design_fab_shadow_mid_color">#14000000</color>-->
-    <!--<color name="design_fab_shadow_start_color">#44000000</color>-->
-    <!--<color name="design_fab_stroke_end_inner_color">#0a000000</color>-->
-    <!--<color name="design_fab_stroke_end_outer_color">#0f000000</color>-->
-    <!--<color name="design_fab_stroke_top_inner_color">#1affffff</color>-->
-    <!--<color name="design_fab_stroke_top_outer_color">#2effffff</color>-->
     <color name="design_snackbar_background_color">#80000000</color>
-    <!--<color name="design_textinput_error_color">#ffdd2c00</color>-->
-    <!--<color name="dialog_background_transparent_0x33">#33000000</color>-->
-    <!--<color name="dim_overlay_color">#ff000000</color>-->
-    <!--<color name="foreground_material_dark">@android:color/white</color>-->
     <color name="foreground_material_light">@android:color/white</color>
     <color name="material_grey_100">#fff5f5f5</color>
     <color name="material_grey_300">#ffe0e0e0</color>

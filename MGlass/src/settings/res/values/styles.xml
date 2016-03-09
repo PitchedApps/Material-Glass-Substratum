@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="Theme.SettingsBase" parent="@android:style/Theme.Material.Wallpaper">
-        <item name="android:statusBarColor">#30000000</item>
+        <item name="android:statusBarColor">#50000000</item>
         <item name="android:colorBackground">#bb000000</item>
     </style>
 

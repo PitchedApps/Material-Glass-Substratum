@@ -5,14 +5,14 @@
     <color name="background_light">#90ffffff</color>
     <color name="holo_blue_light">#ff748B96</color>
     <color name="holo_blue_dark">#ff62757e</color>
-    <color name="holo_blue_bright">#ff161616</color>
+    <color name="holo_blue_bright">#ff748B96</color>
     <color name="system_notification_accent_color">#cc62757e</color>
     <color name="background_holo_dark">#ff000000</color>
     <color name="highlighted_text_holo_dark">#66666666</color>
     <color name="highlighted_text_holo_light">#66666666</color>
     <color name="background_material_dark">#ff303030</color>
     <color name="background_material_light">#ffeeeeee</color>
-    <color name="background_floating_material_dark">#cc111111</color>
+    <color name="background_floating_material_dark">#bb060606</color>
     <color name="background_floating_material_light">#cceeeeee</color>
     <!--warning-->
     <color name="primary_text_default_material_light">#ff060606</color>
