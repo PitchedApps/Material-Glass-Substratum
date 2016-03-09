@@ -36,4 +36,6 @@
     <color name="secondary_text_disabled_material_light">#36ffffff</color>
     <color name="switch_thumb_disabled_material_light">#ff616161</color>
     <color name="switch_thumb_normal_material_light">#ffbdbdbd</color>
+
+    <dimen name="cardview_elevate">0.5dp</dimen>
 </resources>

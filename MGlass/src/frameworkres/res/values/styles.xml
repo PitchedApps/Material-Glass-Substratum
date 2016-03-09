@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!--new modification for tint-->
+
+    <style name="Theme.DeviceDefault.Settings" parent="@android:style/Theme.Material.Wallpaper">
+        <item name="android:windowBackground">@android:color/background_dark</item>
+        <item name="android:colorBackground">#aa000000</item>
+        <item name="android:colorBackgroundCacheHint">@android:color/background_dark</item>
+        <item name="android:backgroundTint">@android:color/background_dark</item>
+        <item name="android:navigationBarColor">@android:color/background_dark</item>
+    </style>
+
     <!--DeviceDefault-->
 
     <style name="Theme.DeviceDefault" parent="@android:style/Theme.Material.Wallpaper">
         <item name="android:windowBackground">@android:color/background_dark</item>
-        <item name="android:colorBackground">@android:color/background_dark</item>
+        <item name="android:colorBackground">#aa000000</item>
         <item name="android:colorBackgroundCacheHint">@android:color/background_dark</item>
     </style>
 
@@ -15,13 +25,13 @@
     <style name="Theme.DeviceDefault.DialogWhenLarge.NoActionBar" parent="@android:style/Theme.Material.DialogWhenLarge.NoActionBar">
         <item name="android:windowShowWallpaper">true</item>
         <item name="android:windowBackground">@android:color/background_dark</item>
-        <item name="android:colorBackground">@android:color/background_dark</item>
+        <item name="android:colorBackground">#aa000000</item>
         <item name="android:colorBackgroundCacheHint">@android:color/background_dark</item>
     </style>
     <style name="Theme.DeviceDefault.NoActionBar.Fullscreen" parent="@android:style/Theme.Material.NoActionBar.Fullscreen">
         <item name="android:windowShowWallpaper">true</item>
         <item name="android:windowBackground">@android:color/background_dark</item>
-        <item name="android:colorBackground">@android:color/background_dark</item>
+        <item name="android:colorBackground">#aa000000</item>
         <item name="android:colorBackgroundCacheHint">@android:color/background_dark</item>
     </style>
 
@@ -121,22 +131,22 @@
     <!--Settings-->
     <style name="Theme.Material.Settings" parent="@android:style/Theme.Material.Wallpaper" />
     <style name="Theme.Leanback.Settings.Dialog.Alert" parent="@android:style/Theme.Material.Dialog">
-        <item name="android:colorBackground">#90000000</item>
+        <item name="android:colorBackground">#a0000000</item>
     </style>
     <style name="Theme.Material.Settings.BaseDialog" parent="@android:style/Theme.Material.Dialog">
-        <item name="android:colorBackground">#90000000</item>
+        <item name="android:colorBackground">#a0000000</item>
     </style>
     <style name="Theme.Material.Settings.Dialog.BaseAlert" parent="@android:style/Theme.Material.Dialog">
-        <item name="android:colorBackground">#90000000</item>
+        <item name="android:colorBackground">#a0000000</item>
     </style>
     <style name="Theme.Material.Settings.Dialog.Presentation" parent="@android:style/Theme.Material.Dialog.Presentation">
-        <item name="android:colorBackground">#90000000</item>
+        <item name="android:colorBackground">#a0000000</item>
     </style>
     <style name="Theme.Material.Settings.SearchBar" parent="@android:style/Theme.Material.Settings">
-        <item name="android:colorBackground">#90000000</item>
+        <item name="android:colorBackground">#a0000000</item>
     </style>
     <style name="Theme.Material.Settings.CompactMenu" parent="@android:style/Theme.Material.Wallpaper">
-        <item name="android:colorBackground">#90000000</item>
+        <item name="android:colorBackground">#a0000000</item>
     </style>
 
     <!--materialization -->
