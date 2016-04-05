@@ -122,6 +122,9 @@ android {
         Dropsync { applicationId "com.pitchedapps.material.glass.layer.dropsync" }
         SMSBackup { applicationId "com.pitchedapps.material.glass.layer.smsbackup" }
         XNotifications { applicationId "com.pitchedapps.material.glass.layer.xnotifications" }
+        RootExplorer { applicationId "com.pitchedapps.material.glass.layer.rootexplorer" }
+        AndroidNify { applicationId "com.pitchedapps.material.glass.layer.xposed.nify" }
+        GravityBox { applicationId "com.pitchedapps.material.glass.layer.xposed.gravitybox" }
     }
     lintOptions {
         abortOnError false

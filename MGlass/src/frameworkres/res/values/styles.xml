@@ -196,4 +196,11 @@
     <style name="TextAppearance.StatusBar.EventContent.Emphasis" parent="@style/TextAppearance.StatusBar.EventContent">
         <item name="android:textColor">#ffffffff</item>
     </style>
+
+    <!--04/06/2016-->
+    <style name="Theme.Translucent" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:windowBackground">@android:color/background_dark</item>
+        <item name="android:colorBackground">#aa000000</item>
+        <item name="android:colorBackgroundCacheHint">@android:color/background_dark</item>
+    </style>
 </resources>

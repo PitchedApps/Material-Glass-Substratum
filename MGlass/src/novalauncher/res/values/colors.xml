@@ -42,6 +42,22 @@
     <color name="image_placeholder">#80000000</color>
     <color name="quantum_panel_dark">#bb000000</color>
 
-    <!--12/10/2015-->
+    <!--04/03/2016-->
+    <color name="cardIdleBackground">#00000000</color>
+    <color name="sneezeGuard">#00000000</color>
+    <color name="searchbarbuilder_bar_style_background">#99000000</color>
+    <color name="windowBackground">#80000000</color>
+    <color name="windowBackgroundNight">#80000000</color>
+    <color name="prime_text_color">#fff</color>
+    <color name="backup_adapter_section_text_color">#fff</color>
 
+    <color name="liam_gray">#ff748B96</color>
+
+    <color name="material_grey_100">#f0f</color>
+    <color name="material_grey_300">#f0f</color>
+    <color name="material_grey_50">#f0f</color>
+    <color name="material_grey_600">#0f0</color>
+    <color name="material_grey_800">#0f0</color>
+    <color name="material_grey_850">#0f0</color>
+    <color name="material_grey_900">#0f0</color>
 </resources>

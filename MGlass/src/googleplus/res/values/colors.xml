@@ -344,6 +344,7 @@
     <color name="quantum_orangeA400">#80161616</color>
     <color name="quantum_orangeA700">#80161616</color>
 
+    <!--2016/03/12 both background and text-->
     <color name="quantum_white_100">#ff748B96</color>
     <color name="quantum_white_divider">#1fffffff</color>
     <color name="quantum_white_hint_text">#4dffffff</color>
