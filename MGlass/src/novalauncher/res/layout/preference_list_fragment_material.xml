@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:orientation="vertical" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <View android:layout_gravity="left" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="fill_parent" />
-    <View android:layout_gravity="right" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="fill_parent" />
-    <com.teslacoilsw.shared.poisonlollipop.view.OverscrollListView android:scrollbarAlwaysDrawVerticalTrack="true" android:scrollbarStyle="outsideOverlay" android:id="@android:id/list" android:paddingLeft="0.0dip" android:paddingTop="0.0dip" android:paddingRight="0.0dip" android:paddingBottom="0.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="false" android:cacheColorHint="@android:color/transparent" android:overScrollFooter="@android:color/transparent" />
-</FrameLayout>
