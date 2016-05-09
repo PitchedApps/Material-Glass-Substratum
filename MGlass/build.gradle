@@ -10,7 +10,7 @@ tasks.whenTaskAdded { task ->
 
 android {
     compileSdkVersion 23
-    buildToolsVersion "23.0.2"
+    buildToolsVersion "23.0.3"
 
     defaultConfig {
         applicationId "com.pitchedapps.material.glass.layer"
@@ -125,6 +125,9 @@ android {
         RootExplorer { applicationId "com.pitchedapps.material.glass.layer.rootexplorer" }
         AndroidNify { applicationId "com.pitchedapps.material.glass.layer.xposed.nify" }
         GravityBox { applicationId "com.pitchedapps.material.glass.layer.xposed.gravitybox" }
+        RedditSlide { applicationId "com.pitchedapps.material.glass.layer.reddit.slide" }
+        RedditSync { applicationId "com.pitchedapps.material.glass.layer.reddit.sync" }
+        Portal { applicationId "com.pitchedapps.material.glass.layer.pushbullet.portal" }
     }
     lintOptions {
         abortOnError false
