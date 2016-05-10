@@ -36,8 +36,6 @@
     -->
     <color name="create_bar_button_background_focused">#22ffffff</color>
     <color name="create_bar_button_background_pressed">#20ffffff</color>
-    <!--check-->
-    <color name="create_entry_dialog_list_background">#cc060606</color>
     <!--account name with white background-->
     <color name="default_account_details_color">#fff</color>
     <color name="default_list_divider">#22ffffff</color>
@@ -272,5 +270,31 @@
     <color name="quantum_grey900">#bbffffff</color>
     <color name="quantum_grey300">#22ffffff</color>
 
+    <!--2016/05/10-->
+
+    <color name="audio_metadata">#60ffffff</color>
+    <color name="billing_bg">#80000000</color>
+    <color name="billing_divider">#22ffffff</color>
+    <color name="billing_header_bg">#80000000</color>
+    <color name="billing_header_fg">#fff</color>
+    <color name="billing_header_learn_more_text">#fff</color>
+
+    <color name="colorAccent">#fff</color>
+    <color name="colorPrimary">#000</color>
+    <color name="colorPrimaryDark">#000</color>
+
+    <color name="doclist_unavailable_entry_background">#80000000</color>
+
+    <color name="playback_controls">#b3000000</color>
+    <color name="price_button_bg">#80000000</color>
+    <color name="price_button_text">#fff</color>
+
+    <color name="sheet_tab_active_bg">#80111111</color>
+    <color name="sheet_tab_bg">#80000000</color>
+    <color name="sheet_tab_border">#22ffffff</color>
+    <color name="sheet_tab_divider">#22ffffff</color>
+    <color name="sheet_tab_inactive_pressed">#80111111</color>
+    <color name="viewer_active_text_color">#ffffffff</color>
+    <color name="viewer_inactive_text_color">#99ffffff</color>
 
 </resources>
