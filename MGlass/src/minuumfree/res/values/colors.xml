@@ -24,11 +24,11 @@
     <color name="theme_dark_font_top_color_dark">#fff</color>
     <color name="theme_dark_font_middle_color">#ffb7def0</color>
     <color name="theme_dark_font_bottom_color">#ff89c7e3</color>
-    <color name="theme_dark_zoomview_primary_color">#50111111</color>
-    <color name="theme_dark_zoomview_primary_color_shadow">#50222222</color>
-    <color name="theme_dark_zoomview_secondary_color">#f0f</color>
-    <color name="theme_dark_zoomview_highlight_color">#50000000</color>
-    <color name="theme_dark_zoomview_highlight_color_shadow">#50111111</color>
+    <color name="theme_dark_zoomview_primary_color">#b0111111</color>
+    <color name="theme_dark_zoomview_primary_color_shadow">#b0222222</color>
+    <color name="theme_dark_zoomview_secondary_color">#b0000000</color>
+    <color name="theme_dark_zoomview_highlight_color">#b0000000</color>
+    <color name="theme_dark_zoomview_highlight_color_shadow">#b0111111</color>
     <color name="theme_dark_zoomview_font_color">#fff</color>
     <color name="theme_dark_zoomview_font_highlight_color">@android:color/white</color>
     <color name="theme_dark_finger_shadow_color">@android:color/white</color>
