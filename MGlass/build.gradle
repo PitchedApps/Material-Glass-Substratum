@@ -128,6 +128,8 @@ android {
         RedditSlide { applicationId "com.pitchedapps.material.glass.layer.reddit.slide" }
         RedditSync { applicationId "com.pitchedapps.material.glass.layer.reddit.sync" }
         Portal { applicationId "com.pitchedapps.material.glass.layer.pushbullet.portal" }
+        GoogleCalculator { applicationId "com.pitchedapps.material.glass.layer.google.calculator" }
+        MinuumFree { applicationId "com.pitchedapps.material.glass.layer.minuum.keyboard.free" }
     }
     lintOptions {
         abortOnError false

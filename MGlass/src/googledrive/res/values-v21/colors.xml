@@ -270,6 +270,10 @@
     <color name="quantum_grey900">#bbffffff</color>
     <color name="quantum_grey300">#22ffffff</color>
 
+    <!--2015/05/11 primary colors-->
+    <color name="quantum_grey500">#000</color>
+    <color name="quantum_grey400">#000</color>
+
     <!--2016/05/10-->
 
     <color name="audio_metadata">#60ffffff</color>
