@@ -83,7 +83,7 @@ android {
         GoogleSheets { applicationId "com.pitchedapps.material.glass.layer.google.sheets" }
         GoogleTranslate { applicationId "com.pitchedapps.material.glass.layer.google.translate" }
         GoogleTTS { applicationId "com.pitchedapps.material.glass.layer.google.tts" }
-        GravityBox { applicationId "com.pitchedapps.material.glass.layer.xposed.gravitybox" }
+        GravityBoxM { applicationId "com.pitchedapps.material.glass.layer.xposed.gravitybox.marshmallow" }
         HellsCoreUpdater { applicationId "com.pitchedapps.material.glass.layer.hellscoreupdater" }
         Inbox { applicationId "com.pitchedapps.material.glass.layer.google.inbox" }
         Instagram { applicationId "com.pitchedapps.material.glass.layer.instagram" }

@@ -1,8 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="ConversationListFadeBase" parent="@android:style/Widget.Material.ListView">
+    <style name="MessageAttachmentButtonBaseStyle" parent="@style/MessageButtonStyleBase">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:minHeight">0.0dip</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="MessageButtonStyleBase"
+        parent="@android:style/Widget.Material.Button.Borderless" />
+    <style name="ActionBarStyle" parent="@android:style/Widget.Material.ActionBar">
+        <item name="android:background">#30000000</item>
         <item name="android:windowShowWallpaper">true</item>
     </style>
+    <style name="WaitFragmentTitle" parent="@style/WaitFragmentTitleBase">
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:layout_marginBottom">8.0dip</item>
+    </style>
+    <style name="WaitFragmentTitleBase" parent="@android:style/Widget.Material.TextView" />
+    <style name="NotificationPrimaryText">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="ActionBarWidgetTheme" parent="@android:style/Theme.Material">
+        <item name="android:dropDownListViewStyle">@style/ActionBarDividerlessListViewStyle</item>
+        <item name="android:popupMenuStyle">@android:style/Widget.Material.ListPopupWindow</item>
+        <item name="android:textAppearanceLargePopupMenu">@style/ActionBarTextAppearanceLargeStyle
+        </item>
+        <item name="android:textAppearanceSmallPopupMenu">@style/ActionBarTextAppearanceSmallStyle
+        </item>
+    </style>
+    <style name="ActionBarDividerlessListViewStyle"
+        parent="@android:style/Widget.Material.ListView">
+        <item name="android:divider">@null</item>
+    </style>
+    <style name="ActionBarTextAppearanceLargeStyle"
+        parent="@android:style/TextAppearance.Material.Widget.PopupMenu.Large">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="ActionBarTextAppearanceSmallStyle"
+        parent="@android:style/TextAppearance.Material.Widget.PopupMenu.Small">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+
+    <style name="ComposeDropdownListViewStyle" parent="@android:style/Widget.Material.ListView">
+        <item name="android:divider">@null</item>
+        <item name="android:dividerHeight">0.0dip</item>
+        <item name="android:background">#ff000000</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+
+    <!--<style name="ConversationListFadeBase" parent="@android:style/Widget.Material.ListView">-->
+        <!--<item name="android:windowShowWallpaper">true</item>-->
+        <!--<item name="android:background">@android:color/transparent</item>-->
+        <!--<item name="android:backgroundTint">#33ff00ff</item>-->
+    <!--</style>-->
 
     <style name="MinTimeProgressViewStyle" parent="@android:style/Widget.Material.ProgressBar" />
     <style name="MinTimeProgressDialogStyleBase" parent="@android:style/Theme.Material.Dialog" />
@@ -24,29 +78,22 @@
     <style name="ActionBarOverflowButtonStyle"
         parent="@android:style/Widget.Material.ActionButton.Overflow" />
     <style name="AccountSetupDialogActivityTheme"
-        parent="@android:style/Theme.Material.Dialog.NoActionBar">
-        <item name="android:colorPrimary">#ff000000</item>
-        <item name="android:colorPrimaryDark">#ff000000</item>
-        <item name="android:colorAccent">#ffffffff</item>
-    </style>
+        parent="@android:style/Theme.Material.Dialog.NoActionBar"/>
     <style name="LabelSyncTheme" parent="@android:style/Theme.Material.Dialog" />
     <style name="GmailTheme.NoActionBar" parent="@android:style/Theme.DeviceDefault.NoActionBar">
-        <item name="android:colorPrimary">#ff000000</item>
-        <item name="android:colorPrimaryDark">#ff000000</item>
-        <item name="android:colorAccent">#ffffffff</item>
-        <item name="android:colorEdgeEffect">#ffffffff</item>
-        <item name="android:statusBarColor">#ff000000</item>
+        <item name="android:statusBarColor">#80000000</item>
         <item name="android:windowBackground">@android:color/transparent</item>
-        <item name="android:colorBackground">#40000000</item>
+        <item name="android:backgroundTint">#80000000</item>
     </style>
     <style name="GmailTheme.NoActionBar.Fullscreen"
         parent="@android:style/Theme.DeviceDefault.NoActionBar.Fullscreen">
-        <item name="android:colorPrimary">#ff161616</item>
-        <item name="android:colorPrimaryDark">#ff161616</item>
+        <item name="android:colorPrimary">#0f0</item>
+        <item name="android:colorPrimaryDark">#0f0</item>
         <item name="android:colorAccent">#ffffffff</item>
         <item name="android:colorEdgeEffect">#ffffffff</item>
 
-        <item name="android:statusBarColor">#ff000000</item>
+        <item name="android:statusBarColor">#80000000</item>
+        <item name="android:backgroundTint">#80000000</item>
         <item name="android:navigationBarColor">#80000000</item>
         <item name="android:textColor">#ffffffff</item>
     </style>
@@ -96,4 +143,18 @@
         <item name="pressedTranslationZ">6.0dip</item>
         <item name="borderWidth">0.5dip</item>
     </style>
+
+    <!--2016/05/11-->
+
+    <!--<style name="ConversationViewPaddingStyle">-->
+        <!--<item name="android:paddingLeft">16.0dip</item>-->
+        <!--<item name="android:paddingRight">16.0dip</item>-->
+        <!--<item name="android:backgroundTint">#f0f</item>-->
+    <!--</style>-->
+
+    <style name="MessageDetailsHeaderStyle">
+        <item name="android:paddingLeft">72.0dip</item>
+        <item name="android:paddingRight">16.0dip</item>
+    </style>
 </resources>
+
