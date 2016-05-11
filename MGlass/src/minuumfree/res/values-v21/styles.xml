@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MinuumAppTheme" parent="@android:style/Theme.DeviceDefault">
+        <!--<item name="android:windowContentOverlay">@null</item>-->
+        <item name="android:colorPrimary">#ff5398cb</item>
+        <item name="android:colorPrimaryDark">#ff3a86b5</item>
+        <item name="android:colorAccent">#ff5398cb</item>
+        <!--<item name="android:backgroundTint">#d0000000</item>-->
+        <item name="accent_color">#ff5398cb</item>
+    </style>
+
+    <attr name="accent_color" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+</resources>

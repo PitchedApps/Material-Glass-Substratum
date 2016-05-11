@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="grey">#0f0</color>-->
+    <!--<color name="solid_white">#f0f</color>-->
+
+    <!--<color name="lighter_grey">#0f0</color>-->
+    <!--<color name="light_grey">#0ff</color>-->
+    <!--<color name="dark_grey">#f00</color>-->
+
+    <!--<color name="minuum_tutorial_black">#f0f</color>-->
+
+    <color name="theme_dark_candidate_modeswitch_overlay">#99000000</color>
+    <color name="theme_dark_candidate_modeswitch_icon_color">#fff</color>
+    <color name="theme_dark_candidate_color">#50000000</color>
+    <color name="theme_dark_key_modifier_color">#50000000</color>
+    <color name="theme_dark_key_modifier_color_pressed">#50111111</color>
+    <color name="theme_dark_key_highlight_color">#50444444</color>
+    <color name="theme_dark_key_color">#50000000</color>
+    <color name="theme_dark_key_color_pressed">#50111111</color>
+    <color name="theme_dark_highlight_color">#ffbfe4ff</color>
+    <color name="theme_dark_icon_color">#ffcccccc</color>
+    <color name="theme_dark_background_color">#50000000</color>
+    <color name="theme_dark_font_secondary_color">#aaffffff</color>
+    <color name="theme_dark_font_top_color_dark">#fff</color>
+    <color name="theme_dark_font_middle_color">#ffb7def0</color>
+    <color name="theme_dark_font_bottom_color">#ff89c7e3</color>
+    <color name="theme_dark_zoomview_primary_color">#50111111</color>
+    <color name="theme_dark_zoomview_primary_color_shadow">#50222222</color>
+    <color name="theme_dark_zoomview_secondary_color">#f0f</color>
+    <color name="theme_dark_zoomview_highlight_color">#50000000</color>
+    <color name="theme_dark_zoomview_highlight_color_shadow">#50111111</color>
+    <color name="theme_dark_zoomview_font_color">#fff</color>
+    <color name="theme_dark_zoomview_font_highlight_color">@android:color/white</color>
+    <color name="theme_dark_finger_shadow_color">@android:color/white</color>
+    <color name="theme_dark_snippet_tab_color">#502f2f2f</color>
+    <color name="theme_dark_snippet_key_pressed_color">#50ffffff</color>
+</resources>
