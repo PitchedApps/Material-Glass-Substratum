@@ -87,8 +87,8 @@
     </style>
     <style name="GmailTheme.NoActionBar.Fullscreen"
         parent="@android:style/Theme.DeviceDefault.NoActionBar.Fullscreen">
-        <item name="android:colorPrimary">#0f0</item>
-        <item name="android:colorPrimaryDark">#0f0</item>
+        <item name="android:colorPrimary">#000</item>
+        <item name="android:colorPrimaryDark">#000</item>
         <item name="android:colorAccent">#ffffffff</item>
         <item name="android:colorEdgeEffect">#ffffffff</item>
 
@@ -146,15 +146,24 @@
 
     <!--2016/05/11-->
 
-    <!--<style name="ConversationViewPaddingStyle">-->
-        <!--<item name="android:paddingLeft">16.0dip</item>-->
-        <!--<item name="android:paddingRight">16.0dip</item>-->
-        <!--<item name="android:backgroundTint">#f0f</item>-->
-    <!--</style>-->
-
-    <style name="MessageDetailsHeaderStyle">
-        <item name="android:paddingLeft">72.0dip</item>
-        <item name="android:paddingRight">16.0dip</item>
+    <style name="AbstractCalendarPromotionTitle">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">20.0dip</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+    <style name="AbstractCalendarPromotionText">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:paddingTop">0.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textAlignment">viewStart</item>
     </style>
 </resources>
 
