@@ -255,8 +255,8 @@
     <color name="rte_text_gray">#ddffffff</color>
     <color name="rte_fill_tinted_gray">#f0f</color><!--unknown function-->
 
-    <color name="gray_20pc">#f00</color>
-    <color name="gray_81pc">#0f0</color>
+    <color name="gray_20pc">#fff</color>
+    <color name="gray_81pc">#80000000</color>
 
     <color name="text_primary_color">#fff</color>
 
