@@ -63,6 +63,7 @@ android {
         FrameworkMTest { applicationId "com.pitchedapps.material.glass.layer.framework.m.test" }
         FrameworkRes { applicationId "com.pitchedapps.material.glass.layer.framework" }
         FreeOTP { applicationId "com.pitchedapps.material.glass.layer.freeotp" }
+        LSpeed { applicationId "com.pitchedapps.material.glass.layer.lspeed" }
         Gmail { applicationId "com.pitchedapps.material.glass.layer.gmail" }
         Google { applicationId "com.pitchedapps.material.glass.layer.google" }
         GoogleCalculator { applicationId "com.pitchedapps.material.glass.layer.google.calculator" }
@@ -131,6 +132,7 @@ android {
         WeatherBug { applicationId "com.pitchedapps.material.glass.layer.weatherbug" }
         WebViewGoogle { applicationId "com.pitchedapps.material.glass.layer.webviewgoogle" }
         WhatsApp { applicationId "com.pitchedapps.material.glass.layer.whatsapp" }
+        XDALabs { applicationId "com.pitchedapps.material.glass.layer.xda.labs" }
         XNotifications { applicationId "com.pitchedapps.material.glass.layer.xnotifications" }
         YoutubeSettings { applicationId "com.pitchedapps.material.glass.layer.youtube" }
         zTest { applicationId "com.pitchedapps.material.glass.layer.ztest" }

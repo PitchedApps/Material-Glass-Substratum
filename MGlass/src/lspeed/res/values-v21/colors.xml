@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#ff29b6f6</color>
+    <color name="colorAccentInverse">#ff03a9f4</color>
+    <color name="colorBanner">#ff1d92d4</color>
+    <color name="colorPrimary">#ff039be5</color>
+    <color name="colorPrimaryDark">#ff0277bd</color>
+    <color name="colorPrimaryDarkInverse">#ff0277bd</color>
+    <color name="colorPrimaryInverse">#ff01579b</color>
+
+    <color name="gray">#aaffffff</color>
+
+    <color name="semitrans">#44000000</color>
+</resources>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent">#ff748B96</color>
+
+    <color name="accent_translucent">#dd748B96</color>
+    <color name="accent_translucent_bright">#dd748B96</color>
+    <color name="background_dark">#80000000</color>
+
+    <color name="background_quoted_dark">#30000000</color>
+    <color name="background_quoted_light">#30000000</color>
+    <color name="black">#ff000000</color>
+    <color name="blue">#ff748B96</color>
+    <color name="button_dark">#50000000</color>
+    <color name="button_light">#50000000</color>
+
+    <color name="primary">#000</color>
+    <color name="primary_dark">#000</color>
+
+    <!--<color name="colorAccent">@color/accent</color>-->
+    <color name="colorPrimary">#000</color>
+    <color name="colorPrimaryDark">#000</color>
+
+    <!--<color name="cpb_grey">#0f0</color>-->
+
+    <color name="cpb_white">@android:color/white</color>
+
+    <color name="design_snackbar_background_color">#bb000000</color>
+    <color name="design_textinput_error_color">#ffdd2c00</color>
+    <color name="dialog_bg_dark">#cc060606</color>
+    <color name="dialog_bg_light">#cc060606</color>
+
+    <color name="divider">#11ffffff</color>
+    <color name="fab_color">#111</color>
+    <color name="fab_orange_bright">#555</color>
+    <color name="fab_orange_dark">#555</color>
+    <color name="fab_orange_light">#555</color>
+
+    <color name="forums_highlight_dark">#80555555</color>
+    <color name="forums_highlight_light">#80555555</color>
+    <color name="google_login_divider">#22ffffff</color>
+
+    <color name="hint_light_text">#66ffffff</color>
+    <color name="hint_text">#99ffffff</color>
+
+    <color name="main_gridview_button_cta_dark">#50000000</color>
+    <color name="main_gridview_button_cta_light">#50000000</color>
+    <color name="main_gridview_button_text_dark">#fff</color>
+    <color name="main_gridview_button_text_light">#ffffffff</color>
+    <color name="main_xda_color">#ff748B96</color>
+
+    <color name="md_btn_selected">#33969696</color>
+    <color name="md_btn_selected_dark">#40cbcbcb</color>
+    <color name="md_divider_black">#10000000</color>
+    <color name="md_divider_white">#10ffffff</color>
+
+    <color name="navdrawer_divider_dark">#11ffffff</color>
+    <color name="navdrawer_divider_light">#11ffffff</color>
+    <color name="offwhite">#80000000</color>
+
+
+    <color name="primary_dark_text">#fff</color>
+    <color name="primary_light_text">#ffffffff</color>
+
+    <color name="primary_medium">#fff</color>
+    <color name="primary_text">#fff</color>
+
+    <color name="quoted_light_text">#aaffffff</color>
+    <color name="quoted_text">#fff</color>
+    <color name="review_button_background_dark">#30000000</color>
+    <color name="review_button_background_light">#30000000</color>
+
+    <color name="screenshots_fullscreen_background">#000</color>
+    <color name="search_divider_dark">#11ffffff</color>
+    <!--<color name="search_divider_light">#ffb6b6b6</color>-->
+    <color name="search_list_results_bg_dark">#a0000000</color>
+    <!--<color name="search_list_results_bg_light">#ffe5e5e5</color>-->
+    <color name="search_overlay_bg_dark">#bb000000</color>
+    <!--<color name="search_overlay_bg_light">#66000000</color>-->
+    <color name="secondary_light_text">#aaffffff</color>
+    <color name="secondary_text">#ff727272</color>
+
+    <color name="tab_layout_background_color">#80000000</color>
+    <color name="tab_text">#fff</color>
+    <color name="translucent_banner_bg">#99000000</color>
+    <color name="translucent_statusbar">#11111111</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="white">#ff343d41</color>
+</resources>
