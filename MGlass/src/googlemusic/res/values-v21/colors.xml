@@ -85,9 +85,9 @@
     <color name="gearhead_primary_color_dark">#ffff9700</color>
     <color name="gifting_price_tag">#ffff5722</color>
     <color name="gifting_purple">#ff4527a0</color>
-    <color name="gray_80">#f0f</color>
-    <color name="gray_88">#f0f</color>
-    <color name="grey">#f0f</color>
+    <color name="gray_80">#fff</color>
+    <color name="gray_88">#fff</color>
+    <color name="grey">#fff</color>
 
     <color name="juno_awards_color">#ff303030</color>
     <color name="keep_on_badge_progress_background">#80000000</color>
@@ -121,7 +121,7 @@
     <color name="lb_error_background_color_opaque">#ff262626</color>
     <color name="lb_error_background_color_translucent">#e6000000</color>
     <color name="lb_error_message">#80eeeeee</color>
-    <color name="lb_grey">#f0f</color>
+    <color name="lb_grey">#fff</color>
     <color name="lb_guidedactions_background">#80000000</color>
     <color name="lb_guidedactions_item_unselected_text_color">#fff1f1f1</color>
     <color name="lb_guidedactions_selector_color">#26ffffff</color>
@@ -173,7 +173,7 @@
     <color name="material_grey_separator">#1affffff</color>
     <!--<color name="material_track_highlight">#ffe0e0e0</color>-->
     <color name="music_banner_color">#ffc45900</color>
-    <color name="nautilus_indicator">#f0f</color>
+    <color name="nautilus_indicator">#fff</color>
     <color name="notification_large_icon_bg_color">#80000000</color>
     <color name="nowplaying_art_bg">#80000000</color>
     <color name="nowplaying_progressbar_bg">#80000000</color>
@@ -308,7 +308,7 @@
     <color name="upsell_preroll_button_color">#ff00bcd4</color>
     <color name="wear_download_pie_chart_background">#80000000</color>
     <!--<color name="wear_download_pie_chart_color">@color/play_music_primary</color>-->
-    <color name="white">#ffffffff</color>
+    <color name="white">#ff62757e</color>
     <color name="white_transparent_0">#00ffffff</color>
     <color name="white_transparent_50">#7fffffff</color>
     <color name="white_transparent_54">#89ffffff</color>
