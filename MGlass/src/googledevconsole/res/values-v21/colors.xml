@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <color name="accent">#fff</color>
+  <color name="account_text_color">#fff</color>
+    <color name="action_button_ripple_color">#ffffffff</color>
+    <color name="add_accounts_text_color">#fff</color>
+     <color name="chart_area">#11ffffff</color>
+    <color name="chart_color_1">#fff</color>
+    <color name="chart_color_2">#ff62757e</color>
+    <color name="chart_color_old">#99ffffff</color>
+    <color name="chart_tick_mark">#ddffffff</color>
+      <color name="default_account_details_color">@android:color/white</color>
+     <color name="design_snackbar_background_color">#111</color>
+    <color name="design_textinput_error_color_dark">#ffff6e6e</color>
+    <color name="design_textinput_error_color_light">#ffd50000</color>
+     <color name="divider">#1effffff</color>
+    <color name="drawer_icon_tint">#aaffffff</color>
+    <color name="drawer_selected_background">#fff</color>
+    <color name="drawer_text_color">#fff</color>
+    <color name="feature_graphic_background">#80000000</color>
+
+    <color name="help_card_background">#50000000</color>
+
+    <color name="icons">#ffffffff</color>
+    <color name="inactive_star_tint">#aaa</color>
+    <color name="list_background">#80000000</color>
+    <color name="manage_accounts_text_color">#fff</color>
+    <color name="mostly_transparent_black">#33000000</color>
+    <color name="notification_bad_background">#80000000</color>
+    <color name="notification_good_background">#80000000</color>
+    <color name="notification_pending_background">#80000000</color>
+    <color name="primary">#ff607d8b</color>
+    <color name="primary_black_38">#61ffffff</color>
+    <color name="primary_black_54">#8affffff</color>
+    <color name="primary_black_87">#deffffff</color>
+    <color name="primary_dark">#ff37474f</color>
+
+    <color name="primary_light">#607d8b</color>
+
+    <color name="primary_text">#fff</color>
+
+
+    <color name="quantum_black_100">#fff</color>
+    <color name="quantum_black_divider">#1fffffff</color>
+    <color name="quantum_black_hint_text">#61ffffff</color>
+    <color name="quantum_black_secondary_text">#89ffffff</color>
+    <color name="quantum_black_text">#ddffffff</color>
+
+    <!--<color name="quantum_grey">@color/quantum_grey500</color>-->
+    <color name="quantum_grey100">#f0f</color>
+    <color name="quantum_grey200">#f0f</color>
+    <color name="quantum_grey300">#f0f</color>
+    <color name="quantum_grey400">#f0f</color>
+    <color name="quantum_grey50">#f0f</color>
+    <color name="quantum_grey500">#f0f</color>
+    <color name="quantum_grey600">#f0f</color>
+    <color name="quantum_grey700">#f0f</color>
+    <color name="quantum_grey800">#f0f</color>
+    <color name="quantum_grey900">#f0f</color>
+    <color name="quantum_greyblack1000">#f0f</color>
+    <color name="quantum_greywhite1000">#f0f</color>
+
+    <color name="quantum_white_100">#ffffffff</color>
+    <color name="quantum_white_divider">#1fffffff</color>
+    <color name="quantum_white_hint_text">#80ffffff</color>
+    <color name="quantum_white_secondary_text">#b3ffffff</color>
+    <color name="quantum_white_text">#ffffffff</color>
+
+    <color name="screen_background">#80000000</color>
+    <color name="screen_dark_background">#80000000</color>
+    <color name="secondary_text">#aaffffff</color>
+     <color name="snackbar_color">#111</color>
+    <color name="tab_indicator_color">#ffffff8c</color>
+    <color name="transparent_black">#00000000</color>
+    <color name="transparent_white">#00ffffff</color>
+    <color name="warning_card_background">#50222222</color>
+    <color name="welcome_screen_background">#80000000</color>
+</resources>
