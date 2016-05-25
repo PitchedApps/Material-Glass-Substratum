@@ -69,6 +69,7 @@ android {
         GoogleCalculator { applicationId "com.pitchedapps.material.glass.layer.google.calculator" }
         GoogleCalendar { applicationId "com.pitchedapps.material.glass.layer.google.calendar" }
         GoogleDeskClock { applicationId "com.pitchedapps.material.glass.layer.google.deskclock" }
+        GoogleDevConsole { applicationId "com.pitchedapps.material.glass.layer.google.developer.console" }
         GoogleDocs { applicationId "com.pitchedapps.material.glass.layer.google.docs" }
         GoogleDrive { applicationId "com.pitchedapps.material.glass.layer.google.drive" }
         GoogleGames { applicationId "com.pitchedapps.material.glass.layer.google.games" }
