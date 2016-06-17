@@ -94,4 +94,7 @@
     <color name="exposed_ContactsActionBarTheme_text">#ffffff</color>
     <color name="exposed_SectionDivider">#22ffffff</color>
     <color name="exposed_EditKindTextAppearanceStyle">#ffffff</color>
+
+    <!--2016/06/17-->
+    <color name="back_arrow_icon_tint_color">#fff</color>
 </resources>

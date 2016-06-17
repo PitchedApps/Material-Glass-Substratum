@@ -197,9 +197,9 @@
     <color name="quantum_grey">#f00</color>
     <color name="quantum_grey100">#f00</color>
     <color name="quantum_grey200">#f00</color>
-    <color name="quantum_grey300">#0f0</color>
+    <color name="quantum_grey300">#000</color>
     <color name="quantum_grey400">#000</color> <!--primary color-->
-    <color name="quantum_grey50">#0f0</color>
+    <color name="quantum_grey50">#000</color>
     <color name="quantum_grey500">#0ff</color>
     <color name="quantum_grey600">#0ff</color>
     <color name="quantum_grey700">#0ff</color>

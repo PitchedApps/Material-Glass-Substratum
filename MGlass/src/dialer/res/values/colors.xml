@@ -123,4 +123,8 @@
     <color name="voicemail_icon_disabled_tint">#80ffffff</color>
     <color name="call_log_icon_tint">#b3ffffff</color>
 
+    <!--2016/06/17-->
+    <color name="promo_card_header_text_color">#fff</color>
+    <color name="promo_card_details_text_color">#fff</color>
+
 </resources>

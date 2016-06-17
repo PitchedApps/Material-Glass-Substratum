@@ -127,4 +127,6 @@
     <color name="primary_color_dark">#ff000000</color>
     <color name="primary_color">#ff000000</color>
 
+    <!--2016/06/17-->
+    <color name="back_arrow_icon_tint_color">#fff</color>
 </resources>
