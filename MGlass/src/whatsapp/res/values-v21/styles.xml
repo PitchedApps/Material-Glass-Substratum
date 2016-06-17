@@ -141,7 +141,7 @@
         <item name="android:textStyle">bold</item>
         <item name="android:textColor">#fff</item>
         <item name="android:paddingRight">4.0dip</item>
-        <item name="android:text">•</item>
+        <item name="android:text">&#8226;</item>
     </style>
 
     <style name="UndoBarClassic">
@@ -157,4 +157,27 @@
         <item name="android:maxHeight">150.0dip</item>
         <item name="android:minHeight">48.0dip</item>
     </style>
+
+    <!--2016/06/14-->
+
+    <style name="ConversationDocumentInfoBullet" parent="@android:style/TextAppearance">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#33ffffff</item>
+        <item name="android:paddingLeft">4.0sp</item>
+        <item name="android:paddingRight">4.0sp</item>
+        <item name="android:text">&#8226;</item>
+    </style>
+
+    <style name="FlatCardInfo" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:layout_gravity">center|right</item>
+        <item name="android:paddingLeft">16.0dip</item>
+        <item name="android:paddingRight">16.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawablePadding">4.0dip</item>
+    </style>
+
+
 </resources>

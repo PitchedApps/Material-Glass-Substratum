@@ -160,4 +160,8 @@
     <!--make text that are based on primary color white 11/03/2015-->
     <color name="voicemail_playpause_icon_tint">#fff</color>
     <color name="voicemail_playback_seek_bar_already_played">#fff</color>
+
+    <!--2016/06/17-->
+    <color name="promo_card_header_text_color">#fff</color>
+    <color name="promo_card_details_text_color">#fff</color>
 </resources>

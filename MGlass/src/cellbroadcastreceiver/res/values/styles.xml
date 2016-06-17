@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="CellBroadcastTheme" parent="@android:Theme.DeviceDefault" />
-    <style name="CellBroadcastDialogTheme" parent="@android:Theme.Material.Dialog" />
+    <style name="CellBroadcastTheme" parent="@android:style/Theme.DeviceDefault" />
+    <style name="CellBroadcastDialogTheme" parent="@android:style/Theme.DeviceDefault.Dialog" />
     <style name="CellBroadcastSettingsTheme" parent="@android:style/Theme.DeviceDefault">
         <item name="android:statusBarColor">@android:color/transparent</item>
     </style>
+
+    <style name="CellBroadcastListActivityTheme" parent="@android:style/Theme.DeviceDefault" />
+    <style name="CellBroadcastAlertDialog" parent="@android:style/Theme.DeviceDefault.Dialog" />
 </resources>

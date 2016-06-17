@@ -13,4 +13,7 @@
     <color name="pad_button_advanced_text_color">#99ffffff</color>
     <color name="pad_button_ripple_color">#33ffffff</color>
     <color name="pad_button_advanced_ripple_color">#1affffff</color>
+
+    <!--2016/06/17-->
+    <color name="pad_view_pager_background">#77000000</color>
 </resources>
