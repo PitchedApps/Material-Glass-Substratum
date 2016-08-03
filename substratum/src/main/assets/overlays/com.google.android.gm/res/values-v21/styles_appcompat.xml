@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Platform.AppCompat" parent="@android:style/Theme.Material.Wallpaper">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:backgroundTint">#a0000000</item>
+        <item name="android:backgroundTintMode">src_in</item>
+        <item name="android:statusBarColor">#a0000000</item>
+    </style>
+    <style name="Platform.AppCompat.Light" parent="@android:style/Theme.Material.Wallpaper">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:backgroundTint">#a0000000</item>
+        <item name="android:backgroundTintMode">src_in</item>
+        <item name="android:statusBarColor">#a0000000</item>
+    </style>
+
+    <style name="Base.Widget.AppCompat.Light.ActionBar.TabView" parent="@android:style/Widget.Material.ActionBar.TabView" />
+    <style name="Base.Widget.AppCompat.Light.ActionBar.TabText" parent="@android:style/Widget.Material.ActionBar.TabText" />
+    <style name="Base.Widget.AppCompat.Light.ActionBar.TabText.Inverse" parent="@android:style/Widget.Material.ActionBar.TabText" />
+    <style name="Base.Widget.AppCompat.Light.PopupMenu" parent="@android:style/Widget.Material.PopupMenu" />
+    <style name="Platform.AppCompat.Light.Dialog" parent="@android:style/Theme.Material.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+    <style name="Base.ThemeOverlay.AppCompat.Light" parent="@android:style/ThemeOverlay.Material.Dark" />
+
+
+
+    <!--<style name="Platform.ThemeOverlay.AppCompat" parent="">-->
+        <!--<item name="android:backgroundTint">#30ff0000</item>-->
+    <!--</style>-->
+</resources>

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="generic_selected_item">#80060606</color>
+
+    <style name="verticalDividerStyle">
+        <item name="android:background">#22ffffff</item>
+        <item name="android:layout_width">1.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginTop">12.0dip</item>
+        <item name="android:layout_marginBottom">12.0dip</item>
+    </style>
+    <style name="inviteVerticalDividerStyle">
+        <item name="android:background">#22ffffff</item>
+        <item name="android:layout_width">1.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="horizontalDividerStyle">
+        <item name="android:background">#22ffffff</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1.0dip</item>
+    </style>
+    <style name="ProfileItemLabel">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#ddffffff</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:singleLine">true</item>
+    </style>
+<!--
+    <style name="RealTimeChat.ConversationSwitcher.main" parent="@style/Pitch.EmeraldSea">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:fontFamily">roboto-regular</item>
+    </style>
+    <style name="RealTimeChat.ConversationHeader.ConversationName" parent="@style/Pitch.EmeraldSea">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="RealTimeChat.ParticipantHeader.ParticipantCount" parent="@style/Pitch.EmeraldSea">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="RealTimeChat.Message.Author" parent="@style/Pitch.EmeraldSea">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="RealTimeChat.Participant.Name" parent="@style/Pitch.EmeraldSea">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="Pitch.EmeraldSea" parent="@*common:style/Theme.AppCompat.NoActionBar">
+        <item name="android:backgroundTint">@color/backgroundtint</item>
+        <item name="android:statusBarColor">@color/backgroundtint</item>
+
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:dividerHeight">@dimen/divider_height_settings</item>
+        <item name="android:listDivider">@drawable/list_divider_settings</item>
+        <item name="hangoutsListSelector">@android:drawable/list_selector_background</item>
+        <item name="editAudienceBackground">@android:drawable/edit_text</item>
+        <item name="editLocationBackground">@android:drawable/edit_text</item>
+        <item name="hangoutsButtonSelectableBackground">@drawable/bg_item_selectable</item>
+        <item name="actionOverflowButtonStyle">@style/ActionBarOverflow</item>
+        <item name="actionBarPopupTheme">@style/ThemeOverlay.AppCompat</item>
+        <item name="actionModeBackground">@android:color/transparent</item>
+        <item name="selectableItemBackground">@drawable/touch_item_background</item>
+        <item name="toolbarStyle">@style/Toolbar</item>
+        <item name="panelBackground">@*common:color/dialog</item>
+        <item name="colorPrimary">@color/backgroundx</item>
+        <item name="colorPrimaryDark">@color/backgroundx</item>
+        <item name="colorAccent">@color/accent_dark</item>
+    </style>
+    <style name="ThemeOverlay.AppCompat" parent="@*common:style/Base.ThemeOverlay.AppCompat.Light" />
+    <style name="ActionBarOverflow" parent="@*common:style/Widget.AppCompat.ActionButton.Overflow" />
+	<style name="Toolbar" parent="@*common:style/Widget.AppCompat.Toolbar">
+        <item name="titleTextAppearance">@style/ToolbarTitle</item>
+        <item name="subtitleTextAppearance">@style/ToolbarSubtitle</item>
+    </style>
+    <style name="ToolbarTitle" parent="@*common:style/TextAppearance.AppCompat.Widget.ActionMode.Title">
+        <item name="android:textSize">@dimen/header_text_size</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="ToolbarSubtitle" parent="@*common:style/TextAppearance.AppCompat.Widget.ActionMode.Subtitle">
+        <item name="android:textSize">@dimen/sub_header_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">#00000000</item>
+        <item name="android:layout_marginTop">-3.0sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+-->
+    <style name="Theme.EmeraldSea.Settings" parent="@android:style/Theme.Material">
+        <item name="android:actionBarStyle">@style/EsActionBar</item>
+        <!--<item name="android:homeAsUpIndicator">@drawable/ic_arrow_back_black</item>-->
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">#80000000</item>
+        <item name="android:backgroundTint">#80000000</item>
+    </style>
+
+    <style name="EsActionBar" parent="@android:style/Widget.Material.ActionBar">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:actionModeBackground">@android:color/transparent</item>
+        <item name="android:logo">@android:color/transparent</item>
+        <item name="android:titleTextStyle">@style/EsActionBar.Title</item>
+    </style>
+    <style name="EsActionBar.Title" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Title">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:background">#00000000</item>
+    </style>
+
+    <style name="SettingsActionBarStyle" parent="@android:style/Widget.Material.ActionBar">
+        <item name="android:icon">@android:color/transparent</item>
+        <item name="android:background">#80000000</item>
+        <item name="android:displayOptions">homeAsUp|showHome|showTitle</item>
+        <item name="android:contentInsetStart">72.0dip</item>
+    </style>
+    <style name="Theme.Promo" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:textColorPrimary">#ffffffff</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:colorPrimary">#ff000000</item>
+        <item name="android:colorPrimaryDark">#ff000000</item>
+        <item name="android:colorAccent">#ffffffff</item>
+    </style>
+    <style name="Theme.PhoneVerification" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:textColorPrimary">#ffffffff</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:colorPrimary">#ff000000</item>
+        <item name="android:colorPrimaryDark">#ff000000</item>
+        <item name="android:colorAccent">#ffffffff</item>
+    </style>
+    <style name="Theme.DialerPromo" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:background">#80000000</item>
+        <item name="android:colorPrimaryDark">#ff000000</item>
+    </style>
+    <style name="Theme.CallerId" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:textColorPrimary">#ffffffff</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:colorPrimary">#ff000000</item>
+        <item name="android:colorPrimaryDark">#ff000000</item>
+        <item name="android:colorAccent">#ffffffff</item>
+    </style>
+
+    <!--<style name="Theme.ConversationActivity" parent="@android:style/Theme.DeviceDefault.NoActionBar">-->
+        <!--<item name="android:windowBackground">@android:color/transparent</item>-->
+        <!--<item name="windowActionModeOverlay">true</item>-->
+    <!--</style>-->
+<!--
+    <style name="Hangout.Settings.ActionBar" parent="@*common:style/Widget.AppCompat.ActionBar">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:backgroundTint">@android:color/transparent</item>
+    </style>
+
+    <style name="Theme.Hangouts.ConversationParticipants" parent="@style/Pitch.EmeraldSea">
+        <item name="android:textColorSecondary">#ddffffff</item>
+        <item name="colorAccent">#ffffffff</item>
+    </style>
+    -->
+
+    <!--not needed-->
+
+    <!--<style name="ConversationMessageListItemViewContainerStyle">-->
+        <!--<item name="android:orientation">horizontal</item>-->
+        <!--<item name="android:background">@color/quantum_bluegrey100</item>-->
+        <!--<item name="android:backgroundTint">@color/background</item>-->
+        <!--<item name="android:paddingTop">@dimen/conversation_message_list_item_vertical_padding</item>-->
+        <!--<item name="android:paddingRight">@dimen/l_space</item>-->
+        <!--<item name="android:paddingBottom">@dimen/conversation_message_list_item_vertical_padding</item>-->
+        <!--<item name="android:layout_width">fill_parent</item>-->
+        <!--<item name="android:layout_height">wrap_content</item>-->
+        <!--<item name="android:layout_marginTop">@dimen/conversation_message_list_item_vertical_margin</item>-->
+        <!--<item name="android:layout_marginBottom">@dimen/conversation_message_list_item_vertical_margin</item>-->
+        <!--<item name="android:minHeight">@dimen/conversation_message_list_item_min_height</item>-->
+    <!--</style>-->
+
+    <!--<style name="Theme.EmeraldSea.NoDisplay" parent="@style/Theme.EmeraldSea">-->
+        <!--<item name="android:windowBackground">@android:color/transparent</item>-->
+        <!--<item name="android:windowIsTranslucent">true</item>-->
+        <!--<item name="android:windowContentOverlay">@null</item>-->
+        <!--<item name="android:windowAnimationStyle">@null</item>-->
+        <!--<item name="android:windowNoDisplay">true</item>-->
+        <!--<item name="android:windowDisablePreview">true</item>-->
+    <!--</style>-->
+
+    <!--<style name="Theme.Hangout" parent="@style/Theme.EmeraldSea">-->
+        <!--<item name="android:windowBackground">@android:color/transparent</item>-->
+        <!--<item name="android:windowActionBarOverlay">true</item>-->
+        <!--<item name="actionOverflowButtonStyle">@*common:style/Widget.AppCompat.ActionButton.Overflow</item>-->
+        <!--<item name="colorPrimaryDark">@android:color/black</item>-->
+    <!--</style>-->
+
+    <!--<style name="drawerArrowToggle" parent="@*common:style/Widget.AppCompat.DrawerArrowToggle">-->
+        <!--<item name="color">#ffffffff</item>-->
+    <!--</style>-->
+</resources>

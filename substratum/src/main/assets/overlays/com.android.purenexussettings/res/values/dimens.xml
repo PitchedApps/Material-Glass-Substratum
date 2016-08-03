@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--appcompat-->
+    <dimen name="cardview_default_elevation">0.5dip</dimen>
+</resources>

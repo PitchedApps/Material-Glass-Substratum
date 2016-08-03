@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Application" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:backgroundTint">#80000000</item>
+    </style>
+    <style name="Theme_Scene_LightAB" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:backgroundTint">#80000000</item>
+    </style>
+    <style name="Theme_Scene_DarkAB" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:backgroundTint">#80000000</item>
+    </style>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SecurityPreferenceButtonContainer" parent="@android:style/Widget.Material.SegmentedButton">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:dividerPadding">8.0dip</item>
+    </style>
+    <style name="SecurityPreferenceButton" parent="@android:style/Widget.Material.Button.Borderless">
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="Theme.Settings" parent="@android:style/Theme.Material.Settings">
+        <item name="android:actionBarStyle">@android:style/Widget.Material.ActionBar</item>
+    </style>
+</resources>

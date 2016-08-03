@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.SuperSU.Dialog.Prompt" parent="@android:style/Theme.Material.Dialog" />
+    <style name="Sherlock.__Theme.Material" parent="@android:style/Theme.DeviceDefault" />
+    <style name="Sherlock.__Theme.Material.Light" parent="@android:style/Theme.DeviceDefault" />
+    <style name="Sherlock.__Theme.Material.Light.DarkActionBar" parent="@android:style/Theme.DeviceDefault" />
+    <style name="Theme.SuperSU.Material.Light.DarkActionBar.Dialog" parent="@android:style/Theme.Material.Dialog" />
+    <style name="Theme.SuperSU.Material.Light.DarkActionBar.Dialog.Alert" parent="@android:style/Theme.Material.Dialog.Alert" />
+    <style name="Widget.Sherlock.Light.PopupWindow.ActionMode" parent="@style/Widget">
+        <item name="android:popupBackground">#cc060606</item>
+    </style>
+    <style name="Widget" />
+</resources>

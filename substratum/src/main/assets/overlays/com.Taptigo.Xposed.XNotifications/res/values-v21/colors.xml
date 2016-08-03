@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent">#fff</color>
+    <color name="add_background">#ffff5252</color>
+    <color name="add_background_pressed">#ffe54949</color>
+    <color name="add_from_history_background">#ff03a9f4</color>
+    <color name="add_from_history_background_pressed">#ff2196f3</color>
+    <color name="ampm_text_color">#aaffffff</color>
+    <color name="background">@android:color/transparent</color>
+
+    <color name="bg_item_dragging_active_state">#80222222</color>
+    <color name="bg_item_dragging_state">#80222222</color>
+    <color name="bg_item_normal_state">#80000000</color>
+    <color name="bg_swipe_item_neutral">#80000000</color>
+
+    <color name="bpDark_gray">#f0f</color>
+    <color name="bpLight_gray">#f0f</color>
+
+    <color name="bpLine_background">#22ffffff</color>
+    <color name="bpLine_dark">#55ffffff</color>
+
+    <color name="calendar_header">#cc000000</color>
+    <color name="calendar_selected_date_text">#ddffffff</color>
+    <color name="circle_background">#cc000000</color>
+    <color name="date_picker_text_normal">#fff</color>
+    <color name="date_picker_view_animator">#cc111111</color>
+
+    <color name="default_text_color_holo_dark_disabled">#99ffffff</color>
+    <color name="default_text_color_holo_light">#fff</color>
+    <color name="default_text_color_holo_light_disabled">#99ffffff</color>
+    <color name="dialog_background">#cc060606</color>
+
+    <color name="divider">#22ffffff</color>
+    <color name="done_disabled_dark">#80000000</color>
+    <color name="done_text_color_dark_disabled">#99ffffff</color>
+    <color name="done_text_color_dark_normal">#ffffffff</color>
+    <color name="done_text_color_disabled">#99ffffff</color>
+    <color name="done_text_color_normal">#fff</color>
+
+    <color name="half_black">#88808080</color>
+    <color name="highlight">#88888888</color>
+
+    <color name="inbox_selected_background">#80111111</color>
+    <color name="layout_background">#80000000</color>
+
+    <color name="numbers_text_color">#ccffffff</color>
+
+    <color name="primary">#000</color>
+    <color name="primary_dark">#000</color>
+
+    <color name="primary_text">#fff</color>
+
+    <color name="recurrence_bubble_text_normal">#fff</color>
+    <color name="recurrence_picker_background">#aa000000</color>
+
+    <color name="secondary_text">#bbffffff</color>
+
+    <color name="selected_background">#80111111</color>
+
+    <color name="transparent_100p_color">#f0f</color>
+    <color name="transparent_10p_color">#1aff00ff</color>
+    <color name="transparent_15p_color">#26ff00ff</color>
+    <color name="transparent_20p_color">#33ff00ff</color>
+    <color name="transparent_25p_color">#40ff00ff</color>
+    <color name="transparent_30p_color">#4dff00ff</color>
+    <color name="transparent_35p_color">#59ff00ff</color>
+    <color name="transparent_40p_color">#66ff00ff</color>
+    <color name="transparent_45p_color">#73ff00ff</color>
+    <color name="transparent_50p_color">#80ff00ff</color>
+    <color name="transparent_55p_color">#bcff00ff</color>
+    <color name="transparent_5p_color">#0dff00ff</color>
+    <color name="transparent_60p_color">#99ff00ff</color>
+    <color name="transparent_65p_color">#a6ff00ff</color>
+    <color name="transparent_70p_color">#b3ff00ff</color>
+    <color name="transparent_75p_color">#bfff00ff</color>
+    <color name="transparent_80p_color">#ccff00ff</color>
+    <color name="transparent_85p_color">#d9ff00ff</color>
+    <color name="transparent_90p_color">#e6ff00ff</color>
+    <color name="transparent_95p_color">#f2ff00ff</color>
+</resources>

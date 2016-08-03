@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="default_disabled">#ffaaaaaa</color>
+    <color name="default_normal">#ff0099cc</color>
+    <color name="default_pressed">#ff33b5e5</color>
+    <color name="accent_material_dark">#fff</color>
+    <color name="accent_material_light">#fff</color>
+    <!--<color name="actionbar_color">#000</color>-->
+    <color name="black">#a0000000</color>
+    <color name="card_background_dark">#30000000</color>
+    <color name="card_background_light">#30000000</color>
+    <color name="circlebar_background_dark">#22ffffff</color>
+    <color name="circlebar_background_light">#22ffffff</color>
+    <color name="circlebar_text">#fff</color>
+    <color name="color_primary">#ff2a7289</color>
+    <color name="color_primary_dark">#ff1d5060</color>
+    <color name="color_primary_light">#ff3f8095</color>
+    <color name="divider_background_dark">#22ffffff</color>
+    <color name="divider_background_light">#22ffffff</color>
+    <color name="fab_normal">#fff</color>
+    <color name="fab_normal_menu">#fff</color>
+    <color name="fab_normal_pink">#ff2a7289</color>
+    <color name="fab_pressed">#ff3f8095</color>
+    <color name="fab_pressed_menu">#ffe8e8e8</color>
+    <color name="fab_pressed_pink">#ff3f8095</color>
+    <color name="navigationdrawer_background_dark">#b0000000</color>
+    <color name="navigationdrawer_background_light">#a0ffffff</color>
+    <color name="navigationdrawer_selected_background_dark">#26ffffff</color>
+    <color name="navigationdrawer_selected_background_light">#10000000</color>
+    <color name="profile_list_background">#a0000000</color>
+    <color name="profile_list_text">#fff</color>
+    <color name="semi_transparent">#26000000</color>
+    <color name="statusbar_color">#ff1d5060</color>
+    <color name="textcolor_dark">#fff</color>
+    <color name="textcolor_light">#fff</color>
+    <color name="white">#fff</color>
+</resources>
