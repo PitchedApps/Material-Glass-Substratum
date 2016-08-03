@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AlertThemeSelector" parent="@android:style/Theme.Material.Panel">
+        <item name="android:backgroundDimAmount">0.6</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="DialogActivityStyle" parent="@android:style/Theme.Material.Dialog" />
+
+    <style name="PeopleButton.Borderless"
+        parent="@android:style/Widget.Material.Button.Borderless" />
+
+    <style name="PeopleDialogTheme" parent="@android:style/Theme.Material.Dialog" />
+
+    <style name="TrustAgentNotificationWithNoActionBar" parent="@android:style/Theme.DeviceDefault.NoActionBar" />
+    <style name="drive_Button_Platform" parent="@android:style/Widget.Material.Button.Borderless" />
+    <style name="drive_ProgressBarHorizontalIndeterminate"
+        parent="@android:style/Widget.Material.ProgressBar.Horizontal">
+        <item name="android:indeterminateOnly">true</item>
+    </style>
+
+    <style name="drive_Spinner" parent="@android:style/Widget.Material.Spinner.Underlined" />
+    <style name="drive_Theme" parent="@android:style/Theme.Material" />
+    <style name="drive_Theme.Dialog" parent="@android:style/Theme.Material.Dialog" />
+    <style name="systemUpdateActivityTheme" parent="@android:style/Theme.Material.NoActionBar" />
+    <style name="Widget_Wallet_Spinner_Light" parent="@android:style/Widget.Material.Spinner" />
+    <style name="drive_Theme.DialogWhenLarge"
+        parent="@android:style/Theme.Material.DialogWhenLarge" />
+    <style name="SetBackupAccountActivity" parent="@android:style/Theme.Material.Dialog" />
+    <!--auth is hardcoded white-->
+    <!--
+    <style name="auth_minutemaid_theme_material" parent="@style/auth_setup_wizard_theme_material.light">
+        <item name="android:textColorSecondary">@color/auth_minutemaid_color_secondary_light</item>
+        <item name="android:colorAccent">@color/auth_minutemaid_color_accent_light</item>
+        <item name="auth_setup_wizard_divider_color">@color/auth_minutemaid_divider_color_light</item>
+        <item name="auth_setup_wizard_header_background">@color/auth_minutemaid_header_background</item>
+        <item name="auth_setup_wizard_header_foreground">@null</item>
+        <item name="auth_setup_wizard_link_color">@color/auth_minutemaid_link_color_light</item>
+        <item name="auth_setup_wizard_progress_bar_color">@color/auth_minutemaid_progress_bar_activated</item>
+    </style>
+    <style name="auth_setup_wizard_theme_material.light"
+        parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:textColorSecondary">@color/auth_setup_wizard_color_secondary_light</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
+        <item name="android:colorAccent">@color/auth_setup_wizard_color_accent_light</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="auth_setup_wizard_divider_color">@*common:color/divider</item>
+        <item name="auth_setup_wizard_link_color">@color/textt</item>
+    </style>
+    -->
+
+</resources>

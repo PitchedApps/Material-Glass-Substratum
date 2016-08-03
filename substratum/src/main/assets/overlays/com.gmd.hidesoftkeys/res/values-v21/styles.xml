@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Light" parent="@android:style/Theme.DeviceDefault">
+        <item name="@attr/dividerPanel">@style/DividerPanel_Light</item>
+    </style>
+    <style name="DividerPanel_Light">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">#22ffffff</item>
+        <item name="android:padding">5.0dip</item>
+    </style>
+</resources>

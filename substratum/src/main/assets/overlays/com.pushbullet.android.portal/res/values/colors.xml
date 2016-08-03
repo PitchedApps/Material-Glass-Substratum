@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="app_accent">#fff</color>
+    <color name="app_primary">#000</color>
+    <color name="app_primary_dark">#000</color>
+
+    <color name="black10">#1a000000</color>
+    <color name="black15">#26ffffff</color>
+    <color name="black20">#33000000</color>
+    <color name="black54">#ccffffff</color>
+    <color name="black60">#30ffffff</color>
+
+    <color name="dark_green">#ff38a06d</color>
+
+    <color name="divider">#22ffffff</color>
+    <color name="gray1">#a0161616</color>
+    <color name="gray2">#ddffffff</color>
+    <color name="gray3">#50ffffff</color>
+    <color name="gray4">#30ffffff</color>
+
+    <color name="indigo">#ff3f51b5</color>
+    <color name="indigo20">#333f51b5</color>
+    <color name="light_green">#ff6ec07c</color>
+
+    <color name="md_btn_selected">#33969696</color>
+    <color name="md_btn_selected_dark">#40cbcbcb</color>
+    <color name="md_divider_black">#10ffffff</color>
+    <color name="md_divider_white">#10ffffff</color>
+    <color name="md_edittext_error">#ffdd2c00</color>
+    <color name="md_material_blue_600">#ff1e88e5</color>
+    <color name="md_material_blue_800">#ff1565c0</color>
+    <color name="mid_green">#ff4ab367</color>
+
+    <color name="red">#ffe85845</color>
+
+    <color name="state_pressed">#22ffffff</color>
+
+    <color name="teal">#ff009688</color>
+    <color name="text_hint">#88ffffff</color>
+    <color name="text_primary">#fff</color>
+    <color name="text_secondary">#fff</color>
+    <color name="viewfinder_border">#ffafed44</color>
+    <color name="viewfinder_laser">#ffcc0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="white40">#4dffffff</color>
+    <color name="white60">#99ffffff</color>
+    <color name="white65">#a6ffffff</color>
+    <color name="white90">#e6ffffff</color>
+</resources>

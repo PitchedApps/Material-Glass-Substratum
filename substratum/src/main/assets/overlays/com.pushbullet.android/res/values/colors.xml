@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_card">#30000000</color>
+    <color name="bg_card_container">#90000000</color>
+    <color name="bg_card_shadow">#03000000</color>
+    <color name="bg_widget">#90000000</color>
+    <color name="bg_window">#90000000</color>
+    <color name="black">#ff000000</color>
+    <color name="black10">#1a000000</color>
+    <color name="black15">#26ffffff</color>
+    <color name="black20">#33000000</color>
+    <color name="black54">#ccffffff</color>
+    <color name="black60">#30ffffff</color>
+
+    <color name="gray1">#a0161616</color>
+    <color name="gray2">#ddffffff</color>
+    <!--below are both text and background-->
+    <color name="gray3">#50ffffff</color>
+    <color name="gray4">#30ffffff</color>
+
+    <color name="mid_green">#ff4ab367</color>
+
+    <color name="red">#ffe85845</color>
+
+    <!--<color name="slightly_darker_green">#ff161616</color>-->
+    <color name="state_activated">#f00</color>
+    <color name="state_pressed">#f00</color>
+
+    <color name="text_hint">#ddffffff</color>
+    <color name="text_link">#ffffffff</color>
+    <color name="text_primary">#ffffffff</color>
+    <color name="text_secondary">#ddffffff</color>
+    <color name="tint_divider">#22ffffff</color>
+    <color name="tint_solid_divider">#22ffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#a0000000</color>
+    <color name="white40">#4d000000</color>
+    <color name="white60">#99ffffff</color>
+    <color name="white65">#a6000000</color>
+    <color name="white90">#e6000000</color>
+
+    <!--new with material design-->
+    <color name="md_divider_black">#10ffffff</color>
+    <color name="bubble_share_icon">#ccffffff</color>
+
+    <!--11/08/2015-->
+    <color name="app_accent">#fff</color>
+    <color name="app_primary">#000</color>
+    <color name="app_primary_dark">#000</color>
+
+</resources>

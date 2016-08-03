@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="notification_action_button_tint">#8affffff</color>
+    <color name="notification_material_background_color">#89060606</color>
+    <color name="notification_ripple_untinted_color">#28ffffff</color>
+</resources>

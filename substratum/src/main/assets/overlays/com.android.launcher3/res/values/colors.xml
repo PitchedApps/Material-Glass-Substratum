@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="info_target_hover_tint">#ffffffff</color>
+    <color name="cling_scrim_background">#80000000</color>
+    <color name="focused_background">#80111111</color>
+    <color name="workspace_icon_text_color">#ffffffff</color>
+    <color name="workspace_edge_effect_color">#ffffffff</color>
+    <color name="folder_edge_effect_color">#33ffffff</color>
+    <color name="quantum_panel_text_color">#ffffffff</color>
+    <color name="quantum_panel_bg_color">#a0000000</color>
+    <color name="quantum_panel_bg_color_dark">#a0000000</color>
+    <color name="outline_color">#ffffffff</color>
+    <color name="container_fastscroll_thumb_inactive_color">#42ffffff</color>
+    <color name="container_fastscroll_thumb_active_color">#ff748B96</color>
+    <color name="all_apps_grid_section_text_color">#ffffffff</color>
+    <color name="widgets_view_fastscroll_thumb_inactive_color">#42ffffff</color>
+    <color name="widgets_view_section_text_color">#ffffffff</color>
+    <color name="widgets_view_item_text_color">#ddffffff</color>
+    <color name="widgets_cell_color">#80000000</color>
+    <color name="wallpaper_picker_translucent_gray">#66000000</color>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppBaseTheme" parent="@android:style/Theme.DeviceDefault.NoActionBar" />
+    <style name="AppTheme" parent="@android:style/Theme.DeviceDefault.NoActionBar" />
+
+    <style name="sub_header_style" parent="@android:style/Widget.Holo.TextView">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">#80000000</item>
+        <item name="android:padding">4.0dip</item>
+    </style>
+</resources>

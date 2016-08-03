@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MessageAttachmentButtonBaseStyle" parent="@style/MessageButtonStyleBase">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:minHeight">0.0dip</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="MessageButtonStyleBase"
+        parent="@android:style/Widget.Material.Button.Borderless" />
+    <style name="ActionBarStyle" parent="@android:style/Widget.Material.ActionBar">
+        <item name="android:background">#30000000</item>
+        <item name="android:windowShowWallpaper">true</item>
+    </style>
+    <style name="WaitFragmentTitle" parent="@style/WaitFragmentTitleBase">
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:layout_marginBottom">8.0dip</item>
+    </style>
+    <style name="WaitFragmentTitleBase" parent="@android:style/Widget.Material.TextView" />
+    <style name="NotificationPrimaryText">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="ActionBarWidgetTheme" parent="@android:style/Theme.Material">
+        <item name="android:dropDownListViewStyle">@style/ActionBarDividerlessListViewStyle</item>
+        <item name="android:popupMenuStyle">@android:style/Widget.Material.ListPopupWindow</item>
+        <item name="android:textAppearanceLargePopupMenu">@style/ActionBarTextAppearanceLargeStyle
+        </item>
+        <item name="android:textAppearanceSmallPopupMenu">@style/ActionBarTextAppearanceSmallStyle
+        </item>
+    </style>
+    <style name="ActionBarDividerlessListViewStyle"
+        parent="@android:style/Widget.Material.ListView">
+        <item name="android:divider">@null</item>
+    </style>
+    <style name="ActionBarTextAppearanceLargeStyle"
+        parent="@android:style/TextAppearance.Material.Widget.PopupMenu.Large">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="ActionBarTextAppearanceSmallStyle"
+        parent="@android:style/TextAppearance.Material.Widget.PopupMenu.Small">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+
+    <style name="ComposeDropdownListViewStyle" parent="@android:style/Widget.Material.ListView">
+        <item name="android:divider">@null</item>
+        <item name="android:dividerHeight">0.0dip</item>
+        <item name="android:background">#ff000000</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+
+    <!--<style name="ConversationListFadeBase" parent="@android:style/Widget.Material.ListView">-->
+        <!--<item name="android:windowShowWallpaper">true</item>-->
+        <!--<item name="android:background">@android:color/transparent</item>-->
+        <!--<item name="android:backgroundTint">#33ff00ff</item>-->
+    <!--</style>-->
+
+    <style name="MinTimeProgressViewStyle" parent="@android:style/Widget.Material.ProgressBar" />
+    <style name="MinTimeProgressDialogStyleBase" parent="@android:style/Theme.Material.Dialog" />
+    <style name="UnifiedEmailTheme" parent="@android:style/Theme.Material">
+        <item name="android:listViewWhiteStyle">@android:style/Widget.Material.ListView</item>
+        <item name="android:actionModeBackground">@android:color/black</item>
+        <item name="android:actionOverflowButtonStyle">@style/ActionBarOverflowButtonStyle</item>
+        <item name="android:colorPrimary">#ff161616</item>
+        <item name="android:colorPrimaryDark">#ff161616</item>
+        <item name="android:colorAccent">#ffffffff</item>
+        <item name="android:colorEdgeEffect">#ffffffff</item>
+        <item name="android:statusBarColor">#ff000000</item>
+        <!--<item name="android:colorBackground">#80000000</item>-->
+        <!--<item name="android:windowBackground">@android:color/background_dark</item>-->
+        <!--<item name="android:colorBackgroundCacheHint">#80000000</item>-->
+        <!--<item name="android:cacheColorHint">#80000000</item>-->
+        <item name="android:background">#111</item>
+    </style>
+    <style name="ActionBarOverflowButtonStyle"
+        parent="@android:style/Widget.Material.ActionButton.Overflow" />
+    <style name="AccountSetupDialogActivityTheme"
+        parent="@android:style/Theme.Material.Dialog.NoActionBar"/>
+    <style name="LabelSyncTheme" parent="@android:style/Theme.Material.Dialog" />
+    <style name="GmailTheme.NoActionBar" parent="@android:style/Theme.DeviceDefault.NoActionBar">
+        <item name="android:statusBarColor">#80000000</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundTint">#80000000</item>
+    </style>
+    <style name="GmailTheme.NoActionBar.Fullscreen"
+        parent="@android:style/Theme.DeviceDefault.NoActionBar.Fullscreen">
+        <item name="android:colorPrimary">#000</item>
+        <item name="android:colorPrimaryDark">#000</item>
+        <item name="android:colorAccent">#ffffffff</item>
+        <item name="android:colorEdgeEffect">#ffffffff</item>
+
+        <item name="android:statusBarColor">#80000000</item>
+        <item name="android:backgroundTint">#80000000</item>
+        <item name="android:navigationBarColor">#80000000</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+
+
+    <style name="GmailTheme.NoActionBar.SetupAddresses" parent="@style/GmailTheme.NoActionBar">
+        <item name="android:colorPrimary">#ff000000</item>
+        <item name="android:colorPrimaryDark">#ff000000</item>
+    </style>
+    <style name="GmailTheme.NoActionBar.WelcomeTour" parent="@style/GmailTheme.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorPrimaryDark">#ff000000</item>
+    </style>
+
+    <!--2016/01/03-->
+    <style name="RecipientEditTextViewBase" parent="@android:style/Widget.DeviceDefault.AutoCompleteTextView">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:background">@null</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">32.0dip</item>
+        <item name="android:popupBackground">#bb000000</item>
+        <item name="android:inputType">textEmailAddress|textMultiLine</item>
+    </style>
+
+    <style name="AbstractComposeArea">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:background">#80000000</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:animateLayoutChanges">true</item>
+    </style>
+
+    <style name="AbstractCalendarPromotionStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:background">#80000000</item>
+        <item name="android:paddingBottom">20.0dip</item>
+        <item name="android:layout_margin">8.0dip</item>
+        <item name="android:minHeight">60.0dip</item>
+    </style>
+
+    <style name="Widget.Design.FloatingActionButton" parent="@android:style/Widget">
+        <item name="android:background">@drawable/design_fab_background</item>
+        <item name="elevation">6.0dip</item>
+        <item name="rippleColor">#30ffffff</item>
+        <item name="fabSize">normal</item>
+        <item name="pressedTranslationZ">6.0dip</item>
+        <item name="borderWidth">0.5dip</item>
+    </style>
+
+    <!--2016/05/11-->
+
+    <style name="AbstractCalendarPromotionTitle">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">20.0dip</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+    <style name="AbstractCalendarPromotionText">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:paddingTop">0.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+</resources>
+

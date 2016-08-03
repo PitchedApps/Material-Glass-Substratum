@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="unread_bgcolor">#88111111</color>
+    <color name="read_bgcolor">#88000000</color>
+    <color name="notification_color">#ffffffff</color>
+    <color name="cell_broadcast_color_primary">#ff000000</color>
+    <color name="cell_broadcast_color_primary_dark">#ff000000</color>
+
+    <color name="dialog_divider_color">#22ffffff</color>
+    <color name="list_container_background_color">#80000000</color>
+    <color name="list_container_cache_color_hint_color">#80000000</color>
+</resources>

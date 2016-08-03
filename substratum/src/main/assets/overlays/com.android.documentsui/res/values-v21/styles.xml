@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DocumentsTheme" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:actionBarWidgetTheme">@null</item>
+        <item name="android:actionBarTheme">@android:style/ThemeOverlay.Material.Dark.ActionBar</item>
+        <item name="android:actionBarPopupTheme">@android:style/ThemeOverlay.Material.Dark</item>
+
+        <item name="android:colorPrimaryDark">#ff030303</item>
+        <item name="android:colorPrimary">#ff030303</item>
+        <item name="android:colorAccent">#ffffffff</item>
+
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowNoTitle">true</item>
+
+        <item name="*android:windowFixedWidthMajor">@null</item>
+        <item name="*android:windowFixedWidthMinor">@null</item>
+        <item name="*android:windowMinWidthMajor">@null</item>
+        <item name="*android:windowMinWidthMinor">@null</item>
+        <item name="*android:windowFixedHeightMajor">80%</item>
+        <item name="*android:windowFixedHeightMinor">90%</item>
+
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustUnspecified</item>
+        <item name="android:backgroundTint">#c0000000</item>
+    </style>
+    <style name="DialogWhenReallyLarge" parent="@android:style/Theme.DeviceDefault" />
+</resources>

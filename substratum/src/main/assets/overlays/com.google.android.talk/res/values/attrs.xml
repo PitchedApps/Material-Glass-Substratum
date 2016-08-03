@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<attr name="hangoutsListSelector" format="reference" />
+    <attr name="editAudienceBackground" format="reference" />
+    <attr name="editLocationBackground" format="reference" />
+    <attr name="hangoutsButtonSelectableBackground" format="reference" />
+	<!--<attr name="backgroundColor" format="reference" />-->
+	<attr name="actionOverflowButtonStyle" format="reference" />
+	<attr name="actionBarPopupTheme" format="reference" />
+	<attr name="actionModeBackground" format="reference" />
+	<attr name="selectableItemBackground" format="reference" />
+	<attr name="toolbarStyle" format="reference" />
+	<attr name="panelBackground" format="reference" />
+	<attr name="colorPrimary" format="color" />
+    <attr name="colorPrimaryDark" format="color" />
+    <attr name="colorAccent" format="color" />
+	<attr name="titleTextAppearance" format="reference" />
+	<attr name="subtitleTextAppearance" format="reference" />
+	<attr name="windowActionModeOverlay" format="boolean" />
+	<attr name="color" format="color" />
+</resources>

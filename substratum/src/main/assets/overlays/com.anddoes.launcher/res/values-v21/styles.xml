@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme" parent="@android:style/Theme.Material.Wallpaper.NoTitleBar">
+        <item name="android:colorAccent">#fff</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    <style name="Theme.Apex" parent="@style/Theme.Apex.Dark" />
+    <style name="Theme.Apex.Dark" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:colorPrimary">#000</item>
+        <item name="android:colorPrimaryDark">#000</item>
+        <item name="android:colorAccent">#fff</item>
+        <item name="android:windowBackground">@android:color/background_dark</item>
+    </style>
+</resources>

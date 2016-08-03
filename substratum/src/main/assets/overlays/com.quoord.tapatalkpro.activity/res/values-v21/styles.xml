@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppBaseTheme" parent="@android:style/Theme.Material.Wallpaper" />
+
+    <style name="background_gray_f3">
+        <item name="android:background">#30000000</item>
+    </style>
+</resources>

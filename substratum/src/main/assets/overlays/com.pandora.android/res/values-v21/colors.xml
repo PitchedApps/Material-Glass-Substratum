@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="rich_notification_bg">#89060606</color>
+    <color name="rich_notification_disabled_icon">#aaffffff</color>
+    <color name="rich_notification_divider">#22ffffff</color>
+    <color name="rich_notification_icon">#ffffffff</color>
+    <color name="rich_notification_icon_thumbed">#ffff8600</color>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="colorWalletImportantText" format="reference|color" />
+    <attr name="auth_setup_wizard_divider_color" format="reference" />
+    <attr name="auth_setup_wizard_header_background" format="reference|color" />
+    <attr name="auth_setup_wizard_header_foreground" format="reference" />
+    <attr name="auth_setup_wizard_link_color" format="reference|color" />
+    <attr name="auth_setup_wizard_navbar_bg_color" format="color" />
+    <attr name="auth_setup_wizard_navbar_text_color" format="color" />
+    <attr name="auth_setup_wizard_navbar_theme" format="reference" />
+    <attr name="auth_setup_wizard_progress_bar_color" format="reference|color" />
+</resources>
