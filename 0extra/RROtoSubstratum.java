@@ -6,7 +6,7 @@ import java.io.IOException;
 
 public class RROtoSubstratum {
     public static void main(String[] args) {
-        File file = new File("C:\\Users\\user1\\PA\\MGL\\substratum\\src\\main\\assets\\overlays");
+        File file = new File("FULL_PATH_HERE");
         File[] list = file.listFiles();
         for (File f : list) {
             String manifestText = readFile(f.getAbsolutePath() + "/AndroidManifest.xml");
