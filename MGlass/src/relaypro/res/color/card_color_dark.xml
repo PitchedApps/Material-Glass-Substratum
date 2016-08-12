@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector android:enterFadeDuration="250"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true" android:state_selected="true" android:color="#50000000" />
+    <item android:state_selected="true" android:color="#50000000" />
+    <item android:state_checked="true" android:color="#50000000" />
+    <item android:color="#50000000" />
+</selector>

@@ -123,6 +123,7 @@
     <color name="bt_default_os_pressed_background_opaque">#111</color>
     <color name="bt_default_ripple">#22ffffff</color>
     <color name="bt_dialog_negative_button_text">#fff</color>
+    <!--bt_share_handler_fragment - android:color/black text-->
     <color name="bt_disabled_gray">#88ffffff</color>
     <color name="bt_disclaimer">#fff</color>
     <color name="bt_done_green">#ff0f9d58</color>

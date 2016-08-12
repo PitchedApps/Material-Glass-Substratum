@@ -10,7 +10,8 @@
     <!--<color name="letter_tile_default_primary_color">#ff607d8b</color>-->
     <!--<color name="letter_tile_default_secondary_color">#ff455a64</color>-->
     <!--<color name="letter_tile_font_color">#ffffffff</color>-->
-    <color name="action_bar_background_color">#000</color>
+    <!--also delete color-->
+    <color name="action_bar_background_color">#ff0288d1</color>
     <color name="contact_avatar_default_background">#80000000</color>
     <color name="contact_avatar_pressed_color">#33ffffff</color>
     <color name="attachment_preview_more_items_text_background">#44000000</color>
@@ -57,7 +58,7 @@
 
     <color name="permission_check_activity_background">#ff20aa66</color>
     <color name="action_bar_title_text_color">#ffffffff</color>
-    <color name="action_bar_background_color_dark">#000</color>
+    <color name="action_bar_background_color_dark">#ff026da7</color>
     <color name="contextual_action_bar_background_color">#000</color>
     <color name="archived_conversation_action_bar_background_color">#000</color>
     <color name="archived_conversation_action_bar_background_color_dark">#000</color>
