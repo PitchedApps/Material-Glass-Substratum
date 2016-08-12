@@ -16,7 +16,7 @@ android {
         variant.outputs.each { output ->
             output.outputFile = new File(
                     output.outputFile.parent,
-                    output.outputFile.name.replace("substratum-release.apk", "ProjectZed-v" + versionName + ".apk"))
+                    output.outputFile.name.replace("substratum-release.apk", "Material Glass Substratum-v" + versionName + ".apk"))
         }
     }
 
