@@ -1,100 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!--<color name="grey_9">#88000000</color>-->
-    <!--<color name="grey_8">#30ffffff</color>-->
-    <!--<color name="grey_7">#80000000</color>-->
-    <!--<color name="grey_6">#FFFF0000</color>-->
-    <!--<color name="grey_5">#aaffffff</color>-->
-    <!--<color name="grey_4">#aaffffff</color>-->
-    <!--<color name="grey_3">#ddffffff</color>-->
-    <!--<color name="grey_2">#80000000</color>-->
-    <!--<color name="grey_1_5">#aaffffff</color>-->
-    <!--<color name="grey_1">#aaffffff</color>-->
-    <!--<color name="grey_0_5">#80000000</color>-->
-    <!--<color name="blue_9">#ffffffff</color>-->
-    <!--<color name="blue_8">#ffffffff</color>-->
-    <!--<color name="blue_7">#ffffffff</color>-->
-    <!--<color name="blue_6">#33ffffff</color>-->
-    <!--<color name="blue_5">#ffffffff</color>-->
-    <!--<color name="blue_4">#ffffffff</color>-->
-    <!--<color name="blue_3">#ffff00ff</color>-->
-    <!--<color name="blue_2">#80222222</color>-->
-    <!--<color name="blue_1">#80000000</color>-->
-    <!--<color name="accent_blue_9">#f00</color>-->
-    <!--<color name="accent_blue_8">#f00</color>-->
-    <!--<color name="accent_blue_7">#f00</color>-->
-    <!--<color name="accent_blue_6">#0f0</color>-->
-    <!--<color name="accent_blue_5">#ddd</color> &lt;!&ndash;tab description under username text&ndash;&gt;-->
-    <!--<color name="accent_blue_4">#f00</color>-->
-
-    <!--<color name="accent_blue_3">#fff</color>-->
-    <!--<color name="accent_blue_2">#fff</color>-->
-    <!--<color name="accent_blue_1">#f00</color>-->
-    <!--<color name="blue_medium">#ff89ABC4</color> &lt;!&ndash;main text and color, but also background for camera button ff89ABC4&ndash;&gt;-->
-
-    <!--<color name="grey_dark">#50000000</color> &lt;!&ndash;main button tab color background&ndash;&gt;-->
-    <!--<color name="grey_medium">#aaffffff</color> &lt;!&ndash;main content text (make it different from blue_medium)&ndash;&gt;-->
-    <!--<color name="grey_light">#ccffffff</color> &lt;!&ndash;followers text color&ndash;&gt;-->
-    <!--<color name="white">#80ff0000</color> &lt;!&ndash;also tab color (background), but also the watch text color and the selected button color ff89ABC4&ndash;&gt;-->
-    <!--<color name="white_transparent">#80ffffff</color>-->
-    <!--<color name="black">#0f0</color>-->
-    <!--<color name="black_transparent">#80000000</color>-->
-    <!--<color name="black_40_transparent">#66000000</color>-->
-    <!--<color name="dialog_background">#55000000</color>-->
-    <!--<color name="image_placeholder">#80000000</color>-->
-    <!--<color name="action_bar_top_highlight">#80000000</color>-->
-    <!--<color name="dark_action_bar_top_highlight">#80000000</color>-->
-    <!--<color name="action_bar_transparent_background">#20000000</color>-->
-    <!--<color name="action_bar_transparent_background_pressed_state">#30000000</color>-->
-    <!--<color name="action_bar_semi_transparent_white">#bf000000</color>-->
-    <!--<color name="status_bar_blue_background">#a0000000</color>-->
-    <!--<color name="nux_dayone_email_enabled">#20ffffff</color>-->
-    <!--<color name="nux_dayone_email_pressed">#30ffffff</color>-->
-    <!--<color name="nux_dayone_log_in_enabled">#10ffffff</color>-->
-    <!--<color name="nux_dayone_log_in_pressed">#18ffffff</color>-->
-    <!--<color name="multi_reg_token_fill">#fffbfbfb</color>-->
-    <!--<color name="multi_reg_token_border">#22ffffff</color>-->
-    <!--<color name="multi_reg_token_text">#ffffffff</color>-->
-    <!--<color name="null_state_color">#33ffffff</color>-->
-    <!--<color name="seek_bar_inactive_color">#aaffffff</color>-->
-    <!--<color name="seek_bar_active_color">#ffffffff</color>-->
-    <!--<color name="pill_background">#d9000000</color>-->
-    <!--<color name="pill_background_pressed">#d9111111</color>-->
-    <!--<color name="pill_background_outline">#26ffffff</color>-->
-    <!--<color name="pill_background_outline_pressed">#4dffffff</color>-->
-    <!--<color name="video_camcorder_dialog_text_color">#ffffffff</color>-->
-    <!--<color name="camcorder_shutter_outer_ring_disabled">#80222222</color>-->
-    <!--<color name="filmstrip_dimmer">#cd000000</color>-->
-    <!--<color name="camera_shutter_outer_ring">#ff3383ce</color>-->
-    <!--<color name="camera_shutter_outer_ring_pressed">#ff20588c</color>-->
-    <!--<color name="light_gray">#ddffffff</color>-->
-    <!--<color name="gray">#80000000</color>-->
-    <!--<color name="iosblue">#ff0044e2</color>-->
-    <!--<color name="alt_list_bg_color">#80000000</color>-->
-    <!--<color name="photo_map_disabled_text">#ff98d281</color>-->
-    <!--<color name="default_slideout_icon_text_color">#ffffffff</color>-->
-    <!--<color name="default_slideout_icon_background">#b3000000</color>-->
-    <!--<color name="default_tab_indicator_color">#fff</color>-->
-    <!--<color name="default_circle_indicator_fill_color">#fff</color>-->
-    <!--<color name="default_circle_indicator_page_color">#00000000</color>-->
-    <!--<color name="default_circle_indicator_stroke_color">#ffdddddd</color>-->
-    <!--<color name="people_tagging_search_background_default">#80000000</color>-->
-    <!--<color name="starred_hide_shoutout_color">#80222222</color>-->
-    <!--<color name="results_text_color">#ffffffff</color>-->
-    <!--<color name="result_bar_active_color">#ff4999da</color>-->
-    <!--<color name="disabled_text_off_white">#50ffffff</color>-->
-    <!--<color name="white_30_alpha">#4dffffff</color>-->
-
-    <!--<color name="green_6">#90111111</color>-->
-    <!--<color name="green_5">#90000000</color>-->
-    <!--<color name="green_4">#90000000</color>-->
-
-    <!--<color name="grey_0_7">#80000000</color>-->
-    <!--<color name="bugreporter_takescreenshot_capture_background">#99e5ffe5</color>-->
-    <!--<color name="bugreporter_takescreenshot_cancel_background">#99ffe6cc</color>-->
-    <!--<color name="bugreporter_takescreenshot_capture_background_border">#995bc25b</color>-->
-    <!--<color name="bugreporter_takescreenshot_cancel_background_border">#99ffa736</color>-->
-
     <!--2016/06/14-->
     <color name="grey_9">#fff</color>
     <color name="grey_8">#30ffffff</color>
@@ -113,7 +18,7 @@
     <color name="blue_2">#222</color>
     <color name="blue_1">#000</color>
 
-    <color name="black">#000</color>
+    <color name="black">#aaa</color>
     <color name="black_6_transparent">#0f000000</color>
     <color name="black_10_transparent">#1a000000</color>
     <color name="black_25_transparent">#40000000</color>
