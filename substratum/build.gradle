@@ -11,6 +11,15 @@ android {
         versionCode 1
         versionName "1.0"
     }
+
+    applicationVariants.all { variant ->
+        variant.outputs.each { output ->
+            output.outputFile = new File(
+                    output.outputFile.parent,
+                    output.outputFile.name.replace("substratum-release.apk", "ProjectZed-v" + versionName + ".apk"))
+        }
+    }
+
     buildTypes {
         release {
             minifyEnabled false
