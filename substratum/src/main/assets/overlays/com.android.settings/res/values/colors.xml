@@ -42,31 +42,7 @@
     <color name="ownerinfo_divider_color">#22ffffff</color>
     <!-- Installed app details -->
     <color name="security_settings_billing_desc_color">#ffffffff</color>
-<!--
-    <color name="black_t">#a0000000</color>
-    <color name="backgroundt">#50000000</color>
-    <color name="background_t">#50000000</color>
-    <color name="backgrounddt">#50161616</color>
-    <color name="backgroundddt">#50323232</color>
-    <color name="pblue_t">#cc748B96</color>
-    <color name="pbluee_t">#cc62757e</color>
-    <color name="dblue_t">#cc343d41</color>
 
-    <color name="background">#bb000000</color>
-    <color name="backgroundd">#bb161616</color>
-    <color name="backgrounddd">#bb323232</color>
-    <color name="backgroundx">#ff000000</color>
-    <color name="backgrounddx">#ff161616</color>
-    <color name="backgroundddx">#ff323232</color>
-    <color name="text">#ffffffff</color>
-    <color name="textt">#ddffffff</color>
-    <color name="texttt">#bbffffff</color>
-    <color name="hint">#cc000000</color>
-    <color name="pblue">#ff748B96</color>
-    <color name="pbluel">#ffa7b8c0</color>
-    <color name="pbluee">#ff62757e</color>
-    <color name="dblue">#ff343d41</color>
--->
     <color name="actionbar">#99000000</color>
     <color name="ripple">#40ffffff</color>
     <color name="selectable_mask">#ffffffff</color>
@@ -135,4 +111,11 @@
     <!-- BlackList colors -->
     <color name="blacklist_disabled">#aaffffff</color>
     <color name="storage_summary_title_color">#fff</color>
+
+    <!--oneplus3 - freedomos-->
+    <color name="theme_background">#80000000</color>
+    <color name="fingerprint_button_text_color">#66ff00ff</color>
+    <color name="fingerprint_button_text_color_dark">#ffff00ff</color>
+    <color name="background_material_settings">#50000000</color>
+    <color name="window_background">#80000000</color>
 </resources>

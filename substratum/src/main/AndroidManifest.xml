@@ -22,11 +22,17 @@
         <meta-data
             android:name="Substratum_Author"
             android:value="@string/ThemeAuthor"/>
+        <meta-data
+            android:name="Substratum_Email"
+            android:value="@string/ThemeEmail"/>
+        <meta-data
+            android:name="Substratum_ThemeReady"
+            android:value="stock"/>
 
         <!-- SUBSTRATUM INTERNAL USE: DO NOT TOUCH -->
         <meta-data
             android:name="Substratum_Plugin"
-            android:value="2.1.3"/>
+            android:value="5.0.4"/>
     </application>
 
 
