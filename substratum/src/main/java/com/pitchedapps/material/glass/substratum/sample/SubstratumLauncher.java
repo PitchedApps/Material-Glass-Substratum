@@ -1,6 +1,8 @@
 package com.pitchedapps.material.glass.substratum.sample;
 
+import android.app.Activity;
 import android.content.ComponentName;
+import android.content.Context;
 import android.content.Intent;
 import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageManager;
@@ -13,8 +15,6 @@ import android.widget.Toast;
  * Created by Allan Wang on 2016-08-03.
  */
 public class SubstratumLauncher extends AppCompatActivity {
-
-
 
     /**
      * Other variables/methods; do not modify
@@ -96,6 +96,6 @@ public class SubstratumLauncher extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-            beginSubstratumLaunch();
+        beginSubstratumLaunch();
     }
 }

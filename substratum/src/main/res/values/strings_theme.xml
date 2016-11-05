@@ -1,4 +1,5 @@
 <resources>
     <string name="ThemeName">@string/app_name</string>
     <string name="ThemeAuthor">Pitched Apps</string>
+    <string name="ThemeEmail">pitchedapps@gmail.com</string>
 </resources>

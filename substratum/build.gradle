@@ -1,15 +1,21 @@
 apply plugin: 'com.android.application'
 
+ext {
+    TARGET_SDK = 25
+    BUILD_TOOLS = "25.0.0"
+    ANDROID_SUPPORT_LIBS = "25.0.0"
+}
+
 android {
-    compileSdkVersion 24
-    buildToolsVersion "24.0.1"
+    compileSdkVersion TARGET_SDK
+    buildToolsVersion BUILD_TOOLS
 
     defaultConfig {
         applicationId "com.pitchedapps.material.glass.substratum.sample"
         minSdkVersion 23
-        targetSdkVersion 24
-        versionCode 1
-        versionName "1.0"
+        targetSdkVersion TARGET_SDK
+        versionCode 2
+        versionName "2.0"
     }
 
     applicationVariants.all { variant ->
@@ -31,5 +37,6 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
-    compile 'com.android.support:appcompat-v7:24.1.1'
+    compile "com.android.support:appcompat-v7:$ANDROID_SUPPORT_LIBS"
+    compile "com.android.support:support-v4:$ANDROID_SUPPORT_LIBS"
 }
