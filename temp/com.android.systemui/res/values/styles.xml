@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!--<style name="Theme.SystemUI.Dialog" parent="@android:style/Theme.Material.Dialog">-->
+        <!--<item name="android:colorControlActivated">#ffe8e8e8</item>-->
+        <!--<item name="android:colorPrimary">#ff000000</item>-->
+        <!--<item name="android:colorBackground">#a0000000</item>-->
+    <!--</style>-->
+    <!--</style>-->
 
     <style name="Widget.TransportControl.SeekBar"
         parent="@android:style/Widget.DeviceDefault.SeekBar">
@@ -26,7 +32,25 @@
         <item name="android:popupMenuStyle">@android:style/Widget.Material.ListPopupWindow</item>
     </style>
 
-    <!--systemui_theme is heavily modified in many roms; do not modify-->
+    <!--android m support-->
+    <style name="systemui_theme" parent="@android:style/Theme.Material">
+        <item name="android:colorControlActivated">#ffe8e8e8</item>
+        <item name="android:colorPrimary">#ff000000</item>
+    </style>
+    <style name="systemui_theme_light" parent="@android:style/Theme.Material">
+        <item name="android:colorControlActivated">#ffe8e8e8</item>
+        <item name="android:colorPrimary">#ff000000</item>
+    </style>
+
+    <!--<style name="Theme.AlertDialogHost" parent="@android:style/Theme.Material">-->
+        <!--<item name="android:windowBackground">@android:color/transparent</item>-->
+        <!--<item name="android:windowNoTitle">true</item>-->
+        <!--<item name="android:windowIsFloating">true</item>-->
+        <!--<item name="android:windowIsTranslucent">true</item>-->
+        <!--<item name="android:windowContentOverlay">@null</item>-->
+        <!--<item name="android:backgroundDimEnabled">false</item>-->
+        <!--<item name="android:alertDialogTheme">@android:style/Theme.Material.Dialog.Alert</item>-->
+    <!--</style>-->
 
     <style name="Theme.SystemUI.Dialog" parent="@android:style/Theme.Material.Dialog" />
     <style name="Theme.SystemUI.Dialog.Alert" parent="@android:style/Theme.Material.Dialog.Alert" />

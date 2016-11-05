@@ -114,8 +114,8 @@
 
     <!--oneplus3 - freedomos-->
     <color name="theme_background">#80000000</color>
-    <color name="fingerprint_button_text_color">#66ff00ff</color>
-    <color name="fingerprint_button_text_color_dark">#ffff00ff</color>
+    <color name="fingerprint_button_text_color">#66ffffff</color>
+    <color name="fingerprint_button_text_color_dark">#ffffffff</color>
     <color name="background_material_settings">#50000000</color>
     <color name="window_background">#80000000</color>
 </resources>
