@@ -2,7 +2,7 @@
 <resources>
     <!--12/10/2015 chroma night-->
     <color name="system_primary_color">#000</color>
-    <color name="system_secondary_color">#000</color>
+    <color name="system_secondary_color">#a0000000</color>
     <color name="system_accent_color">#ffe8e8e8</color>
-    <color name="qs_detail_transition">#222</color>
+    <color name="qs_detail_transition">#55000000</color>
 </resources>

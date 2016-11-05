@@ -23,19 +23,19 @@
     <color name="navring_check_tint">#ddffffff</color>
     <color name="navring_edit_fill">#a0000000</color>
     <color name="navring_edit_tint">#a0323232</color>
-    <color name="notification_guts_bg_color">#a1060606</color>
+    <color name="notification_guts_bg_color">#89060606</color>
     <!--text color?-->
     <color name="notification_guts_btn_color">#ffffffff</color>
     <color name="notification_guts_text_color">#ffffffff</color>
     <color name="notification_guts_title_color">#ffffffff</color>
-    <color name="notification_header">#a1060606</color>
+    <color name="notification_header">#89060606</color>
     <color name="notification_icon_color">#FFFFFFFF</color>
-    <color name="notification_legacy_background_color">#a1060606</color>
+    <color name="notification_legacy_background_color">#89060606</color>
     <color name="notification_list_shadow_top">#80000000</color>
-    <color name="notification_material_background_color">#a1060606</color>
-    <color name="notification_material_background_dimmed_color">#a1060606</color>
-    <color name="notification_material_background_low_priority_color">#a1060606</color>
-    <color name="notification_material_background_media_default_color">#a1060606</color>
+    <color name="notification_material_background_color">#89060606</color>
+    <color name="notification_material_background_dimmed_color">#89060606</color>
+    <color name="notification_material_background_low_priority_color">#89060606</color>
+    <color name="notification_material_background_media_default_color">#89060606</color>
     <color name="notification_panel_solid_background">#55000000</color>
     <color name="notification_ripple_color_low_priority">#33bbbbbb</color>
     <color name="notification_ripple_tinted_color">#30ffffff</color>
@@ -67,7 +67,7 @@
     <color name="system_bar_background_transparent">#00000000</color>
     <color name="system_primary_color">#ff000000</color>
     <color name="system_primary_color_translucent">#a0000000</color>
-    <color name="system_secondary_color">#060606</color>
+    <color name="system_secondary_color">#a0000000</color>
     <color name="system_warning_color">#fff4511e</color>
     <color name="volume_panel_background_color">#a0000000</color>
     <color name="volume_panel_divider">#1FFFFFFF</color>
@@ -122,12 +122,5 @@
     <color name="volume_icon_color">#ffffffff</color>
     <color name="volume_settings_icon_color">#7fffffff</color>
     <color name="volume_slider_inactive">#bbffffff</color>
-
-    <!--oxygen os 2016/11/03-->
-    <color name="system_primary_color_dark">#000</color>
-    <color name="system_secondary_color_dark">#000</color>
-    <color name="qs_tile_disabled_overlay">#22ffffff</color>
-    <color name="qs_tile_disabled_overlay_dark_mode">#22ffffff</color>
-    <color name="screen_pinning_primary_text">#ddd</color>
 
 </resources>
