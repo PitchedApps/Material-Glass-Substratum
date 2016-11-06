@@ -20,6 +20,17 @@
         <item name="android:icon">@android:color/transparent</item>
     </style>
 
+    <!--op3 2016/11/04-->
+    <style name="ContactsActionBarTheme" parent="@android:style/Theme.Material">
+        <item name="android:dropDownListViewStyle">@style/ListViewDropdownStyle</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColorHint">#aaffffff</item>
+        <item name="android:popupMenuStyle">@android:style/Widget.Holo.PopupMenu</item>
+    </style>
+    <style name="ListViewDropdownStyle" parent="@android:style/Widget.ListView.DropDown">
+        <item name="android:listSelector">?android:listChoiceBackgroundIndicator</item>
+    </style>
+
     <style name="SelectableItem" parent="@android:style/Theme.Material">
         <item name="android:background">?android:attr/selectableItemBackground</item>
     </style>
