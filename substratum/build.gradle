@@ -1,11 +1,8 @@
 apply plugin: 'com.android.application'
 
-ext {
-    TARGET_SDK = 25
-    BUILD_TOOLS = "25.0.0"
-    ANDROID_SUPPORT_LIBS = "25.0.0"
+ext{
+    APP_TAG="Material Glass Substratum"
 }
-
 android {
     compileSdkVersion TARGET_SDK
     buildToolsVersion BUILD_TOOLS
@@ -13,16 +10,15 @@ android {
     defaultConfig {
         applicationId "com.pitchedapps.material.glass.substratum.sample"
         minSdkVersion 23
-        targetSdkVersion TARGET_SDK
+        targetSdkVersion rootProject.ext.TARGET_SDK
         versionCode 2
         versionName "2.0"
     }
 
     applicationVariants.all { variant ->
         variant.outputs.each { output ->
-            output.outputFile = new File(
-                    output.outputFile.parent,
-                    output.outputFile.name.replace("substratum-release.apk", "Material Glass Substratum-v" + versionName + ".apk"))
+            output.outputFile = new File(output.outputFile.parent,
+                    "${APP_TAG}-v${variant.versionName}.apk")
         }
     }
 
@@ -37,6 +33,6 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
-    compile "com.android.support:appcompat-v7:$ANDROID_SUPPORT_LIBS"
-    compile "com.android.support:support-v4:$ANDROID_SUPPORT_LIBS"
+    compile "com.android.support:appcompat-v7:$rootProject.ext.ANDROID_SUPPORT_LIBS"
+    compile "com.android.support:support-v4:$rootProject.ext.ANDROID_SUPPORT_LIBS"
 }
