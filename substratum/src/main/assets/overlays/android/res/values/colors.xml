@@ -19,11 +19,7 @@
     <color name="primary_text_default_material_dark">#ffffffff</color>
     <color name="secondary_text_default_material_dark">#ffeeeeee</color>
     <color name="primary_material_dark">#ff000000</color>
-    <color name="material_deep_teal_200">#fff0f0f0</color>
-    <color name="material_deep_teal_500">#fff0f0f0</color>
-    <color name="material_blue_grey_800">#ff161616</color>
-    <color name="material_blue_grey_900">#ff161616</color>
-    <color name="material_blue_grey_950">#ff161616</color>
+
     <color name="config_defaultNotificationColor">#aa000000</color>
     <color name="battery_saver_mode_color">#fff4511e</color>
 
@@ -151,4 +147,13 @@
     <color name="chooser_grid_bg">#ab000000</color>
     <!--12/10/2015-->
     <color name="app_permission_icon_tint">#ccffffff</color>
+
+    <!--2016/12/22-->
+    <!--Change teal to blue-->
+    <color name="material_deep_teal_50">#d5dcdf</color>
+    <color name="material_deep_teal_100">#c7d0d5</color>
+    <color name="material_deep_teal_200">#b9c5ca</color>
+    <color name="material_deep_teal_300">#abb9c0</color>
+    <color name="material_deep_teal_500">#8fa2ab</color>
+    <color name="material_deep_teal_700">#748b96</color>
 </resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="systemui_theme" parent="@android:style/Theme.Material" />
+    <style name="systemui_theme_remote_input" parent="@android:style/Theme.Material" />
+
+</resources>

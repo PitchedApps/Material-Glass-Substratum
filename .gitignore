@@ -11,6 +11,8 @@
 # Eclipse related files
 #############################################################################
 
+dump/
+
 *.pydevproject
 .metadata
 .gradle

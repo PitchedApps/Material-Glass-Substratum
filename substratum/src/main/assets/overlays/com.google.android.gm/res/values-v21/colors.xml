@@ -289,5 +289,8 @@
     <color name="quantum_black_secondary_text">#89ffffff</color>
     <color name="quantum_black_text">#ddffffff</color>
 
+    <!--2016/12/22-->
+    <color name="avatar_tile_background_color">#a0000000</color>
+
 
 </resources>

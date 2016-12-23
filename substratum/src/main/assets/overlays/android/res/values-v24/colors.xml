@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="notification_material_background_color">#0b0b0b</color>
+    <color name="notification_default_color">#eee</color>
+    <color name="notification_icon_default_color">#d5d5d5</color>
+    <color name="notification_progress_background_color">
+        @*android:color/secondary_text_material_dark
+    </color>
+    <color name="notification_action_list">#00f</color>
+    <color name="notification_action_list_dark">#00f</color>
+
+    <color name="system_bar_background_semi_transparent">#33ffffff</color>
+
+    <color name="config_defaultNotificationColor">#0b0b0b</color>
+    <color name="notification_text_default_color">#eee</color>
+    <color name="sender_text_color">#fff</color>
+    <color name="resolver_list_bg">#b0000000</color>
+    <color name="immersive_cling_bg_color">#b9c5ca</color>
+    <color name="immersive_cling_text_color">@*android:color/primary_text_default_material_dark</color>
+    <color name="immersive_cling_button_text_color">#fff</color>
+    <color name="app_permission_icon_tint">#fff</color>
+
+    <color name="chooser_service_row_background_color">#0ff</color>
+</resources>
