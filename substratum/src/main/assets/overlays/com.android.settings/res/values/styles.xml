@@ -3,6 +3,7 @@
     <style name="Theme.SettingsBase" parent="@android:style/Theme.Material.Wallpaper">
         <item name="android:statusBarColor">#50000000</item>
         <item name="android:colorBackground">#bb000000</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
     </style>
 
     <style name="SecurityPreferenceButtonContainer"
@@ -70,6 +71,5 @@
 
     <!--slim-->
     <style name="CryptKeeperBlankTheme" parent="@android:style/Theme.DeviceDefault.NoActionBar" />
-
 
 </resources>

@@ -1,4 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.pitchedapps.material.glass.substratum.sample">
 
     <application
@@ -6,35 +7,41 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".SubstratumLauncher" android:theme="@style/AppTheme.NoActionBar">
+        android:theme="@style/AppTheme"
+        tools:node="replace">
+        <activity
+            android:name=".SubstratumLauncher"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="projekt.substratum.THEME" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
 
         <meta-data
             android:name="Substratum_Legacy"
-            android:value="true"/>
+            android:value="true" />
         <meta-data
             android:name="Substratum_Name"
-            android:value="@string/ThemeName"/>
+            android:value="@string/ThemeName" />
         <meta-data
             android:name="Substratum_Author"
-            android:value="@string/ThemeAuthor"/>
+            android:value="@string/ThemeAuthor" />
         <meta-data
             android:name="Substratum_Email"
-            android:value="@string/ThemeEmail"/>
+            android:value="@string/ThemeEmail" />
         <meta-data
             android:name="Substratum_ThemeReady"
-            android:value="stock"/>
+            android:value="stock" />
 
         <!-- SUBSTRATUM INTERNAL USE: DO NOT TOUCH -->
         <meta-data
             android:name="Substratum_Plugin"
-            android:value="5.1.2"/>
+            android:value="6.0.0" />
     </application>
-
 
 
 </manifest>

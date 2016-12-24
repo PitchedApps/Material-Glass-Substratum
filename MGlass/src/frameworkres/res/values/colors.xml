@@ -25,7 +25,7 @@
     <color name="material_blue_grey_800">#ff161616</color>
     <color name="material_blue_grey_900">#ff161616</color>
     <color name="material_blue_grey_950">#ff161616</color>
-    <color name="config_defaultNotificationColor">#aa000000</color>
+    <color name="config_defaultNotificationColor">#fff</color>
     <color name="battery_saver_mode_color">#fff4511e</color>
 
     <color name="bright_foreground_dark">#fff0f0f0</color>
