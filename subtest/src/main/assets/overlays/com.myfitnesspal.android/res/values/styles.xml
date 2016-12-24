@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="widget_refresh_btn">
+        <item name="android:textColor">#fff</item>
+        <item name="android:gravity">center|right</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:layout_marginLeft">5.0dip</item>
+        <item name="android:src">@drawable/widget_refresh_btn</item>
+    </style>
+
+    <style name="widget_remaining">
+        <item name="android:textColor">#fff</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">left</item>
+        <item name="android:layout_marginLeft">15.0dip</item>
+    </style>
+    <style name="widget_remaining_label" parent="@style/widget_remaining">
+        <item name="android:textSize">11.0sp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:layout_gravity">center|left</item>
+        <item name="android:layout_marginBottom">-12.0dip</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:lines">2</item>
+    </style>
+    <style name="widget_remaining_value" parent="@style/widget_remaining">
+        <item name="android:textSize">30.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:layout_marginBottom">-8.0dip</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="widget_sign_in">
+        <item name="android:textColor">#fff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginLeft">5.0dip</item>
+        <item name="android:layout_marginRight">5.0dip</item>
+    </style>
+
+    <style name="summary_subhead_parent">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+
+    <style name="summary_subhead" parent="@style/summary_subhead_parent">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:maxLines">1</item>
+        <item name="font">Roboto-Bold.ttf</item>
+        <item name="resizeMode">width</item>
+    </style>
+    <style name="summary_subhead_description" parent="@style/summary_subhead_parent">
+        <item name="android:textSize">10.0sp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:maxLines">1</item>
+        <item name="font">Roboto-Regular.ttf</item>
+        <item name="resizeMode">width</item>
+    </style>
+
+
+    <style name="widget_summary_subhead" parent="@style/summary_subhead">
+        <item name="android:textSize">17.0sp</item>
+        <item name="android:gravity">center|left</item>
+        <item name="android:paddingLeft">2.0dip</item>
+        <item name="android:paddingRight">2.0dip</item>
+    </style>
+    <style name="widget_summary_subhead_description" parent="@style/summary_subhead_description">
+        <item name="android:gravity">center|left</item>
+        <item name="android:paddingLeft">2.0dip</item>
+        <item name="android:paddingRight">2.0dip</item>
+    </style>
+    <style name="widget_sync_text">
+        <item name="android:textSize">9.0sp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:gravity">center|right</item>
+        <item name="android:text">Tue, May 04, 2010 at 6:36AM</item>
+    </style>
+    <style name="widget_tap_to_sign_in" parent="@style/widget_sign_in">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:layout_marginBottom">10.0dip</item>
+    </style>
+    <style name="widget_you_not_sign_in" parent="@style/widget_sign_in">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:layout_marginTop">10.0dip</item>
+    </style>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="launchscreens_product_logo" type="id">false</item>
+    <item name="launchscreens_logo_text" type="id">false</item>
+</resources>
