@@ -20,7 +20,7 @@
     <color name="secondary_text_default_material_dark">#ffeeeeee</color>
     <color name="primary_material_dark">#ff000000</color>
 
-    <color name="config_defaultNotificationColor">#aa000000</color>
+    <color name="config_defaultNotificationColor">#fff</color>
     <color name="battery_saver_mode_color">#fff4511e</color>
 
     <color name="bright_foreground_dark">#fff0f0f0</color>
@@ -61,13 +61,13 @@
     <color name="sliding_tab_text_color_active">#fff0f0f0</color>
     <color name="sliding_tab_text_color_shadow">#fff0f0f0</color>
     <color name="micro_text_light">#ddffffff</color>
-    <color name="notification_icon_bg_color">#ff161616</color>
+    <color name="notification_icon_bg_color">@android:color/transparent</color>
     <color name="timepicker_default_ampm_selected_background_color_holo_light">#ddffffff</color>
     <color name="timepicker_default_ampm_selected_background_color_holo_dark">#ff161616</color>
     <color name="datepicker_default_normal_text_color_holo_light">#ff161616</color>
     <color name="datepicker_default_normal_text_color_holo_dark">#fff0f0f0</color>
-    <color name="accent_material_light">#ff000000</color>
-    <color name="accent_material_dark">#fff0f0f0</color>
+    <color name="accent_material_light">#ddd</color>
+    <color name="accent_material_dark">#ddd</color>
     <color name="button_material_dark">#50505050</color>
     <color name="button_material_light">#50afafaf</color>
     <color name="link_text_material_dark">#ddffffff</color>
@@ -123,10 +123,10 @@
     <color name="exposed_Widget.Material.Light.Button_TS">#ff555555</color>
 
     <!--android m support-->
-    <color name="chooser_service_row_background_color">#a0000000</color>
+    <color name="chooser_service_row_background_color">#b0000000</color>
     <color name="notification_progress_background_color">#22ffffff</color>
     <!--11/26/2015-->
-    <color name="chooser_grid_bg">#ab000000</color>
+    <color name="chooser_grid_bg">#b0000000</color>
     <!--12/10/2015-->
     <color name="app_permission_icon_tint">#ccffffff</color>
 
@@ -138,4 +138,6 @@
     <color name="material_deep_teal_300">#abb9c0</color>
     <color name="material_deep_teal_500">#8fa2ab</color>
     <color name="material_deep_teal_700">#748b96</color>
+
+    <color name="notification_mtrl_action_text_light">#fff</color>
 </resources>

@@ -1,24 +1,19 @@
 package com.pitchedapps.material.glass.substratum.sample;
 
 import android.app.Activity;
-import android.content.ComponentName;
-import android.content.Context;
 import android.content.Intent;
 import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.widget.Toast;
+
+import projekt.substrate.LetsGetStarted;
 
 /**
  * Created by Allan Wang on 2016-08-03.
  */
-public class SubstratumLauncher extends AppCompatActivity {
-
-    /**
-     * Other variables/methods; do not modify
-     */
+public class SubstratumLauncher extends Activity {
 
     private static final String SUBSTRATUM_PACKAGE_NAME = "projekt.substratum";
 
@@ -72,30 +67,24 @@ public class SubstratumLauncher extends AppCompatActivity {
     }
 
     private void launchSubstratum() {
-        Intent currentIntent = getIntent();
-        String theme_mode = currentIntent.getStringExtra("theme_mode");
-        if (theme_mode == null) theme_mode = "";
-        final boolean theme_legacy = currentIntent.getBooleanExtra("theme_legacy", false);
-        final boolean refresh_mode = currentIntent.getBooleanExtra("refresh_mode", false);
-
-        Intent intent = new Intent(Intent.ACTION_MAIN);
-        intent.setComponent(ComponentName.unflattenFromString(
-                "projekt.substratum/projekt.substratum.InformationActivity"));
-        intent.addCategory(Intent.CATEGORY_LAUNCHER);
-        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-        intent.putExtra("theme_name", getString(R.string.ThemeName));
-        intent.putExtra("theme_pid", getPackageName());
-        intent.putExtra("theme_legacy", theme_legacy);
-        intent.putExtra("theme_mode", theme_mode);
-        intent.putExtra("refresh_mode", refresh_mode);
-        startActivity(intent);
+        Intent intent = LetsGetStarted.begin(getApplicationContext(),
+                getIntent(), getString(R.string.ThemeName), getPackageName(),
+                getString(R.string.unauthorized), false);
+        if (intent != null) {
+            startActivity(intent);
+        }
         finish();
     }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        launch();
+    }
+
+    private void launch() {
         beginSubstratumLaunch();
     }
+
+
 }

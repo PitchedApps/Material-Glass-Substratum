@@ -3,17 +3,17 @@
     <!--new modification for tint-->
 
     <style name="Theme.DeviceDefault.Settings" parent="@android:style/Theme.Material.Wallpaper">
-        <item name="android:windowBackground">@android:color/background_dark</item>
+        <item name="android:windowBackground">@android:drawable/screen_background_dark_transparent</item>
         <item name="android:colorBackground">#aa000000</item>
         <item name="android:colorBackgroundCacheHint">@android:color/background_dark</item>
-        <item name="android:backgroundTint">@android:color/background_dark</item>
+        <item name="android:backgroundTint">@android:drawable/screen_background_dark_transparent</item>
         <item name="android:navigationBarColor">@android:color/background_dark</item>
     </style>
 
     <!--DeviceDefault-->
 
     <style name="Theme.DeviceDefault" parent="@android:style/Theme.Material.Wallpaper">
-        <item name="android:windowBackground">@android:color/background_dark</item>
+        <item name="android:windowBackground">@android:drawable/screen_background_dark_transparent</item>
         <item name="android:colorBackground">#aa000000</item>
         <item name="android:colorBackgroundCacheHint">@android:color/background_dark</item>
     </style>
@@ -24,13 +24,13 @@
     </style>
     <style name="Theme.DeviceDefault.DialogWhenLarge.NoActionBar" parent="@android:style/Theme.Material.DialogWhenLarge.NoActionBar">
         <item name="android:windowShowWallpaper">true</item>
-        <item name="android:windowBackground">@android:color/background_dark</item>
+        <item name="android:windowBackground">@android:drawable/screen_background_dark_transparent</item>
         <item name="android:colorBackground">#aa000000</item>
         <item name="android:colorBackgroundCacheHint">@android:color/background_dark</item>
     </style>
     <style name="Theme.DeviceDefault.NoActionBar.Fullscreen" parent="@android:style/Theme.Material.NoActionBar.Fullscreen">
         <item name="android:windowShowWallpaper">true</item>
-        <item name="android:windowBackground">@android:color/background_dark</item>
+        <item name="android:windowBackground">@android:drawable/screen_background_dark_transparent</item>
         <item name="android:colorBackground">#aa000000</item>
         <item name="android:colorBackgroundCacheHint">@android:color/background_dark</item>
     </style>
@@ -122,8 +122,8 @@
         <item name="android:backgroundDimEnabled">true</item>
         <item name="android:windowTranslucentStatus">false</item>
         <item name="android:windowTranslucentNavigation">false</item>
-        <item name="android:colorControlActivated">#80333333</item>
-        <item name="android:backgroundTint">#80000000</item>
+        <item name="android:colorControlActivated">#a0333333</item>
+        <item name="android:backgroundTint">#a0000000</item>
         <item name="android:windowDrawsSystemBarBackgrounds">false</item>
     </style>
 
@@ -199,7 +199,7 @@
 
     <!--04/06/2016-->
     <style name="Theme.Translucent" parent="@android:style/Theme.DeviceDefault">
-        <item name="android:windowBackground">@android:color/background_dark</item>
+        <item name="android:windowBackground">@android:drawable/screen_background_dark_transparent</item>
         <item name="android:colorBackground">#aa000000</item>
         <item name="android:colorBackgroundCacheHint">@android:color/background_dark</item>
     </style>
