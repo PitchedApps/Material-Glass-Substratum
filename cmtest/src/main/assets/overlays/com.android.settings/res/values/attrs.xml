@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="cardBackgroundColor" format="color" />
+    <attr name="cardCornerRadius" format="dimension" />
+    <attr name="cardElevation" format="dimension" />
+    <attr name="cardMaxElevation" format="dimension" />
+    <attr name="cardUseCompatPadding" format="boolean" />
+    <attr name="cardPreventCornerOverlap" format="boolean" />
+    <attr name="ic_menu_add" format="reference" />
+    <attr name="ic_menu_moreoverflow" format="reference" />
+    <attr name="ic_wps" format="reference" />
+    <attr name="preferenceBackgroundColor" format="color" />
+    <attr name="setup_divider_color" format="reference" />
+    <attr name="wifi_signal_color" format="reference" />
+    <attr name="wifi_signal" format="reference" />
+</resources>
