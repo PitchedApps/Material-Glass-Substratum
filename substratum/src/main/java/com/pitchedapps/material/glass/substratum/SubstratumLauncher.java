@@ -1,4 +1,4 @@
-package com.pitchedapps.material.glass.substratum.sample;
+package com.pitchedapps.material.glass.substratum;
 
 import android.app.Activity;
 import android.content.Intent;
