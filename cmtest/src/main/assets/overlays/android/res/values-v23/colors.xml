@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--01/04/2016-->
+    <color name="edit_side_paste_window_text_color">#fff</color>
+    <color name="edit_paste_window_text_color">#fff</color>
+    <color name="edit_action_popup_text_color">#fff</color>
+    <color name="web_view_dropdown_text_color">#fff</color>
+    <color name="web_view_dropdown_background_color">#cc000000</color>
+    <color name="perms_costs_money_text_color">#fff</color>
+    <color name="loading_view_text_color">#60FFFFFF</color>
+    <color name="loading_view_text_shadow_color">#30000000</color>
+    <color name="notification_action_tombstone_text_color">#99ffffff</color>
+    <color name="character_picker_button_text_color">#FFFFFFFF</color>
+    <color name="activity_list_divider_color">#22ffffff</color>
+    <color name="dialog_divider_color">#22ffffff</color>
+    <color name="typing_filter_text_color">#99FFFFFF</color>
+    <color name="typing_filter_background_color">#BB000000</color>
+    <color name="status_bar_latest_event_content_bg_color">#bb000000</color>
+    <color name="media_controller_background_color">#CC000000</color>
+
+   <!--01/22/2016-->
+    <color name="immersive_cling_bg_color">#80000000</color>
+    <color name="immersive_cling_text_color">#fff</color>
+    <color name="immersive_cling_button_text_color">#fff</color>
+    <color name="app_permission_icon_tint">#bbffffff</color>
+</resources>

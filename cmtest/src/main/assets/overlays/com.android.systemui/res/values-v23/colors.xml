@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--01/21/2016-->
+    <color name="no_recent_apps">#ddffffff</color>
+    <color name="status_bar_background_opaque">@color/system_bar_background_opaque</color>
+    <color name="status_bar_background_semi_transparent">@color/system_bar_background_semi_transparent</color>
+    <color name="status_bar_background_transparent">@color/system_bar_background_transparent</color>
+    <color name="navigation_bar_background_opaque">@color/system_bar_background_opaque</color>
+    <color name="navigation_bar_background_semi_transparent">@color/system_bar_background_semi_transparent</color>
+    <color name="navigation_bar_background_transparent">@color/system_bar_background_transparent</color>
+    <color name="status_bar_temperature_text_color">#ffffffff</color>
+    <color name="status_bar_temperature_location_text_color">#ffffffff</color>
+    <color name="visualizer_fill_color">#96ffffff</color>
+    <color name="volume_panel_background_color">#cc000000</color>
+    <color name="batterymeter_base_color">#ffffffff</color>
+    <color name="notification_icon_color">#ffffffff</color>
+    <color name="navbutton_ripple_color">#ffffffff</color>
+    <color name="status_bar_alarm_status_text_color">#64ffffff</color>
+    <color name="status_bar_battery_level_text_color">#ffffffff</color>
+    <color name="quick_settings_toast_color">#ddffffff</color>
+    <color name="tuner_icon_tint">#4dffffff</color>
+    <color name="qs_tile_reset_to_default_text_color">@android:color/white</color>
+    <color name="qs_title_text_color">#fff</color>
+    <color name="qs_edit_header_instruction_text_color">@android:color/white</color>
+    <color name="qs_row_text_color">@android:color/white</color>
+    <color name="qs_tile_trash">#ffffffff</color>
+    <color name="qs_tile_trash_delete_tint">#ffff0000</color>
+    <color name="qs_tile_trash_delete_tint_warning">#ffff9c00</color>
+    <color name="toggle_slider_text_color">#aaffffff</color>
+    <color name="no_recent_apps_text_color">@android:color/white</color>
+    <color name="no_notifications_text_color">#ffffffff</color>
+    <color name="keyguard_overflow_number_text_color">#aaffffff</color>
+    <color name="keyguard_carrier_text_color">#ffffffff</color>
+    <color name="screen_pinning_description_text_color">@android:color/white</color>
+    <color name="screen_pinning_cancel_button_text_color">@android:color/white</color>
+    <color name="recents_empty_message_text_color">#ffffffff</color>
+    <color name="task_view_header_text_color">#ffffffff</color>
+    <color name="recents_search_bar_label_text_color">#99ffffff</color>
+    <color name="recents_empty_background_color">#80000000</color>
+    <color name="qs_tile_edit_header_instruction_text_color">@android:color/white</color>
+    <color name="mland_scorefield_text_color">#aaffffff</color>
+    <color name="keyguard_indication_text_color">#ffffffff</color>
+    <color name="speedbump_line_divider">#22ffffff</color>
+    <color name="quick_settings_panel_background">#00000000</color>
+    <color name="lockscreen_message_text_color">#ff424242</color><!--change?-->
+    <color name="lockscreen_middle_button_tint_color">#ff666666</color>
+    <color name="play_button_image_tint_color">#fff</color>
+    <color name="play_button_text_color">#fff</color>
+    <color name="zen_ic_close_tint_color">@android:color/white</color>
+    <color name="header_debug_info_text_color">#ff00a040</color>
+    <color name="qs_detailed_default_text_color">@android:color/white</color>
+    <color name="qs_detailed_expansion_indicator_color">@color/qs_title_text_color</color>
+    <color name="qs_detailed_title_text_color">@color/qs_title_text_color</color>
+    <color name="qs_detailed_icon_tint_color">@color/qs_title_text_color</color>
+    <color name="qs_tile_text_disabled">#88ffffff</color>
+    <color name="volume_slider_active">#fff</color>
+
+    <color name="system_primary_color_translucent">#90aaaaaa</color>
+
+    <color name="default_circle_indicator_fill_color">#ffffffff</color>
+    <color name="default_circle_indicator_page_color">#ffcccccc</color>
+    <color name="default_circle_indicator_stroke_color">#ffcccccc</color>
+
+    <color name="keyguard_sim_view_divider">#28ffffff</color>
+</resources>
