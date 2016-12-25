@@ -31,4 +31,17 @@
     <style name="Theme.SystemUI.Dialog" parent="@android:style/Theme.Material.Dialog" />
     <style name="Theme.SystemUI.Dialog.Alert" parent="@android:style/Theme.Material.Dialog.Alert" />
 
+    <style name="TextAppearance" />
+
+    <style name="TextAppearance.Volume" parent="@style/TextAppearance">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="TextAppearance.Volume.ZenDetail" parent="@style/TextAppearance.Volume">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#aaffffff</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
 </resources>

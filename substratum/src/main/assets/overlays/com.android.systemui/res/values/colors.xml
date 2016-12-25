@@ -112,12 +112,12 @@
     <color name="qs_detail_button_white">#b3ffffff</color>
 
     <color name="segmented_button_unselected">#88222222</color>
-    <color name="dark_mode_icon_color_single_tone">#99ffffff</color>
-    <color name="dark_mode_icon_color_dual_tone_background">#3dffffff</color>
-    <color name="dark_mode_icon_color_dual_tone_fill">#7affffff</color>
-    <color name="light_mode_icon_color_single_tone">#fff</color>
-    <color name="light_mode_icon_color_dual_tone_background">#3dffffff</color>
-    <color name="light_mode_icon_color_dual_tone_fill">#fff</color>
+    <!--<color name="dark_mode_icon_color_single_tone">#99ffffff</color>-->
+    <!--<color name="dark_mode_icon_color_dual_tone_background">#3dffffff</color>-->
+    <!--<color name="dark_mode_icon_color_dual_tone_fill">#7affffff</color>-->
+    <!--<color name="light_mode_icon_color_single_tone">#fff</color>-->
+    <!--<color name="light_mode_icon_color_dual_tone_background">#3dffffff</color>-->
+    <!--<color name="light_mode_icon_color_dual_tone_fill">#fff</color>-->
     <color name="zen_introduction_message_background">#b0000000</color>
     <color name="volume_icon_color">#ffffffff</color>
     <color name="volume_settings_icon_color">#7fffffff</color>
@@ -130,4 +130,10 @@
     <color name="qs_tile_disabled_overlay_dark_mode">#22ffffff</color>
     <color name="screen_pinning_primary_text">#ddd</color>
 
+
+    <color name="ksh_keyword_color">#d9ffffff</color>
+    <color name="ksh_key_item_color">#fff</color>
+    <color name="ksh_key_item_background">#80000000</color>
+
+    <color name="qs_edit_item_decoration_bg">#1b1b1b</color>
 </resources>

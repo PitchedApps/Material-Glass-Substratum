@@ -72,4 +72,31 @@
     <!--slim-->
     <style name="CryptKeeperBlankTheme" parent="@android:style/Theme.DeviceDefault.NoActionBar" />
 
+
+
+    <style name="Widget.AppCompat.NotificationActionText" parent="">
+        <item name="android:textAppearance">?android:textAppearanceButton</item>
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:textColor">#ddffffff</item>
+    </style>
+
+    <style name="SuwGlifCardBackground">
+        <item name="android:background">#50000000</item>
+    </style>
+
+    <style name="FingerprintHeaderStyle" parent="@android:style/TextAppearance.Material.Subhead">
+        <item name="android:textColor">#fff</item>
+        <item name="android:paddingTop">16.0dip</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+    </style>
+
+    <!--<style name="Theme.DialogWhenLarge" parent="@android:style/Theme.Material.DialogWhenLarge">-->
+        <!--<item name="android:windowBackground">@android:color/transparent</item>-->
+        <!--<item name="android:colorBackgroundCacheHint">#00000000</item>-->
+        <!--<item name="android:statusBarColor">#95000000</item>-->
+        <!--<item name="preferenceBackgroundColor">@android:color/transparent</item>-->
+        <!--<item name="android:windowShowWallpaper">true</item>-->
+        <!--<item name="android:navigationBarColor">#95000000</item>-->
+    <!--</style>-->
+
 </resources>

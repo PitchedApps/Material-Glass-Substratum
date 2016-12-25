@@ -2,13 +2,16 @@
 <resources>
     <!--new modification for tint-->
 
-    <style name="Theme.DeviceDefault.Settings" parent="@android:style/Theme.Material.Wallpaper">
-        <item name="android:windowBackground">@android:drawable/screen_background_dark_transparent</item>
-        <item name="android:colorBackground">#aa000000</item>
-        <item name="android:colorBackgroundCacheHint">@android:color/background_dark</item>
-        <item name="android:backgroundTint">@android:drawable/screen_background_dark_transparent</item>
-        <item name="android:navigationBarColor">@android:color/background_dark</item>
-    </style>
+    <!--<style name="Theme.DeviceDefault.Settings" parent="@android:style/Theme.Material.Wallpaper">-->
+        <!--<item name="android:windowBackground">@android:drawable/screen_background_dark_transparent</item>-->
+        <!--<item name="android:colorBackground">#aa000000</item>-->
+        <!--<item name="android:colorBackgroundCacheHint">@android:color/background_dark</item>-->
+        <!--<item name="android:backgroundTint">@android:drawable/screen_background_dark_transparent</item>-->
+        <!--<item name="android:navigationBarColor">@android:color/background_dark</item>-->
+    <!--</style>-->
+    <style name="Theme.Material.DayNight" parent="@android:style/Theme.DeviceDefault" />
+    <style name="Theme.Material.DayNight.DarkActionBar" parent="@android:style/Theme.DeviceDefault" />
+    <style name="Theme.DeviceDefault.Settings" parent="@android:style/Theme.DeviceDefault" />
 
     <!--DeviceDefault-->
 
@@ -176,6 +179,12 @@
     <style name="TextAppearance.Material.Notification.Title" parent="@android:style/TextAppearance.Material.Notification">
         <item name="android:textSize">16.0sp</item>
         <item name="android:textColor">#ffffffff</item>
+    </style>
+
+    <!--Android N 2016/12/24-->
+    <style name="TextAppearance.Material.Notification.Info" parent="@android:style/TextAppearance.Material.Notification">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#ddffffff</item>
     </style>
 
     <style name="TextAppearance.StatusBar" parent="@android:style/TextAppearance">

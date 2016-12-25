@@ -118,4 +118,6 @@
     <color name="fingerprint_button_text_color_dark">#ffffffff</color>
     <color name="background_material_settings">#50000000</color>
     <color name="window_background">#80000000</color>
+
+    <color name="notification_action_color_filter">#fff</color>
 </resources>
