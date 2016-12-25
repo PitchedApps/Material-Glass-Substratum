@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Widget.TransportControl.SeekBar"
+        parent="@android:style/Widget.DeviceDefault.SeekBar">
+        <item name="android:focusable">true</item>
+        <item name="android:maxHeight">13.0dip</item>
+        <item name="android:indeterminateOnly">false</item>
+        <!--<item name="android:indeterminateDrawable">@drawable/scrubber_progress_horizontal_holo_light</item>-->
+        <!--<item name="android:progressDrawable">@drawable/scrubber_progress_horizontal_holo_light</item>-->
+        <item name="android:minHeight">13.0dip</item>
+        <!--<item name="android:thumb">@drawable/scrubber_control_selector_holo</item>-->
+        <item name="android:thumbOffset">16.0dip</item>
+        <item name="android:paddingStart">16.0dip</item>
+        <item name="android:paddingEnd">16.0dip</item>
+        <item name="android:mirrorForRtl">true</item>
+    </style>
+    <style name="TextAppearance.Material.Notification.Parenthetical"
+        parent="@android:style/TextAppearance.Material.Notification">
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">#80ffffff</item>
+    </style>
+
+    <!--slim-->
+    <style name="RecentBaseStyle"  parent="@android:style/Theme.Material">
+        <item name="android:popupMenuStyle">@android:style/Widget.Material.ListPopupWindow</item>
+    </style>
+
+    <!--systemui_theme is heavily modified in many roms; do not modify-->
+
+    <style name="Theme.SystemUI.Dialog" parent="@android:style/Theme.Material.Dialog" />
+    <style name="Theme.SystemUI.Dialog.Alert" parent="@android:style/Theme.Material.Dialog.Alert" />
+
+    <style name="TextAppearance" />
+
+    <style name="TextAppearance.Volume" parent="@style/TextAppearance">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="TextAppearance.Volume.ZenDetail" parent="@style/TextAppearance.Volume">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#aaffffff</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+</resources>
