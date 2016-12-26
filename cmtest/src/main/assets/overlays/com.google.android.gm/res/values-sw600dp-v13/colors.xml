@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <color name="folder_list_divider_color">#22ffffff</color>
-    <color name="loading_messages_background_color">#80000000</color>
-    <color name="mail_activity_status_bar_color">#80000000</color>
-    <color name="conversation_list_background_color">#000</color>
-</resources>
