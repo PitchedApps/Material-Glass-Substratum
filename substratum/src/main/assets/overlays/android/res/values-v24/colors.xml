@@ -8,7 +8,7 @@
     </color>
 
     <!--Bar below notification with action buttons-->
-    <color name="notification_action_list">#222</color>
+    <color name="notification_action_list">#748B96</color>
     <color name="notification_action_list_dark">#222</color>
 
     <color name="system_bar_background_semi_transparent">#33ffffff</color>

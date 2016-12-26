@@ -7,10 +7,6 @@
     <color name="bg_dialog_light">#cc111111</color>
     <color name="bubble_dark_background">#20000000</color>
     <color name="button_material_light_pressed">#55555555</color>
-    <color name="cardview_dark_background">#bb000000</color>
-    <color name="cardview_light_background">#bb000000</color>
-    <color name="cardview_shadow_end_color">#03000000</color>
-    <color name="cardview_shadow_start_color">#37000000</color>
     <color name="cling_scrim_background">#80000000</color>
     <color name="delete_target_hover_tint">#daf44336</color>
     <color name="edit_target_hover_tint">#daffffff</color>
@@ -60,4 +56,11 @@
     <color name="material_grey_800">#0f0</color>
     <color name="material_grey_850">#0f0</color>
     <color name="material_grey_900">#0f0</color>
+
+    <color name="pill_menu_bg">#dd000000</color>
+    <color name="pill_menu_bg_pressed">#dd111111</color>
+
+    <color name="place_autocomplete_search_hint">#aaffffff</color>
+    <color name="place_autocomplete_search_text">#fff</color>
+    <color name="place_autocomplete_separator">#1fffffff</color>
 </resources>

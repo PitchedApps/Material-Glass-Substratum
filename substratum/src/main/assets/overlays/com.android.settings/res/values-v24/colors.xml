@@ -44,6 +44,6 @@
     <color name="storage_private_3">#80f2a600</color>
     <color name="storage_private_4">#80ec407a</color>
     <color name="storage_private_5">#80c0ca33</color>
-    <color name="condition_card_background_color">#8fa2ab</color>
+    <color name="condition_card_background_color">#50111111</color>
     <color name="condition_card_divider_color">#22ffffff</color>
 </resources>

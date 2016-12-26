@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="text_shadow">#22000000</color>
+    <color name="bg_flat_color">#a0000000</color>
+    <color name="bg_flat_color_gradient">#a0000000</color>
+    <color name="bg_flat_color_dark">#a0000000</color>
+    <color name="bg_flat_color_dark_gradient">#a0000000</color>
+    <color name="button_bg_flat_color">#30000000</color>
+    <color name="button_bg_flat_color_gradient">#30000000</color>
+    <color name="ripple_material_light">#40ffffff</color>
+    <color name="ripple_material_dark">#40ffffff</color>
+    <color name="fake_window_shade_color">#30000000</color>
+    <!--<color name="rambar_left_color">@color/colorPrimary</color>-->
+    <!--<color name="rambar_middle_color">@color/colorPrimary</color>-->
+    <color name="rambar_right_color">#40ffffff</color>
+    <!--<color name="default_drag_handle_color">@color/colorPrimary</color>-->
+</resources>
