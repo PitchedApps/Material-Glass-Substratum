@@ -4,10 +4,8 @@
     <color name="account_background_dark">#80000000</color>
     <color name="account_background_lite">#80000000</color>
     <color name="account_display_name">#fff</color>
-    <!--<color name="account_display_name_highlighted">@color/default_text_highlighted_color</color>-->
     <color name="account_info_banner_background">#80000000</color>
     <color name="account_secondary_text">#ddffffff</color>
-    <!--<color name="account_secondary_text_highlighted">@color/default_text_highlighted_color</color>-->
     <color name="account_text_color">#fff</color>
     <color name="action_bar_overlay">#b0000000</color>
     <color name="activity_card_secondary_text">#ddffffff</color>
@@ -22,18 +20,6 @@
     <color name="ccl_mr_custom_line_1">#ffffffff</color>
     <color name="ccl_mr_custom_line_2">#aaffffff</color>
     <color name="ccl_mr_custom_title">#fff</color>
-    <!--
-    <color name="common_action_bar_splitter">#ffd2d2d2</color>
-    <color name="common_signin_btn_dark_text_default">@android:color/white</color>
-    <color name="common_signin_btn_dark_text_disabled">#ffaaaaaa</color>
-    <color name="common_signin_btn_dark_text_focused">@android:color/white</color>
-    <color name="common_signin_btn_dark_text_pressed">@android:color/white</color>
-    <color name="common_signin_btn_default_background">#ffdd4b39</color>
-    <color name="common_signin_btn_light_text_default">#ff737373</color>
-    <color name="common_signin_btn_light_text_disabled">#ffaaaaaa</color>
-    <color name="common_signin_btn_light_text_focused">#ff737373</color>
-    <color name="common_signin_btn_light_text_pressed">@android:color/white</color>
-    -->
     <color name="create_bar_button_background_focused">#22ffffff</color>
     <color name="create_bar_button_background_pressed">#20ffffff</color>
     <!--account name with white background-->
@@ -44,7 +30,6 @@
     <color name="detail_card_header_text">#fff</color>
     <color name="detail_card_outline">#11ffffff</color>
     <color name="detail_fragment_avatar_background_gray">#80111111</color>
-    <!--<color name="detail_fragment_avatar_background_green">@color/m_material_lightgreen_500</color>-->
     <color name="detail_fragment_background">#80000000</color>
     <!--check-->
     <color name="detail_fragment_horizontal_rule">#80111111</color>
@@ -75,7 +60,6 @@
     <color name="ds_editor_panel_backfill">#80000000</color>
     <color name="ds_list_entry_activated">#22ffffff</color>
     <color name="ds_list_entry_disabled_focused">#80111111</color>
-    <!--<color name="ds_list_entry_focused">@color/ds_list_entry_pressed</color>-->
     <color name="ds_list_entry_pressed">#ffff9900</color>
     <color name="ds_list_entry_selected">#ffff9900</color>
     <color name="ds_primary_text_color">#fff3f3f3</color>
@@ -110,7 +94,6 @@
     <color name="m_actionbar_icon_drawer_color">#ddffffff</color>
     <color name="m_actionbar_separator">#22ffffff</color>
     <color name="m_actionbar_text">#fff</color>
-    <!--<color name="m_add_collaborator_background_alpha_hack">@color/m_material_grey_300_with_tiny_alpha</color>-->
     <color name="m_app_background">#80000000</color>
     <color name="m_app_divider_color">#22ffffff</color>
     <color name="m_app_overlay_shadow">#88000000</color>
@@ -134,12 +117,6 @@
     <color name="m_entry_selected">#22ffffff</color>
     <color name="m_entry_text_primary">#fff</color>
     <color name="m_entry_text_secondary">#fff</color>
-    <!--<color name="m_google_blue_200">@color/quantum_googblue200</color>-->
-    <!--<color name="quantum_googblue200">#ffa1c2fa</color>-->
-    <!--<color name="m_google_blue_50">@color/quantum_googblue50</color>-->
-    <!--<color name="quantum_googblue50">#ffe8f0fe</color>-->
-    <!--<color name="m_google_blue_500">@color/quantum_googblue500</color>-->
-    <!--<color name="quantum_googblue500">#ff4285f4</color>-->
     <color name="m_icon_action_bar">#ddffffff</color>
     <color name="m_icon_primary_inverse_tint">#ddffffff</color>
     <color name="m_icon_primary_tint">#ddffffff</color>
@@ -158,13 +135,10 @@
     <color name="m_material_grey_500">#fff</color>
     <color name="m_material_grey_600">#fff</color>
     <color name="m_material_grey_700">#fff</color>
-    <!--<color name="m_material_lightgreen_500">@color/quantum_lightgreen500</color>-->
     <color name="quantum_lightgreen500">#ff8bc34a</color>
     <color name="m_material_snackbar_bg">#80000000</color>
     <color name="m_notification_icon_background">#80111111</color>
     <color name="m_progress_bg">#80000000</color>
-    <!--<color name="m_progress_primary">@color/m_google_blue_500</color>-->
-    <!--<color name="m_progress_secondary">@color/m_google_blue_200</color>-->
     <color name="m_ripple_dark">#20ffffff</color>
     <color name="m_ripple_light">#22ffffff</color>
     <color name="m_search_bar_background">#80000000</color>

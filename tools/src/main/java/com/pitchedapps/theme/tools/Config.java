@@ -8,9 +8,9 @@ import java.io.File;
 public class Config {
 
     public static String
-            packageName = "com.google.android.gm",
+            packageName = "com.google.android.apps.docs",
             SOLUTION = "Google",
-            PROJECT = "PrebuiltGmail1225",
+            PROJECT = "Drive_V64521440",
             VTS = "C:\\Users\\User7681\\PA\\VTS\\" + SOLUTION + "\\" + PROJECT + "\\Data"
                     + "\\res\\values";
 
