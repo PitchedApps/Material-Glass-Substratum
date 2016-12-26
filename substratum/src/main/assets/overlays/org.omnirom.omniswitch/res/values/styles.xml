@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextAppearancePopupMenuCondensed" parent="@android:style/TextAppearance.Material.Menu">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="PopupMenuLight" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:textAppearanceLargePopupMenu">@style/TextAppearancePopupMenuCondensed</item>
+        <item name="android:textAppearanceSmallPopupMenu">@style/TextAppearancePopupMenuCondensed</item>
+    </style>
+    <style name="PopupMenuDark" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:textAppearanceLargePopupMenu">@style/TextAppearancePopupMenuCondensed</item>
+        <item name="android:textAppearanceSmallPopupMenu">@style/TextAppearancePopupMenuCondensed</item>
+    </style>
+    <style name="SettingsTheme" parent="@android:style/Theme.DeviceDefault.Settings">
+        <item name="android:colorPrimary">#ff4caf50</item>
+        <item name="android:colorPrimaryDark">#ff388e3c</item>
+        <item name="android:colorAccent">#ff4caf50</item>
+    </style>
+    <style name="AppTheme" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:colorPrimary">#ff4caf50</item>
+        <item name="android:colorPrimaryDark">#ff388e3c</item>
+        <item name="android:colorAccent">#ff4caf50</item>
+    </style>
+</resources>

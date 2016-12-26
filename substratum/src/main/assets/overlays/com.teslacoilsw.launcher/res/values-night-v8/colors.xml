@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="cardIdleBackground">#00000000</color>
+    <color name="pill_menu_bg">#dd000000</color>
+    <color name="pill_menu_bg_pressed">#dd111111</color>
+</resources>
