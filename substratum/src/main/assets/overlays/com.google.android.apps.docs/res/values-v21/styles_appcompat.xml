@@ -8,7 +8,7 @@
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowActionBar">false</item>
         <!--<item name="android:backgroundTint">#a0000000</item>-->
-        <item name="android:statusBarColor">#a0000000</item>
+        <item name="android:statusBarColor">#000</item>
     </style>
     <style name="Platform.AppCompat.Light.Dialog" parent="@android:style/Theme.Material.Dialog">
         <item name="android:windowNoTitle">true</item>
