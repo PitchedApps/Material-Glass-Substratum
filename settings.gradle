@@ -1,1 +1,1 @@
-include ':substratum', ':cmtest', ':subtest', ':substrate'
+include ':substratum', ':cmtest', ':subtest', ':substrate', ':tools'

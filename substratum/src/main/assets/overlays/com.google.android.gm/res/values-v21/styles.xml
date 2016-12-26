@@ -31,6 +31,7 @@
         </item>
         <item name="android:textAppearanceSmallPopupMenu">@style/ActionBarTextAppearanceSmallStyle
         </item>
+        <item name="android:backgroundTint">#00f</item>
     </style>
     <style name="ActionBarDividerlessListViewStyle"
         parent="@android:style/Widget.Material.ListView">
@@ -52,11 +53,10 @@
         <item name="android:textColor">#ffffffff</item>
     </style>
 
-    <!--<style name="ConversationListFadeBase" parent="@android:style/Widget.Material.ListView">-->
-        <!--<item name="android:windowShowWallpaper">true</item>-->
-        <!--<item name="android:background">@android:color/transparent</item>-->
-        <!--<item name="android:backgroundTint">#33ff00ff</item>-->
-    <!--</style>-->
+    <style name="ConversationListFadeBase" parent="@android:style/Widget.Material.ListView">
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:background">#000</item>
+    </style>
 
     <style name="MinTimeProgressViewStyle" parent="@android:style/Widget.Material.ProgressBar" />
     <style name="MinTimeProgressDialogStyleBase" parent="@android:style/Theme.Material.Dialog" />
@@ -69,16 +69,19 @@
         <item name="android:colorAccent">#ffffffff</item>
         <item name="android:colorEdgeEffect">#ffffffff</item>
         <item name="android:statusBarColor">#ff000000</item>
+        <item name="android:actionBarWidgetTheme">@style/ActionBarWidgetTheme</item>
         <!--<item name="android:colorBackground">#80000000</item>-->
         <!--<item name="android:windowBackground">@android:color/background_dark</item>-->
         <!--<item name="android:colorBackgroundCacheHint">#80000000</item>-->
         <!--<item name="android:cacheColorHint">#80000000</item>-->
         <item name="android:background">#111</item>
+        <item name="android:backgroundTint">#80000000</item>
+
     </style>
     <style name="ActionBarOverflowButtonStyle"
         parent="@android:style/Widget.Material.ActionButton.Overflow" />
     <style name="AccountSetupDialogActivityTheme"
-        parent="@android:style/Theme.Material.Dialog.NoActionBar"/>
+        parent="@android:style/Theme.Material.Dialog.NoActionBar" />
     <style name="LabelSyncTheme" parent="@android:style/Theme.Material.Dialog" />
     <style name="GmailTheme.NoActionBar" parent="@android:style/Theme.DeviceDefault.NoActionBar">
         <item name="android:statusBarColor">#80000000</item>
@@ -109,7 +112,8 @@
     </style>
 
     <!--2016/01/03-->
-    <style name="RecipientEditTextViewBase" parent="@android:style/Widget.DeviceDefault.AutoCompleteTextView">
+    <style name="RecipientEditTextViewBase"
+        parent="@android:style/Widget.DeviceDefault.AutoCompleteTextView">
         <item name="android:textAppearance">?android:textAppearanceMedium</item>
         <item name="android:background">@null</item>
         <item name="android:layout_width">fill_parent</item>
@@ -122,6 +126,7 @@
     <style name="AbstractComposeArea">
         <item name="android:layout_gravity">center_horizontal</item>
         <item name="android:background">#80000000</item>
+        <item name="android:backgroundTint">#80000000</item>
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">fill_parent</item>
         <item name="android:animateLayoutChanges">true</item>
@@ -165,5 +170,28 @@
         <item name="android:fontFamily">sans-serif</item>
         <item name="android:textAlignment">viewStart</item>
     </style>
+
+    <!--Fix for compose message background-->
+    <style name="ComposeFieldLayout">
+        <item name="android:background">#80ffffff</item>
+        <item name="android:backgroundTint">#fff</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:focusable">false</item>
+        <item name="android:focusableInTouchMode">false</item>
+        <item name="android:addStatesFromChildren">true</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="RecipientComposeFieldLayout">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingTop">0.0dip</item>
+        <item name="android:focusable">false</item>
+        <item name="android:focusableInTouchMode">false</item>
+        <item name="android:addStatesFromChildren">true</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
 </resources>
 
