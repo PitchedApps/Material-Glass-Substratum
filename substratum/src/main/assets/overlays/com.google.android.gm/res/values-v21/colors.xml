@@ -116,7 +116,7 @@
     <color name="quantum_black_hint_text">#61ffffff</color>
     <color name="quantum_black_secondary_text">#89ffffff</color>
     <color name="quantum_black_text">#ddffffff</color>
-    <!--<color name="quantum_googred500">#ffda4336</color>-->
+    <color name="quantum_googred500">#ffda4336</color>
     <color name="quantum_grey">#f00</color>
     <color name="quantum_grey100">#f00</color>
     <color name="quantum_grey200">#f00</color>
@@ -220,38 +220,8 @@
     <color name="srs_button_disabled_color">#1cffffff</color>
     <color name="srs_button_text_disabled_color">#66ffffff</color>
     <!--TODO check-->
-    <color name="suggest_bar_background_color">#a0000000</color>
+    <color name="suggest_bar_background_color">#000</color>
     <color name="suggest_bar_button_text_color">#fff</color>
     <color name="suggest_bar_description_text_color">#fff</color>
-    <!--<color name="quantum_googred700">#f0f</color>-->
 
-    <color name="quantum_googred50">#f0f</color>
-    <color name="quantum_googred100">#f0f</color>
-    <color name="quantum_googred200">#f0f</color>
-    <color name="quantum_googred300">#f0f</color>
-    <color name="quantum_googred400">#f0f</color>
-    <color name="quantum_googred500">#f0f</color>
-    <color name="quantum_googred600">#f0f</color>
-    <color name="quantum_googred700">#f0f</color>
-    <color name="quantum_googred800">#f0f</color>
-    <color name="quantum_googred900">#f0f</color>
-    <color name="quantum_googredA100">#f0f</color>
-    <color name="quantum_googredA200">#f0f</color>
-    <color name="quantum_googredA400">#f0f</color>
-    <color name="quantum_googredA700">#f0f</color>
-
-    <color name="quantum_vanillared50">#00f</color>
-    <color name="quantum_vanillared100">#00f</color>
-    <color name="quantum_vanillared200">#00f</color>
-    <color name="quantum_vanillared300">#00f</color>
-    <color name="quantum_vanillared400">#00f</color>
-    <color name="quantum_vanillared500">#00f</color>
-    <color name="quantum_vanillared600">#00f</color>
-    <color name="quantum_vanillared700">#00f</color>
-    <color name="quantum_vanillared800">#00f</color>
-    <color name="quantum_vanillared900">#00f</color>
-    <color name="quantum_vanillaredA100">#00f</color>
-    <color name="quantum_vanillaredA200">#00f</color>
-    <color name="quantum_vanillaredA400">#00f</color>
-    <color name="quantum_vanillaredA700">#00f</color>
 </resources>
