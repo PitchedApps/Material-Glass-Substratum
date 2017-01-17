@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="notification_guts_bg_color">#a1060606</color>
+    <!--text color?-->
+    <color name="notification_guts_btn_color">#ffffffff</color>
+    <color name="notification_guts_text_color">#ffffffff</color>
+    <color name="notification_guts_title_color">#ffffffff</color>
+    <color name="notification_header">#a1060606</color>
+    <color name="notification_icon_color">#FFFFFFFF</color>
+    <color name="notification_legacy_background_color">#a1060606</color>
+    <color name="notification_list_shadow_top">#80000000</color>
+    <color name="notification_material_background_color">#a1060606</color>
+    <color name="notification_material_background_dimmed_color">#a1060606</color>
+    <color name="notification_material_background_low_priority_color">#a1060606</color>
+    <color name="notification_material_background_media_default_color">#a1060606</color>
+    <color name="notification_panel_solid_background">#55000000</color>
+    <color name="notification_ripple_color_low_priority">#33bbbbbb</color>
+    <color name="notification_ripple_tinted_color">#30ffffff</color>
+    <color name="notification_ripple_untinted_color">#33bbbbbb</color>
+
+    <color name="notification_action_color_filter">#fff</color>
+    <color name="notification_icon_bg_color">@android:color/transparent</color>
+    <!--<color name="notification_material_background_media_default_color">#1b1b1b</color>-->
+
+    <color name="preference_fallback_accent_color">#ff80cbc4</color>
+
+    <!--<color name="notification_material_background_color">#1b1b1b</color>-->
+    <!--<color name="notification_material_background_dimmed_color">#1b1b1b</color>-->
+    <!--<color name="notification_material_background_low_priority_color">#000</color>-->
+    <color name="notification_shade_background_color">#1b1b1b</color>
+    <color name="notification_gear_color">#80ffffff</color>
+    <!--<color name="notification_guts_bg_color">#1b1b1b</color>-->
+    <color name="notification_guts_disabled_slider_color">#30ffffff</color>
+    <color name="notification_guts_secondary_slider_color">#80ffffff</color>
+    <color name="notification_guts_icon_tint">#fff</color>
+    <color name="notification_guts_disabled_icon_tint">#4dffffff</color>
+
+    <style name="TextAppearance.Material.Notification.Parenthetical"
+        parent="@android:style/TextAppearance.Material.Notification">
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">#80ffffff</item>
+    </style>
+    <color name="exposed_TextAppearance.Material.Notification.Parenthetical">#60ffffff</color>
+
+    <item name="notification_number_text_color" type="drawable">#ffffffff</item>
+    <item name="status_bar_notification_row_background_color" type="drawable">#a0000000</item>
+    <item name="heads_up_notification_bg_pressed" type="drawable">#a0161616</item>
+
+    <style name="TextAppearance.NotificationGuts" parent="@style/TextAppearance">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:fontFamily">roboto-regular</item>
+    </style>
+
+    <style name="TextAppearance.NotificationGuts.Secondary" parent="@style/TextAppearance.NotificationGuts">
+        <item name="android:textColor">#ddffffff</item>
+    </style>
+    <style name="TextAppearance.NotificationGuts.Primary" parent="@style/TextAppearance.NotificationGuts">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#fff</item>
+    </style>
+    <style name="TextAppearance.NotificationGuts.Radio" parent="@style/TextAppearance.NotificationGuts">
+        <item name="android:textColor">#fff</item>
+    </style>
+    <style name="TextAppearance.NotificationGuts.Button" parent="@style/TextAppearance.NotificationGuts">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ddffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+</resources>
