@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="notification_material_background_color">#1b1b1b</color>
+    <color name="notification_default_color">#eee</color>
+    <color name="notification_icon_default_color">#fff</color>
+    <color name="notification_progress_background_color">
+        @*android:color/secondary_text_material_dark
+    </color>
+
+    <!--Bar below notification with action buttons-->
+    <color name="notification_action_list">#748B96</color>
+    <color name="notification_action_list_dark">#222</color>
+
     <color name="system_bar_background_semi_transparent">#33ffffff</color>
 
+    <color name="config_defaultNotificationColor">#fff</color>
+    <color name="notification_text_default_color">#eee</color>
     <color name="sender_text_color">#fff</color>
     <color name="immersive_cling_bg_color">#000</color>
     <color name="immersive_cling_text_color">@*android:color/primary_text_default_material_dark</color>
