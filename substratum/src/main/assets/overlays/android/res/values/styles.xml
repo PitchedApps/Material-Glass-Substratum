@@ -169,6 +169,24 @@
 
     <!--android m support-->
 
+    <style name="TextAppearance.Material.Notification.Emphasis" parent="@android:style/TextAppearance.Material.Notification">
+        <item name="android:textColor">#66ffffff</item>
+    </style>
+    <style name="TextAppearance.Material.Notification" parent="@android:style/TextAppearance.Material">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="TextAppearance.Material.Notification.Title" parent="@android:style/TextAppearance.Material.Notification">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+
+    <!--Android N 2016/12/24-->
+    <style name="TextAppearance.Material.Notification.Info" parent="@android:style/TextAppearance.Material.Notification">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#ddffffff</item>
+    </style>
+
     <style name="TextAppearance.StatusBar" parent="@android:style/TextAppearance">
         <item name="android:textAppearance">?android:textAppearanceSmall</item>
     </style>

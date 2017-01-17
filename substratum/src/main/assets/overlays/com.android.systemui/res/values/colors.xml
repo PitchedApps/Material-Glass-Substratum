@@ -23,7 +23,23 @@
     <color name="navring_check_tint">#ddffffff</color>
     <color name="navring_edit_fill">#a0000000</color>
     <color name="navring_edit_tint">#a0323232</color>
-
+    <color name="notification_guts_bg_color">#a1060606</color>
+    <!--text color?-->
+    <color name="notification_guts_btn_color">#ffffffff</color>
+    <color name="notification_guts_text_color">#ffffffff</color>
+    <color name="notification_guts_title_color">#ffffffff</color>
+    <color name="notification_header">#a1060606</color>
+    <color name="notification_icon_color">#FFFFFFFF</color>
+    <color name="notification_legacy_background_color">#a1060606</color>
+    <color name="notification_list_shadow_top">#80000000</color>
+    <color name="notification_material_background_color">#a1060606</color>
+    <color name="notification_material_background_dimmed_color">#a1060606</color>
+    <color name="notification_material_background_low_priority_color">#a1060606</color>
+    <color name="notification_material_background_media_default_color">#a1060606</color>
+    <color name="notification_panel_solid_background">#55000000</color>
+    <color name="notification_ripple_color_low_priority">#33bbbbbb</color>
+    <color name="notification_ripple_tinted_color">#30ffffff</color>
+    <color name="notification_ripple_untinted_color">#33bbbbbb</color>
     <color name="qs_batterymeter_frame_color">#FF404040</color>
     <color name="qs_detail_empty">#24B0BEC5</color>
     <color name="qs_detail_progress_track">#cc748B96</color>
@@ -68,6 +84,7 @@
     <color name="exposed_bg_light">#a0000000</color>
     <color name="exposed_primary_text_light">#deffffff</color>
     <color name="exposed_secondary_text_light">#8affffff</color>
+    <color name="exposed_TextAppearance.Material.Notification.Parenthetical">#60ffffff</color>
     <color name="exposed_system_panel_text_light">#ddffffff</color>
     <color name="exposed_TextAppearance.StatusBar.TextButton">#ffffffff</color>
     <color name="exposed_primary_text_dark">#ffffffff</color>
