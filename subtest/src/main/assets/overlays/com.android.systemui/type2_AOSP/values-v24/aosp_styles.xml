@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!--Most compatible themes don't need this fix, but some will show wallpaper if this isn't done-->
-    <style name="systemui_theme" parent="@android:style/Theme.Material" />
-    <style name="systemui_theme_remote_input" parent="@android:style/Theme.Material" />
-
-</resources>

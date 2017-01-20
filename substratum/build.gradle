@@ -11,8 +11,8 @@ android {
         applicationId "com.pitchedapps.material.glass.substratum"
         minSdkVersion 23
         targetSdkVersion rootProject.ext.TARGET_SDK
-        versionCode 3
-        versionName "3.0"
+        versionCode 4
+        versionName "3.1"
     }
 
     applicationVariants.all { variant ->
@@ -27,6 +27,13 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
+    }
+
+    productFlavors {
+        sample {
+            applicationIdSuffix ".sample"
+        }
+        full { }
     }
 }
 
