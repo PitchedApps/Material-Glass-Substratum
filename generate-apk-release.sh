@@ -2,7 +2,7 @@
 
 # config
 BASE_REPO=PitchedApps/Material-Glass-Substratum
-RELEASE_REPO=PitchedApps/Material-Glass-Substratum
+RELEASE_REPO=PitchedApps/Material-Glass-Test-Builds
 USER_AUTH=PitchedApps
 APK_NAME=MGS-sample
 MODULE_NAME=substratum
