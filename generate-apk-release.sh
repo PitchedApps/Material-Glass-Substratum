@@ -35,7 +35,7 @@ git push -fq origin master > /dev/null
 echo "Create New Release"
 cd $HOME
 API_JSON=$(printf '{"tag_name": "v%s","target_commitish": "master","name": "v%s","body": "Automatic Release v%s","draft": false,"prerelease": false}' $TRAVIS_BUILD_NUMBER $TRAVIS_BUILD_NUMBER $TRAVIS_BUILD_NUMBER)
-newRelease=$(curl --data "$API_JSON" https://api.github.com/$RELEASE_REPO/releases?access_token=$GITHUB_API_KEY)
+newRelease=$(curl --data "$API_JSON" https://api.github.com/repos/$RELEASE_REPO/releases?access_token=$GITHUB_API_KEY)
 echo $newRelease
 rID=`echo $newRelease | jq ".id"`
 echo "Push apk to $rID"
