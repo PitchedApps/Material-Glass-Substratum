@@ -39,9 +39,12 @@ android {
     productFlavors {
         sample {
             applicationIdSuffix ".sample"
+            resValue "string", "app_name", "Material Glass - Test"
             signingConfig signingConfigs.test
         }
-        full {}
+        full {
+            resValue "string", "app_name", "Material Glass - Substratum"
+        }
     }
 }
 
