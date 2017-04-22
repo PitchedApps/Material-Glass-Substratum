@@ -49,6 +49,7 @@ public class PortColors {
 
         StringBuilder result = new StringBuilder();
         result.append("<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<resources>");
+        result.append("\n\n\t<!--").append(Config.packageName).append("-->\n");
         for (String s : map.keySet()) {
             if (!removed.contains(s))
                 result.append("\n\t").append(map.get(s));
@@ -62,7 +63,7 @@ public class PortColors {
             result.append("\n\t").append(map.get(s));
         }
         result.append("\n</resources>");
-        Utils.writeFile(dir, "colors_new.xml", result);
+        Utils.writeFile(Config.defaultWrite, "colors.xml", result);
 //        Utils.printSet("Missing", missing);
 //        Utils.printSet("Removed", removed);
 

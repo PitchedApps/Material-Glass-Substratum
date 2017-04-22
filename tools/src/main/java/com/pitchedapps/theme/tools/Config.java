@@ -7,10 +7,12 @@ import java.io.File;
  */
 public class Config {
 
+    public static String defaultWrite = "substratum/src/sample/res/values/";
+
     public static String
-            packageName = "com.google.android.apps.docs",
+            packageName = "com.android.vending",
             SOLUTION = "Google",
-            PROJECT = "Drive_V64521440",
+            PROJECT = "Google Play Store_7.6.08",
             VTS = "C:\\Users\\User7681\\PA\\VTS\\" + SOLUTION + "\\" + PROJECT + "\\Data"
                     + "\\res\\values";
 
