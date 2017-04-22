@@ -11,7 +11,7 @@ cd $HOME
 git config --global user.email "pitchedapps@gmail.com"
 git config --global user.name "Pitched Apps CI"
 # clone the repository in the buildApk folder
-git clone --quiet --branch=master  https://AllanWang:$GITHUB_API_KEY@github.com/PitchedApps/Material-Glass-Substratum.git  master > /dev/null
+git clone --quiet --branch=master  https://PitchedApps:$GITHUB_API_KEY@github.com/PitchedApps/Material-Glass-Substratum.git  master > /dev/null
 # create version file
 echo "Create Version File"
 cd master
