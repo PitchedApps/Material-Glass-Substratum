@@ -1,24 +1,31 @@
 apply plugin: 'com.android.application'
 
-ext{
-    APP_TAG="Material Glass Substratum"
-}
+
 android {
-    compileSdkVersion TARGET_SDK
-    buildToolsVersion BUILD_TOOLS
+    compileSdkVersion Integer.parseInt(project.TARGET_SDK)
+    buildToolsVersion project.BUILD_TOOLS
 
     defaultConfig {
-        applicationId "com.pitchedapps.material.glass.substratum"
-        minSdkVersion 23
-        targetSdkVersion rootProject.ext.TARGET_SDK
-        versionCode 4
-        versionName "3.1"
+        applicationId project.APP_PACKAGE
+        minSdkVersion Integer.parseInt(project.MIN_SDK)
+        targetSdkVersion Integer.parseInt(project.TARGET_SDK)
+        versionCode Integer.parseInt(project.VERSION_CODE)
+        versionName project.VERSION_NAME
     }
 
     applicationVariants.all { variant ->
         variant.outputs.each { output ->
             output.outputFile = new File(output.outputFile.parent,
-                    "${APP_TAG}-v${variant.versionName}.apk")
+                    "${APP_TAG_SHORT}-${variant.productFlavors[0].name}.apk")
+        }
+    }
+
+    signingConfigs {
+        test {
+            storeFile file("../test.keystore")
+            storePassword "testkey"
+            keyAlias "testKey"
+            keyPassword "testkey"
         }
     }
 
@@ -32,15 +39,16 @@ android {
     productFlavors {
         sample {
             applicationIdSuffix ".sample"
+            signingConfig signingConfigs.test
         }
-        full { }
+        full {}
     }
 }
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
-    compile "com.android.support:appcompat-v7:$rootProject.ext.ANDROID_SUPPORT_LIBS"
-    compile "com.android.support:support-v4:$rootProject.ext.ANDROID_SUPPORT_LIBS"
-    compile project (':substrate')
+//    compile "com.android.support:appcompat-v7:$project.ANDROID_SUPPORT_LIBS"
+//    compile "com.android.support:support-v4:$project.ANDROID_SUPPORT_LIBS"
+    compile project(':substrate')
 }
