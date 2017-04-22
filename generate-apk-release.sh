@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
 # config
-BASE_REPO=PitchedApps/Material-Glass-Substratum
 RELEASE_REPO=PitchedApps/Material-Glass-Test-Builds
 USER_AUTH=PitchedApps
 APK_NAME=MGS-sample
@@ -20,7 +19,7 @@ cp -R $MODULE_NAME/build/outputs/apk/$APK_NAME.apk $HOME/VERSION_KEY/
 echo "Clone Git"
 cd $HOME
 # clone the repository in the buildApk folder
-git clone --quiet --branch=master  https://$USER_AUTH:$GITHUB_API_KEY@github.com/$BASE_REPO.git  master > /dev/null
+git clone --quiet --branch=master  https://$USER_AUTH:$GITHUB_API_KEY@github.com/$RELEASE_REPO.git  master > /dev/null
 # create version file
 echo "Create Version File"
 cd master
@@ -37,6 +36,7 @@ echo "Create New Release"
 cd $HOME
 API_JSON=$(printf '{"tag_name": "v%s","target_commitish": "master","name": "v%s","body": "Automatic Release v%s","draft": false,"prerelease": false}' $TRAVIS_BUILD_NUMBER $TRAVIS_BUILD_NUMBER $TRAVIS_BUILD_NUMBER)
 newRelease=$(curl --data "$API_JSON" https://api.github.com/$RELEASE_REPO/releases?access_token=$GITHUB_API_KEY)
+echo $newRelease
 rID=`echo $newRelease | jq ".id"`
 echo "Push apk to $rID"
 curl "https://uploads.github.com/repos/${RELEASE_REPO}/releases/${rID}/assets?access_token=${GITHUB_API_KEY}&name=${APK_NAME}-v${TRAVIS_BUILD_NUMBER}.apk" --header 'Content-Type: application/zip' --upload-file $VERSION_KEY/$APK_NAME.apk -X POST
