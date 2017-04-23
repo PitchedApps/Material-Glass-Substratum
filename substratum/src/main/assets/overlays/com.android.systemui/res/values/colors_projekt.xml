@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><resources>
+    <color name="navbutton_ripple_color">#FFFFFFFF</color>
+    <color name="qs_edit_item_decoration_bg">#a1060606</color>
+    <color name="qs_alarm_status_text_color">#64ffffff</color>
+    <color name="qs_edit_toolbar_text_color">#FFFFFF</color>
+    <color name="qs_battery_text_color">#fff</color>
+    <color name="qs_battery_graph_text_color">#66FFFFFF</color>
+    <color name="qs_battery_accent">#fff</color>
+    <color name="external_qs_tile_tint_color">@android:color/white</color>
+    <color name="keyguard_affordance_circle_background">@android:color/white</color>
+    <color name="screenshot_flash_color">@android:color/white</color>
+    <color name="screenshot_background_color">@android:color/black</color>
+    <color name="qs_tile_label_tint_unavailable">#99ffffff</color>
+</resources>
