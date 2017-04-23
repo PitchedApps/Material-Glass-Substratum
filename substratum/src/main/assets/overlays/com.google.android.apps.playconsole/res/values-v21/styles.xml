@@ -1,3 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <style name="NavigationDrawerItem">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:backgroundTint">#a0000000</item>
+        <item name="android:paddingLeft">16.0dip</item>
+        <item name="android:paddingRight">16.0dip</item>
+        <item name="android:clickable">false</item>
+    </style>
 </resources>

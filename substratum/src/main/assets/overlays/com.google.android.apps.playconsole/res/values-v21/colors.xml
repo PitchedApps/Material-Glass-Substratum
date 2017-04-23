@@ -11,7 +11,7 @@
 	<color name="default_account_details_color">@android:color/white</color>
 	<color name="divider">#1effffff</color>
 	<color name="drawer_icon_tint">#aaffffff</color>
-	<color name="drawer_selected_background">#fff</color>
+	<color name="drawer_selected_background">#22ffffff</color>
 	<color name="drawer_text_color">#fff</color>
 	<color name="feature_graphic_background">#80000000</color>
 	<color name="help_card_background">#50000000</color>
