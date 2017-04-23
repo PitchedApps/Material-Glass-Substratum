@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <drawable name="dialog_holo_dark_frame">@*android:drawable/dialog_background_shadow_material</drawable>
+    <drawable name="dialog_holo_light_frame">@*android:drawable/dialog_background_shadow_material</drawable>
+
+    <!--Accents that guarantee visibility-->
+    <color name="holo_blue_light">#ff748B96</color>
+    <color name="holo_blue_dark">#ff62757e</color>
+    <color name="holo_blue_bright">#ff748B96</color>
+
+    <!--opaque versions-->
+    <drawable name="screen_background_holo_light">#ffffffff</drawable>
+    <drawable name="screen_background_holo_dark">#ff000000</drawable>
+
+    <color name="background_holo_dark">#ff000000</color>
+    <color name="background_holo_light">#ffffffff</color>
+
+    <color name="bright_foreground_holo_dark">@*android:color/bright_foreground_material_dark</color>
+    <color name="bright_foreground_holo_light">@*android:color/bright_foreground_material_light</color>
+    <color name="bright_foreground_disabled_holo_dark">@*android:color/bright_foreground_disabled_material_dark</color>
+    <color name="bright_foreground_disabled_holo_light">@*android:color/bright_foreground_disabled_material_light</color>
+    <color name="bright_foreground_inverse_holo_dark">@*android:color/bright_foreground_inverse_material_dark</color>
+    <color name="bright_foreground_inverse_holo_light">@*android:color/bright_foreground_inverse_material_light</color>
+    <color name="dim_foreground_holo_dark">@*android:color/dim_foreground_material_dark</color>
+    <color name="dim_foreground_disabled_holo_dark">@*android:color/dim_foreground_disabled_material_dark</color>
+    <color name="dim_foreground_inverse_holo_dark">@*android:color/dim_foreground_holo_light</color>
+    <color name="dim_foreground_inverse_disabled_holo_dark">@*android:color/dim_foreground_disabled_holo_light</color>
+    <color name="hint_foreground_holo_dark">@*android:color/hint_foreground_material_dark</color>
+    <color name="dim_foreground_holo_light">@*android:color/dim_foreground_material_light</color>
+    <color name="dim_foreground_disabled_holo_light">@*android:color/dim_foreground_disabled_material_light</color>
+    <color name="dim_foreground_inverse_holo_light">@*android:color/dim_foreground_holo_dark</color>
+    <color name="dim_foreground_inverse_disabled_holo_light">@*android:color/dim_foreground_disabled_holo_dark</color>
+    <color name="hint_foreground_holo_light">@*android:color/hint_foreground_material_light</color>
+    <color name="highlighted_text_holo_dark">@*android:color/highlighted_text_material_dark</color>
+    <color name="highlighted_text_holo_light">@*android:color/highlighted_text_material_light</color>
+    <color name="link_text_holo_dark">@*android:color/link_text_material_dark</color>
+    <color name="link_text_holo_light">@*android:color/link_text_material_light</color>
+
+    <color name="timepicker_default_background_holo_light">@*android:color/timepicker_default_background_material</color>
+    <color name="timepicker_default_background_holo_dark">@*android:color/timepicker_default_background_material</color>
+
+    <color name="timepicker_default_text_color_holo_light">@*android:color/timepicker_default_text_color_material</color>
+    <color name="timepicker_default_text_color_holo_dark">@*android:color/timepicker_default_text_color_material</color>
+
+    <color name="timepicker_default_ampm_selected_background_color_holo_light">@*android:color/timepicker_default_ampm_selected_background_color_material</color>
+    <color name="timepicker_default_ampm_selected_background_color_holo_dark">@*android:color/timepicker_default_ampm_selected_background_color_material</color>
+
+    <color name="timepicker_default_ampm_unselected_background_color_holo_light">@*android:color/timepicker_default_ampm_unselected_background_color_material</color>
+    <color name="timepicker_default_ampm_unselected_background_color_holo_dark">@*android:color/timepicker_default_ampm_unselected_background_color_material</color>
+
+    <color name="datepicker_default_header_selector_background_holo_light">@*android:color/timepicker_default_background_material</color>
+    <color name="datepicker_default_header_selector_background_holo_dark">@*android:color/timepicker_default_background_material</color>
+
+    <color name="datepicker_default_header_dayofweek_background_color_holo_light">@*android:color/timepicker_default_background_material</color>
+    <color name="datepicker_default_header_dayofweek_background_color_holo_dark">@*android:color/timepicker_default_background_material</color>
+
+    <color name="datepicker_default_normal_text_color_holo_light">@*android:color/timepicker_default_text_color_material</color>
+    <color name="datepicker_default_normal_text_color_holo_dark">@*android:color/timepicker_default_text_color_material</color>
+
+    <color name="datepicker_default_disabled_text_color_holo_light">@*android:color/bright_foreground_disabled_material_dark</color>
+    <color name="datepicker_default_disabled_text_color_holo_dark">@*android:color/bright_foreground_disabled_material_dark</color>
+
+    <color name="datepicker_default_selected_text_color_holo_light">@*android:color/timepicker_default_selector_color_material</color>
+    <color name="datepicker_default_selected_text_color_holo_dark">@*android:color/timepicker_default_selector_color_material</color>
+
+    <color name="datepicker_default_pressed_text_color_holo_light">@*android:color/timepicker_default_selector_color_material</color>
+    <color name="datepicker_default_pressed_text_color_holo_dark">@*android:color/timepicker_default_selector_color_material</color>
+
+    <color name="datepicker_default_circle_background_color_holo_light">@*android:color/accent_material_light</color>
+    <color name="datepicker_default_circle_background_color_holo_dark">@*android:color/accent_material_light</color>
+
+    <color name="datepicker_default_view_animator_color_holo_light">@*android:color/timepicker_default_background_material</color>
+    <color name="datepicker_default_view_animator_color_holo_dark">@*android:color/timepicker_default_background_material</color>
+
+
+</resources>
