@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+    <version title="v"/>
+    <item text="" />
+    -->
+
+    <version title="v3.1" />
+    <item text="Started changelog and automation" />
+    <item text="Reworked Play Store" />
+    <item text="" />
+    <item text="" />
+    <item text="" />
+    <item text="" />
+    <item text="" />
+    <item text="" />
+
+</resources>
