@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="quantum_black_divider">#1fffffff</color>
+    <color name="quantum_black_hint_text">#61ffffff</color>
+    <color name="quantum_black_secondary_text">#89ffffff</color>
+    <color name="quantum_black_text">#ddffffff</color>
+    <color name="quantum_grey200">#111</color>
+    <color name="quantum_grey300">#111</color>
+</resources>

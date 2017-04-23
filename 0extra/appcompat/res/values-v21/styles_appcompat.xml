@@ -13,4 +13,7 @@
 
     <style name="Platform.V21.AppCompat" parent="@android:style/Theme.DeviceDefault.NoActionBar" />
     <style name="Platform.V21.AppCompat.Light" parent="@android:style/Theme.DeviceDefault.NoActionBar" />
+
+    <dimen name="cardview_compat_inset_shadow">0.0dip</dimen>
+    <dimen name="cardview_default_elevation">0.0dip</dimen>
 </resources>

@@ -1,17 +1,7 @@
 package com.pitchedapps.theme.tools.utils;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.FileReader;
-import java.io.IOException;
-import java.io.OutputStreamWriter;
 import java.util.Arrays;
 import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 /**
  * Created by Allan Wang on 2017-04-22.
@@ -37,6 +27,10 @@ public class ColorUtils {
             "bright_foreground_material_light",
             "button_material_dark",
             "button_material_light",
+            "cardview_dark_background",
+            "cardview_light_background",
+            "cardview_shadow_end_color",
+            "cardview_shadow_start_color",
             "design_fab_shadow_end_color",
             "design_fab_shadow_mid_color",
             "design_fab_shadow_start_color",
