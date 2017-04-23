@@ -45,6 +45,9 @@ android {
         full {
             resValue "string", "app_name", "Material Glass - Substratum"
         }
+        factory { //just so AS can compile color previews
+            resValue "string", "app_name", "MG Factory"
+        }
     }
 }
 

@@ -7,7 +7,6 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.util.Collection;
-import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -37,8 +36,8 @@ public class FileUtils {
         return dir.substring(0, dir.length() - 1);
     }
 
-    public static boolean exists(String dir) {
-        return new File(dir).exists();
+    public static boolean exists(String... dir) {
+        return new File(filename(dir)).exists();
     }
 
     public static void readValueFiles(String dir, String fileName, Reader reader) {
@@ -62,16 +61,20 @@ public class FileUtils {
         }
     }
 
-    public static void writeFile(String dir, String fileName, StringBuilder result) {
-        try {
-            File newFile = new File(dir, fileName);
-            OutputStreamWriter f = new OutputStreamWriter(new FileOutputStream(newFile), "UTF-8");
-            f.append(result);
-            f.close();
-        } catch (Exception e) {
-            // This should never happen
-            e.printStackTrace();
+    public static StringBuilder readFile(String... dir) {
+        String line = "";
+        String section = filename(dir);
+        if (!exists(section)) return null;
+        StringBuilder data = new StringBuilder();
+        try (BufferedReader br = new BufferedReader(new FileReader(section))) {
+            while ((line = br.readLine()) != null) {
+                // process the line.
+                data.append(line).append("\n");
+            }
+        } catch (IOException e) {
+            System.out.println("ERROR :" + e + "\n" + line);
         }
+        return data;
     }
 
     public static void writeFile(String dir, String fileName, Collection<?>... collections) {
@@ -85,6 +88,30 @@ public class FileUtils {
                     if (data.toString() != null)
                         f.append(data.toString()).append("\n");
             f.append("</resources>");
+            f.close();
+        } catch (Exception e) {
+            // This should never happen
+            e.printStackTrace();
+        }
+    }
+
+    public static void copyFile(String source, String sourceFile, String dest, String destFile) {
+        writeFile(dest, destFile, readFile(source, sourceFile));
+    }
+
+    public static void writeFile(String dir, String fileName, StringBuilder result) {
+        if (result == null)
+            Utils.p("Empty data in writeFile");
+        else
+            writeFile(dir, fileName, result.toString());
+    }
+
+    public static void writeFile(String dir, String fileName, String content) {
+        mkdirs(dir);
+        try {
+            File newFile = new File(dir, fileName);
+            OutputStreamWriter f = new OutputStreamWriter(new FileOutputStream(newFile), "UTF-8");
+            f.append(content);
             f.close();
         } catch (Exception e) {
             // This should never happen
