@@ -5,8 +5,6 @@ import java.util.TreeSet;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import static com.pitchedapps.theme.tools.Utils.print;
-
 public class GetAttr {
     static TreeSet<String> valueSet = new TreeSet<>();
     static TreeSet<String> missing = new TreeSet<>();
