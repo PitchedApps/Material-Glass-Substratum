@@ -13,4 +13,8 @@
     <color name="primary">@android:color/black</color>
     <color name="accent">@android:color/white</color>
     <color name="accent_dark">@android:color/white</color>
+
+    <color name="band_select_background">#33ffffff</color>
+    <color name="band_select_border">#22ffffff</color>
+    
 </resources>
