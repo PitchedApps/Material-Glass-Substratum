@@ -7,7 +7,8 @@ import com.pitchedapps.theme.tools.utils.Private;
  */
 public class Config {
 
-    public static String defaultWrite = "substratum/src/factory/res/";
+    public static String defaultWrite = "substratum/src/factory/res/",
+            substratumSrc = "substratum/src";
 
     public static String getVTSDir(String solution, String project) {
         return String.format(Private.VTS, solution, project);

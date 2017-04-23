@@ -18,7 +18,6 @@
     <color name="keyguard_affordance">#ffffffff</color>
     <color name="keyguard_overflow_content_color">#ffffffff</color>
     <color name="keyguard_user_switcher_background_gradient_color">#77000000</color>
-    <color name="navbutton_ripple_color">#FFFFFFFF</color>
     <color name="navigation_bar_icon_color">#ffffffff</color>
     <color name="navring_check_tint">#ddffffff</color>
     <color name="navring_edit_fill">#a0000000</color>
@@ -78,7 +77,7 @@
     <color name="card_background_header">#80000000</color>
     <color name="card_backgroundExpand">#80000000</color>
     <color name="card_text_color_header">#ffffffff</color>
-	
+
 
     <!--exposed-->
     <color name="exposed_bg_light">#a0000000</color>
@@ -134,6 +133,4 @@
     <color name="ksh_keyword_color">#d9ffffff</color>
     <color name="ksh_key_item_color">#fff</color>
     <color name="ksh_key_item_background">#80000000</color>
-
-    <color name="qs_edit_item_decoration_bg">#1b1b1b</color>
 </resources>
