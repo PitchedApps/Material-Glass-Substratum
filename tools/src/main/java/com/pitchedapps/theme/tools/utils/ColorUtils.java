@@ -1,4 +1,4 @@
-package com.pitchedapps.theme.tools;
+package com.pitchedapps.theme.tools.utils;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -8,100 +8,15 @@ import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.util.Arrays;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
-import java.util.TreeSet;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * Created by Allan Wang on 2016-08-16.
+ * Created by Allan Wang on 2017-04-22.
  */
-public class Utils {
-
-    public static StringBuilder readFile(String dir, String fileName) {
-        StringBuilder s = new StringBuilder();
-        String line = "";
-        if (!dir.endsWith("\\") && !fileName.startsWith("\\")) dir = dir + "\\";
-        try (BufferedReader br = new BufferedReader(new FileReader(dir + fileName))) {
-            while ((line = br.readLine()) != null) {
-                // process the line.
-                s.append(line);
-            }
-        } catch (IOException e) {
-            System.out.println("ERROR :" + e + "\n" + line);
-        }
-        return s;
-    }
-
-    public static StringBuilder readFileKeepLines(String dir, String fileName) {
-        StringBuilder s = new StringBuilder();
-        String line = "";
-        if (!dir.endsWith("\\") && !fileName.startsWith("\\")) dir = dir + "\\";
-        try (BufferedReader br = new BufferedReader(new FileReader(dir + fileName))) {
-            while ((line = br.readLine()) != null) {
-                // process the line.
-                if (!line.startsWith("<?xml")) {
-                    s.append("\n");
-                }
-                s.append(line);
-            }
-        } catch (IOException e) {
-            System.out.println("ERROR :" + e + "\n" + line);
-        }
-        return s;
-    }
-
-    public static void writeFile(String dir, String fileName, StringBuilder result) {
-        try {
-            File newFile = new File(dir, fileName);
-            OutputStreamWriter f = new OutputStreamWriter(new FileOutputStream(newFile), "UTF-8");
-            f.append(result);
-            f.close();
-        } catch (Exception e) {
-            // This should never happen
-            e.printStackTrace();
-        }
-    }
-
-    public static void writeFile(String dir, String fileName, String result) {
-        try {
-            File newFile = new File(dir, fileName);
-            OutputStreamWriter f = new OutputStreamWriter(new FileOutputStream(newFile), "UTF-8");
-            f.append(result);
-            f.close();
-        } catch (Exception e) {
-            // This should never happen
-            e.printStackTrace();
-        }
-    }
-
-    public static void printSet(String title, Set<String> set) {
-        if (set.isEmpty()) return;
-        print(title);
-        for (String s : set) {
-            print(s);
-        }
-    }
-
-    public interface MatcherInterface {
-        void onMatch(Matcher m);
-    }
-
-    public static void getMatches(String pattern, StringBuilder text, MatcherInterface mi) {
-        Pattern r = Pattern.compile(pattern, Pattern.DOTALL);
-        Matcher m = r.matcher(text);
-        if (m.find()) {
-            do {
-                mi.onMatch(m);
-            } while (m.find());
-        } else {
-            System.out.println("NO MATCH");
-        }
-    }
-
-    public static void print(String s) {
-        System.out.println(s);
-    }
+public class ColorUtils {
 
     static String[] appcompatColorArray = new String[]{
             "abc_input_method_navigation_guard",
@@ -173,6 +88,7 @@ public class Utils {
             "switch_thumb_normal_material_dark",
             "switch_thumb_normal_material_light"
     };
+
     static HashSet<String> appcompatColorSet = new HashSet<>(Arrays.asList(appcompatColorArray));
 
     public static boolean isAppcompatColor(String s) {
