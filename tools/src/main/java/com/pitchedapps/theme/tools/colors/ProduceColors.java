@@ -3,7 +3,7 @@ package com.pitchedapps.theme.tools.colors;
 import com.pitchedapps.theme.tools.utils.FileUtils;
 import com.pitchedapps.theme.tools.utils.Utils;
 
-/** 
+/**
  * Created by Allan Wang on 2017-04-22.
  * <p>
  * When ready, creates production ready color.xml

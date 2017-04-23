@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Platform.V25.AppCompat" parent="@android:style/Theme.DeviceDefault.NoActionBar">
+        <item name="android:backgroundTint">#a0000000</item>
+        <item name="android:statusBarColor">#a0000000</item>
+    </style>
+    <style name="Platform.V25.AppCompat.Light" parent="@android:style/Theme.DeviceDefault.NoActionBar">
+        <item name="android:backgroundTint">#a0000000</item>
+        <item name="android:statusBarColor">#a0000000</item>
+    </style>
+</resources>
