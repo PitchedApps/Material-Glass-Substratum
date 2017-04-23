@@ -1,24 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="background_dark">#90000000</color>
-    <color name="background_light">#90ffffff</color>
-    <color name="holo_blue_light">#ff748B96</color>
-    <color name="holo_blue_dark">#ff62757e</color>
-    <color name="holo_blue_bright">#ff748B96</color>
     <color name="system_notification_accent_color">#cc62757e</color>
-    <color name="background_holo_dark">#ff000000</color>
-    <color name="highlighted_text_holo_dark">#66666666</color>
-    <color name="highlighted_text_holo_light">#66666666</color>
-    <color name="background_material_dark">#ff303030</color>
-    <color name="background_material_light">#ffeeeeee</color>
-    <color name="background_floating_material_dark">#bb060606</color>
-    <color name="background_floating_material_light">#cceeeeee</color>
-    <!--warning-->
-    <color name="primary_text_default_material_light">#ff060606</color>
-    <color name="secondary_text_default_material_light">#ff121212</color>
-    <color name="primary_text_default_material_dark">#ffffffff</color>
-    <color name="secondary_text_default_material_dark">#ffeeeeee</color>
-    <color name="primary_material_dark">#ff000000</color>
 
     <color name="config_defaultNotificationColor">#fff</color>
     <color name="battery_saver_mode_color">#fff4511e</color>
@@ -39,22 +21,6 @@
     <color name="dim_foreground_light_inverse">#ffdddddd</color>
     <color name="dim_foreground_light_inverse_disabled">#ffbbbbbb</color>
 
-    <color name="bright_foreground_holo_dark">#fff0f0f0</color>
-    <color name="bright_foreground_holo_light">#ff000000</color>
-    <color name="bright_foreground_disabled_holo_dark">#ffdddddd</color>
-    <color name="bright_foreground_disabled_holo_light">#ff222222</color>
-    <color name="bright_foreground_inverse_holo_dark">#ff000000</color>
-    <color name="bright_foreground_inverse_holo_light">#fff0f0f0</color>
-    <color name="dim_foreground_holo_dark">#ffdddddd</color>
-    <color name="dim_foreground_disabled_holo_dark">#ffbbbbbb</color>
-    <color name="dim_foreground_inverse_holo_dark">#ff222222</color>
-    <color name="dim_foreground_inverse_disabled_holo_dark">#ff444444</color>
-    <color name="hint_foreground_holo_dark">#ffdddddd</color>
-    <color name="dim_foreground_holo_light">#ff222222</color>
-    <color name="dim_foreground_disabled_holo_light">#ff444444</color>
-    <color name="dim_foreground_inverse_holo_light">#ffdddddd</color>
-    <color name="dim_foreground_inverse_disabled_holo_light">#ffbbbbbb</color>
-
     <color name="search_url_text_selected">#fff0f0f0</color>
     <color name="search_url_text_pressed">#fff0f0f0</color>
     <color name="search_widget_corpus_item_background">#ff000000</color>
@@ -62,24 +28,6 @@
     <color name="sliding_tab_text_color_shadow">#fff0f0f0</color>
     <color name="micro_text_light">#ddffffff</color>
     <color name="notification_icon_bg_color">@android:color/transparent</color>
-    <color name="timepicker_default_ampm_selected_background_color_holo_light">#ddffffff</color>
-    <color name="timepicker_default_ampm_selected_background_color_holo_dark">#ff161616</color>
-    <color name="datepicker_default_normal_text_color_holo_light">#ff161616</color>
-    <color name="datepicker_default_normal_text_color_holo_dark">#fff0f0f0</color>
-    <color name="accent_material_light">#ddd</color>
-    <color name="accent_material_dark">#ddd</color>
-    <color name="button_material_dark">#50505050</color>
-    <color name="button_material_light">#50afafaf</color>
-    <color name="link_text_material_dark">#ddffffff</color>
-    <color name="link_text_material_light">#ff161616</color>
-    <color name="timepicker_default_ampm_selected_background_color_material">#ff161616</color>
-    <color name="timepicker_default_selector_color_material">#ff161616</color>
-
-    <color name="timepicker_default_background_material">#bb303030</color>
-    <color name="timepicker_default_text_color_material">#fff0f0f0</color>
-    <color name="datepicker_default_header_selector_background_material_dark">#bb303030</color>
-    <color name="datepicker_default_view_animator_color_material_dark">#bb303030</color>
-
     <!--euphoria-->
     <color name="notification_material_action_textcolor">#ddffffff</color>
     <color name="notification_template_material_big_picture_background_color">#cc000000</color>
@@ -126,15 +74,6 @@
     <color name="notification_progress_background_color">#22ffffff</color>
     <!--11/26/2015-->
     <color name="chooser_grid_bg">#b0000000</color>
-
-    <!--2016/12/22-->
-    <!--Change teal to blue-->
-    <color name="material_deep_teal_50">#d5dcdf</color>
-    <color name="material_deep_teal_100">#c7d0d5</color>
-    <color name="material_deep_teal_200">#b9c5ca</color>
-    <color name="material_deep_teal_300">#abb9c0</color>
-    <color name="material_deep_teal_500">#8fa2ab</color>
-    <color name="material_deep_teal_700">#748b96</color>
 
     <color name="notification_mtrl_action_text_light">#fff</color>
 </resources>
