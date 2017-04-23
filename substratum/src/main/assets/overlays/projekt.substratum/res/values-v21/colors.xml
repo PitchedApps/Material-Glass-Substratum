@@ -8,13 +8,13 @@
     <color name="studio_placeholder_title">@android:color/white</color>
 
     <color name="font_unchecked">#66ffffff</color>
-    <color name="font_window_background">#90000000</color>
+    <color name="font_window_background">#80000000</color>
 
     <color name="sounds_text">@android:color/white</color>
     <color name="sounds_placeholder_tint">@android:color/white</color>
     <color name="sounds_unchecked">#66ffffff</color>
-    <color name="sounds_spinner_background">#90000000</color>
-    <color name="sounds_window_background">#90000000</color>
+    <color name="sounds_spinner_background">#80000000</color>
+    <color name="sounds_window_background">#80000000</color>
 
 
     <color name="splashscreen_background">#a0000000</color>
@@ -27,7 +27,7 @@
 
     <color name="showcase_activity_text">#fff</color>
 
-    <color name="main_screen_card_background">#90000000</color>
+    <color name="main_screen_card_background">#20000000</color>
     <color name="main_screen_card_theme_title">#fff</color>
     <color name="main_screen_card_theme_author">#fff</color>
 
@@ -35,8 +35,8 @@
     <color name="logcat_dialog_buttons">#88111111</color>
     <color name="logcat_dialog_icons">@android:color/white</color>
 
-    <color name="theme_information_background">#90000000</color>
-    <color name="theme_information_card_background">#30000000</color>
+    <color name="theme_information_background">#80000000</color>
+    <color name="theme_information_card_background">#20000000</color>
     <color name="theme_information_card_title">#fff</color>
     <color name="theme_information_card_text">#fff</color>
     <color name="theme_information_card_divider">#22ffffff</color>
@@ -56,7 +56,7 @@
     <color name="fab_menu_icon_color">#fff</color>
     <color name="fab_menu_text_color">#deffffff</color>
     <color name="fab_menu_divider">#4affffff</color>
-    <color name="fab_background_color">#b0000000</color>
+    <color name="fab_background_color">#b0222222</color>
 
-    <color name="app_shortcut_icon_background_color">#90000000</color>
+    <color name="app_shortcut_icon_background_color">#80000000</color>
 </resources>
