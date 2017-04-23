@@ -51,11 +51,11 @@
     <color name="slide_5">#a0c187ff</color>
     <color name="slide_6">#a0f9da7c</color>
 
-    <color name="fab_menu_background_card">#a0111111</color>
+    <color name="fab_menu_background_card">#111</color>
     <color name="fab_menu_icon_color">#fff</color>
     <color name="fab_menu_text_color">#deffffff</color>
     <color name="fab_menu_divider">#4affffff</color>
-    <color name="fab_background_color">#b0222222</color>
+    <color name="fab_background_color">#222</color>
 
     <color name="app_shortcut_icon_background_color">#80000000</color>
 </resources>
