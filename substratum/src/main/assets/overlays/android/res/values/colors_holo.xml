@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <drawable name="dialog_holo_dark_frame">@*android:drawable/dialog_background_shadow_material</drawable>
-    <drawable name="dialog_holo_light_frame">@*android:drawable/dialog_background_shadow_material</drawable>
+    <!--<drawable name="dialog_holo_dark_frame">@*android:drawable/dialog_background_shadow_material</drawable>-->
+    <!--<drawable name="dialog_holo_light_frame">@*android:drawable/dialog_background_shadow_material</drawable>-->
 
     <!--Accents that guarantee visibility-->
     <color name="holo_blue_light">#ff748B96</color>
