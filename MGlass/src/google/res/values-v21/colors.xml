@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <color name="suggestion_background_pressed">#80111111</color>
-    <color name="ime_text">#ffffffff</color>
-    <color name="ime_retry_text">#ffd3d3d3</color>
-    <color name="ime_spinner_text">#ddffffff</color>
-    <color name="ime_mic_levels">#334db6ac</color>
-</resources>

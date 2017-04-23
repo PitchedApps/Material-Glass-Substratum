@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-   <color name="accent">#fff</color>
-  <color name="account_text_color">#fff</color>
+    <color name="accent">#fff</color>
+    <color name="account_text_color">#fff</color>
     <color name="action_button_ripple_color">#ffffffff</color>
     <color name="add_accounts_text_color">#fff</color>
-     <color name="chart_area">#11ffffff</color>
+    <color name="chart_area">#11ffffff</color>
     <color name="chart_color_1">#fff</color>
     <color name="chart_color_2">#ff62757e</color>
     <color name="chart_color_old">#99ffffff</color>
     <color name="chart_tick_mark">#ddffffff</color>
-      <color name="default_account_details_color">@android:color/white</color>
-     <color name="design_snackbar_background_color">#111</color>
+    <color name="default_account_details_color">@android:color/white</color>
+    <color name="design_snackbar_background_color">#111</color>
     <color name="design_textinput_error_color_dark">#ffff6e6e</color>
     <color name="design_textinput_error_color_light">#ffd50000</color>
-     <color name="divider">#1effffff</color>
+    <color name="divider">#1effffff</color>
     <color name="drawer_icon_tint">#aaffffff</color>
     <color name="drawer_selected_background">#fff</color>
     <color name="drawer_text_color">#fff</color>
@@ -69,7 +69,7 @@
     <color name="screen_background">#80000000</color>
     <color name="screen_dark_background">#80000000</color>
     <color name="secondary_text">#aaffffff</color>
-     <color name="snackbar_color">#111</color>
+    <color name="snackbar_color">#111</color>
     <color name="tab_indicator_color">#ffffff8c</color>
     <color name="transparent_black">#00000000</color>
     <color name="transparent_white">#00ffffff</color>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <style name="Theme" parent="@android:style/Theme.DeviceDefault">
-        <item name="android:windowSoftInputMode">stateAlwaysHidden</item>
-        <item name="android:colorPrimary">#ff748B96</item>
-        <item name="android:statusBarColor">#ff748B96</item>
-    </style>
-</resources>

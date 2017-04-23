@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <style name="Base.Theme" parent="@android:style/Theme.Material">
-        <item name="android:windowBackground">@android:color/black</item>
-        <item name="android:colorBackground">@android:color/black</item>
-        <item name="android:colorBackgroundCacheHint">@android:color/black</item>
-        <item name="android:backgroundTint">#ff000000</item>
-    </style>
-</resources>
