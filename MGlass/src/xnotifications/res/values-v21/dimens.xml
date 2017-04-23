@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <dimen name="cardview_default_elevation">0.5dip</dimen>
-    <dimen name="cards_elevation">0.5dip</dimen>
-</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000</color>
+    <color name="colorPrimaryDark">#000</color>
+    <color name="colorAccent">#fff</color>
+
+    <color name="studio_placeholder_icon">@android:color/white</color>
+    <color name="studio_placeholder_title">@android:color/white</color>
+
+    <color name="font_unchecked">#66ffffff</color>
+    <color name="font_window_background">#90000000</color>
+
+    <color name="sounds_text">@android:color/white</color>
+    <color name="sounds_placeholder_tint">@android:color/white</color>
+    <color name="sounds_unchecked">#66ffffff</color>
+    <color name="sounds_spinner_background">#90000000</color>
+    <color name="sounds_window_background">#90000000</color>
+
+
+    <color name="splashscreen_background">#a0000000</color>
+    <color name="fab_speed_dial_icon">#fff</color>
+
+    <color name="information_activity_dark_icon_mode">@android:color/white</color>
+    <color name="information_activity_dark_text_mode">@android:color/white</color>
+    <color name="information_activity_light_icon_mode">@android:color/white</color>
+    <color name="information_activity_light_text_mode">@android:color/white</color>
+
+    <color name="showcase_activity_text">#fff</color>
+
+    <color name="main_screen_card_background">#90000000</color>
+    <color name="main_screen_card_theme_title">#fff</color>
+    <color name="main_screen_card_theme_author">#fff</color>
+
+    <color name="logcat_dialog_background">#c0000000</color>
+    <color name="logcat_dialog_buttons">#88111111</color>
+    <color name="logcat_dialog_icons">@android:color/white</color>
+
+    <color name="theme_information_background">#90000000</color>
+    <color name="theme_information_card_background">#30000000</color>
+    <color name="theme_information_card_title">#fff</color>
+    <color name="theme_information_card_text">#fff</color>
+    <color name="theme_information_card_divider">#22ffffff</color>
+    <color name="theme_information_card_subtext">#ddffffff</color>
+
+    <color name="material_drawer_icon_color">#fff</color>
+    <color name="material_drawer_background">#b0000000</color>
+
+    <color name="slide_1">#a05e98ce</color>
+    <color name="slide_2">#a0fcb257</color>
+    <color name="slide_3">#a0ff8da1</color>
+    <color name="slide_4">#a0a9d67b</color>
+    <color name="slide_5">#a0c187ff</color>
+    <color name="slide_6">#a0f9da7c</color>
+
+    <color name="fab_menu_background_card">#30000000</color>
+    <color name="fab_menu_icon_color">#fff</color>
+    <color name="fab_menu_text_color">#deffffff</color>
+    <color name="fab_menu_divider">#4affffff</color>
+    <color name="fab_background_color">#b0000000</color>
+
+    <color name="app_shortcut_icon_background_color">#90000000</color>
+</resources>

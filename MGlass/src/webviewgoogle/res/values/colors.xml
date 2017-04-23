@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <color name="color_picker_border_color">#22ffffff</color>
-    <color name="color_picker_background_color">#a0000000</color>
-    <color name="dropdown_divider_color">#22ffffff</color>
-    <color name="dropdown_dark_divider_color">#22ffffff</color>
-</resources>

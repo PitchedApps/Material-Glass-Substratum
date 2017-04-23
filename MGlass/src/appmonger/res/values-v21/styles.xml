@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <style name="AppmongerTheme" parent="@android:style/Theme.DeviceDefault">
-        <item name="android:windowTitleSize">42.0dip</item>
-        <item name="android:actionBarStyle">@android:style/Widget.Holo.ActionBar</item>
-    </style>
-</resources>

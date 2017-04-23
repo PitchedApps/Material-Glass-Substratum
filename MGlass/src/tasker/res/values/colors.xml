@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <color name="background_dark">#80000000</color>
-    <color name="bright_foreground_light">#000</color>
-    <color name="param_background_border">#22ffffff</color>
-    <color name="faded_text_dark">#66ffffff</color>
-    <color name="faded_text">#aaffffff</color>
-</resources>
