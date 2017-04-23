@@ -43,7 +43,6 @@
     <color name="theme_information_card_subtext">#ddffffff</color>
 
     <color name="material_drawer_icon_color">#fff</color>
-    <color name="material_drawer_background">#b0000000</color>
 
     <color name="slide_1">#a05e98ce</color>
     <color name="slide_2">#a0fcb257</color>
@@ -52,7 +51,7 @@
     <color name="slide_5">#a0c187ff</color>
     <color name="slide_6">#a0f9da7c</color>
 
-    <color name="fab_menu_background_card">#30000000</color>
+    <color name="fab_menu_background_card">#a0111111</color>
     <color name="fab_menu_icon_color">#fff</color>
     <color name="fab_menu_text_color">#deffffff</color>
     <color name="fab_menu_divider">#4affffff</color>
