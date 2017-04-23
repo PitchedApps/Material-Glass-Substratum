@@ -11,9 +11,9 @@ import java.util.Map;
 import java.util.Set;
 
 public class PortColors {
-    public static String packageName = "com.android.vending",
+    public static String packageName = "com.google.android.apps.playconsole",
             solution = "Google",
-            project = "Google Play Store_7.6.08";
+            project = "Play Console_5.0.016";
 
     public static String writeDir = Config.defaultWrite + "values", //values directory to write new color file
             baseDir = Config.getVTSDir(solution, project), //values source directory
