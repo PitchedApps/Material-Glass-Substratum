@@ -15,8 +15,12 @@ android {
 
     applicationVariants.all { variant ->
         variant.outputs.each { output ->
-            output.outputFile = new File(output.outputFile.parent,
-                    "${APP_TAG_SHORT}-${variant.productFlavors[0].name}.apk")
+            if (variant.productFlavors[0].name == "sample")
+                output.outputFile = new File(output.outputFile.parent,
+                        "${APP_TAG_SHORT}-${variant.productFlavors[0].name}.apk")
+            else
+                output.outputFile = new File(output.outputFile.parent,
+                        "${APP_TAG} v${versionName}.apk")
         }
     }
 
