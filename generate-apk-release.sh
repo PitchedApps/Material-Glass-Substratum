@@ -10,10 +10,31 @@ VERSION_KEY=MGS
 git config --global user.email "pitchedapps@gmail.com"
 git config --global user.name "Pitched Apps CI"
 
-# create a new directory that will contain our generated apk
-mkdir $HOME/$VERSION_KEY/
-# copy generated apk from build folder to the folder just created
-cp -R $MODULE_NAME/build/outputs/apk/$APK_NAME.apk $HOME/$VERSION_KEY/
+if [ -s "Substratum-Builder-Resources/builds/log.txt" ]; then    # error occurred
+    buildErrors="$(cat Substratum-Builder-Resources/builds/log.txt)"
+
+    echo "Create New Error Release"
+
+    cd $HOME
+    API_JSON=$(printf '{"tag_name": "v%s","target_commitish": "master","name": "v%s","body": "Automatic Error Release v%s\n%s","draft": false,"prerelease": false}' $TRAVIS_BUILD_NUMBER $TRAVIS_BUILD_NUMBER $TRAVIS_BUILD_NUMBER $buildErrors)
+    newRelease=$(curl --data "$API_JSON" https://api.github.com/repos/$RELEASE_REPO/releases?access_token=$GITHUB_API_KEY)
+    rID=`echo $newRelease | jq ".id"`
+
+else
+    # create a new directory that will contain our generated apk
+    mkdir $HOME/$VERSION_KEY/
+    # copy generated apk from build folder to the folder just created
+    cp -R $MODULE_NAME/build/outputs/apk/$APK_NAME.apk $HOME/$VERSION_KEY/
+
+    echo "Create New Release"
+    cd $HOME
+    API_JSON=$(printf '{"tag_name": "v%s","target_commitish": "master","name": "v%s","body": "Automatic Release v%s","draft": false,"prerelease": false}' $TRAVIS_BUILD_NUMBER $TRAVIS_BUILD_NUMBER $TRAVIS_BUILD_NUMBER)
+    newRelease=$(curl --data "$API_JSON" https://api.github.com/repos/$RELEASE_REPO/releases?access_token=$GITHUB_API_KEY)
+    rID=`echo $newRelease | jq ".id"`
+
+    echo "Push apk to $rID"
+    curl "https://uploads.github.com/repos/${RELEASE_REPO}/releases/${rID}/assets?access_token=${GITHUB_API_KEY}&name=${APK_NAME}-v${TRAVIS_BUILD_NUMBER}.apk" --header 'Content-Type: application/zip' --upload-file $VERSION_KEY/$APK_NAME.apk -X POST
+fi
 
 # go to home and setup git
 echo "Clone Git"
@@ -31,13 +52,5 @@ git remote add origin https://$USER_AUTH:$GITHUB_API_KEY@github.com/$RELEASE_REP
 git add -f .
 git commit -m "Travis build $TRAVIS_BUILD_NUMBER pushed [skip ci]"
 git push -fq origin master > /dev/null
-
-echo "Create New Release"
-cd $HOME
-API_JSON=$(printf '{"tag_name": "v%s","target_commitish": "master","name": "v%s","body": "Automatic Release v%s","draft": false,"prerelease": false}' $TRAVIS_BUILD_NUMBER $TRAVIS_BUILD_NUMBER $TRAVIS_BUILD_NUMBER)
-newRelease=$(curl --data "$API_JSON" https://api.github.com/repos/$RELEASE_REPO/releases?access_token=$GITHUB_API_KEY)
-rID=`echo $newRelease | jq ".id"`
-echo "Push apk to $rID"
-curl "https://uploads.github.com/repos/${RELEASE_REPO}/releases/${rID}/assets?access_token=${GITHUB_API_KEY}&name=${APK_NAME}-v${TRAVIS_BUILD_NUMBER}.apk" --header 'Content-Type: application/zip' --upload-file $VERSION_KEY/$APK_NAME.apk -X POST
 
 echo -e "Done\n"
