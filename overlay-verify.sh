@@ -3,7 +3,7 @@
 # Compile our overlays against an android framework to ensure there are no compile errors
 
 echo "Cloning Builder"
-git clone --quiet --branch=master  https://github.com/PitchedApps/Substratum-Builder-Resources.git   master > /dev/null
+git clone --branch=master  https://github.com/PitchedApps/Substratum-Builder-Resources.git
 
 overlays=$PWD/substratum/src/main/assets/overlays
 printf "Testing overlays at %s\n" "$overlays"
