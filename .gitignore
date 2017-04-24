@@ -11,6 +11,7 @@
 # Eclipse related files
 #############################################################################
 
+Substratum-Builder-Resources/
 dump/
 
 *.pydevproject
