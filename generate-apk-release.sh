@@ -20,6 +20,12 @@ git clone --quiet --branch=master  https://$USER_AUTH:$GITHUB_API_KEY@github.com
 echo "Create Version File"
 cd master
 echo "$VERSION_KEY v$TRAVIS_BUILD_NUMBER" > "$VERSION_KEY.txt"
+echo "Push Version File"
+git remote rm origin
+git remote add origin https://$USER_AUTH:$GITHUB_API_KEY@github.com/$RELEASE_REPO.git
+git add -f .
+git commit -m "Travis build $TRAVIS_BUILD_NUMBER pushed [skip ci]"
+git push -fq origin master > /dev/null
 
 cd $SBR
 if [ -s "builds/log.txt" ]; then    # error occurred
@@ -46,12 +52,5 @@ else
     echo "Push apk to $rID"
     curl "https://uploads.github.com/repos/${RELEASE_REPO}/releases/${rID}/assets?access_token=${GITHUB_API_KEY}&name=${APK_NAME}-v${TRAVIS_BUILD_NUMBER}.apk" --header 'Content-Type: application/zip' --upload-file $VERSION_KEY/$APK_NAME.apk -X POST
 fi
-
-echo "Push Version File"
-git remote rm origin
-git remote add origin https://$USER_AUTH:$GITHUB_API_KEY@github.com/$RELEASE_REPO.git
-git add -f .
-git commit -m "Travis build $TRAVIS_BUILD_NUMBER pushed [skip ci]"
-git push -fq origin master > /dev/null
 
 echo -e "Done\n"
