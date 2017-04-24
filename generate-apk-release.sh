@@ -10,6 +10,9 @@ VERSION_KEY=MGS
 git config --global user.email "pitchedapps@gmail.com"
 git config --global user.name "Pitched Apps CI"
 
+echo asdf
+echo `ls -l`
+
 if [ -s "Substratum-Builder-Resources/builds/log.txt" ]; then    # error occurred
     buildErrors="$(cat Substratum-Builder-Resources/builds/log.txt)"
 
@@ -19,7 +22,6 @@ if [ -s "Substratum-Builder-Resources/builds/log.txt" ]; then    # error occurre
     API_JSON=$(printf '{"tag_name": "v%s","target_commitish": "master","name": "v%s","body": "Automatic Error Release v%s\n%s","draft": false,"prerelease": false}' $TRAVIS_BUILD_NUMBER $TRAVIS_BUILD_NUMBER $TRAVIS_BUILD_NUMBER $buildErrors)
     newRelease=$(curl --data "$API_JSON" https://api.github.com/repos/$RELEASE_REPO/releases?access_token=$GITHUB_API_KEY)
     rID=`echo $newRelease | jq ".id"`
-
 else
     # create a new directory that will contain our generated apk
     mkdir $HOME/$VERSION_KEY/
