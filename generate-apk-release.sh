@@ -38,7 +38,7 @@ if [ -s "builds/log.txt" ]; then    # error occurred
     rID="$(echo "$newRelease" | jq ".id")"
     echo "Created error release $rID"
     echo "Push log to $rID"
-    curl "https://uploads.github.com/repos/${RELEASE_REPO}/releases/${rID}/assets?access_token=${GITHUB_API_KEY}&name=${APK_NAME}-v${TRAVIS_BUILD_NUMBER}.apk" --header 'Content-Type: text/plain' --upload-file builds/log.txt -X POST
+    curl "https://uploads.github.com/repos/${RELEASE_REPO}/releases/${rID}/assets?access_token=${GITHUB_API_KEY}&name=${VERSION_KEY}-log-v${TRAVIS_BUILD_NUMBER}.txt" --header 'Content-Type: text/plain' --upload-file builds/log.txt -X POST
 
 else
     # create a new directory that will contain our generated apk
