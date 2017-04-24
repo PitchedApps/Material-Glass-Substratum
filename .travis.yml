@@ -8,6 +8,8 @@ android:
   - build-tools-25.0.2
   - android-25
 before_install:
+- chmod +x ./overlay-verify.sh
+- "./overlay-verify.sh"
 - chmod +x gradlew
 - export JAVA8_HOME=/usr/lib/jvm/java-8-oracle
 - export JAVA_HOME=$JAVA8_HOME
