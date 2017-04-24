@@ -13,10 +13,12 @@ cd Substratum-Builder-Resources
 sh build-overlays.sh "$overlays"    # run builder
 
 if [ ! -f "builds/log.txt" ]; then  # overlays didn't build properly
+    echo "Bad overlay build"
     exit 1
 fi
 
 if [ -s "builds/log.txt" ]; then    # error occurred
+    echo "Build error occurred"
     sh ../generate-apk-release.sh   # this will release the error
     exit 1
 fi
