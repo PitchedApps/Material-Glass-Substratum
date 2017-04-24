@@ -10,11 +10,9 @@ VERSION_KEY=MGS
 git config --global user.email "pitchedapps@gmail.com"
 git config --global user.name "Pitched Apps CI"
 
-echo asdf
-echo `ls -l`
-
-if [ -s "Substratum-Builder-Resources/builds/log.txt" ]; then    # error occurred
-    buildErrors="$(cat Substratum-Builder-Resources/builds/log.txt)"
+# if log exists, we are already under Substratum-Builder-Resources
+if [ -s "builds/log.txt" ]; then    # error occurred
+    buildErrors="$(cat builds/log.txt)"
 
     echo "Create New Error Release"
 
