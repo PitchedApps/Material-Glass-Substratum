@@ -29,11 +29,11 @@ git push -fq origin master > /dev/null
 
 cd $SBR
 if [ -s "builds/log.txt" ]; then    # error occurred
-    buildErrors="$(cat builds/log.txt)"
+    buildErrors="$(<builds/log.txt)"
 
     printf "Create New Error Release\n%s\n" "$buildErrors"
 
-    API_JSON=$(printf '{"tag_name": "v%s","target_commitish": "master","name": "v%s","body": "Automatic Error Release v%s\n%s","draft": false,"prerelease": false}' $TRAVIS_BUILD_NUMBER $TRAVIS_BUILD_NUMBER $TRAVIS_BUILD_NUMBER $buildErrors)
+    API_JSON=$(printf '{"tag_name": "v%s","target_commitish": "master","name": "v%s","body": "Automatic Error Release v%s\n%s","draft": false,"prerelease": false}' $TRAVIS_BUILD_NUMBER $TRAVIS_BUILD_NUMBER $TRAVIS_BUILD_NUMBER "$buildErrors")
     newRelease=$(curl --data "$API_JSON" https://api.github.com/repos/$RELEASE_REPO/releases?access_token=$GITHUB_API_KEY)
     rID="$(echo $newRelease | jq ".id")"
     echo "Created error release $rID"
