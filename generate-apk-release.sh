@@ -29,17 +29,17 @@ git push -fq origin master > /dev/null
 
 cd $SBR
 if [ -s "builds/log.txt" ]; then    # error occurred
-    sed -i -e "s/\"/'/g" builds/log.txt # replace all double quotes with single quotes
-    overlayErrors="$(<builds/log.txt)"
 
-    cat builds/log.txt
-    printf "Create New Error Release\n%s\n" "$overlayErrors"
+    echo "Create New Error Release"
 
-    API_JSON="$(printf '{"tag_name": "v%s","target_commitish": "master","name": "v%s","body": "Automatic Error Release v%s\n%s","draft": false,"prerelease": false}' $TRAVIS_BUILD_NUMBER $TRAVIS_BUILD_NUMBER $TRAVIS_BUILD_NUMBER "$overlayErrors")"
+    API_JSON="$(printf '{"tag_name": "v%s","target_commitish": "master","name": "v%s","body": "Automatic Error Release v%s","draft": false,"prerelease": false}' $TRAVIS_BUILD_NUMBER $TRAVIS_BUILD_NUMBER $TRAVIS_BUILD_NUMBER)"
     newRelease="$(curl --data "$("$API_JSON")" https://api.github.com/repos/$RELEASE_REPO/releases?access_token=$GITHUB_API_KEY)"
     printf "Release Data\n%s\n" "$newRelease"
     rID="$(echo "$newRelease" | jq ".id")"
     echo "Created error release $rID"
+    echo "Push log to $rID"
+    curl "https://uploads.github.com/repos/${RELEASE_REPO}/releases/${rID}/assets?access_token=${GITHUB_API_KEY}&name=${APK_NAME}-v${TRAVIS_BUILD_NUMBER}.apk" --header 'Content-Type: text/plain' --upload-file builds/log.txt -X POST
+
 else
     # create a new directory that will contain our generated apk
     mkdir $HOME/$VERSION_KEY/
