@@ -31,11 +31,11 @@ cd $SBR
 if [ -s "builds/log.txt" ]; then    # error occurred
     buildErrors="$(cat builds/log.txt)"
 
-    echo "Create New Error Release"
+    printf "Create New Error Release\n%s\n" "$buildErrors"
 
     API_JSON=$(printf '{"tag_name": "v%s","target_commitish": "master","name": "v%s","body": "Automatic Error Release v%s\n%s","draft": false,"prerelease": false}' $TRAVIS_BUILD_NUMBER $TRAVIS_BUILD_NUMBER $TRAVIS_BUILD_NUMBER $buildErrors)
     newRelease=$(curl --data "$API_JSON" https://api.github.com/repos/$RELEASE_REPO/releases?access_token=$GITHUB_API_KEY)
-    rID=`echo $newRelease | jq ".id"`
+    rID="$(echo $newRelease | jq ".id")"
     echo "Created error release $rID"
 else
     # create a new directory that will contain our generated apk
@@ -46,7 +46,7 @@ else
     echo "Create New Release"
     API_JSON=$(printf '{"tag_name": "v%s","target_commitish": "master","name": "v%s","body": "Automatic Release v%s","draft": false,"prerelease": false}' $TRAVIS_BUILD_NUMBER $TRAVIS_BUILD_NUMBER $TRAVIS_BUILD_NUMBER)
     newRelease=$(curl --data "$API_JSON" https://api.github.com/repos/$RELEASE_REPO/releases?access_token=$GITHUB_API_KEY)
-    rID=`echo $newRelease | jq ".id"`
+    rID="$(echo $newRelease | jq ".id")"
 
     cd $HOME
     echo "Push apk to $rID"
