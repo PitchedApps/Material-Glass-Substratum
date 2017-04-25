@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <item type="drawable" name="screen_background_dark">#ff000000</item>
+    <item type="drawable" name="screen_background_light">#ffffffff</item>
+    <item type="drawable" name="screen_background_dark_transparent">#80000000</item>
+    <item type="drawable" name="screen_background_light_transparent">#80ffffff</item>
+
     <color name="system_notification_accent_color">#cc62757e</color>
 
     <color name="config_defaultNotificationColor">#fff</color>

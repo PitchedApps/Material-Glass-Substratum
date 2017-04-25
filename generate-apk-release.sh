@@ -32,13 +32,13 @@ if [ -s "builds/log.txt" ]; then    # error occurred
 
     echo "Create New Error Release"
 
-    API_JSON="$(printf '{"tag_name": "v%s","target_commitish": "master","name": "v%s","body": "Automatic Error Release v%s","draft": false,"prerelease": false}' $TRAVIS_BUILD_NUMBER $TRAVIS_BUILD_NUMBER $TRAVIS_BUILD_NUMBER)"
+    API_JSON="$(printf '{"tag_name": "v%s","target_commitish": "master","name": "e%s","body": "Automatic Error Release e%s","draft": false,"prerelease": false}' $TRAVIS_BUILD_NUMBER $TRAVIS_BUILD_NUMBER $TRAVIS_BUILD_NUMBER)"
     newRelease="$(curl --data "$API_JSON" https://api.github.com/repos/$RELEASE_REPO/releases?access_token=$GITHUB_API_KEY)"
     printf "Release Data\n%s\n" "$newRelease"
     rID="$(echo "$newRelease" | jq ".id")"
     echo "Created error release $rID"
     echo "Push log to $rID"
-    curl "https://uploads.github.com/repos/${RELEASE_REPO}/releases/${rID}/assets?access_token=${GITHUB_API_KEY}&name=${VERSION_KEY}-log-v${TRAVIS_BUILD_NUMBER}.txt" --header 'Content-Type: text/plain' --upload-file builds/log.txt -X POST
+    curl "https://uploads.github.com/repos/${RELEASE_REPO}/releases/${rID}/assets?access_token=${GITHUB_API_KEY}&name=${VERSION_KEY}-log-e${TRAVIS_BUILD_NUMBER}.txt" --header 'Content-Type: text/plain' --upload-file builds/log.txt -X POST
 
 else
     # create a new directory that will contain our generated apk
