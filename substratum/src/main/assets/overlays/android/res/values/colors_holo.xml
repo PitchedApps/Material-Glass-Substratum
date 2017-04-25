@@ -13,62 +13,66 @@
     <color name="background_holo_dark">#ff000000</color>
     <color name="background_holo_light">#ffffffff</color>
 
-    <color name="bright_foreground_holo_dark">@*android:color/bright_foreground_material_dark</color>
-    <color name="bright_foreground_holo_light">@*android:color/bright_foreground_material_light</color>
-    <color name="bright_foreground_disabled_holo_dark">@*android:color/bright_foreground_disabled_material_dark</color>
-    <color name="bright_foreground_disabled_holo_light">@*android:color/bright_foreground_disabled_material_light</color>
-    <color name="bright_foreground_inverse_holo_dark">@*android:color/bright_foreground_inverse_material_dark</color>
-    <color name="bright_foreground_inverse_holo_light">@*android:color/bright_foreground_inverse_material_light</color>
-    <color name="dim_foreground_holo_dark">@*android:color/dim_foreground_material_dark</color>
-    <color name="dim_foreground_disabled_holo_dark">@*android:color/dim_foreground_disabled_material_dark</color>
-    <color name="dim_foreground_inverse_holo_dark">@*android:color/dim_foreground_holo_light</color>
-    <color name="dim_foreground_inverse_disabled_holo_dark">@*android:color/dim_foreground_disabled_holo_light</color>
-    <color name="hint_foreground_holo_dark">@*android:color/hint_foreground_material_dark</color>
-    <color name="dim_foreground_holo_light">@*android:color/dim_foreground_material_light</color>
-    <color name="dim_foreground_disabled_holo_light">@*android:color/dim_foreground_disabled_material_light</color>
-    <color name="dim_foreground_inverse_holo_light">@*android:color/dim_foreground_holo_dark</color>
-    <color name="dim_foreground_inverse_disabled_holo_light">@*android:color/dim_foreground_disabled_holo_dark</color>
-    <color name="hint_foreground_holo_light">@*android:color/hint_foreground_material_light</color>
-    <color name="highlighted_text_holo_dark">@*android:color/highlighted_text_material_dark</color>
-    <color name="highlighted_text_holo_light">@*android:color/highlighted_text_material_light</color>
-    <color name="link_text_holo_dark">@*android:color/link_text_material_dark</color>
-    <color name="link_text_holo_light">@*android:color/link_text_material_light</color>
+    <color name="bright_foreground_holo_dark">#fff</color>
+    <color name="bright_foreground_holo_light">#000</color>
+    <color name="bright_foreground_disabled_holo_dark">#80ffffff</color>
+    <color name="bright_foreground_disabled_holo_light">#80000000</color>
+    <color name="bright_foreground_inverse_holo_dark">#000</color>
+    <color name="bright_foreground_inverse_holo_light">#fff</color>
 
-    <color name="timepicker_default_background_holo_light">@*android:color/timepicker_default_background_material</color>
-    <color name="timepicker_default_background_holo_dark">@*android:color/timepicker_default_background_material</color>
+    <color name="dim_foreground_holo_dark">#ffbebebe</color>
+    <color name="dim_foreground_disabled_holo_dark">#80bebebe</color>
+    <color name="dim_foreground_inverse_holo_dark">#ff323232</color>
+    <color name="dim_foreground_inverse_disabled_holo_dark">#80323232</color>
+    <color name="hint_foreground_holo_dark">#80ffffff</color>
+    <color name="dim_foreground_holo_light">#ff323232</color>
+    <color name="dim_foreground_disabled_holo_light">#80323232</color>
+    <color name="dim_foreground_inverse_holo_light">#ffbebebe</color>
+    <color name="dim_foreground_inverse_disabled_holo_light">#80bebebe</color>
+    <color name="hint_foreground_holo_light">#80000000</color>
 
-    <color name="timepicker_default_text_color_holo_light">@*android:color/timepicker_default_text_color_material</color>
-    <color name="timepicker_default_text_color_holo_dark">@*android:color/timepicker_default_text_color_material</color>
 
-    <color name="timepicker_default_ampm_selected_background_color_holo_light">@*android:color/timepicker_default_ampm_selected_background_color_material</color>
-    <color name="timepicker_default_ampm_selected_background_color_holo_dark">@*android:color/timepicker_default_ampm_selected_background_color_material</color>
+    <color name="highlighted_text_holo_dark">#66b0bec5</color>
+    <color name="highlighted_text_holo_light">#66546e7a</color>
 
-    <color name="timepicker_default_ampm_unselected_background_color_holo_light">@*android:color/timepicker_default_ampm_unselected_background_color_material</color>
-    <color name="timepicker_default_ampm_unselected_background_color_holo_dark">@*android:color/timepicker_default_ampm_unselected_background_color_material</color>
+    <color name="link_text_holo_dark">#b0bec5</color>
+    <color name="link_text_holo_light">#546e7a</color>
 
-    <color name="datepicker_default_header_selector_background_holo_light">@*android:color/timepicker_default_background_material</color>
-    <color name="datepicker_default_header_selector_background_holo_dark">@*android:color/timepicker_default_background_material</color>
+    <color name="timepicker_default_background_holo_light">#cc060606</color>
+    <color name="timepicker_default_background_holo_dark">#cc060606</color>
 
-    <color name="datepicker_default_header_dayofweek_background_color_holo_light">@*android:color/timepicker_default_background_material</color>
-    <color name="datepicker_default_header_dayofweek_background_color_holo_dark">@*android:color/timepicker_default_background_material</color>
+    <color name="timepicker_default_text_color_holo_light">#fff</color>
+    <color name="timepicker_default_text_color_holo_dark">#fff</color>
 
-    <color name="datepicker_default_normal_text_color_holo_light">@*android:color/timepicker_default_text_color_material</color>
-    <color name="datepicker_default_normal_text_color_holo_dark">@*android:color/timepicker_default_text_color_material</color>
+    <color name="timepicker_default_ampm_selected_background_color_holo_light">#50222222</color>
+    <color name="timepicker_default_ampm_selected_background_color_holo_dark">#50222222</color>
 
-    <color name="datepicker_default_disabled_text_color_holo_light">@*android:color/bright_foreground_disabled_material_dark</color>
-    <color name="datepicker_default_disabled_text_color_holo_dark">@*android:color/bright_foreground_disabled_material_dark</color>
+    <color name="timepicker_default_ampm_unselected_background_color_holo_light">@android:color/transparent</color>
+    <color name="timepicker_default_ampm_unselected_background_color_holo_dark">@android:color/transparent</color>
 
-    <color name="datepicker_default_selected_text_color_holo_light">@*android:color/timepicker_default_selector_color_material</color>
-    <color name="datepicker_default_selected_text_color_holo_dark">@*android:color/timepicker_default_selector_color_material</color>
+    <color name="datepicker_default_header_selector_background_holo_light">#cc060606</color>
+    <color name="datepicker_default_header_selector_background_holo_dark">#cc060606</color>
 
-    <color name="datepicker_default_pressed_text_color_holo_light">@*android:color/timepicker_default_selector_color_material</color>
-    <color name="datepicker_default_pressed_text_color_holo_dark">@*android:color/timepicker_default_selector_color_material</color>
+    <color name="datepicker_default_header_dayofweek_background_color_holo_light">#cc060606</color>
+    <color name="datepicker_default_header_dayofweek_background_color_holo_dark">#cc060606</color>
 
-    <color name="datepicker_default_circle_background_color_holo_light">@*android:color/accent_material_light</color>
-    <color name="datepicker_default_circle_background_color_holo_dark">@*android:color/accent_material_light</color>
+    <color name="datepicker_default_normal_text_color_holo_light">#fff</color>
+    <color name="datepicker_default_normal_text_color_holo_dark">#fff</color>
 
-    <color name="datepicker_default_view_animator_color_holo_light">@*android:color/timepicker_default_background_material</color>
-    <color name="datepicker_default_view_animator_color_holo_dark">@*android:color/timepicker_default_background_material</color>
+    <color name="datepicker_default_disabled_text_color_holo_light">#80ffffff</color>
+    <color name="datepicker_default_disabled_text_color_holo_dark">#80ffffff</color>
+
+    <color name="datepicker_default_selected_text_color_holo_light">#b0bec5</color>
+    <color name="datepicker_default_selected_text_color_holo_dark">#b0bec5</color>
+
+    <color name="datepicker_default_pressed_text_color_holo_light">#b0bec5</color>
+    <color name="datepicker_default_pressed_text_color_holo_dark">#b0bec5</color>
+
+    <color name="datepicker_default_circle_background_color_holo_light">#546e7a</color>
+    <color name="datepicker_default_circle_background_color_holo_dark">#546e7a</color>
+
+    <color name="datepicker_default_view_animator_color_holo_light">#cc060606</color>
+    <color name="datepicker_default_view_animator_color_holo_dark">#cc060606</color>
 
 
 </resources>
