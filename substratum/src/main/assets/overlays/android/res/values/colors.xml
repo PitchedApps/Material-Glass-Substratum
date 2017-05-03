@@ -5,6 +5,9 @@
     <item type="drawable" name="screen_background_dark_transparent">#80000000</item>
     <item type="drawable" name="screen_background_light_transparent">#80ffffff</item>
 
+    <color name="background_dark">#90000000</color>
+    <color name="background_light">#90ffffff</color>
+
     <color name="system_notification_accent_color">#cc62757e</color>
 
     <color name="config_defaultNotificationColor">#fff</color>
