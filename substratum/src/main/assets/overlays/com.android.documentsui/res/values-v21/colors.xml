@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<color name="material_grey_50">@android:color/transparent</color>
+    <color name="material_grey_50">@android:color/transparent</color>
     <color name="material_grey_300">@android:color/transparent</color>
 
     <color name="directory_background">#80000000</color>
@@ -18,11 +18,11 @@
     <!-- 10% alpha of material_deep_teal_500 -->
     <color name="item_doc_list_background_activated">#11ffffff</color>
 
-	<color name="drawer_background">#a0000000</color>
-	<color name="drawer_background_color">#a0000000</color>
+    <color name="drawer_background">#a0000000</color>
+    <color name="drawer_background_color">#a0000000</color>
     <color name="font_color_doc_grid">#ffffffff</color>
-	
-	<color name="exposed_activity_background_color">#a0000000</color>
+
+    <color name="exposed_activity_background_color">#a0000000</color>
     <color name="exposed_font_color_doc_grid">#ffffffff</color>
 
 
@@ -30,9 +30,11 @@
     <color name="item_doc_background_disabled">#33000000</color>
     <color name="item_doc_background_selected">#33ffffff</color>
 
-
     <color name="primary_dark">@android:color/black</color>
     <color name="primary">@android:color/black</color>
     <color name="accent">@android:color/white</color>
     <color name="accent_dark">@android:color/white</color>
+
+    <color name="band_select_background">#33ffffff</color>
+    <color name="band_select_border">#22ffffff</color>
 </resources>
