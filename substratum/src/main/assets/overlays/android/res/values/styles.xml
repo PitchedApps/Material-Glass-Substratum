@@ -6,15 +6,15 @@
     <style name="Theme.DeviceDefault.Settings" parent="@android:style/Theme.DeviceDefault" />
 
     <!--Tinted-->
-    <style name="Theme.Black" parent="@android:style/Theme.DeviceDefault">
-        <item name="android:backgroundTint">@android:drawable/screen_background_dark_transparent</item>
-        <item name="android:colorBackground">@android:color/black</item>
-    </style>
+    <!--<style name="Theme.Black" parent="@android:style/Theme.DeviceDefault">-->
+        <!--<item name="android:backgroundTint">@android:drawable/screen_background_dark_transparent</item>-->
+        <!--<item name="android:colorBackground">@android:color/black</item>-->
+    <!--</style>-->
 
-    <style name="Theme.Black.NoTitleBar" parent="@android:style/Theme.Black">
-        <item name="android:windowNoTitle">true</item>
-        <item name="android:windowActionBar">false</item>
-    </style>
+    <!--<style name="Theme.Black.NoTitleBar" parent="@android:style/Theme.Black">-->
+        <!--<item name="android:windowNoTitle">true</item>-->
+        <!--<item name="android:windowActionBar">false</item>-->
+    <!--</style>-->
 
     <!--DeviceDefault-->
 
