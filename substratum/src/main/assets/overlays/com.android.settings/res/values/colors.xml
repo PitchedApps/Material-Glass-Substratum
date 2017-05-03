@@ -2,8 +2,8 @@
 <resources>
     <color name="setup_wizard_navbar_bg_dark">#8021272b</color>
     <color name="setup_wizard_navbar_bg_light">#8021272b</color>
-    <color name="cardview_light_background">#80202020</color>
-    <color name="cardview_dark_background">#80202020</color>
+    <color name="opcardview_light_background_mask_light">#1effffff</color>
+    <color name="opcardview_light_background_light">#30000000</color>
     <color name="title_color">#ffffffff</color>
     <color name="lock_pattern_view_success_color">#ffa7b8c0</color>
     <color name="unlock_pattern_view_success_color">#ffa7b8c0</color>
@@ -112,6 +112,24 @@
     <color name="fingerprint_button_text_color_dark">#ffffffff</color>
     <color name="background_material_settings">#50000000</color>
     <color name="window_background">#80000000</color>
+
+    <!--<color name="font_dialog_title_light">#fff</color>-->
+    <!--<color name="font_dialog_text_light">#b7ffffff</color>-->
+    <!--<color name="font_list_subtitle_light">#ddffffff</color>-->
+    <!--<color name="font_list_text_light">#6bffffff</color>-->
+    <!--<color name="font_list_settings_title_light">#89ffffff</color>-->
+    <color name="bg_ab_dark">#30000000</color>
+    <color name="bg_dialog_dark">#80000000</color>
+    <color name="bg_interface_dark">#80000000</color>
+    <color name="oneplus_contorl_bg_color_statusbar_dark">#ff000000</color>
+    <color name="oneplus_contorl_bg_color_appbar_dark">#ff000000</color>
+    <color name="oneplus_contorl_bg_color_steppers_dark">#ff1a1a1a</color>
+    <color name="oneplus_contorl_bg_color_dialogs_dark">#ff303030</color>
+    <color name="oneplus_contorl_bg_color_menu_dark">#ff303030</color>
+    <color name="oneplus_contorl_bg_color_bottomsheets_dark">#ff303030</color>
+    <color name="oneplus_contorl_bg_color_cardview_dark">#ff303030</color>
+    <color name="oneplus_contorl_bg_color_listbg_dark">#ff1a1a1a</color>
+    <color name="oneplus_contorl_bg_color_dark">#ff000000</color>
 
     <color name="notification_action_color_filter">#fff</color>
 </resources>
