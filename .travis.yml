@@ -24,7 +24,9 @@ script:
 - "./gradlew assembleSampleRelease"
 notifications:
   email: false
-  slack: material-glass:3g8FdINZEkvR2UvRGDGMyXfJ
+  slack:
+    rooms:
+    - material-glass:3g8FdINZEkvR2UvRGDGMyXfJ#travis
     on_success: always
     on_failure: always
     template:
