@@ -26,6 +26,12 @@ script:
 - "./gradlew assembleSampleRelease"
 notifications:
   email: false
+  irc:
+      template:
+      - "%{repository}#%{build_number} (%{branch} - %{commit} : %{author}): %{message}"
+      - "Change view : %{compare_url}"
+      - "Build details : %{build_url}"
+      - "Test"
 sudo: false
 cache:
   directories:
