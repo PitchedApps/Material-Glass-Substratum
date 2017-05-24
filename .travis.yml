@@ -30,8 +30,8 @@ notifications:
     on_success: always
     on_failure: always
     template:
-    - "Build <%{build_url}|#%{build_number}> (<%{compare_url}|%{commit}>) of %{repository}@%{branch} by %{author} %{result} in %{duration}"
-    - "<https://github.com/PitchedApps/Material-Glass-Test-Builds/releases/download/v%{build_number}/MGS-sample-v%{build_number}.apk|APK Download>"
+    - "MG Build <%{build_url}|#%{build_number}> (<%{compare_url}|%{commit}>) %{result} in %{duration}"
+    - "<https://github.com/PitchedApps/Material-Glass-Test-Builds/releases/tag/v%{build_number}|APK Download>"
 sudo: false
 cache:
   directories:
