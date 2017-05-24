@@ -21,6 +21,4 @@
     <color name="oneplus_contorl_bg_color_cardview_dark">#ff303030</color>
     <color name="oneplus_contorl_bg_color_listbg_dark">#ff1a1a1a</color>
     <color name="oneplus_contorl_bg_color_dark">#ff000000</color>
-
-    <color name="notification_action_color_filter">#fff</color>
 </resources>

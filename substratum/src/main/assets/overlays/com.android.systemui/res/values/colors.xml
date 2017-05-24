@@ -22,19 +22,19 @@
     <color name="navring_check_tint">#ddffffff</color>
     <color name="navring_edit_fill">#a0000000</color>
     <color name="navring_edit_tint">#a0323232</color>
-    <color name="notification_guts_bg_color">#a1060606</color>
+    <color name="notification_guts_bg_color">#c1060606</color>
     <!--text color?-->
     <color name="notification_guts_btn_color">#ffffffff</color>
     <color name="notification_guts_text_color">#ffffffff</color>
     <color name="notification_guts_title_color">#ffffffff</color>
-    <color name="notification_header">#a1060606</color>
+    <color name="notification_header">#c1060606</color>
     <color name="notification_icon_color">#FFFFFFFF</color>
-    <color name="notification_legacy_background_color">#a1060606</color>
+    <color name="notification_legacy_background_color">#c1060606</color>
     <color name="notification_list_shadow_top">#80000000</color>
-    <color name="notification_material_background_color">#a1060606</color>
-    <color name="notification_material_background_dimmed_color">#a1060606</color>
-    <color name="notification_material_background_low_priority_color">#a1060606</color>
-    <color name="notification_material_background_media_default_color">#a1060606</color>
+    <color name="notification_material_background_color">#c1060606</color>
+    <color name="notification_material_background_dimmed_color">#c1060606</color>
+    <color name="notification_material_background_low_priority_color">#c1060606</color>
+    <color name="notification_material_background_media_default_color">#c1060606</color>
     <color name="notification_panel_solid_background">#55000000</color>
     <color name="notification_ripple_color_low_priority">#33bbbbbb</color>
     <color name="notification_ripple_tinted_color">#30ffffff</color>
