@@ -5,17 +5,17 @@ os:
 - linux
 android:
   components:
-  - tools
-  - platform-tools
+  # - tools
+  # - platform-tools
   - build-tools-25.0.2
   - android-25
 before_install:
 - chmod +x gradlew
 - export JAVA8_HOME=/usr/lib/jvm/java-8-oracle
 - export JAVA_HOME=$JAVA8_HOME
-- mkdir "$ANDROID_HOME/licenses" || true
-- echo -e "\n8933bad161af4178b1185d1a37fbf41ea5269c55" > "$ANDROID_HOME/licenses/android-sdk-license"
-- echo -e "\n84831b9409646a918e30573bab4c9c91346d8abd" > "$ANDROID_HOME/licenses/android-sdk-preview-license"
+# - mkdir "$ANDROID_HOME/licenses" || true
+# - echo -e "\n8933bad161af4178b1185d1a37fbf41ea5269c55" > "$ANDROID_HOME/licenses/android-sdk-license"
+# - echo -e "\n84831b9409646a918e30573bab4c9c91346d8abd" > "$ANDROID_HOME/licenses/android-sdk-preview-license"
 after_success:
 - chmod +x ./generate-apk-release.sh
 - "./generate-apk-release.sh"
@@ -24,13 +24,12 @@ script:
 - "./gradlew assembleSampleRelease"
 notifications:
   email: false
-  slack:
-    secure: EZLUm20eHmpYsAoLZeadoJja1lbGVIwRX7vuEHdJcFGx9w266q3AdCgeCLULUXAdLDUrH7nn/xjfyHGYCYCojVuyMs3sp3/nGhooWiSMlt+b5Dym+Q9/o+nEtSBDsUwK0l0Id8xHybJJ+3mQe0H6LuuupGLmUVffD1ELJxUFHJWr4f4Exf9t/NJhp22TvE/b6zdhol5iLZbsPYGWbOfF8/kgHRRaJ7raQHNt71nLjELLXhYO8xO6TN9kFL0lsC32twGxHQ0qVGpxDdc7pZRgq5Z62LdWiVTr/bjohVtIehWoJMUgXvXFsj4RvNtMp72m0aEgbDKd3hMvqDpSwQbzMHFZlXqX4bVVSyaAZNPGP5LvbyQKBXDxOBkJxkHjqz2MjR4y4R3fta2Eh7xIOjgvwzHlJzUD4d5wFoE7jXt7jL/9Pc6oclRHJDDxY4bgHKZYDSR/rR/mjVX//dzzD8WF8SGVKPF4wsTRnV4UvYjQrOu0QtKXIdeTwvHKSuZHmPagpRHyxuf/W+bFXcOs0QxxlxdrF5WQD1OV6ARlpVMh8+XQWLdBWLTly/TUftyoZfppbr4gqDC1W/4kz80gD4urDRkQTlvj2sO64tunXg4vFpxTI/8JyusADTRyRPA92T+/i2E0mOd7hnieTTm3kbW3ND7J3kXubmDVwyBB3XbzZvI=
+  slack: material-glass:3g8FdINZEkvR2UvRGDGMyXfJ
     on_success: always
     on_failure: always
     template:
-    #- "Build <%{build_url}|#%{build_number}> (<%{compare_url}|%{commit}>) of %{repository}@%{branch} by %{author} %{result} in %{duration}"
-    #- "<https://github.com/PitchedApps/Material-Glass-Test-Builds/releases/tag/v%{build_number}|APK Download>"
+    - "Build <%{build_url}|#%{build_number}> (<%{compare_url}|%{commit}>) of %{repository}@%{branch} by %{author} %{result} in %{duration}"
+    - "<https://github.com/PitchedApps/Material-Glass-Test-Builds/releases/tag/v%{build_number}|APK Download>"
 sudo: false
 cache:
   directories:
