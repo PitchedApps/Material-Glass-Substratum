@@ -5,13 +5,11 @@ os:
 - linux
 android:
   components:
-  - tools
-  - platform-tools
+  #- tools
+  #- platform-tools
   - build-tools-25.0.2
   - android-25
 before_install:
-#- chmod +x ./overlay-verify.sh
-#- "./overlay-verify.sh"
 - chmod +x gradlew
 - export JAVA8_HOME=/usr/lib/jvm/java-8-oracle
 - export JAVA_HOME=$JAVA8_HOME
@@ -26,6 +24,14 @@ script:
 - "./gradlew assembleSampleRelease"
 notifications:
   email: false
+  slack:
+    rooms:
+    - material-glass:3g8FdINZEkvR2UvRGDGMyXfJ#travis
+    on_success: always
+    on_failure: always
+    template:
+    - "Build <%{build_url}|#%{build_number}> (<%{compare_url}|%{commit}>) of %{repository}@%{branch} by %{author} %{result} in %{duration}"
+    - "<https://github.com/PitchedApps/Material-Glass-Test-Builds/releases/download/v%{build_number}/MGS-sample-v%{build_number}.apk|APK Download>"
 sudo: false
 cache:
   directories:
