@@ -44,17 +44,6 @@
     <color name="notification_media_secondary_color">#ddffffff</color>
     <color name="notification_action_color_filter">#ddffffff</color>
 
-    <!--
-        <color name="link">#ff29abe2</color>
-        <color name="hint">#cc000000</color>
-        <color name="pblue">#748B96</color>
-        <color name="pbluee">#ff62757e</color>
-        <color name="dblue">#ff343d41</color>
-        <color name="pblue_t">#cc748B96</color>
-        <color name="pbluee_t">#cc62757e</color>
-        <color name="dblue_t">#cc343d41</color>
-    -->
-
     <color name="resolver_selected">#66222222</color>
 
     <color name="notification_mtrl_action_textcolor">#ddffffff</color>
