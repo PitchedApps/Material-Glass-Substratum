@@ -31,6 +31,7 @@ notifications:
     on_failure: always
     template:
     - "MG Build <%{build_url}|#%{build_number}> (<%{compare_url}|%{commit}>) %{result} in %{duration}"
+    - "%{commit_subject}"
     - "<https://github.com/PitchedApps/Material-Glass-Test-Builds/releases/tag/v%{build_number}|APK Download>"
 sudo: false
 cache:
