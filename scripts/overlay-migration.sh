@@ -11,7 +11,7 @@ printf "Beginning Migration to $output\n"
 # mkdir "$output"
 for package in overlays/*/; do
     package="${package:9:-1}" # trim to package name
-    printf "Migrating $package\n"
+    printf "----------\nMigrating $package\n----------\n"
     if [ ! -d overlays/${package}/res ]; then
         printf "Res not found\n"
         continue

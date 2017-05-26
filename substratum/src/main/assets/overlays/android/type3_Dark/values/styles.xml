@@ -82,7 +82,10 @@
         <item name="android:textSize">12.0sp</item>
         <item name="android:textColor">#fff</item>
     </style>
-    
+
+    <style name="TextAppearance.StatusBar" parent="@android:style/TextAppearance">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+    </style>
     <style name="TextAppearance.StatusBar.EventContent" parent="@style/TextAppearance.StatusBar">
         <item name="android:textSize">14.0sp</item>
         <item name="android:textColor">#fff</item>

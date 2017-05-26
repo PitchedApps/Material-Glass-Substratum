@@ -113,7 +113,4 @@
     <style name="Theme.Material.DialogWhenLarge.NoActionBar" parent="@android:style/Theme.DeviceDefault.NoActionBar" />
     <style name="Theme.Material.Dialog.Presentation" parent="@android:style/Theme.DeviceDefault.NoActionBar.Fullscreen" />
 
-    <style name="TextAppearance.StatusBar" parent="@android:style/TextAppearance">
-        <item name="android:textAppearance">?android:textAppearanceSmall</item>
-    </style>
 </resources>
