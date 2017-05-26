@@ -4,6 +4,7 @@
     <item name="screen_background_light_transparent" type="drawable">#80ffffff</item>
 
     <color name="background_light">#90ffffff</color>
+    <color name="battery_saver_mode_color">#fff4511e</color>
 
     <color name="bright_foreground_light">#ff000000</color>
     <color name="bright_foreground_light_disabled">#ff222222</color>

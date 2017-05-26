@@ -7,8 +7,7 @@
 
     <color name="system_notification_accent_color">#748B96</color>
 
-    <color name="config_defaultNotificationColor">$fff$</color>
-    <color name="battery_saver_mode_color">$fff4511e$</color>
+    <color name="config_defaultNotificationColor">#fff</color>
 
     <color name="bright_foreground_dark">#fff</color>
     <color name="bright_foreground_dark_disabled">#88ffffff</color>

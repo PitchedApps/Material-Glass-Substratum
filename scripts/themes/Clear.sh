@@ -23,7 +23,7 @@ themeXml() {
     -e 's/\$r\$/#30ffffff/gi' \
     -e 's/\$rr\$/#10ffffff/gi' \
     -e 's/\$d\$/#d0060606/gi' \
-    -e 's/\$dd\$/#a00000000/gi' \
+    -e 's/\$dd\$/#a0000000/gi' \
     -e 's/\$m\$/#888/gi' \
     -e 's/\$mm\$/#50888888/gi' \
     -e 's/\$wall\$/true/gi' \
