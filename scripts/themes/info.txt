@@ -1,0 +1,29 @@
+all Themes.sh must have themeXml function with the following sed args
+
+We will use regex to replace all of
+our keys with the appropriate values
+------------------------------------------------------------
+drawables       $$x$
+opaque bg       o
+bg              b
+------------------------------------------------------------
+colors          $x$
+custom colors   $x$aa   where aa is the alpha
+text            t, tt, ttt
+accent          a, at, ab
+background      b, bb, bbb
+opaque          o, oo, ooo
+card            c
+ripple          r
+divider         rr
+dialog          d
+dark bg         dd
+middle          m       in between text & bg
+middle transp   mm      in between text & bg & transparent
+------------------------------------------------------------
+wall            true for clear themes
+base            base style
+------------------------------------------------------------
+$1 is the file contents
+returns the formatted file contents
+

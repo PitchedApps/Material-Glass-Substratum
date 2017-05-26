@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!--DeviceDefault-->
+
+    <style name="Theme.DeviceDefault" parent="@android:style/Theme.Material.Wallpaper">
+        <item name="android:windowBackground">@android:drawable/screen_background_dark_transparent</item>
+        <item name="android:colorBackground">#80000000</item>
+        <item name="android:colorBackgroundCacheHint">@android:drawable/screen_background_dark_transparent</item>
+    </style>
+    
+    <style name="Theme.DeviceDefault.DialogWhenLarge.NoActionBar" parent="@android:style/Theme.Material.DialogWhenLarge.NoActionBar">
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:windowBackground">@android:drawable/screen_background_dark_transparent</item>
+        <item name="android:colorBackground">#80000000</item>
+        <item name="android:colorBackgroundCacheHint">@android:drawable/screen_background_dark_transparent</item>
+    </style>
+    <style name="Theme.DeviceDefault.NoActionBar.Fullscreen" parent="@android:style/Theme.Material.NoActionBar.Fullscreen">
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:windowBackground">@android:drawable/screen_background_dark_transparent</item>
+        <item name="android:colorBackground">#80000000</item>
+        <item name="android:colorBackgroundCacheHint">@android:drawable/screen_background_dark_transparent</item>
+    </style>
+    
+    <style name="Theme.DeviceDefault.Resolver" parent="@android:style/Theme.Material">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:colorControlActivated">#20ffffff</item>
+        <item name="android:backgroundTint">#20ffffff</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">false</item>
+    </style>
+
+
+    <!--Settings-->
+    <style name="Theme.Material.Settings" parent="@android:style/Theme.Material.Wallpaper" />
+    <style name="Theme.Leanback.Settings.Dialog.Alert" parent="@android:style/Theme.Material.Dialog">
+        <item name="android:colorBackground">#20ffffff</item>
+    </style>
+    <style name="Theme.Material.Settings.BaseDialog" parent="@android:style/Theme.Material.Dialog">
+        <item name="android:colorBackground">#20ffffff</item>
+    </style>
+    <style name="Theme.Material.Settings.Dialog.BaseAlert" parent="@android:style/Theme.Material.Dialog">
+        <item name="android:colorBackground">#20ffffff</item>
+    </style>
+    <style name="Theme.Material.Settings.Dialog.Presentation" parent="@android:style/Theme.Material.Dialog.Presentation">
+        <item name="android:colorBackground">#20ffffff</item>
+    </style>
+    <style name="Theme.Material.Settings.SearchBar" parent="@android:style/Theme.Material.Settings">
+        <item name="android:colorBackground">#20ffffff</item>
+    </style>
+    <style name="Theme.Material.Settings.CompactMenu" parent="@android:style/Theme.Material.Wallpaper">
+        <item name="android:colorBackground">#20ffffff</item>
+    </style>
+
+    <!--materialization -->
+
+    <style name="Widget.Holo.Button" parent="@android:style/Widget.Material.Button">
+        <item name="android:textColor">#fff</item>
+    </style>
+
+    <!--android m support-->
+
+    <style name="TextAppearance.Material.Notification.Emphasis" parent="@android:style/TextAppearance.Material.Notification">
+        <item name="android:textColor">#ddffffff</item>
+    </style>
+    <style name="TextAppearance.Material.Notification" parent="@android:style/TextAppearance.Material">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#fff</item>
+    </style>
+    <style name="TextAppearance.Material.Notification.Title" parent="@android:style/TextAppearance.Material.Notification">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#fff</item>
+    </style>
+
+    <!--Android N 2016/12/24-->
+    <style name="TextAppearance.Material.Notification.Info" parent="@android:style/TextAppearance.Material.Notification">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#fff</item>
+    </style>
+    
+    <style name="TextAppearance.StatusBar.EventContent" parent="@style/TextAppearance.StatusBar">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#fff</item>
+    </style>
+    <style name="TextAppearance.StatusBar.EventContent.Info" parent="@style/TextAppearance.StatusBar.EventContent">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#fff</item>
+    </style>
+    <style name="TextAppearance.StatusBar.EventContent.Time" parent="@style/TextAppearance.StatusBar.EventContent">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#fff</item>
+    </style>
+    <style name="TextAppearance.StatusBar.EventContent.Emphasis" parent="@style/TextAppearance.StatusBar.EventContent">
+        <item name="android:textColor">#fff</item>
+    </style>
+
+    <!--04/06/2016-->
+    <style name="Theme.Translucent" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:windowBackground">@android:drawable/screen_background_dark_transparent</item>
+        <item name="android:colorBackground">#80000000</item>
+        <item name="android:colorBackgroundCacheHint">@android:drawable/screen_background_dark_transparent</item>
+    </style>
+</resources>
