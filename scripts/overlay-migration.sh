@@ -1,45 +1,114 @@
 #!/bin/bash
 
+# Global
 cd ..
 rootDir="$PWD"
 output="substratum/src/sample/assets/overlays/"
-printf "Beginning Migration to $output\n"
-# if [ -d "$output" ]; then
-#     rm -r "$output"
-#     printf "Cleaning dir\n"
-# fi
-# mkdir "$output"
-for package in overlays/*/; do
-    package="${package:9:-1}" # trim to package name
-    printf "####################\nMigrating $package\n####################\n"
-    if [ ! -d overlays/${package}/res ]; then
-        printf "Res not found\n"
-        continue
+
+# $1 input location (file, must end with _tint.png)
+# $2 tint color
+# $3 output location (folder)
+tint() {
+    local file="$(basename ${1%.*})"
+    local tintOutput="$3"
+    if [ "${tintOutput: -1}" != "/" ]; then
+        tintOutput="$tintOutput/"
     fi
-    cd "overlays/$package/res"
-    for f in $(find . -type f); do
-        relative="${f:2}"
-        absolute="$PWD"
-        if [ "${relative##*.}" != "xml" ]; then
-            printf "Non xml file: $relative\n"
+    magick convert "$1" -fill "$2" -tint 100 "$tintOutput${file::-5}.png"
+}
+
+# $1 string
+# $2 suffix to verify
+endsWith() {
+    if [[ "$1" == *"$2" ]]; then
+        return 0
+    fi
+    return 1
+}
+
+# $1 original file location
+# $2 package
+# $3 relative file name
+tintImages() {
+    local curr="$PWD"
+    local absoluteF=$(readlink -f "$1")
+    cd "$rootDir"
+    for theme in scripts/themes/*.sh; do
+        local themeName="${theme:15:-3}"
+        local newF="$output$2/type3_$themeName/$3"
+        local newD="$(dirname "$newF")"
+        [ ! -d "$newD" ] && mkdir -p "$newD"
+        source "$theme"
+        local color=$(mainColor)
+        tint "$absoluteF" "$color" "$newD"
+    done
+    cd "$curr"
+}
+
+# $1 original file location
+# $2 package
+# $3 file name
+migrateCopy() {
+    local orig=$(readlink -f "$1")
+    local curr="$PWD"
+    cd "$rootDir"
+    for theme in scripts/themes/*.sh; do
+        themeName="$(basename ${theme%.*})"
+        local newF="$output$2/type3_$themeName/$3"
+        [ ! -d "$(dirname "$newF")" ] && mkdir -p "$(dirname "$newF")"
+        cp -a "$orig" "$newF"
+    done
+    cd "$curr"
+}
+
+# $1 content
+# $2 package
+# $3 relative file name
+migrateXml() {
+    local curr="$PWD"
+    cd "$rootDir"
+    for theme in scripts/themes/*.sh; do
+        themeName="$(basename ${theme%.*})"
+        local newF="$output$2/type3_$themeName/$3"
+        [ ! -d "$(dirname "$newF")" ] && mkdir -p "$(dirname "$newF")"
+        touch "$newF"
+        source "$theme"
+        themeXml "$1" > "$newF"
+    done
+    cd "$curr"
+}
+
+main() {
+    printf "Beginning Migration to $output\n"
+    for package in overlays/*/; do
+        package="${package:9:-1}" # trim to package name
+        printf "####################\nMigrating $package\n####################\n"
+        if [ ! -d overlays/${package}/res ]; then
+            printf "Res not found\n"
             continue
         fi
-        printf "Migrating $relative\n"
-        content="$(<${f})"
-        cd "$rootDir"
-        for theme in scripts/themes/*.sh; do
-            themeName="${theme:15:-3}"
-            newF="$output$package/type3_$themeName/$relative"
-            [ ! -d "$(dirname "$newF")" ] && mkdir -p "$(dirname "$newF")"
-            touch "$newF"
-            source "$theme"
-            themeXml "$content" > "$newF"
+        cd "overlays/$package/res"
+        local resourcePath="$PWD"
+        for f in $(find . -type f); do
+            local relative="${f:2}"
+            printf "Migrating $relative\n"
+            if endsWith "$relative" "_tint.png" ; then
+                tintImages "$f" "$package" "$relative"
+                continue
+            fi
+            if [ "${relative##*.}" != "xml" ]; then
+                migrateCopy "$f" "$package" "$relative"
+                continue
+            fi
+            local content="$(<${f})"
+            migrateXml "$content" "$package" "$relative"
         done
-        cd "$absolute"
+        cd "$rootDir"
     done
-    cd "$rootDir"
-done
-printf "\nDone\n"
-cd scripts
-sh overlay-verify.sh
+    printf "\nDone\n"
+}
+
+main
+#cd scripts
+#sh overlay-verify.sh
 exit 0

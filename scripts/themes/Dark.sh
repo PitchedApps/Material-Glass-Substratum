@@ -32,3 +32,7 @@ themeXml() {
     -e 's/\$base\$/@android:style\/Theme.Material/gi' \
     <<< "$1")"
 }
+
+mainColor() {
+    echo "#ffffff"
+}

@@ -32,3 +32,7 @@ themeXml() {
     -e 's/\$base\$/@android:style\/Theme.Material.Wallpaper/gi' \
     <<< "$1")"
 }
+
+mainColor() {
+    echo "#F44336"
+}

@@ -19,6 +19,4 @@
 
     <color name="notification_icon_bg_color">@android:color/transparent</color>
 
-    <!--test-->
-    <color name="background_dark">#80000000</color>
 </resources>
