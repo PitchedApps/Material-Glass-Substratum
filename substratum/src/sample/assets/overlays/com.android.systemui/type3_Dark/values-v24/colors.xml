@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="disabled_text_color">#88ffffff</color>
+    <color name="notification_action_color_filter">#fff</color>
+    <color name="notification_icon_bg_color">@android:color/transparent</color>
+    <color name="notification_material_background_media_default_color">#111</color>
+
+    <color name="preference_fallback_accent_color">#748B96</color>
+
+    <color name="notification_material_background_color">#111</color>
+    <color name="notification_material_background_dimmed_color">#111</color>
+    <color name="notification_material_background_low_priority_color">#000</color>
+    <color name="notification_shade_background_color">#111</color>
+    <color name="notification_gear_color">#88ffffff</color>
+    <color name="notification_guts_bg_color">#111</color>
+    <color name="notification_guts_disabled_slider_color">#30ffffff</color>
+    <color name="notification_guts_secondary_slider_color">#88ffffff</color>
+    <color name="notification_guts_icon_tint">#88ffffff</color>
+    <color name="notification_guts_disabled_icon_tint">#30ffffff</color>
+</resources>

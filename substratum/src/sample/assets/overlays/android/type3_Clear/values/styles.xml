@@ -30,8 +30,8 @@
         <item name="android:backgroundDimEnabled">true</item>
         <item name="android:windowTranslucentStatus">false</item>
         <item name="android:windowTranslucentNavigation">false</item>
-        <item name="android:colorControlActivated">#20ffffff</item>
-        <item name="android:backgroundTint">#20ffffff</item>
+        <item name="android:colorControlActivated">#d0060606</item>
+        <item name="android:backgroundTint">#d0060606</item>
         <item name="android:windowDrawsSystemBarBackgrounds">false</item>
     </style>
 
@@ -39,22 +39,22 @@
     <!--Settings-->
     <style name="Theme.Material.Settings" parent="@android:style/Theme.Material.Wallpaper" />
     <style name="Theme.Leanback.Settings.Dialog.Alert" parent="@android:style/Theme.Material.Dialog">
-        <item name="android:colorBackground">#20ffffff</item>
+        <item name="android:colorBackground">#d0060606</item>
     </style>
     <style name="Theme.Material.Settings.BaseDialog" parent="@android:style/Theme.Material.Dialog">
-        <item name="android:colorBackground">#20ffffff</item>
+        <item name="android:colorBackground">#d0060606</item>
     </style>
     <style name="Theme.Material.Settings.Dialog.BaseAlert" parent="@android:style/Theme.Material.Dialog">
-        <item name="android:colorBackground">#20ffffff</item>
+        <item name="android:colorBackground">#d0060606</item>
     </style>
     <style name="Theme.Material.Settings.Dialog.Presentation" parent="@android:style/Theme.Material.Dialog.Presentation">
-        <item name="android:colorBackground">#20ffffff</item>
+        <item name="android:colorBackground">#d0060606</item>
     </style>
     <style name="Theme.Material.Settings.SearchBar" parent="@android:style/Theme.Material.Settings">
-        <item name="android:colorBackground">#20ffffff</item>
+        <item name="android:colorBackground">#d0060606</item>
     </style>
     <style name="Theme.Material.Settings.CompactMenu" parent="@android:style/Theme.Material.Wallpaper">
-        <item name="android:colorBackground">#20ffffff</item>
+        <item name="android:colorBackground">#d0060606</item>
     </style>
 
     <!--materialization -->

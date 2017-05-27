@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--12/10/2015 chroma night-->
+    <color name="system_primary_color">$O$</color>
+    <color name="system_secondary_color">$O$</color>
+    <color name="system_accent_color">$A$</color>
+    <color name="qs_detail_transition">$OO$</color>
+</resources>

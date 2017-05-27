@@ -4,20 +4,20 @@ We will use regex to replace all of
 our keys with the appropriate values
 ------------------------------------------------------------
 drawables       $$x$
-opaque bg       o
-bg              b
+bg              b       may be transparent; use @android:drawable/screen_background_dark if you need opaque
 ------------------------------------------------------------
 colors          $x$
 custom colors   $x$aa   where aa is the alpha
 text            t, tt, ttt
 accent          a, at, ab
 background      b, bb, bbb
+bg transp       bt, btt, bttt
 opaque          o, oo, ooo
 card            c
 ripple          r
 divider         rr
 dialog          d
-dark bg         dd
+dark bg         dd, ddd
 middle          m       in between text & bg
 middle transp   mm      in between text & bg & transparent
 ------------------------------------------------------------

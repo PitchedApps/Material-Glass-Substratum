@@ -17,12 +17,12 @@
 
     <color name="search_url_text_selected">#fff</color>
     <color name="search_url_text_pressed">#fff</color>
-    <color name="search_widget_corpus_item_background">#20ffffff</color>
+    <color name="search_widget_corpus_item_background">#d0060606</color>
     <color name="sliding_tab_text_color_active">#fff</color>
     <color name="sliding_tab_text_color_shadow">#fff</color>
     <color name="micro_text_light">#88ffffff</color>
     <color name="notification_material_action_textcolor">#ddffffff</color>
-    <color name="notification_template_material_big_picture_background_color">#20ffffff</color>
+    <color name="notification_template_material_big_picture_background_color">#d0060606</color>
 
     <color name="notification_media_primary_color">#fff</color>
     <color name="notification_media_secondary_color">#ddffffff</color>

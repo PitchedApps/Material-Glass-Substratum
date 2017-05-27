@@ -22,8 +22,8 @@
 
     <color name="link_text_holo_dark">#9db9c6</color>
 
-    <color name="timepicker_default_background_holo_light">#20ffffff</color>
-    <color name="timepicker_default_background_holo_dark">#20ffffff</color>
+    <color name="timepicker_default_background_holo_light">#d0060606</color>
+    <color name="timepicker_default_background_holo_dark">#d0060606</color>
 
     <color name="timepicker_default_text_color_holo_light">#fff</color>
     <color name="timepicker_default_text_color_holo_dark">#fff</color>
@@ -31,11 +31,11 @@
     <color name="timepicker_default_ampm_selected_background_color_holo_light">#30ffffff</color>
     <color name="timepicker_default_ampm_selected_background_color_holo_dark">#30ffffff</color>
 
-    <color name="datepicker_default_header_selector_background_holo_light">#20ffffff</color>
-    <color name="datepicker_default_header_selector_background_holo_dark">#20ffffff</color>
+    <color name="datepicker_default_header_selector_background_holo_light">#d0060606</color>
+    <color name="datepicker_default_header_selector_background_holo_dark">#d0060606</color>
 
-    <color name="datepicker_default_header_dayofweek_background_color_holo_light">#20ffffff</color>
-    <color name="datepicker_default_header_dayofweek_background_color_holo_dark">#20ffffff</color>
+    <color name="datepicker_default_header_dayofweek_background_color_holo_light">#d0060606</color>
+    <color name="datepicker_default_header_dayofweek_background_color_holo_dark">#d0060606</color>
 
     <color name="datepicker_default_normal_text_color_holo_light">#fff</color>
     <color name="datepicker_default_normal_text_color_holo_dark">#fff</color>
@@ -52,8 +52,8 @@
     <color name="datepicker_default_circle_background_color_holo_light">#62757e</color>
     <color name="datepicker_default_circle_background_color_holo_dark">#62757e</color>
 
-    <color name="datepicker_default_view_animator_color_holo_light">#20ffffff</color>
-    <color name="datepicker_default_view_animator_color_holo_dark">#20ffffff</color>
+    <color name="datepicker_default_view_animator_color_holo_light">#d0060606</color>
+    <color name="datepicker_default_view_animator_color_holo_dark">#d0060606</color>
 
 
 </resources>
