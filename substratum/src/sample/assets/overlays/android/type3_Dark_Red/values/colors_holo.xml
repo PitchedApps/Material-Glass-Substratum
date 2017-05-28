@@ -2,9 +2,9 @@
 <resources>
 
     <!--Accents that guarantee visibility-->
-    <color name="holo_blue_light">#2196F3</color>
-    <color name="holo_blue_dark">#222</color>
-    <color name="holo_blue_bright">#64B5F6</color>
+    <color name="holo_blue_light">#f32c1e</color>
+    <color name="holo_blue_dark">#f32c1e</color>
+    <color name="holo_blue_bright">#f32c1e</color>
 
     <!--opaque versions-->
     <drawable name="screen_background_holo_dark">#000</drawable>
@@ -20,7 +20,7 @@
 
     <color name="highlighted_text_holo_dark">#50888888</color>
 
-    <color name="link_text_holo_dark">#64B5F6</color>
+    <color name="link_text_holo_dark">#f55a4e</color>
 
     <color name="timepicker_default_background_holo_light">#060606</color>
     <color name="timepicker_default_background_holo_dark">#060606</color>
@@ -43,11 +43,11 @@
     <color name="datepicker_default_disabled_text_color_holo_light">#88F44336</color>
     <color name="datepicker_default_disabled_text_color_holo_dark">#88F44336</color>
 
-    <color name="datepicker_default_selected_text_color_holo_light">#64B5F6</color>
-    <color name="datepicker_default_selected_text_color_holo_dark">#64B5F6</color>
+    <color name="datepicker_default_selected_text_color_holo_light">#f55a4e</color>
+    <color name="datepicker_default_selected_text_color_holo_dark">#f55a4e</color>
 
-    <color name="datepicker_default_pressed_text_color_holo_light">#64B5F6</color>
-    <color name="datepicker_default_pressed_text_color_holo_dark">#64B5F6</color>
+    <color name="datepicker_default_pressed_text_color_holo_light">#f55a4e</color>
+    <color name="datepicker_default_pressed_text_color_holo_dark">#f55a4e</color>
 
     <color name="datepicker_default_circle_background_color_holo_light">#222</color>
     <color name="datepicker_default_circle_background_color_holo_dark">#222</color>

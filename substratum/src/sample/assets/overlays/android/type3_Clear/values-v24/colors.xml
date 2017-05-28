@@ -6,7 +6,7 @@
     <color name="notification_progress_background_color">#88ffffff</color>
 
     <!--Bar below notification with action buttons-->
-    <color name="notification_action_list">#748B96</color>
+    <color name="notification_action_list">#62757e</color>
     <color name="notification_action_list_dark">#222</color>
 
     <color name="system_bar_background_semi_transparent">#30ffffff</color>
@@ -31,5 +31,7 @@
     <color name="accent_device_default_light">#9db9c6</color>
     <color name="accent_device_default_dark">#9db9c6</color>
     <color name="accent_device_default_50">#9db9c6</color>
+
+    <color name="chooser_service_row_background_color">#d0060606</color>
 
 </resources>

@@ -20,6 +20,17 @@
     <color name="search_widget_corpus_item_background">#d0060606</color>
     <color name="sliding_tab_text_color_active">#fff</color>
     <color name="sliding_tab_text_color_shadow">#fff</color>
+    <color name="keyguard_text_color_normal">#fff</color>
+    <color name="keyguard_text_color_soundoff">#fff</color>
+    <color name="lockscreen_clock_background">#fff</color>
+    <color name="lockscreen_clock_foreground">#fff</color>
+    <color name="lockscreen_clock_am_pm">#fff</color>
+    <color name="lockscreen_owner_info">#ddffffff</color>
+    <color name="kg_multi_user_text_active">#fff</color>
+    <color name="kg_multi_user_text_inactive">#88ffffff</color>
+    <color name="kg_widget_pager_gradient">#fff</color>
+    <color name="lock_pattern_view_regular_color">#fff</color>
+    <color name="lock_pattern_view_success_color">#fff</color>
     <color name="micro_text_light">#88ffffff</color>
     <color name="notification_material_action_textcolor">#ddffffff</color>
     <color name="notification_template_material_big_picture_background_color">#d0060606</color>
@@ -57,4 +68,7 @@
     <color name="chooser_grid_bg">#a0000000</color>
 
     <color name="notification_mtrl_action_text_light">#fff</color>
+
+    <color name="user_icon_1">#fff</color>
+    <color name="user_icon_default_white">#fff</color>
 </resources>

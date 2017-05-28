@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!--android m support-->
-    <item type="drawable" name="input_method_fullscreen_background">#a0000000</item>
+    <item type="drawable" name="input_method_fullscreen_background">$BT$</item>
 </resources>

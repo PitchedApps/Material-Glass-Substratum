@@ -6,7 +6,7 @@
     <color name="notification_progress_background_color">#88F44336</color>
 
     <!--Bar below notification with action buttons-->
-    <color name="notification_action_list">#2196F3</color>
+    <color name="notification_action_list">#222</color>
     <color name="notification_action_list_dark">#222</color>
 
     <color name="system_bar_background_semi_transparent">#30F44336</color>
@@ -27,9 +27,11 @@
     <color name="secondary_device_default_settings">#222</color>
     <color name="tertiary_device_default_settings">#222</color>
     <color name="quaternary_device_default_settings">#222</color>
-    <color name="accent_device_default_700">#64B5F6</color>
-    <color name="accent_device_default_light">#64B5F6</color>
-    <color name="accent_device_default_dark">#64B5F6</color>
-    <color name="accent_device_default_50">#64B5F6</color>
+    <color name="accent_device_default_700">#f55a4e</color>
+    <color name="accent_device_default_light">#f55a4e</color>
+    <color name="accent_device_default_dark">#f55a4e</color>
+    <color name="accent_device_default_50">#f55a4e</color>
+
+    <color name="chooser_service_row_background_color">#060606</color>
 
 </resources>

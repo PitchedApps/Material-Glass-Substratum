@@ -49,7 +49,7 @@
     <color name="notification_ripple_untinted_color">#30F44336</color>
     <color name="qs_batterymeter_frame_color">#FF404040</color>
     <color name="qs_detail_empty">#30F44336</color>
-    <color name="qs_detail_progress_track">#2196F3</color>
+    <color name="qs_detail_progress_track">#f32c1e</color>
     <color name="qs_detail_transition">#55000000</color>
     <color name="qs_subhead">#ddF44336</color>
     <color name="qs_text">#F44336</color>
@@ -68,7 +68,7 @@
     <color name="segmented_button_text_inactive">#88F44336</color>
     <color name="status_bar_clock_color">#F44336</color>
     <color name="status_bar_recents_app_label_color">#F44336</color>
-    <color name="system_accent_color">#64B5F6</color>
+    <color name="system_accent_color">#f55a4e</color>
     <color name="system_bar_background_opaque">#000</color>
     <color name="system_bar_background_semi_transparent">#66000000</color>
     <color name="system_bar_background_transparent">@android:color/transparent</color>
@@ -142,7 +142,7 @@
     <color name="notification_action_color_filter">#F44336</color>
     <color name="notification_icon_bg_color">@android:color/transparent</color>
 
-    <color name="preference_fallback_accent_color">#2196F3</color>
+    <color name="preference_fallback_accent_color">#f32c1e</color>
 
    
 </resources>

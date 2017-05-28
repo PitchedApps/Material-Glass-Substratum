@@ -104,7 +104,7 @@
     <style name="Theme.DeviceDefault.Light.SearchBar" parent="@android:style/Theme.Material.Panel" />
 
     <style name="Widget.Holo.Light.Button" parent="@android:style/Widget.Material.Light.Button">
-        <item name="android:textColor">#ff000000</item>
+        <item name="android:textColor">@android:color/black</item>
     </style>
 
     <!--just for layers, material compatibility-->

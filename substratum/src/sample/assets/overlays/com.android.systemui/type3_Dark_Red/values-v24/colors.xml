@@ -5,7 +5,7 @@
     <color name="notification_icon_bg_color">@android:color/transparent</color>
     <color name="notification_material_background_media_default_color">#111</color>
 
-    <color name="preference_fallback_accent_color">#2196F3</color>
+    <color name="preference_fallback_accent_color">#f32c1e</color>
 
     <color name="notification_material_background_color">#111</color>
     <color name="notification_material_background_dimmed_color">#111</color>

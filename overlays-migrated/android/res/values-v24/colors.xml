@@ -32,4 +32,6 @@
     <color name="accent_device_default_dark">$AT$</color>
     <color name="accent_device_default_50">$AT$</color>
 
+    <color name="chooser_service_row_background_color">$D$</color>
+
 </resources>

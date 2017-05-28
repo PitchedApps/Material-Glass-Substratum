@@ -3,6 +3,6 @@
     <!--12/10/2015 chroma night-->
     <color name="system_primary_color">#000</color>
     <color name="system_secondary_color">#000</color>
-    <color name="system_accent_color">#2196F3</color>
+    <color name="system_accent_color">#f32c1e</color>
     <color name="qs_detail_transition">#111</color>
 </resources>
