@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="batterymeter_base_color">$T$</color>
+    <color name="batterymeter_bolt_color">$T$</color>
+    <color name="batterymeter_charge_color">$T$</color>
+    <color name="batterymeter_frame_color">$R$</color>
+    <color name="current_user_border_color">$TT$</color>
+    <color name="data_usage_graph_track">$R$</color>
+    <color name="data_usage_graph_warning">$T$</color>
+    <color name="data_usage_secondary">$TTT$</color>
+    <color name="doze_small_icon_background_color">$OO$</color>
+    <color name="fab_color">$AB$</color>
+    <color name="fake_shadow_end_color">#03000000</color>
+    <color name="fake_shadow_start_color">#44000000</color>
+    <color name="floating_action_button_icon_color">$T$</color>
+    <color name="gesture_color">$T$</color>
+    <color name="icon_tint">$T$</color>
+    <color name="keyguard_affordance">$T$</color>
+    <color name="keyguard_overflow_content_color">$T$</color>
+    <color name="keyguard_user_switcher_background_gradient_color">#77000000</color>
+    <color name="navigation_bar_icon_color">$T$</color>
+    <color name="navring_check_tint">$TT$</color>
+    <color name="navring_edit_fill">$DD$</color>
+    <color name="navring_edit_tint">$DDD$</color>
+    <color name="notification_guts_bg_color">$D$</color>
+
+    <color name="notification_shade_background_color">$D$</color>
+    <color name="notification_gear_color">$TT$</color>
+    <color name="notification_guts_disabled_slider_color">$R$</color>
+    <color name="notification_guts_secondary_slider_color">$TT$</color>
+    <color name="notification_guts_icon_tint">$T$</color>
+    <color name="notification_guts_disabled_icon_tint">$R$</color>
+    
+    <!--text color?-->
+    <color name="notification_guts_btn_color">$T$</color>
+    <color name="notification_guts_text_color">$T$</color>
+    <color name="notification_guts_title_color">$T$</color>
+    <color name="notification_header">$D$</color>
+    <color name="notification_icon_color">$T$</color>
+    <color name="notification_legacy_background_color">$D$</color>
+    <color name="notification_list_shadow_top">$B$</color>
+    <color name="notification_material_background_color">$D$</color>
+    <color name="notification_material_background_dimmed_color">$D$</color>
+    <color name="notification_material_background_low_priority_color">$D$</color>
+    <color name="notification_material_background_media_default_color">$D$</color>
+    <color name="notification_panel_solid_background">$D$</color>
+    <color name="notification_ripple_color_low_priority">$R$</color>
+    <color name="notification_ripple_tinted_color">$R$</color>
+    <color name="notification_ripple_untinted_color">$R$</color>
+    <color name="qs_batterymeter_frame_color">#FF404040</color>
+    <color name="qs_detail_empty">$R$</color>
+    <color name="qs_detail_progress_track">$A$</color>
+    <color name="qs_detail_transition">$B$</color>
+    <color name="qs_subhead">$TT$</color>
+    <color name="qs_text">$T$</color>
+    <color name="qs_tile_divider">$RR$</color>
+    <color name="qs_tile_text">$T$</color>
+    <color name="qs_user_detail_icon_muted">$T$</color>
+    <color name="recents_task_bar_default_background_color">$BT$</color>
+    <color name="recents_task_bar_highlight_color">$R$</color>
+    <color name="recents_task_view_lock_to_app_button_background_color">$BT$</color>
+    <color name="recents_task_view_lock_to_app_button_color">#ff343d41</color>
+    <color name="screen_pinning_nav_icon_highlight_outer">#ff343d41</color>
+    <color name="screen_pinning_request_bg">#ff343d41</color>
+    <color name="screen_pinning_request_window_bg">$B$</color>
+    <color name="search_panel_circle_color">$BT$</color>
+    <color name="search_panel_ripple_color">$BTTT$</color>
+    <color name="segmented_button_text_inactive">$TT$</color>
+    <color name="status_bar_clock_color">$T$</color>
+    <color name="status_bar_recents_app_label_color">$T$</color>
+    <color name="system_accent_color">$AT$</color>
+    <color name="system_bar_background_opaque">$B$</color>
+    <color name="system_bar_background_semi_transparent">#66000000</color>
+    <color name="system_bar_background_transparent">@android:color/transparent</color>
+    <color name="system_primary_color">$O$</color>
+    <color name="system_primary_color_translucent">$BT$</color>
+    <color name="system_secondary_color">$OO$</color>
+    <!--<color name="system_warning_color">#fff4511e</color>-->
+    <color name="volume_panel_background_color">$D$</color>
+    <color name="volume_panel_divider">$RR$</color>
+
+    <!--slim-->
+    <!-- Card Color -->
+    <color name="card_background">$B$</color>
+    <color name="card_background_header">$B$</color>
+    <color name="card_backgroundExpand">$B$</color>
+    <color name="card_text_color_header">$T$</color>
+
+
+    <!--exposed-->
+    <color name="exposed_bg_light">$DD$</color>
+    <color name="exposed_primary_text_light">$T$</color>
+    <color name="exposed_secondary_text_light">$TT$</color>
+    <color name="exposed_TextAppearance.Material.Notification.Parenthetical">$TT$</color>
+    <color name="exposed_system_panel_text_light">$TT$</color>
+    <color name="exposed_TextAppearance.StatusBar.TextButton">$T$</color>
+    <color name="exposed_primary_text_dark">$T$</color>
+    <color name="exposed_secondary_text_dark">$TT$</color>
+    <color name="exposed_button">$TT$</color>
+    <color name="exposed_TextAppearance_Network">$TT$</color>
+    <color name="exposed_batt_text">$T$</color>
+    <color name="exposed_kg_indication_text">$T$</color>
+    <color name="exposed_kg_camera_button">$T$</color>
+    <color name="exposed_kg_phone_button">$T$</color>
+    <color name="exposed_kg_lock_icon">$T$</color>
+    <color name="exposed_kg_batt_level">$T$</color>
+    <color name="exposed_kg_carrier_text">$T$</color>
+    <color name="exposed_recents_search_bar_label">$TT$</color>
+    <color name="exposed_no_notify">$T$</color>
+    <color name="exposed_more_text">$TT$</color>
+    <color name="exposed_speedbump_line">$TTT$</color>
+    <color name="exposed_toggle">$M$</color>
+    <color name="exposed_qs_user_detail_name">$TT$</color>
+    <color name="exposed_headsup_scrim_start">#55000000</color>
+    <color name="exposed_headsup_scrim_end">#00000000</color>
+
+    <!--android m support-->
+    <color name="qs_detail_button">$TT$</color>
+    <color name="qs_detail_button_white">$TT$</color>
+
+    <color name="segmented_button_unselected">$BB$</color>
+     <color name="zen_introduction_message_background">$D$</color>
+    <color name="volume_icon_color">$T$</color>
+    <color name="volume_settings_icon_color">$TT$</color>
+    <color name="volume_slider_inactive">$TT$</color>
+
+    <!--oxygen os 2016/11/03-->
+    <color name="system_primary_color_dark">$O$</color>
+    <color name="system_secondary_color_dark">$O$</color>
+    <color name="qs_tile_disabled_overlay">$RR$</color>
+    <color name="qs_tile_disabled_overlay_dark_mode">$RR$</color>
+    <color name="screen_pinning_primary_text">$T$</color>
+
+
+    <color name="ksh_keyword_color">$TT$</color>
+    <color name="ksh_key_item_color">$T$</color>
+    <color name="ksh_key_item_background">$B$</color>
+
+    <color name="qs_hotspot_tile_text_color">$TT$</color>
+
+    <color name="disabled_text_color">$TTT$</color>
+    <color name="notification_action_color_filter">$T$</color>
+    <color name="notification_icon_bg_color">@android:color/transparent</color>
+
+    <color name="preference_fallback_accent_color">$A$</color>
+
+   
+</resources>
