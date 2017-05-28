@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="screen_background_light" type="drawable">#ffffffff</item>
+    <item name="screen_background_light_transparent" type="drawable">#80ffffff</item>
+
+    <color name="background_light">#90ffffff</color>
+    <color name="battery_saver_mode_color">#fff4511e</color>
+
+    <color name="bright_foreground_light">#ff000000</color>
+    <color name="bright_foreground_light_disabled">#ff222222</color>
+    <color name="bright_foreground_dark_inverse">#ff000000</color>
+    <color name="bright_foreground_light_inverse">#fff0f0f0</color>
+    <color name="dim_foreground_dark_inverse">#ff222222</color>
+    <color name="dim_foreground_dark_inverse_disabled">#ff444444</color>
+    <color name="dim_foreground_light">#ff222222</color>
+    <color name="dim_foreground_light_disabled">#ff444444</color>
+    <color name="dim_foreground_light_inverse">#ffdddddd</color>
+    <color name="dim_foreground_light_inverse_disabled">#ffbbbbbb</color>
+
+    <color name="notification_icon_bg_color">@android:color/transparent</color>
+
+</resources>

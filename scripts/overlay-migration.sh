@@ -14,7 +14,8 @@ tint() {
     if [ "${tintOutput: -1}" != "/" ]; then
         tintOutput="$tintOutput/"
     fi
-    magick convert "$1" -fill "$2" -tint 100 "$tintOutput${file::-5}.png"
+    magick "$1" \( +clone -shave 1x1 \) -gravity center -compose out -composite \( "$1" -shave 1x1 -fill "$2" -colorize 100 \) -compose over -composite "$tintOutput${file::-5}.png"
+    # magick convert "$1" -fill "$2" -tint 100 "$tintOutput${file::-5}.png"
 }
 
 # $1 string
