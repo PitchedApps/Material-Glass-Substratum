@@ -13,7 +13,7 @@ accent          a, at, ab
 background      b, bb, bbb
 bg transp       bt, btt, bttt
 opaque          o, oo, ooo
-card            c
+card            c, cc, ccc
 ripple          r
 divider         rr
 dialog          d
@@ -26,4 +26,3 @@ base            base style
 ------------------------------------------------------------
 $1 is the file contents
 returns the formatted file contents
-

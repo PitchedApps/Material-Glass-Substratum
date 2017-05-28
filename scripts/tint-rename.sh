@@ -9,6 +9,7 @@ endsWith() {
     return 1
 }
 
+printf "Starting tint rename\n"
 cd ..
 if [ -d factory/tint/output ]; then # clean build dir
     rm -r factory/tint/output
@@ -21,3 +22,4 @@ for f in *.png; do
     name="${name}_tint.png"
     cp -a "$f" "output/$name"
 done
+printf "Done\n"

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Platform.AppCompat" parent="@android:style/Theme.DeviceDefault.NoActionBar" />
+    <style name="Platform.AppCompat.Light" parent="@android:style/Theme.DeviceDefault.NoActionBar" />
+    <style name="Platform.AppCompat.Light.Dialog" parent="@android:style/Theme.Material.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+    <style name="Base.ThemeOverlay.AppCompat.Light" parent="@android:style/ThemeOverlay.Material.Dark" />
+
+    <style name="Platform.V21.AppCompat" parent="@android:style/Theme.DeviceDefault.NoActionBar" />
+    <style name="Platform.V21.AppCompat.Light" parent="@android:style/Theme.DeviceDefault.NoActionBar" />
+
+    <dimen name="cardview_compat_inset_shadow">0.0dip</dimen>
+    <dimen name="cardview_default_elevation">0.0dip</dimen>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Hacky fix, since colorPrimary is used as a background-->
+    <!--colorSecondary is switch color-->
+    <style name="Theme.SettingsBase" parent="@android:style/Theme.Material.Wallpaper">
+        <item name="android:statusBarColor">$CCC$</item>
+        <item name="android:colorBackground">$B$</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--<item name="android:colorBackgroundCacheHint">@android:color/transparent</item>-->
+        <item name="android:navigationBarColor">$B$</item>
+        <item name="android:colorPrimary">$B$</item>
+        <item name="android:colorPrimaryDark">$CCC$</item>
+    </style>
+
+</resources>

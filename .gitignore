@@ -2,7 +2,7 @@
 #
 # .gitignore declares what files should be ignored by git
 #
-#    This particular file is a composite of github's Android and Eclipse 
+#    This particular file is a composite of github's Android and Eclipse
 #                          files, along with some custom additions.
 #
 #############################################################################
@@ -13,6 +13,7 @@
 
 Substratum-Builder-Resources/
 dump/
+factory/
 
 *.pydevproject
 .metadata
@@ -38,7 +39,7 @@ local.properties
 # PDT-specific
 .buildpath
 
-# sbteclipse plugin 
+# sbteclipse plugin
 .target
 
 # TeXlipse plugin
@@ -68,7 +69,7 @@ proguard/
 # Other Misc. files
 #############################################################################
 
-# Temp files for KDE and other Editor's 
+# Temp files for KDE and other Editor's
 *~
 
 #############################################################################

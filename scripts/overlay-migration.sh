@@ -68,15 +68,65 @@ migrateCopy() {
 migrateXml() {
     local curr="$PWD"
     cd "$rootDir"
+    # minify
+    local content="$1"
+    content="$(echo "$content" | perl -0777 -pe 's/<!--.*?-->//smg')"
+    content="$(echo "$content" | tr '[:space:]' ' ' | tr -s ' ')"
     for theme in scripts/themes/*.sh; do
         themeName="$(basename ${theme%.*})"
         local newF="$output$2/type3_$themeName/$3"
         [ ! -d "$(dirname "$newF")" ] && mkdir -p "$(dirname "$newF")"
         touch "$newF"
         source "$theme"
-        themeXml "$1" > "$newF"
+        themeXml "$content" > "$newF"
     done
     cd "$curr"
+}
+
+# $1 package
+# $2 appcompat contents
+portAppcompat() {
+    local curr="$PWD"
+    local conf="$2"
+    printf "AppCompat Conf:\t$conf\n"
+    cd "$rootDir"
+    cd appcompat/core
+    for f in $(find . -type f); do
+        migrate "$f" "$1"
+    done
+    if [[ "$conf" == *"tint"* ]]; then
+        cd ../tint
+    else
+        cd ../default
+    fi
+    for f in $(find . -type f); do
+        migrate "$f" "$1"
+    done
+    printf "Done AppCompat Migration\n"
+    cd "$curr"
+}
+
+# $1 file location
+# $2 package
+migrate() {
+    local f="$1"
+    local package="$2"
+    local relative="${f:2}"
+    printf "Migrating $relative\n"
+    if [ "${relative}" == "appcompat.txt" ]; then
+        portAppcompat "$package" "$(<"$f")"
+        continue
+    fi
+    if endsWith "$relative" "_tint.png" ; then
+        tintImages "$f" "$package" "$relative"
+        continue
+    fi
+    if [ "${relative##*.}" != "xml" ]; then
+        migrateCopy "$f" "$package" "$relative"
+        continue
+    fi
+    local content="$(<${f})"
+    migrateXml "$content" "$package" "$relative"
 }
 
 main() {
@@ -89,20 +139,8 @@ main() {
             continue
         fi
         cd "overlays/$package/res"
-        local resourcePath="$PWD"
         for f in $(find . -type f); do
-            local relative="${f:2}"
-            printf "Migrating $relative\n"
-            if endsWith "$relative" "_tint.png" ; then
-                tintImages "$f" "$package" "$relative"
-                continue
-            fi
-            if [ "${relative##*.}" != "xml" ]; then
-                migrateCopy "$f" "$package" "$relative"
-                continue
-            fi
-            local content="$(<${f})"
-            migrateXml "$content" "$package" "$relative"
+            migrate "$f" "$package"
         done
         cd "$rootDir"
     done

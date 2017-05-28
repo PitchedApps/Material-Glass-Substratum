@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--12/10/2015 chroma night-->
+    <!--<color name="lock_pattern_view_regular_color">@android:color/secondary_text_default_material_dark</color>-->
+    <color name="card_background">$C$</color>
+    <color name="switchbar_background_color">$CCC$</color>
+    <color name="switch_accent_color">$T$</color>
+</resources>

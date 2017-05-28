@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="setup_wizard_navbar_bg_dark">$B$</color>
+    <color name="setup_wizard_navbar_bg_light">$B$</color>
+    <color name="title_color">$T$</color>
+    <color name="lock_pattern_view_success_color">$A$</color>
+    <color name="unlock_pattern_view_success_color">$A$</color>
+    <color name="theme_primary">$OO$</color>
+    <color name="theme_primary_dark">$OO$</color>
+    <color name="theme_accent">$T$</color>
+    <color name="dashboard_background_color">$CCC$</color>
+    <color name="ga_gesture_color">$AT$</color>
+
+    <!-- Hard coded background and text colors exposed for better theme support -->
+    <color name="background_color_darker_gray">$CCC$</color>
+    <color name="background_color_gray">$CCC$</color>
+    <color name="background_color_holo_blue_light">$CCC$</color>
+    <color name="background_color_transparent">@android:color/transparent</color>
+    <color name="text_color_darker_gray">$TT$</color>
+    <color name="text_color_holo_blue_light">$T$</color>
+    <color name="text_color_secondary_text_material_light">$TT$</color>
+    <color name="text_color_translucent_white">$TT$</color>
+    <!-- Dashboard background color -->
+    <color name="dashboard_category_background_color">$RR$</color>
+    <!-- Data usage chart color -->
+    <!--<color name="data_usage_stroke_color">@android:color/transparent</color>-->
+    <color name="data_usage_fill_color">$AT</color>
+    <color name="data_usage_secondary_fill_color">$AB</color>
+    <color name="data_usage_label_color">$T$</color>
+    <color name="data_usage_secondary_label_color">$TT$</color>
+    <!-- Lockscreen shortcuts -->
+    <color name="lockscreen_shortcuts_text_color">$TT$</color>
+    <color name="lockscreen_shortcuts_tint_color">$TT$</color>
+    <!-- Owner info -->
+    <color name="ownerinfo_divider_color">$RR$</color>
+    <!-- Installed app details -->
+    <color name="security_settings_billing_desc_color">$T$</color>
+
+    <color name="actionbar">$B$</color>
+    <color name="ripple">$R$</color>
+    <color name="selectable_mask">$T$</color>
+
+    <color name="switchbar_text_color">$T$</color>
+
+    <color name="floating_action_button_touch_tint">$TT$</color>
+
+    <color name="screencolor_background">$CCC$</color>
+    <drawable name="transparent_background">@android:color/transparent</drawable>
+
+    <color name="qs_tile_tint_color">$T$</color>
+
+    <color name="qs_tile_default_background_color">@android:color/transparent</color>
+    <color name="material_empty_color_light">$TTT$</color>
+
+    <color name="memory_used">#a0ff0000</color>
+    <color name="memory_avail">#a0ffffff</color>
+    <color name="memory_apps_usage">#a077831A</color>
+    <color name="memory_downloads">#a0476093</color>
+    <color name="memory_dcim">#a0793A7F</color>
+    <color name="memory_music">#a08E562A</color>
+    <color name="memory_cache">#a0479392</color>
+    <color name="memory_misc">#a07C3030</color>
+    <color name="memory_user_light">#a0479392</color>
+    <color name="memory_user_dark">#a0316665</color>
+
+    <color name="running_processes_system_ram">$TT$</color>
+    <color name="running_processes_apps_ram">#99dddddd</color>
+    <color name="running_processes_free_ram">#55bbbbbb</color>
+
+    <!--slim-->
+    <color name="exposed_bg_dark">$CCC$</color>
+    <color name="exposed_bg_light">$CCC$</color>
+    <color name="exposed_primary_text_light">$T$</color>
+    <color name="exposed_secondary_text_light">$TT$</color>
+    <color name="exposed_barPrimaryColor">$OO$</color>
+    <color name="exposed_barPredictionColor">$TTT$</color>
+    <color name="exposed_datachartfillcolor">$AB$</color>
+    <color name="exposed_datachartfillcolor_secondary">$TTT$</color>
+    <color name="exposed_data_limit_chart_labelcolor">$T$</color>
+
+    <!--cataclysm-->
+    <color name="blocked_number_background_color">$C$</color>
+    <color name="wifi_divider">$RR$</color>
+
+    <!-- DSLV colors, AOSIP -->
+    <color name="dslv_icon_dark">$T$</color>
+    <color name="dslv_float_cackground_color">$B$</color>
+
+    <!--chroma 10/24/2015-->
+    <color name="setting_separator">$RR$</color>
+    <!--<color name="extension_list_item_color">#ff999999</color>-->
+
+    <!--android m support-->
+    <color name="card_background">$C$</color>
+    <color name="fingerprint_title_area_bg">$B$</color>
+    <color name="fingerprint_message_color">$T$</color>
+
+    <color name="suw_color_accent_dark">$T$</color>
+    <color name="suw_color_secondary_dark">$TT$</color>
+    <color name="suw_link_color_dark">$TT$</color>
+    <color name="suw_progress_bar_color_dark">$R$</color>
+
+    <!--pure nexus 02/21/2016-->
+    <!-- BlackList colors -->
+    <color name="blacklist_disabled">$TT$</color>
+
+    <color name="notification_action_color_filter">$T$</color>
+</resources>
