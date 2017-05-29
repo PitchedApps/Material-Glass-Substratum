@@ -1,1 +1,51 @@
-<?xml version="1.0" encoding="utf-8"?> <resources> <color name="background_material_dark">#80000000</color> <color name="background_floating_material_dark">#d0060606</color> <color name="primary_material_dark">#000</color> <color name="primary_material_light">#fff5f5f5</color> <color name="primary_dark_material_dark">#000</color> <color name="primary_dark_material_light">#ff757575</color> <color name="ripple_material_dark">#30ffffff</color> <color name="accent_material_light">#748B96</color> <color name="accent_material_dark">#748B96</color> <color name="button_material_dark">#30000000</color> <color name="bright_foreground_material_dark">#fff</color> <color name="bright_foreground_disabled_material_dark">#88ffffff</color> <color name="dim_foreground_material_dark">#ddffffff</color> <color name="dim_foreground_disabled_material_dark">#88ffffff</color> <color name="hint_foreground_material_dark">#88ffffff</color> <color name="highlighted_text_material_dark">#50888888</color> <color name="link_text_material_dark">#9db9c6</color> <color name="primary_text_default_material_dark">#fff</color> <color name="secondary_text_default_material_dark">#ddffffff</color> <color name="material_deep_teal_50">#748B96</color> <color name="material_deep_teal_100">#748B96</color> <color name="material_deep_teal_200">#748B96</color> <color name="material_deep_teal_300">#748B96</color> <color name="material_deep_teal_500">#748B96</color> <color name="material_deep_teal_700">#748B96</color> <color name="material_blue_grey_800">#62757e</color> <color name="material_blue_grey_900">#62757e</color> <color name="material_blue_grey_950">#62757e</color> <color name="timepicker_default_background_material">#d0060606</color> <color name="timepicker_default_text_color_material">#fff</color> <color name="timepicker_default_ampm_selected_background_color_material">#30ffffff</color> <color name="timepicker_default_selector_color_material">#748B96</color> <color name="datepicker_default_header_selector_background_material_light">#d0060606</color> <color name="datepicker_default_header_selector_background_material_dark">#d0060606</color> <color name="datepicker_default_header_dayofweek_background_color_material_light">#d0060606</color> <color name="datepicker_default_header_dayofweek_background_color_material_dark">#d0060606</color> <color name="datepicker_default_normal_text_color_material_light">#fff</color> <color name="datepicker_default_normal_text_color_material_dark">#fff</color> <color name="datepicker_default_disabled_text_color_material_light">#88ffffff</color> <color name="datepicker_default_disabled_text_color_material_dark">#88ffffff</color> <color name="datepicker_default_selected_text_color_material_light">#9db9c6</color> <color name="datepicker_default_selected_text_color_material_dark">#9db9c6</color> <color name="datepicker_default_pressed_text_color_material_light">#9db9c6</color> <color name="datepicker_default_pressed_text_color_material_dark">#9db9c6</color> <color name="datepicker_default_circle_background_color_material_light">#62757e</color> <color name="datepicker_default_circle_background_color_material_dark">#62757e</color> <color name="datepicker_default_view_animator_color_material_light">#d0060606</color> <color name="datepicker_default_view_animator_color_material_dark">#d0060606</color> </resources> 
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="background_material_dark">#80000000</color>
+<color name="background_floating_material_dark">#d0060606</color>
+<color name="primary_material_dark">#000</color>
+<color name="primary_material_light">#fff5f5f5</color>
+<color name="primary_dark_material_dark">#000</color>
+<color name="primary_dark_material_light">#ff757575</color>
+<color name="ripple_material_dark">#30ffffff</color>
+<color name="accent_material_light">#748B96</color>
+<color name="accent_material_dark">#748B96</color>
+<color name="button_material_dark">#30000000</color>
+<color name="bright_foreground_material_dark">#fff</color>
+<color name="bright_foreground_disabled_material_dark">#88ffffff</color>
+<color name="dim_foreground_material_dark">#ddffffff</color>
+<color name="dim_foreground_disabled_material_dark">#88ffffff</color>
+<color name="hint_foreground_material_dark">#88ffffff</color>
+<color name="highlighted_text_material_dark">#50888888</color>
+<color name="link_text_material_dark">#9db9c6</color>
+<color name="primary_text_default_material_dark">#fff</color>
+<color name="secondary_text_default_material_dark">#ddffffff</color>
+<color name="material_deep_teal_50">#748B96</color>
+<color name="material_deep_teal_100">#748B96</color>
+<color name="material_deep_teal_200">#748B96</color>
+<color name="material_deep_teal_300">#748B96</color>
+<color name="material_deep_teal_500">#748B96</color>
+<color name="material_deep_teal_700">#748B96</color>
+<color name="material_blue_grey_800">#62757e</color>
+<color name="material_blue_grey_900">#62757e</color>
+<color name="material_blue_grey_950">#62757e</color>
+<color name="timepicker_default_background_material">#d0060606</color>
+<color name="timepicker_default_text_color_material">#fff</color>
+<color name="timepicker_default_ampm_selected_background_color_material">#30ffffff</color>
+<color name="timepicker_default_selector_color_material">#748B96</color>
+<color name="datepicker_default_header_selector_background_material_light">#d0060606</color>
+<color name="datepicker_default_header_selector_background_material_dark">#d0060606</color>
+<color name="datepicker_default_header_dayofweek_background_color_material_light">#d0060606</color>
+<color name="datepicker_default_header_dayofweek_background_color_material_dark">#d0060606</color>
+<color name="datepicker_default_normal_text_color_material_light">#fff</color>
+<color name="datepicker_default_normal_text_color_material_dark">#fff</color>
+<color name="datepicker_default_disabled_text_color_material_light">#88ffffff</color>
+<color name="datepicker_default_disabled_text_color_material_dark">#88ffffff</color>
+<color name="datepicker_default_selected_text_color_material_light">#9db9c6</color>
+<color name="datepicker_default_selected_text_color_material_dark">#9db9c6</color>
+<color name="datepicker_default_pressed_text_color_material_light">#9db9c6</color>
+<color name="datepicker_default_pressed_text_color_material_dark">#9db9c6</color>
+<color name="datepicker_default_circle_background_color_material_light">#62757e</color>
+<color name="datepicker_default_circle_background_color_material_dark">#62757e</color>
+<color name="datepicker_default_view_animator_color_material_light">#d0060606</color>
+<color name="datepicker_default_view_animator_color_material_dark">#d0060606</color>
+</resources> 

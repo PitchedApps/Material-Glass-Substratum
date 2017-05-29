@@ -1,1 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?> <resources> <color name="background_material_light">#ffffffff</color> <color name="background_floating_material_light">#eee</color> <color name="ripple_material_light">#40000000</color> <color name="button_material_light">#50dddddd</color> <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color> <color name="switch_thumb_normal_material_light">#fff1f1f1</color> <color name="switch_thumb_disabled_material_dark">#ff616161</color> <color name="switch_thumb_disabled_material_light">#ffbdbdbd</color> <color name="bright_foreground_material_light">#000</color> <color name="bright_foreground_disabled_material_light">#80000000</color> <color name="bright_foreground_inverse_material_dark">#000</color> <color name="bright_foreground_inverse_material_light">#fff</color> <color name="dim_foreground_material_light">#ff323232</color> <color name="dim_foreground_disabled_material_light">#80323232</color> <color name="hint_foreground_material_light">#80000000</color> <color name="highlighted_text_material_light">#66546e7a</color> <color name="link_text_material_light">#546e7a</color> <color name="primary_text_default_material_light">#de000000</color> <color name="secondary_text_default_material_light">#8a000000</color> <color name="timepicker_default_ampm_unselected_background_color_material">@android:color/transparent</color> <color name="timepicker_default_numbers_background_color_material">@android:color/transparent</color> </resources> 
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="background_material_light">#ffffffff</color>
+<color name="background_floating_material_light">#eee</color>
+<color name="ripple_material_light">#40000000</color>
+<color name="button_material_light">#50dddddd</color>
+<color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
+<color name="switch_thumb_normal_material_light">#fff1f1f1</color>
+<color name="switch_thumb_disabled_material_dark">#ff616161</color>
+<color name="switch_thumb_disabled_material_light">#ffbdbdbd</color>
+<color name="bright_foreground_material_light">#000</color>
+<color name="bright_foreground_disabled_material_light">#80000000</color>
+<color name="bright_foreground_inverse_material_dark">#000</color>
+<color name="bright_foreground_inverse_material_light">#fff</color>
+<color name="dim_foreground_material_light">#ff323232</color>
+<color name="dim_foreground_disabled_material_light">#80323232</color>
+<color name="hint_foreground_material_light">#80000000</color>
+<color name="highlighted_text_material_light">#66546e7a</color>
+<color name="link_text_material_light">#546e7a</color>
+<color name="primary_text_default_material_light">#de000000</color>
+<color name="secondary_text_default_material_light">#8a000000</color>
+<color name="timepicker_default_ampm_unselected_background_color_material">@android:color/transparent</color>
+<color name="timepicker_default_numbers_background_color_material">@android:color/transparent</color>
+</resources> 

@@ -4,6 +4,8 @@
 cd ..
 rootDir="$PWD"
 output="substratum/src/sample/assets/overlays/"
+skipPng=false
+skipXml=false
 
 # $1 input location (file, must end with _tint.png)
 # $2 tint color
@@ -113,6 +115,12 @@ migrate() {
     local f="$1"
     local package="$2"
     local relative="${f:2}"
+    if endsWith "$relative" ".xml" && $skipXml ; then
+        continue
+    fi
+    if endsWith "$relative" ".png" && $skipPng ; then
+        continue
+    fi
     printf "Migrating $relative\n"
     if [ "${relative}" == "appcompat.txt" ]; then
         portAppcompat "$package" "$(<"$f")"
@@ -130,25 +138,37 @@ migrate() {
     migrateXml "$content" "$package" "$relative"
 }
 
+# $1 package name
+migratePackage() {
+    local package="$1"
+    printf "####################\nMigrating $package\n####################\n"
+    if [ ! -d overlays/${package}/res ]; then
+        printf "Res not found\n"
+        continue
+    fi
+    cd "overlays/$package/res"
+    for f in $(find . -type f); do
+        migrate "$f" "$package"
+    done
+    cd "$rootDir"
+}
+
 main() {
     printf "Beginning Migration to $output\n"
     for package in overlays/*/; do
         package="${package:9:-1}" # trim to package name
-        printf "####################\nMigrating $package\n####################\n"
-        if [ ! -d overlays/${package}/res ]; then
-            printf "Res not found\n"
-            continue
-        fi
-        cd "overlays/$package/res"
-        for f in $(find . -type f); do
-            migrate "$f" "$package"
-        done
-        cd "$rootDir"
+        migratePackage "$package"
     done
     printf "\nDone\n"
 }
 
-main
+#skipPng=true
+#skipXml=true
+
+#main
+
+migratePackage android
+
 #cd scripts
 #sh overlay-verify.sh
 exit 0
