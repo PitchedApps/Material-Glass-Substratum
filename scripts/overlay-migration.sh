@@ -71,7 +71,7 @@ migrateXml() {
     # minify
     local content="$1"
     content="$(echo "$content" | perl -0777 -pe 's/<!--.*?-->//smg')"
-    content="$(echo "$content" | tr '[:space:]' ' ' | tr -s ' ')"
+    content="$(echo "$content" | tr '[:space:]' '\n' | tr -s '\n')"
     for theme in scripts/themes/*.sh; do
         themeName="$(basename ${theme%.*})"
         local newF="$output$2/type3_$themeName/$3"
