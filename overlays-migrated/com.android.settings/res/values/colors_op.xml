@@ -24,4 +24,7 @@
 
     <!--primary-->
     <color name="primary_dark_material_light_light_status_bar">#ddd</color>
+
+    <color name="onePlusPrimaryColor_device_default_dark">$T$</color>
+   <color name="onePlusAccentColor_device_default_dark">$T$</color>
 </resources>

@@ -3,9 +3,9 @@
     <color name="background_material_dark">$B$</color>
     <color name="background_floating_material_dark">$D$</color>
 
-    <color name="primary_material_dark">$B$</color>
+    <color name="primary_material_dark">$O$</color>
     <color name="primary_material_light">#fff5f5f5</color>
-    <color name="primary_dark_material_dark">$B$</color>
+    <color name="primary_dark_material_dark">$O$</color>
     <color name="primary_dark_material_light">#ff757575</color>
 
     <color name="ripple_material_dark">$R$</color>
