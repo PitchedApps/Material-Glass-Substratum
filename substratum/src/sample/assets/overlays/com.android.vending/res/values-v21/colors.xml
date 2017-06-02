@@ -55,7 +55,7 @@
 	<color name="play_header_list_tab_pressed_bg_color">#40cccccc</color>
 	<color name="play_header_list_tab_ripple_color">#40ffffff</color>
 	<color name="play_header_list_tab_underline_color">#ffffffff</color>
-	<color name="play_main_background">#88000000</color>
+	<!-- <color name="play_main_background">#88000000</color>
 	<color name="play_onboard__interstitial_overlay_background">#d8000000</color>
 	<color name="play_onboard__loading_overlay_background">#7f000000</color>
 	<color name="play_onboard__page_indicator_dot_active">#ffffffff</color>
@@ -76,7 +76,7 @@
 	<color name="play_transparent">#00000000</color>
 	<color name="play_white">#80161616</color>
 	<color name="play_white_disabled">#70000000</color>
-	<color name="play_white_half_transparent">#32ffffff</color>
+	<color name="play_white_half_transparent">#32ffffff</color> -->
 	<color name="review_histogram_1_bar">#cc777777</color>
 	<color name="review_histogram_2_bar">#cc999999</color>
 	<color name="review_histogram_3_bar">#ccbbbbbb</color>
