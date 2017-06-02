@@ -55,7 +55,7 @@
 	<color name="play_header_list_tab_pressed_bg_color">#40cccccc</color>
 	<color name="play_header_list_tab_ripple_color">#40ffffff</color>
 	<color name="play_header_list_tab_underline_color">#ffffffff</color>
-	<color name="play_main_background">#8000000</color>
+	<color name="play_main_background">#80000000</color>
 	<color name="play_onboard__interstitial_overlay_background">#d8000000</color>
 	<color name="play_onboard__loading_overlay_background">#7f000000</color>
 	<color name="play_onboard__page_indicator_dot_active">#ffffffff</color>
