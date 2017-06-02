@@ -55,7 +55,7 @@
 	<color name="play_header_list_tab_pressed_bg_color">#40cccccc</color>
 	<color name="play_header_list_tab_ripple_color">#40ffffff</color>
 	<color name="play_header_list_tab_underline_color">#ffffffff</color>
-	<!-- <color name="play_main_background">#88000000</color>
+	<!-- <color name="play_main_background">#88000000</color>-->
 	<color name="play_onboard__interstitial_overlay_background">#d8000000</color>
 	<color name="play_onboard__loading_overlay_background">#7f000000</color>
 	<color name="play_onboard__page_indicator_dot_active">#ffffffff</color>
@@ -72,7 +72,7 @@
 	<color name="play_search_plate_navigation_button_color">#ffeeeeee</color>
 	<color name="play_search_suggestion_divider_background">#22ffffff</color>
 	<color name="play_secondary_text_pressed">#ddffffff</color>
-	<color name="play_translucent_separator_line">#26ffffff</color>-->
+	<color name="play_translucent_separator_line">#26ffffff</color>
 	<color name="play_transparent">#00000000</color>
 	<color name="play_white">#80161616</color>
 	<color name="play_white_disabled">#70000000</color>
