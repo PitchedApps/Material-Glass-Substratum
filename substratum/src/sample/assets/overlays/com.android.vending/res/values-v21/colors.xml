@@ -28,7 +28,7 @@
 	<color name="person_follow_blue">#ff4285f4</color>
 	<color name="person_follow_green">#ff56a843</color>
 	<color name="play_action_button_pressed_grey">#80f0f0f0</color>
-	<color name="play_apps_light">#a2aed581</color>
+	<color name="play_apps_light">#ff689f38</color>
 	<color name="play_apps_primary">#ff689f38</color>
 	<color name="play_apps_primary_disabled">#a2689f38</color>
 	<color name="play_apps_secondary">#a2558b2f</color>
