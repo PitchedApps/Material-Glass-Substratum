@@ -72,11 +72,11 @@
 	<color name="play_search_plate_navigation_button_color">#ffeeeeee</color>
 	<color name="play_search_suggestion_divider_background">#22ffffff</color>
 	<color name="play_secondary_text_pressed">#ddffffff</color>
-	<color name="play_translucent_separator_line">#26ffffff</color>
+	<color name="play_translucent_separator_line">#26ffffff</color>-->
 	<color name="play_transparent">#00000000</color>
 	<color name="play_white">#80161616</color>
 	<color name="play_white_disabled">#70000000</color>
-	<color name="play_white_half_transparent">#32ffffff</color> -->
+	<color name="play_white_half_transparent">#32ffffff</color>
 	<color name="review_histogram_1_bar">#cc777777</color>
 	<color name="review_histogram_2_bar">#cc999999</color>
 	<color name="review_histogram_3_bar">#ccbbbbbb</color>
