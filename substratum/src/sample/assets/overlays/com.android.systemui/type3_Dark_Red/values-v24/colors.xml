@@ -1,1 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?> <resources> <color name="disabled_text_color">#88F44336</color> <color name="notification_action_color_filter">#F44336</color> <color name="notification_icon_bg_color">@android:color/transparent</color> <color name="notification_material_background_media_default_color">#111</color> <color name="preference_fallback_accent_color">#f32c1e</color> <color name="notification_material_background_color">#111</color> <color name="notification_material_background_dimmed_color">#111</color> <color name="notification_material_background_low_priority_color">#000</color> <color name="notification_shade_background_color">#111</color> <color name="notification_gear_color">#88F44336</color> <color name="notification_guts_bg_color">#111</color> <color name="notification_guts_disabled_slider_color">#30F44336</color> <color name="notification_guts_secondary_slider_color">#88F44336</color> <color name="notification_guts_icon_tint">#88F44336</color> <color name="notification_guts_disabled_icon_tint">#30F44336</color> </resources> 
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="disabled_text_color">#88F44336</color>
+<color name="notification_action_color_filter">#F44336</color>
+<color name="notification_icon_bg_color">@android:color/transparent</color>
+<color name="notification_material_background_media_default_color">#111</color>
+<color name="preference_fallback_accent_color">#f32c1e</color>
+<color name="notification_material_background_color">#111</color>
+<color name="notification_material_background_dimmed_color">#111</color>
+<color name="notification_material_background_low_priority_color">#000</color>
+<color name="notification_shade_background_color">#111</color>
+<color name="notification_gear_color">#88F44336</color>
+<color name="notification_guts_bg_color">#111</color>
+<color name="notification_guts_disabled_slider_color">#30F44336</color>
+<color name="notification_guts_secondary_slider_color">#88F44336</color>
+<color name="notification_guts_icon_tint">#88F44336</color>
+<color name="notification_guts_disabled_icon_tint">#30F44336</color>
+</resources> 

@@ -1,1 +1,26 @@
-<?xml version="1.0" encoding="utf-8"?> <resources> <color name="opcardview_light_background_mask_light">#10F44336</color> <color name="opcardview_light_background_light">#111</color> <color name="primary_default_dark">#F44336</color> <color name="theme_background">#000</color> <color name="fingerprint_button_text_color">#88F44336</color> <color name="fingerprint_button_text_color_dark">#F44336</color> <color name="background_material_settings">#111</color> <color name="window_background">#000</color> <color name="bg_ab_dark">#111</color> <color name="bg_dialog_dark">#060606</color> <color name="bg_interface_dark">#000</color> <color name="oneplus_contorl_bg_color_statusbar_dark">#000</color> <color name="oneplus_contorl_bg_color_appbar_dark">#000</color> <color name="oneplus_contorl_bg_color_steppers_dark">#000</color> <color name="oneplus_contorl_bg_color_dialogs_dark">#060606</color> <color name="oneplus_contorl_bg_color_menu_dark">#000</color> <color name="oneplus_contorl_bg_color_bottomsheets_dark">#000</color> <color name="oneplus_contorl_bg_color_cardview_dark">#111</color> <color name="oneplus_contorl_bg_color_listbg_dark">#000</color> <color name="oneplus_contorl_bg_color_dark">#000</color> <color name="primary_dark_material_light_light_status_bar">#ddd</color> <color name="onePlusPrimaryColor_device_default_dark">#F44336</color> <color name="onePlusAccentColor_device_default_dark">#F44336</color> </resources> 
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="opcardview_light_background_mask_light">#10F44336</color>
+<color name="opcardview_light_background_light">#111</color>
+<color name="primary_default_dark">#F44336</color>
+<color name="theme_background">#000</color>
+<color name="fingerprint_button_text_color">#88F44336</color>
+<color name="fingerprint_button_text_color_dark">#F44336</color>
+<color name="background_material_settings">#111</color>
+<color name="window_background">#000</color>
+<color name="bg_ab_dark">#111</color>
+<color name="bg_dialog_dark">#060606</color>
+<color name="bg_interface_dark">#000</color>
+<color name="oneplus_contorl_bg_color_statusbar_dark">#000</color>
+<color name="oneplus_contorl_bg_color_appbar_dark">#000</color>
+<color name="oneplus_contorl_bg_color_steppers_dark">#000</color>
+<color name="oneplus_contorl_bg_color_dialogs_dark">#060606</color>
+<color name="oneplus_contorl_bg_color_menu_dark">#000</color>
+<color name="oneplus_contorl_bg_color_bottomsheets_dark">#000</color>
+<color name="oneplus_contorl_bg_color_cardview_dark">#111</color>
+<color name="oneplus_contorl_bg_color_listbg_dark">#000</color>
+<color name="oneplus_contorl_bg_color_dark">#000</color>
+<color name="primary_dark_material_light_light_status_bar">#ddd</color>
+<color name="onePlusPrimaryColor_device_default_dark">#F44336</color>
+<color name="onePlusAccentColor_device_default_dark">#F44336</color>
+</resources> 

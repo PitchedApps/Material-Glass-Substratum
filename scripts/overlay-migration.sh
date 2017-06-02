@@ -7,6 +7,17 @@ output="substratum/src/sample/assets/overlays/"
 skipPng=false
 skipXml=false
 
+# $1 package name
+# $2 themeName
+# $3 relative dir
+newF() {
+  local flavor="type3_$2"
+  if [[ "$2" == "Clear" ]]; then
+      flavor="res"
+  fi
+  echo "$output$1/$flavor/$3"
+}
+
 # $1 input location (file, must end with _tint.png)
 # $2 tint color
 # $3 output location (folder)
@@ -38,7 +49,7 @@ tintImages() {
     cd "$rootDir"
     for theme in scripts/themes/*.sh; do
         local themeName="${theme:15:-3}"
-        local newF="$output$2/type3_$themeName/$3"
+        local newF="$(newF "$2" "$themeName" "$3")"
         local newD="$(dirname "$newF")"
         [ ! -d "$newD" ] && mkdir -p "$newD"
         source "$theme"
@@ -57,7 +68,7 @@ migrateCopy() {
     cd "$rootDir"
     for theme in scripts/themes/*.sh; do
         themeName="$(basename ${theme%.*})"
-        local newF="$output$2/type3_$themeName/$3"
+        local newF="$(newF "$2" "$themeName" "$3")"
         [ ! -d "$(dirname "$newF")" ] && mkdir -p "$(dirname "$newF")"
         cp -a "$orig" "$newF"
     done
@@ -77,7 +88,7 @@ migrateXml() {
     content="$(echo "$content" | perl -0777 -pe 's/> </>\n</smg')"
     for theme in scripts/themes/*.sh; do
         themeName="$(basename ${theme%.*})"
-        local newF="$output$2/type3_$themeName/$3"
+        local newF="$(newF "$2" "$themeName" "$3")"
         [ ! -d "$(dirname "$newF")" ] && mkdir -p "$(dirname "$newF")"
         touch "$newF"
         source "$theme"
@@ -167,7 +178,8 @@ main() {
 
 #main
 
-migratePackage android
+migratePackage com.android.settings
+migratePackage com.android.systemui
 
 #cd scripts
 #sh overlay-verify.sh
