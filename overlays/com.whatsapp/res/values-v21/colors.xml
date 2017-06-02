@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="background_tab_pressed">$R$</color>
+    <color name="list_item_selected">$R$</color>
+
+    <color name="accent">$A$</color>
+
+    <color name="action_mode">$T$</color>
+    <color name="action_mode_dark">$T$</color>
+    <color name="actionbar_separator">$RR$</color>
+    <color name="archived">$BB$</color>
+    <color name="attach_popup_background">#cc060606</color>
+    <color name="avatar_broadcast_large">#ff5b7c8c</color>
+    <color name="avatar_contact_large">#ff73bfb8</color>
+    <color name="avatar_group_large">#ff86cf9b</color>
+
+    <color name="black">$T$</color>
+
+    <color name="btn_disabled">$C$</color>
+    <color name="btn_gray_normal">$CCC$</color>
+    <color name="btn_gray_pressed">$R$</color>
+    <color name="btn_green_normal">#ff20c659</color>
+    <color name="btn_green_pressed">#ff1aa94c</color>
+    <color name="button_light_gray">$CCC$</color>
+
+    <color name="call_answer">#ff09d261</color>
+    <color name="call_decline">#ffe91c43</color>
+    <color name="composing">#ff09d261</color>
+    <color name="contact_phone_type">$TT$</color>
+    <color name="conversation_background">@android:color/transparent</color>
+    <color name="conversation_row_date">$TTT$</color>
+    <color name="conversation_row_image_text">$T$</color>
+    <color name="conversations_text_gray">$TT$</color>
+    <color name="dark_gray">$TT$</color>
+    <color name="description_gray">$TT$</color>
+
+    <color name="disabled_text_color_darker">$R$</color>
+    <color name="disabled_text_color_lighter">$R$</color>
+    <color name="divider_gray">$RR$</color>
+    <color name="edit_text_counter">$TT$</color>
+    <color name="emoji_popup_body">$B$</color>
+    <color name="emoji_popup_header">$B$</color>
+    <color name="full_screen_footer">$B$</color>
+    <color name="gallery_cell">#000</color>
+    <color name="gdrive_restore_anim_gray_dot">$T$</color>
+    <color name="gdrive_restore_anim_green_dot">#ff58cd80</color>
+    <color name="gdrive_setup_disabled_button_color">#4affffff</color>
+    <color name="gray_activity">@android:color/transparent</color>
+    <color name="group_admin">#ff4abc34</color>
+
+    <color name="light_gray">$A$</color> <!--???-->
+    <color name="link_color_incoming">$AT$</color>
+    <color name="link_color_outgoing">$AT$</color>
+    <color name="list_item_info">$TT$</color>
+    <color name="list_item_sub_title">$TT$</color>
+    <color name="list_item_title">$T$</color>
+
+    <color name="media_message_progress_determinate">#ff09d261</color>
+    <color name="media_message_progress_indeterminate">$T$</color>
+    <color name="music_scrubber">#ffffad1f</color>
+    <color name="notice_text">#ff517cd3</color>
+    <color name="patina">#ff549388</color>
+    <color name="popup_dim">#99000000</color>
+    <color name="primary">#ff37657A</color>
+    <color name="primary_dark">#ff37657A</color>
+    <color name="primary_dark_voip">#ff37657A</color>
+
+    <color name="primary_voip">$A$</color>
+    <color name="row_1">$A$</color><!--???-->
+    <color name="row_2">$A$</color>
+    <color name="search_text_highlight">#ff32afff</color>
+
+    <color name="section_text">$T$</color>
+    <color name="starred_list_background">@android:color/transparent</color>
+
+    <color name="tab_indicator">$T$</color>
+    <color name="transparent_actionbar_background">@android:color/transparent</color>
+    <color name="voice_note_scrubber_blue">#ff03a9f4</color>
+    <color name="voice_note_scrubber_green">#ff09d261</color>
+    <color name="voice_note_scrubber_grey">#ff93a98b</color>
+    <color name="white">$B$</color>
+
+    <!--2016/06/14-->
+    <color name="about_statusbar">$A$</color>
+    <color name="camera_thumb">$R$</color>
+    <color name="chat_info_activity">$B$</color>
+    <color name="gallery_separator">$R$</color>
+    <color name="home_row_selection">$RR$</color>
+
+
+    <color name="accent_dark">$A$</color>
+    <color name="accent_dark_30">#1e128c7e</color>
+    <color name="accent_light">$A$</color>
+    <color name="body_gray">$T$</color>
+    <color name="body_light_gray">$TT$</color>
+    <color name="btn_gray_registration">$C$</color>
+    <color name="btn_green_registration">$CC$</color>
+    <color name="design_bottom_navigation_shadow_color">#14000000</color>
+    <color name="list_item_verified_title">$AT$</color>
+    <color name="live_location_duration_background">#cc000000</color>
+    <color name="live_location_duration_gray">#30222222</color>
+    <color name="live_location_expired_background">#0f000000</color>
+    <color name="live_location_expired_text">$T$</color>
+    <color name="live_location_live_location_marker">#4c25d366</color>
+    <color name="live_location_stale_location_marker">#4cfe0000</color>
+    <color name="live_location_stop_sharing_red">#ffd0021b</color>
+    <color name="media_message_progress_background">$RR$</color>
+    <color name="media_view_action_bar_background">$C$</color>
+    <color name="media_view_footer_background">#66000000</color>
+    <color name="media_view_status_bar_background">#cc000000</color>
+    <color name="mention_annotation_on_dark">$TTT$</color>
+    <color name="mention_annotation_on_green">#ffc0d6a7</color>
+    <color name="mention_annotation_on_white">$T$</color>
+    <color name="mention_divider_dark_theme">$RR$</color>
+    <color name="mention_link_color_on_dark">#ff00b0ff</color>
+    <color name="mention_picker_dark_theme_background">#cc161d21</color>
+    <color name="mention_preview_dark">#ff626262</color>
+    <color name="mention_primary_text_color_dark_theme">$T$</color>
+    <color name="mention_pushname_dark_theme">$TT$</color>
+    <color name="multi_selection">#4c32b5e4</color>
+    <color name="pin_hint_color">#4c263238</color>
+    <color name="red_button_text">#ffd60909</color>
+    <color name="registration_status_bar">#66000000</color>
+    <color name="selection_check_background">#8000b09e</color>
+    <color name="status_normal">$T$</color>
+    <color name="status_seen">$AT$</color>
+</resources>

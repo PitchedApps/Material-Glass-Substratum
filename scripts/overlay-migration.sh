@@ -178,8 +178,7 @@ main() {
 
 #main
 
-migratePackage com.android.settings
-migratePackage com.android.systemui
+migratePackage com.whatsapp
 
 #cd scripts
 #sh overlay-verify.sh
