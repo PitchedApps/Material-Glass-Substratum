@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-	<color name="account_selector_background">#88161616</color>
+	<!-- <color name="account_selector_background">#88161616</color>
 	<color name="action_bar_overlay_end">@android:color/transparent</color>
 	<color name="action_bar_overlay_start">#66000000</color>
 	<color name="bind__active_gray">#44ffffff</color>
@@ -193,5 +193,5 @@
 	<color name="play_uninstall_wizard_title_color">#fff</color>
 	<color name="review_question_bg">#80000000</color>
 	<color name="review_question_option_text">#fff</color>
-	<color name="testing_program_cap_reached_message_bg">#80000000</color>
+	<color name="testing_program_cap_reached_message_bg">#80000000</color> -->
 </resources>
