@@ -148,12 +148,12 @@
 	<color name="whatsnew_music">#11000000</color>
 	<color name="whatsnew_newsstand">#11000000</color>
 	<color name="white">#88000000</color>
-	<color name="your_review_label_bg_color">#80161616</color>
+	<color name="your_review_label_bg_color">#80161616</color>-->
 
 
 	<!--2017/04/22-->
 
-	<color name="account_inline_notification_bg">#fff0f4c3</color>
+	<!--<color name="account_inline_notification_bg">#fff0f4c3</color>
 	<color name="account_separator">#1fffffff</color>
 	<color name="borderless_dark_button_select">#33ffffff</color>
 	<color name="borderless_light_button_select">#33ffffff</color>
