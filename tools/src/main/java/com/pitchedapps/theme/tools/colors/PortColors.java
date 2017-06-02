@@ -11,9 +11,9 @@ import java.util.Map;
 import java.util.Set;
 
 public class PortColors {
-    public static String packageName = "com.google.android.apps.playconsole",
-            solution = "Google",
-            project = "Play Console_5.0.016";
+    public static String packageName = "com.whatsapp",
+            solution = "User",
+            project = "com.whatsapp";
 
     public static String writeDir = Config.defaultWrite + "values", //values directory to write new color file
             baseDir = Config.getVTSDir(solution, project), //values source directory

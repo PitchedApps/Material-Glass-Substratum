@@ -15,6 +15,6 @@ public class Config {
     }
 
     public static String getThemedDir(String packageName) {
-        return String.format("substratum/src/main/assets/overlays/%s/res/", packageName);
+        return String.format("substratum/src/sample/assets/overlays/%s/res/", packageName);
     }
 }

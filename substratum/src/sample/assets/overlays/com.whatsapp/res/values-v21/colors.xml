@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <color name="background_tab_pressed">#55ffffff</color>
     <color name="list_item_selected">#55ffffff</color>
 
@@ -23,18 +24,8 @@
     <color name="btn_green_pressed">#ff1aa94c</color>
     <color name="button_light_gray">#55555555</color>
 
-    <!--<color name="call_answer">#ff09d261</color>-->
-    <!--<color name="call_decline">#ffe91c43</color>-->
-    <!--<color name="common_action_bar_splitter">#ffd2d2d2</color>-->
-    <!--<color name="common_signin_btn_dark_text_default">@android:color/white</color>-->
-    <!--<color name="common_signin_btn_dark_text_disabled">#ffaaaaaa</color>-->
-    <!--<color name="common_signin_btn_dark_text_focused">@android:color/white</color>-->
-    <!--<color name="common_signin_btn_dark_text_pressed">@android:color/white</color>-->
-    <!--<color name="common_signin_btn_default_background">#ffdd4b39</color>-->
-    <!--<color name="common_signin_btn_light_text_default">#ff737373</color>-->
-    <!--<color name="common_signin_btn_light_text_disabled">#ffaaaaaa</color>-->
-    <!--<color name="common_signin_btn_light_text_focused">#ff737373</color>-->
-    <!--<color name="common_signin_btn_light_text_pressed">@android:color/white</color>-->
+    <color name="call_answer">#ff09d261</color> -->
+    <color name="call_decline">#ffe91c43</color> -->
     <color name="composing">#ff09d261</color>
     <color name="contact_phone_type">#80ffffff</color>
     <color name="conversation_background">@android:color/transparent</color>
@@ -44,7 +35,6 @@
     <color name="dark_gray">#ddffffff</color>
     <color name="description_gray">#aaffffff</color>
 
-    <color name="disabled_button_text_color">#42ffffff</color>
     <color name="disabled_text_color_darker">#55ffffff</color>
     <color name="disabled_text_color_lighter">#55ffffff</color>
     <color name="divider_gray">#11ffffff</color>
@@ -59,20 +49,13 @@
     <color name="gray_activity">@android:color/transparent</color>
     <color name="group_admin">#ff4abc34</color>
 
-    <color name="light_gray">#f0f</color><!--???-->
+    <color name="light_gray">#ff37657A</color> <!--???-->
     <color name="link_color_incoming">#ff2b9fd9</color>
     <color name="link_color_outgoing">#ff14a1b3</color>
     <color name="list_item_info">#74ffffff</color>
     <color name="list_item_sub_title">#8affffff</color>
     <color name="list_item_title">#deffffff</color>
 
-    <color name="material_grey_100">#ff37657A</color>
-    <color name="material_grey_300">#ff37657A</color>
-    <color name="material_grey_50">#ff37657A</color>
-    <color name="material_grey_600">#ff37657A</color>
-    <color name="material_grey_800">#ff37657A</color>
-    <color name="material_grey_850">#ff37657A</color>
-    <color name="material_grey_900">#ff37657A</color>
     <color name="media_message_progress_determinate">#ff09d261</color>
     <color name="media_message_progress_indeterminate">#ffffffff</color>
     <color name="music_scrubber">#ffffad1f</color>
@@ -84,20 +67,19 @@
     <color name="primary_dark_voip">#ff37657A</color>
 
     <color name="primary_voip">#ff37657A</color>
-    <color name="red">#ff8b0000</color>
-    <color name="row_1">#f0f</color>
-    <color name="row_2">#f0f</color>
+    <color name="row_1">#ff37657A</color><!--???-->
+    <color name="row_2">#ff37657A</color>
     <color name="search_text_highlight">#ff32afff</color>
 
     <color name="section_text">#fff</color>
     <color name="starred_list_background">@android:color/transparent</color>
-   
+
     <color name="tab_indicator">#ffffffff</color>
     <color name="transparent_actionbar_background">@android:color/transparent</color>
     <color name="voice_note_scrubber_blue">#ff03a9f4</color>
     <color name="voice_note_scrubber_green">#ff09d261</color>
     <color name="voice_note_scrubber_grey">#ff93a98b</color>
-    <color name="white">#ffffffff</color>
+    <color name="white">#122f68</color>
 
     <!--2016/06/14-->
     <color name="about_statusbar">#ff112d2e</color>
@@ -107,4 +89,40 @@
     <color name="home_row_selection">#0dffffff</color>
 
 
+    <color name="accent_dark">#ff128c7e</color>
+    <color name="accent_dark_30">#1e128c7e</color>
+    <color name="accent_light">#ff26a69a</color>
+    <color name="body_gray">#deffffff</color>
+    <color name="body_light_gray">#8affffff</color>
+    <color name="btn_gray_registration">#30000000</color>
+    <color name="btn_green_registration">#3025d366</color>
+    <color name="design_bottom_navigation_shadow_color">#14000000</color>
+    <color name="list_item_verified_title">#ff128c7e</color>
+    <color name="live_location_duration_background">#cc000000</color>
+    <color name="live_location_duration_gray">#30222222</color>
+    <color name="live_location_expired_background">#0f000000</color>
+    <color name="live_location_expired_text">#7effffff</color>
+    <color name="live_location_live_location_marker">#4c25d366</color>
+    <color name="live_location_stale_location_marker">#4cfe0000</color>
+    <color name="live_location_stop_sharing_red">#ffd0021b</color>
+    <color name="media_message_progress_background">#20ffffff</color>
+    <color name="media_view_action_bar_background">#33000000</color>
+    <color name="media_view_footer_background">#66000000</color>
+    <color name="media_view_status_bar_background">#cc000000</color>
+    <color name="mention_annotation_on_dark">#7fffffff</color>
+    <color name="mention_annotation_on_green">#ffc0d6a7</color>
+    <color name="mention_annotation_on_white">#fff</color>
+    <color name="mention_divider_dark_theme">#33ffffff</color>
+    <color name="mention_link_color_on_dark">#ff00b0ff</color>
+    <color name="mention_picker_dark_theme_background">#cc161d21</color>
+    <color name="mention_preview_dark">#ff626262</color>
+    <color name="mention_primary_text_color_dark_theme">#ffffffff</color>
+    <color name="mention_pushname_dark_theme">#7fffffff</color>
+    <color name="multi_selection">#4c32b5e4</color>
+    <color name="pin_hint_color">#4c263238</color>
+    <color name="red_button_text">#ffd60909</color>
+    <color name="registration_status_bar">#66000000</color>
+    <color name="selection_check_background">#8000b09e</color>
+    <color name="status_normal">#8cffffff</color>
+    <color name="status_seen">#ffbbbec4</color>
 </resources>
