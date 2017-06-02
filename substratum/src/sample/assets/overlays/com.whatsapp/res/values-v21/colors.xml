@@ -24,8 +24,8 @@
     <color name="btn_green_pressed">#ff1aa94c</color>
     <color name="button_light_gray">#55555555</color>
 
-    <color name="call_answer">#ff09d261</color> -->
-    <color name="call_decline">#ffe91c43</color> -->
+    <color name="call_answer">#ff09d261</color>
+    <color name="call_decline">#ffe91c43</color>
     <color name="composing">#ff09d261</color>
     <color name="contact_phone_type">#80ffffff</color>
     <color name="conversation_background">@android:color/transparent</color>
