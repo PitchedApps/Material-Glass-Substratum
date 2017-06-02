@@ -28,7 +28,7 @@
 	<color name="person_follow_blue">#ff4285f4</color>
 	<color name="person_follow_green">#ff56a843</color>
 	<color name="play_action_button_pressed_grey">#80f0f0f0</color>
-	<color name="play_apps_light">#ff689f38</color>
+	<color name="play_apps_light">#ff689f38</color>-->
 	<color name="play_apps_primary">#ff689f38</color>
 	<color name="play_apps_primary_disabled">#a2689f38</color>
 	<color name="play_apps_secondary">#a2558b2f</color>
@@ -148,12 +148,12 @@
 	<color name="whatsnew_music">#11000000</color>
 	<color name="whatsnew_newsstand">#11000000</color>
 	<color name="white">#88000000</color>
-	<color name="your_review_label_bg_color">#80161616</color>-->
+	<color name="your_review_label_bg_color">#80161616</color>
 
 
 	<!--2017/04/22-->
 
-	<!--<color name="account_inline_notification_bg">#fff0f4c3</color>
+	<color name="account_inline_notification_bg">#fff0f4c3</color>
 	<color name="account_separator">#1fffffff</color>
 	<color name="borderless_dark_button_select">#33ffffff</color>
 	<color name="borderless_light_button_select">#33ffffff</color>
@@ -193,5 +193,5 @@
 	<color name="play_uninstall_wizard_title_color">#fff</color>
 	<color name="review_question_bg">#80000000</color>
 	<color name="review_question_option_text">#fff</color>
-	<color name="testing_program_cap_reached_message_bg">#80000000</color> -->
+	<color name="testing_program_cap_reached_message_bg">#80000000</color>
 </resources>
