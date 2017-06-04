@@ -26,7 +26,7 @@ notifications:
   email: false
   slack:
     rooms:
-    - material-glass:3g8FdINZEkvR2UvRGDGMyXfJ#travis
+    - pitchedapps:G5OB9U1vsDxy9mxt0Nt6gbFu#material-glass
     on_success: always
     on_failure: always
     template:
