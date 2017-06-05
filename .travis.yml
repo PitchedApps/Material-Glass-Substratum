@@ -18,7 +18,7 @@ before_install:
 - echo -e "\n84831b9409646a918e30573bab4c9c91346d8abd" > "$ANDROID_HOME/licenses/android-sdk-preview-license"
 before_script:
 - sudo add-apt-repository ppa:isage-dna/imagick -y
-- sudo apt-get update -qq -y
+- sudo apt-get update -qq
 - sudo apt-get --reinstall install imagemagick -y
 - chmod +x ./scripts/overlay-migration.sh
 - "./scripts/overlay-migration.sh"
