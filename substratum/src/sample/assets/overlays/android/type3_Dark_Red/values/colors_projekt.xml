@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?><resources>
-<color name="resolver_list_bg">#a0000000</color>
-<color name="immersive_cling_bg_color">#a0000000</color>
-<color name="immersive_cling_text_color">#F44336</color>
-<color name="immersive_cling_button_text_color">#F44336</color>
-<color name="app_permission_icon_tint">#F44336</color>
-<color name="notification_text_default_color">#F44336</color>
-<color name="sender_text_color">#F44336</color>
-</resources> 

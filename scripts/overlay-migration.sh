@@ -175,12 +175,12 @@ main() {
     printf "\nDone\n"
 }
 
-skipPng=true
+#skipPng=true
 # skipXml=true
 
-#main
+main
 
-migratePackage com.whatsapp
+#migratePackage com.whatsapp
 
 #cd scripts
 #sh overlay-verify.sh
