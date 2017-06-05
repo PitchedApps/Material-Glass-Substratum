@@ -17,13 +17,8 @@ before_install:
 - echo -e "\n8933bad161af4178b1185d1a37fbf41ea5269c55" > "$ANDROID_HOME/licenses/android-sdk-license"
 - echo -e "\n84831b9409646a918e30573bab4c9c91346d8abd" > "$ANDROID_HOME/licenses/android-sdk-preview-license"
 before_script:
-- wget https://www.imagemagick.org/download/ImageMagick-7.0.5-10.tar.gz
-- tar xvzf ImageMagick-7.0.5-10.tar.gz
-- cd ImageMagick-7.0.5-10
-- ./configure
-- make
-- sudo make install
-- sudo ldconfig /usr/local/lib
+- chmod +x ./scripts/install-magick.sh
+- "./scripts/install-magick.sh"
 - identify -version
 - chmod +x ./scripts/overlay-migration.sh
 - "./scripts/overlay-migration.sh"
