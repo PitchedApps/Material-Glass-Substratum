@@ -44,7 +44,7 @@
 <item name="android:shadowRadius">0.0</item>
 <item name="android:lineSpacingMultiplier">1.25</item>
 </style>
-<style name="SettingsCategoryFooter" parent="@style/Text.Description">
+<style name="SettingsCategoryFooter" parent="@*com.whatsapp:style/Text.Description">
 <item name="android:textColor">#fff</item>
 <item name="android:gravity">fill_horizontal</item>
 <item name="android:background">#80000000</item>
@@ -52,7 +52,7 @@
 <item name="android:layout_width">fill_parent</item>
 <item name="android:layout_height">wrap_content</item>
 </style>
-<style name="Text.Description" parent="@style/Text">
+<style name="Text.Description" parent="@*com.whatsapp:style/Text">
 <item name="android:textSize">16.0sp</item>
 <item name="android:typeface">sans</item>
 <item name="android:textStyle">normal</item>
@@ -65,7 +65,7 @@
 <item name="android:shadowRadius">0.0</item>
 <item name="android:lineSpacingMultiplier">1.25</item>
 </style>
-<style name="Text.Field" parent="@style/Text">
+<style name="Text.Field" parent="@*com.whatsapp:style/Text">
 <item name="android:typeface">sans</item>
 <item name="android:textStyle">normal</item>
 <item name="android:textColor">#fff</item>
@@ -75,7 +75,7 @@
 <item name="android:shadowRadius">0.0</item>
 <item name="android:lineSpacingMultiplier">1.25</item>
 </style>
-<style name="Text.FieldHeader" parent="@style/Text">
+<style name="Text.FieldHeader" parent="@*com.whatsapp:style/Text">
 <item name="android:textSize">12.0sp</item>
 <item name="android:typeface">sans</item>
 <item name="android:textStyle">normal</item>
@@ -92,7 +92,7 @@
 <item name="android:shadowRadius">0.0</item>
 <item name="android:lineSpacingMultiplier">1.25</item>
 </style>
-<style name="Text.Header" parent="@style/Text">
+<style name="Text.Header" parent="@*com.whatsapp:style/Text">
 <item name="android:textSize">19.0dip</item>
 <item name="android:typeface">sans</item>
 <item name="android:textStyle">bold</item>
@@ -111,7 +111,7 @@
 <item name="android:shadowRadius">1.0</item>
 <item name="android:lineSpacingMultiplier">1.0</item>
 </style>
-<style name="Text.Steps" parent="@style/Text">
+<style name="Text.Steps" parent="@*com.whatsapp:style/Text">
 <item name="android:textSize">15.0sp</item>
 <item name="android:typeface">sans</item>
 <item name="android:textStyle">normal</item>
@@ -125,7 +125,7 @@
 <item name="android:shadowRadius">0.0</item>
 <item name="android:lineSpacingMultiplier">1.0</item>
 </style>
-<style name="Text.Bullet" parent="@style/Text.Steps">
+<style name="Text.Bullet" parent="@*com.whatsapp:style/Text.Steps">
 <item name="android:textStyle">bold</item>
 <item name="android:textColor">#fff</item>
 <item name="android:paddingRight">4.0dip</item>
@@ -197,9 +197,9 @@
 <item name="android:textSize">20.0dip</item>
 <item name="android:textColor">#fff</item>
 </style>
-<style name="Theme.Prefs" parent="@*com.whatsapp:style/Theme.App">
-<item name="android:icon">@null</item>
+<style name="Theme.Prefs" parent="$:style/Theme.App">
+<item name="android:icon">@*com.whatsapp:null</item>
 <item name="android:backgroundTint">#80000000</item>
 </style>
-<style name="Toolbar" parent="@*com.whatsapp:style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+<style name="Toolbar" parent="$:style/ThemeOverlay.AppCompat.Dark.ActionBar" />
 </resources> 

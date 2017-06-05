@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shape android:id="@id/gray_placeholder" xmlns:android="http://schemas.android.com/apk/res/android">
+<shape android:id="@*com.whatsapp:id/gray_placeholder" xmlns:android="http://schemas.android.com/apk/res/android">
 <padding android:left="2.0dip" android:top="2.0dip" android:right="2.0dip" android:bottom="2.0dip" />
 <solid android:color="#111" />
 </shape> 
