@@ -175,8 +175,8 @@ main() {
     printf "\nDone\n"
 }
 
-# skipPng=true
-skipXml=true
+skipPng=true
+# skipXml=true
 
 #main
 
