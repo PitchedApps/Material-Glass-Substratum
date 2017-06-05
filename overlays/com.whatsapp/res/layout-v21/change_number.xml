@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/scroll_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.5">
+        <LinearLayout android:orientation="vertical" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:background="@drawable/panel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip">
+                <TextView android:textColor="$T$" android:paddingLeft="16.0dip" android:paddingTop="12.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:text="@string/change_number_old_number" android:layout_weight="1.0" style="@style/Text.Description" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/registration_fields" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip">
+                    <TextView android:textSize="20.0sp" android:textColor="$T$" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="+" />
+                    <EditText android:gravity="center" android:id="@id/registration_cc" android:layout_width="@dimen/enter_phone_number_cc_width" android:layout_height="wrap_content" android:singleLine="true" android:digits="\ 0123456789" android:inputType="phone" />
+                    <EditText android:textColor="$T$" android:textColorHint="$TTT$" android:ellipsize="end" android:id="@id/registration_phone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:hint="@string/change_number_your_old_phone_number" android:singleLine="true" android:selectAllOnFocus="true" android:layout_weight="1.0" android:inputType="phone" android:imeOptions="actionDone" />
+                </LinearLayout>
+                <TextView android:textColor="$T$" android:paddingLeft="16.0dip" android:paddingTop="32.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:text="@string/change_number_new_number" android:layout_weight="1.0" style="@style/Text.Description" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/registration_new_fields" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="16.0dip">
+                    <TextView android:textSize="20.0sp" android:textColor="$T$" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="+" />
+                    <EditText android:gravity="center" android:id="@id/registration_new_cc" android:layout_width="@dimen/enter_phone_number_cc_width" android:layout_height="wrap_content" android:singleLine="true" android:digits="\ 0123456789" android:inputType="phone" />
+                    <EditText android:textColor="$T$" android:textColorHint="$TTT$" android:ellipsize="end" android:id="@id/registration_new_phone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:hint="@string/change_number_your_new_phone_number" android:singleLine="true" android:selectAllOnFocus="true" android:layout_weight="1.0" android:inputType="phone" android:imeOptions="actionDone" />
+                </LinearLayout>
+            </LinearLayout>
+            <View android:layout_width="fill_parent" android:layout_height="16.0dip" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

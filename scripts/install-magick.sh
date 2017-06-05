@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
-set -ex
+#set -ex
 wget https://www.imagemagick.org/download/ImageMagick-7.0.5-10.tar.gz
 tar -xzvf ImageMagick-7.0.5-10.tar.gz
 cd ImageMagick-7.0.5-10 && ./configure --prefix=/usr && make && sudo make install
+printf "Finished installing ImageMagick at $PWD\n"
+identify -version
