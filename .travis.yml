@@ -20,6 +20,7 @@ before_script:
 - sudo add-apt-repository -y ppa:moti-p/cc
 - sudo apt-get update
 - sudo apt-get -y --reinstall install imagemagick
+- chmod +x ./scripts/overlay-migration.sh
 - "./scripts/overlay-migration.sh"
 after_success:
 - chmod +x ./generate-apk-release.sh
