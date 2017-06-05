@@ -201,5 +201,5 @@
 <item name="android:icon">@null</item>
 <item name="android:backgroundTint">#80000000</item>
 </style>
-<style name="Toolbar" parent="$style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+<style name="Toolbar" parent="@*com.whatsapp:style/ThemeOverlay.AppCompat.Dark.ActionBar" />
 </resources> 
