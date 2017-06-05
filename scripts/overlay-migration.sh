@@ -86,8 +86,8 @@ migrateXml() {
     content="$(echo "$content" | perl -0777 -pe 's/<!--.*?-->//smg')"
     content="$(echo "$content" | tr '[:space:]' ' ' | tr -s ' ' )"
     content="$(echo "$content" | perl -0777 -pe 's/> </>\n</smg')"
-    # Replace all references with package private ones
-    content="$(echo "$content" | perl -0777 -pe "s/\@(?!android)/@*$2:/smg")"
+    # Replace all references with package private ones; note that $2 is the package name, not from the regex expression
+    content="$(echo "$content" | perl -0777 -pe "s/\@(style|drawable|dimen|string|id|color)/@*$2:\1/smg")"
     for theme in scripts/themes/*.sh; do
         themeName="$(basename ${theme%.*})"
         local newF="$(newF "$2" "$themeName" "$3")"
@@ -175,8 +175,8 @@ main() {
     printf "\nDone\n"
 }
 
-skipPng=true
-#skipXml=true
+# skipPng=true
+skipXml=true
 
 #main
 

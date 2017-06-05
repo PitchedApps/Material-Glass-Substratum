@@ -197,9 +197,9 @@
 <item name="android:textSize">20.0dip</item>
 <item name="android:textColor">#fff</item>
 </style>
-<style name="Theme.Prefs" parent="$:style/Theme.App">
-<item name="android:icon">@*com.whatsapp:null</item>
+<style name="Theme.Prefs" parent="@*com.whatsapp:style/Theme.App">
+<item name="android:icon">@null</item>
 <item name="android:backgroundTint">#80000000</item>
 </style>
-<style name="Toolbar" parent="$:style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+<style name="Toolbar" parent="@*com.whatsapp:style/ThemeOverlay.AppCompat.Dark.ActionBar" />
 </resources> 
