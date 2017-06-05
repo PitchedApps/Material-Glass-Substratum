@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Global
-cd ..
+# cd ..
 rootDir="$PWD"
 output="substratum/src/sample/assets/overlays/"
 skipPng=false
