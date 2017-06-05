@@ -7,7 +7,7 @@
 <color name="action_mode_dark">#F44336</color>
 <color name="actionbar_separator">#10F44336</color>
 <color name="archived">#111</color>
-<color name="attach_popup_background">#cc060606</color>
+<color name="attach_popup_background">#060606</color>
 <color name="avatar_broadcast_large">#ff5b7c8c</color>
 <color name="avatar_contact_large">#ff73bfb8</color>
 <color name="avatar_group_large">#ff86cf9b</color>
@@ -22,7 +22,7 @@
 <color name="call_decline">#ffe91c43</color>
 <color name="composing">#ff09d261</color>
 <color name="contact_phone_type">#ddF44336</color>
-<color name="conversation_background">@android:color/transparent</color>
+<color name="conversation_background">#000</color>
 <color name="conversation_row_date">#88F44336</color>
 <color name="conversation_row_image_text">#F44336</color>
 <color name="conversations_text_gray">#ddF44336</color>
@@ -67,7 +67,7 @@
 <color name="voice_note_scrubber_blue">#ff03a9f4</color>
 <color name="voice_note_scrubber_green">#ff09d261</color>
 <color name="voice_note_scrubber_grey">#ff93a98b</color>
-<color name="white">#000</color>
+<color name="white">#f32c1e</color>
 <color name="about_statusbar">#f32c1e</color>
 <color name="camera_thumb">#30F44336</color>
 <color name="chat_info_activity">#000</color>

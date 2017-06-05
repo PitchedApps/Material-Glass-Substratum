@@ -161,4 +161,28 @@
 <item name="android:layout_height">wrap_content</item>
 <item name="android:drawablePadding">4.0dip</item>
 </style>
+<style name="RegistrationTitle" parent="@android:style/Widget.TextView">
+<item name="android:textSize">18.0sp</item>
+<item name="android:textColor">#F44336</item>
+<item name="android:gravity">center</item>
+<item name="android:layout_width">wrap_content</item>
+<item name="android:layout_height">wrap_content</item>
+<item name="android:fontFamily">sans-serif-medium</item>
+</style>
+<style name="WhatsAppButton">
+<item name="android:textSize">14.0sp</item>
+<item name="android:textColor">#F44336</item>
+<item name="android:ellipsize">end</item>
+<item name="android:gravity">center</item>
+<item name="android:paddingLeft">24.0dip</item>
+<item name="android:paddingTop">0.0dip</item>
+<item name="android:paddingRight">24.0dip</item>
+<item name="android:paddingBottom">0.0dip</item>
+<item name="android:layout_width">wrap_content</item>
+<item name="android:layout_height">36.0dip</item>
+<item name="android:minHeight">36.0dip</item>
+<item name="android:singleLine">true</item>
+<item name="android:textAllCaps">true</item>
+<item name="android:fontFamily">sans-serif-medium</item>
+</style>
 </resources> 
