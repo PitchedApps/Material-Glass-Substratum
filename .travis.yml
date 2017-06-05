@@ -17,7 +17,7 @@ before_install:
 - echo -e "\n8933bad161af4178b1185d1a37fbf41ea5269c55" > "$ANDROID_HOME/licenses/android-sdk-license"
 - echo -e "\n84831b9409646a918e30573bab4c9c91346d8abd" > "$ANDROID_HOME/licenses/android-sdk-preview-license"
 before_script:
-- apt-get install imagemagick
+- sudo apt-get install imagemagick
 - chmod +x ./scripts/overlay-migration.sh
 - "./scripts/overlay-migration.sh"
 after_success:
@@ -37,7 +37,7 @@ notifications:
     - "MG Build <%{build_url}|#%{build_number}> (<%{compare_url}|%{commit}>) %{result} in %{duration}"
     - "%{commit_subject}"
     - "<https://github.com/PitchedApps/Material-Glass-Test-Builds/releases/tag/v%{build_number}|APK Download>"
-sudo: false
+sudo: true
 cache:
   directories:
   - "$HOME/.m2"
