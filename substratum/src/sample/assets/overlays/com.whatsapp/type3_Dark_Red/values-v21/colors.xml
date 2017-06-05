@@ -23,7 +23,7 @@
 <color name="composing">#ff09d261</color>
 <color name="contact_phone_type">#ddF44336</color>
 <color name="conversation_background">#000</color>
-<color name="conversation_row_date">#88F44336</color>
+<color name="conversation_row_date">#bb000000</color>
 <color name="conversation_row_image_text">#F44336</color>
 <color name="conversations_text_gray">#ddF44336</color>
 <color name="dark_gray">#ddF44336</color>

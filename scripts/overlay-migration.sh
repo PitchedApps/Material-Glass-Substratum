@@ -86,6 +86,7 @@ migrateXml() {
     content="$(echo "$content" | perl -0777 -pe 's/<!--.*?-->//smg')"
     content="$(echo "$content" | tr '[:space:]' ' ' | tr -s ' ' )"
     content="$(echo "$content" | perl -0777 -pe 's/> </>\n</smg')"
+    content="$(echo "$content" | perl -0777 -pe "s/\\\$:/@\\*$2:/smg")"
     for theme in scripts/themes/*.sh; do
         themeName="$(basename ${theme%.*})"
         local newF="$(newF "$2" "$themeName" "$3")"

@@ -11,8 +11,10 @@
 #    fi
 #done
 #printf "Done\n"
-
-content="This<!--is-->a test"
+package="com.whatsapp"
+content="This<!--is-->a test \$:style"
 content="$(echo "$content" | perl -0777 -pe 's/<!--.*?-->//smg')"
 content="$(echo "$content" | tr '[:space:]' ' ' | tr -s ' ')"
+content="$(echo "$content" | perl -0777 -pe "s/\\\$:/@\\*$package:/smg")"
 echo "$content"
+read -p "Press enter to continue"
