@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="activity_card_bg_normal">$C$</color>
+    <color name="activity_feed_story_hairline_bg">#22ffffff</color>
+
+    <color name="bg_actionbar">$CCC$</color>
+    <color name="bg_button_light_normal">@android:color/transparent</color>
+    <color name="bg_button_light_pressed">#5086b410</color>
+    <color name="bg_cell_focused">$R$</color>
+    <color name="bg_cell_normal">@android:color/transparent</color>
+    <color name="bg_cell_pressed">$R$</color>
+    <color name="bg_cell_selected">$RR$</color>
+    <color name="bg_divider">$RR$</color>
+    <color name="bg_login">$B$</color>
+    <color name="bg_medium_grey">$B$</color>
+    <color name="bg_placeholder">$B$</color>
+    <color name="bg_popup">$D$</color>
+    <color name="bg_pressed">$BB$</color>
+    <color name="bg_translucent">$B$</color>
+    <color name="bg_transparent">@android:color/transparent</color>
+    <color name="bg_x_promo_welcome">$D$</color>
+
+    <!--colorPrimary-->
+    <color name="cat_grayscale_8">$O$</color>
+    <color name="cat_grayscale_12">$B$</color>
+    <color name="cat_grayscale_20">$CC$</color>
+    <!--<color name="cat_grayscale_25">$CCC$</color>-->
+    <color name="cat_grayscale_15">$B$</color>
+
+    <color name="cat_button_info_background_default">@android:color/transparent</color>
+    <color name="cat_button_info_background_disabled">$C$</color>
+    <color name="cat_button_info_background_focused">$R$</color>
+    <color name="cat_button_info_background_pressed">$R$</color>
+
+    <color name="share_edit_text_bg">$B$</color>
+    <color name="txt_button_light_normal">$T$</color>
+    <color name="txt_cell_title_normal">$T$</color>
+    <color name="txt_dialog_text">$T$</color>
+    <color name="txt_offline_placeholder_title">$T$</color>
+    <color name="txt_premium_signup_error_web_title">$T$</color>
+    <color name="txt_update_footer">$T$</color>
+</resources>
