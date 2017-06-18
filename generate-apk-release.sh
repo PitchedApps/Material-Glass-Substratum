@@ -44,6 +44,8 @@ else
     mkdir $HOME/${VERSION_KEY}/
     # copy generated apk from build folder to the folder just created
     cp -a ${MODULE_NAME}/build/outputs/apk $HOME/${VERSION_KEY}
+    ls -a ${MODULE_NAME}/build/outputs/apk
+    ls -a $HOME/${VERSION_KEY}
 
     echo "Create New Release"
     API_JSON="$(printf '{"tag_name": "v%s","target_commitish": "master","name": "v%s","body": "Automatic Release v%s","draft": false,"prerelease": false}' $TRAVIS_BUILD_NUMBER $TRAVIS_BUILD_NUMBER $TRAVIS_BUILD_NUMBER)"
