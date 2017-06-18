@@ -50,13 +50,12 @@ else
     newRelease="$(curl --data "$API_JSON" https://api.github.com/repos/$RELEASE_REPO/releases?access_token=$GITHUB_API_KEY)"
     rID="$(echo "$newRelease" | jq ".id")"
 
-    cd $HOME
+    cd $HOME/$VERSION_KEY
     echo "Push apk to $rID"
-    cd $VERSION_KEY
-    for apk in *.apk; do
+    for apk in MGS*.apk; do
       apkName="${apk::-4}"
       printf "Apk $apkName\n"
-      curl "https://uploads.github.com/repos/${RELEASE_REPO}/releases/${rID}/assets?access_token=${GITHUB_API_KEY}&name=${apkName}-v${TRAVIS_BUILD_NUMBER}.apk" --header 'Content-Type: application/zip' --upload-file ./$apk -X POST
+      curl "https://uploads.github.com/repos/${RELEASE_REPO}/releases/${rID}/assets?access_token=${GITHUB_API_KEY}&name=${apkName}-v${TRAVIS_BUILD_NUMBER}.apk" --header 'Content-Type: application/zip' --upload-file $apkName.apk -X POST
     done
 fi
 
