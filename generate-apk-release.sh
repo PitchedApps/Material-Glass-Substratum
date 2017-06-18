@@ -43,7 +43,7 @@ else
     # create a new directory that will contain our generated apk
     mkdir $HOME/${VERSION_KEY}/
     # copy generated apk from build folder to the folder just created
-    cp -a ${MODULE_NAME}/build/outputs/apk $HOME/${VERSION_KEY}
+    cp -a ${MODULE_NAME}/build/outputs/apk/. $HOME/${VERSION_KEY}/
     ls -a ${MODULE_NAME}/build/outputs/apk
     ls -a $HOME/${VERSION_KEY}
 
