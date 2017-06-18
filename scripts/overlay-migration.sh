@@ -197,7 +197,7 @@ main() {
 # skipXml=true
 
 main
-read -p "done"
+# read -p "done"
 
 #cd scripts
 #sh overlay-verify.sh

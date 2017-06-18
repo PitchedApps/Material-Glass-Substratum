@@ -9,17 +9,13 @@ endsWith() {
     return 1
 }
 
-printf "Starting tint rename\n"
-cd ..
-if [ -d factory/tint/output ]; then # clean build dir
-    rm -r factory/tint/output
-fi
-mkdir factory/tint/output
-cd factory/tint
-for f in *.png; do
-    name="${f::-4}"
-    printf "$name\n"
-    name="${name}_tint.png"
-    cp -a "$f" "output/$name"
+cd overlays
+
+for f in $(find . -type f); do
+  if endsWith "$f" "_tint.png"; then
+      newF="${f::-9}.png"
+      printf "$f\n"
+      mv "$f" "$newF"
+  fi
 done
-printf "Done\n"
+read -p "done"
