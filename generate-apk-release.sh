@@ -43,7 +43,7 @@ else
     # create a new directory that will contain our generated apk
     mkdir $HOME/${VERSION_KEY}/
     # copy generated apk from build folder to the folder just created
-    cp -a ${MODULE_NAME}/build/outputs/apk/ $HOME/${VERSION_KEY}/
+    cp -a ${MODULE_NAME}/build/outputs/apk $HOME/${VERSION_KEY}
 
     echo "Create New Release"
     API_JSON="$(printf '{"tag_name": "v%s","target_commitish": "master","name": "v%s","body": "Automatic Release v%s","draft": false,"prerelease": false}' $TRAVIS_BUILD_NUMBER $TRAVIS_BUILD_NUMBER $TRAVIS_BUILD_NUMBER)"
@@ -52,7 +52,7 @@ else
 
     cd $HOME/${VERSION_KEY}
     echo "Push apk to $rID"
-    for apk in MGS*.apk; do
+    for apk in $(find MGS*.apk -type f); do
       apkName="${apk::-4}"
       printf "Apk $apkName\n"
       curl "https://uploads.github.com/repos/${RELEASE_REPO}/releases/${rID}/assets?access_token=${GITHUB_API_KEY}&name=${apkName}-v${TRAVIS_BUILD_NUMBER}.apk" --header 'Content-Type: application/zip' --upload-file $apkName.apk -X POST
