@@ -16,7 +16,7 @@ android {
     applicationVariants.all { variant ->
         variant.outputs.each { output ->
             output.outputFile = new File(output.outputFile.parent,
-                    "${APP_TAG_SHORT}-${variant.productFlavors[0].name}-${variant.productFlavors[2].name}.apk")
+                    "${APP_TAG_SHORT}-${variant.productFlavors[1].name}.apk")
         }
     }
 
@@ -36,7 +36,7 @@ android {
         }
     }
 
-    flavorDimensions("complete_assets", "delta", "base")
+    flavorDimensions("delta", "base")
     productFlavors {
 
         //deltas contain components that are wip
@@ -50,36 +50,29 @@ android {
         //base contains actual build flavours
         Clear_sample {
             dimension "base"
-            resValue "string", "app_name", "Material Glass - Clear - Test"
+            resValue "string", "app_name", "MGlass Clear Test"
             signingConfig signingConfigs.test
         }
         Clear_full {
             dimension "base"
-            resValue "string", "app_name", "Material Glass"
+            resValue "string", "app_name", "MGlass Clear"
             signingConfig signingConfigs.test
         }
         Dark_sample {
             dimension "base"
-            resValue "string", "app_name", "Material Glass - Dark - Test"
+            resValue "string", "app_name", "MGlass Dark Test"
             signingConfig signingConfigs.test
         }
         Dark_full {
             dimension "base"
-            resValue "string", "app_name", "Material Glass - Dark"
+            resValue "string", "app_name", "MGlass Dark"
             signingConfig signingConfigs.test
-        }
-
-        o { //overlays only
-            dimension "complete_assets"
-        }
-        c { //includ other assets
-            dimension "complete_assets"
         }
     }
 
     variantFilter { variant ->
-        def delta = variant.getFlavors().get(1).name
-        def base = variant.getFlavors().get(2).name
+        def delta = variant.getFlavors().get(0).name
+        def base = variant.getFlavors().get(1).name
         def theme = base.split('_')[0]
         if (!delta.startsWith(theme)) {
             variant.setIgnore(true);

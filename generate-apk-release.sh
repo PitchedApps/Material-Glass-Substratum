@@ -44,7 +44,6 @@ else
     mkdir $HOME/${VERSION_KEY}/
     # copy generated apk from build folder to the folder just created
     cp -a ${MODULE_NAME}/build/outputs/apk/. $HOME/${VERSION_KEY}/
-    ls -a ${MODULE_NAME}/build/outputs/apk
     ls -a $HOME/${VERSION_KEY}
 
     echo "Create New Release"
