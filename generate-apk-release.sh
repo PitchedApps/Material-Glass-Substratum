@@ -41,16 +41,16 @@ if [ -s "builds/log.txt" ]; then    # error occurred
 
 else
     # create a new directory that will contain our generated apk
-    mkdir $HOME/$VERSION_KEY/
+    mkdir $HOME/${VERSION_KEY}/
     # copy generated apk from build folder to the folder just created
-    cp -a $MODULE_NAME/build/outputs/apk $HOME/$VERSION_KEY/
+    cp -a ${MODULE_NAME}/build/outputs/apk/ $HOME/${VERSION_KEY}/
 
     echo "Create New Release"
     API_JSON="$(printf '{"tag_name": "v%s","target_commitish": "master","name": "v%s","body": "Automatic Release v%s","draft": false,"prerelease": false}' $TRAVIS_BUILD_NUMBER $TRAVIS_BUILD_NUMBER $TRAVIS_BUILD_NUMBER)"
     newRelease="$(curl --data "$API_JSON" https://api.github.com/repos/$RELEASE_REPO/releases?access_token=$GITHUB_API_KEY)"
     rID="$(echo "$newRelease" | jq ".id")"
 
-    cd $HOME/$VERSION_KEY
+    cd $HOME/${VERSION_KEY}
     echo "Push apk to $rID"
     for apk in MGS*.apk; do
       apkName="${apk::-4}"
