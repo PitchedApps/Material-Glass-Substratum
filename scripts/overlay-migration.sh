@@ -9,7 +9,8 @@ skipXml=false
 
 # $1 tag name
 tag() {
-  printf "####################\nMigrating %s\n####################\n" "$1"
+#  printf "####################\nMigrating %s\n####################\n" "$1"
+  printf "Migrating $1\n"
 }
 
 # $1 theme
@@ -128,7 +129,7 @@ migrate() {
   if endsWith "$f" ".png" && $skipPng ; then
     continue
   fi
-  printf "Migrating $f\n"
+#  printf "Migrating $f\n"
   if [ "$f" == "appcompat.txt" ]; then
     (portAppcompat "$1" "$2" "$(<"$f")")
     continue
@@ -164,7 +165,7 @@ main() {
               cd ..
             else
               # base file/folder (eg type3/type2_*); copy over
-              printf "Migrating $packageContent\n"
+#              printf "Migrating $packageContent\n"
               (migrateCopy "$flavor" "$package" "$packageContent")
             fi
           done

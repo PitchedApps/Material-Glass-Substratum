@@ -53,7 +53,7 @@ else
     cd $HOME
     echo "Push apk to $rID"
     cd $VERSION_KEY
-    for apk in *.apk;
+    for apk in *.apk; do
       apkName="${apk::-4}"
       curl "https://uploads.github.com/repos/${RELEASE_REPO}/releases/${rID}/assets?access_token=${GITHUB_API_KEY}&name=${apkName}-v${TRAVIS_BUILD_NUMBER}.apk" --header 'Content-Type: application/zip' --upload-file $apk -X POST
     done
