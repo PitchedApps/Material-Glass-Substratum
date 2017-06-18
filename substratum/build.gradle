@@ -15,12 +15,8 @@ android {
 
     applicationVariants.all { variant ->
         variant.outputs.each { output ->
-            if (variant.productFlavors[0].name == "sample")
-                output.outputFile = new File(output.outputFile.parent,
-                        "${APP_TAG_SHORT}-${variant.productFlavors[0].name}.apk")
-            else
-                output.outputFile = new File(output.outputFile.parent,
-                        "${APP_TAG} v${versionName}.apk")
+            output.outputFile = new File(output.outputFile.parent,
+                    "${APP_TAG_SHORT}-${variant.productFlavors[0].name}-${variant.productFlavors[2].name}.apk")
         }
     }
 
@@ -40,17 +36,53 @@ android {
         }
     }
 
+    flavorDimensions("complete_assets", "delta", "base")
     productFlavors {
-        sample {
-            applicationIdSuffix ".sample"
-            resValue "string", "app_name", "Material Glass - Test"
+
+        //deltas contain components that are wip
+        Clear_delta {
+            dimension "delta"
+        }
+        Dark_delta {
+            dimension "delta"
+        }
+
+        //base contains actual build flavours
+        Clear_sample {
+            dimension "base"
+            resValue "string", "app_name", "Material Glass - Clear - Test"
             signingConfig signingConfigs.test
         }
-        full {
-            resValue "string", "app_name", "Material Glass - Substratum"
+        Clear_full {
+            dimension "base"
+            resValue "string", "app_name", "Material Glass"
+            signingConfig signingConfigs.test
         }
-        factory { //just so AS can compile color previews
-            resValue "string", "app_name", "MG Factory"
+        Dark_sample {
+            dimension "base"
+            resValue "string", "app_name", "Material Glass - Dark - Test"
+            signingConfig signingConfigs.test
+        }
+        Dark_full {
+            dimension "base"
+            resValue "string", "app_name", "Material Glass - Dark"
+            signingConfig signingConfigs.test
+        }
+
+        o { //overlays only
+            dimension "complete_assets"
+        }
+        c { //includ other assets
+            dimension "complete_assets"
+        }
+    }
+
+    variantFilter { variant ->
+        def delta = variant.getFlavors().get(1).name
+        def base = variant.getFlavors().get(2).name
+        def theme = base.split('_')[0]
+        if (!delta.startsWith(theme)) {
+            variant.setIgnore(true);
         }
     }
 }

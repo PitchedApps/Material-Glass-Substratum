@@ -24,7 +24,7 @@ after_success:
 - "./generate-apk-release.sh"
 script:
 - cd $TRAVIS_BUILD_DIR/
-- "./gradlew assembleSampleRelease"
+- "./gradlew assembleO"
 notifications:
   email: false
   slack:

@@ -12,39 +12,38 @@ tag() {
   printf "####################\nMigrating %s\n####################\n" "$1"
 }
 
+# $1 theme
+# $2 flavor
+# $3 package
+# $4 folder
+# $5 relative path
+newF() {
+  local base="$outputModule/src/$1_$2/assets/overlays/$3"
+  if [ -z "$5" ]; then # type file
+    echo "$base/$4"
+  else
+    echo "$base/$4/$5" # direct copy; ignore theming
+  fi
+}
+
 # $1 flavor
 # $2 package
 # $3 folder
 # $4 relative path
-# $5 theme
-newF() {
-  local base="$outputModule/src/$1/assets/overlays/$2"
-  if [ -z "$4" ]; then # type file
-    echo "$base/$3"
-  elif [[ "$3" == "res" ]]; then # resource folder
-    if [[ "$5" == "$baseTheme" ]]; then # base theme
-      echo "$base/res/$4"
-    else
-      echo "$base/type3_$5/$4"
-    fi
+migrateCopy() {
+  local orig=""
+  if [ -z "$4" ]; then
+    orig="$(readlink -f "$3")"
   else
-    echo "$base/$3/$4" # direct copy; ignore theming
+    orig="$(readlink -f "$4")"
   fi
-}
-
-# $1 file path
-mkfileP() {
-  [ ! -d "$(dirname "$1")" ] && mkdir -p "$(dirname "$1")"
-  touch "$1";
-}
-
-# $1 relative path
-# $2 output path
-migrateDirect() {
-  local orig=$(readlink -f "$1")
   cd $rootDir
-  [ ! -d "$(dirname "$2")" ] && mkdir -p "$(dirname "$2")"
-  cp -a "$orig" "$2"
+  for theme in scripts/themes/*.sh; do
+    local themeName="$(basename ${theme%.*})"
+    local newF="$(newF "$themeName" "$1" "$2" "$3" "$4")"
+    [ ! -d "$(dirname "$newF")" ] && mkdir -p "$(dirname "$newF")"
+    cp -a "$orig" "$newF"
+  done
 }
 
 # printf $(newF "delta" "com.android" "type2_test" "drawables/test.xml")
@@ -72,20 +71,6 @@ endsWith() {
   return 1
 }
 
-# $1 flavor
-# $2 package
-# $3 file location
-migrateCopy() {
-  local orig=$(readlink -f "$3")
-  cd "$rootDir"
-  for theme in scripts/themes/*.sh; do
-    local themeName="$(basename ${theme%.*})"
-    local newF="$(newF "$1" "$2" "res" "$3" "$themeName")"
-    [ ! -d "$(dirname "$newF")" ] && mkdir -p "$(dirname "$newF")"
-    cp "$orig" "$newF"
-  done
-}
-
 # $1 content
 # $2 flavor
 # $3 package
@@ -102,7 +87,7 @@ migrateXml() {
   content="$(echo "$content" | perl -0777 -pe "s/\@(style|drawable|dimen|string|id|color|layout)/@*$pkg:\1/smg")"
   for theme in scripts/themes/*.sh; do
     local themeName="$(basename ${theme%.*})"
-    local newF="$(newF "$2" "$pkg" "res" "$4" "$themeName")"
+    local newF="$(newF "$themeName" "$2" "$pkg" "res" "$4")"
     [ ! -d "$(dirname "$newF")" ] && mkdir -p "$(dirname "$newF")"
     touch "$newF"
     source "$theme"
@@ -149,7 +134,7 @@ migrate() {
     continue
   fi
   if [ "${f##*.}" != "xml" ]; then
-    (migrateCopy "$1" "$2" "$f")
+    (migrateCopy "$1" "$2" "res" "$f")
     continue
   fi
   local content="$(<${f})"
@@ -157,7 +142,7 @@ migrate() {
 }
 
 main() {
-  printf "Beginning Migration from $rootDir to $output\n"
+  printf "Beginning Migration from $rootDir to $outputModule\n"
   cd overlays
   for flavor in */; do
     if [[ -d "$flavor" && ! -L "$flavor" ]]; then
@@ -180,8 +165,7 @@ main() {
             else
               # base file/folder (eg type3/type2_*); copy over
               printf "Migrating $packageContent\n"
-              local to="$(newF "$flavor" "$package" "$packageContent")"
-              (migrateDirect "$packageContent" "$to")
+              (migrateCopy "$flavor" "$package" "$packageContent")
             fi
           done
           cd ..

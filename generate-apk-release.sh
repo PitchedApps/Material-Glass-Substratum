@@ -3,7 +3,6 @@
 # config
 RELEASE_REPO=PitchedApps/Material-Glass-Test-Builds
 USER_AUTH=PitchedApps
-APK_NAME=MGS-sample
 MODULE_NAME=substratum
 VERSION_KEY=MGS
 # Make version key different from module name
@@ -44,7 +43,7 @@ else
     # create a new directory that will contain our generated apk
     mkdir $HOME/$VERSION_KEY/
     # copy generated apk from build folder to the folder just created
-    cp -R $MODULE_NAME/build/outputs/apk/$APK_NAME.apk $HOME/$VERSION_KEY/
+    cp -a $MODULE_NAME/build/outputs/apk $HOME/$VERSION_KEY/
 
     echo "Create New Release"
     API_JSON="$(printf '{"tag_name": "v%s","target_commitish": "master","name": "v%s","body": "Automatic Release v%s","draft": false,"prerelease": false}' $TRAVIS_BUILD_NUMBER $TRAVIS_BUILD_NUMBER $TRAVIS_BUILD_NUMBER)"
@@ -53,7 +52,11 @@ else
 
     cd $HOME
     echo "Push apk to $rID"
-    curl "https://uploads.github.com/repos/${RELEASE_REPO}/releases/${rID}/assets?access_token=${GITHUB_API_KEY}&name=${APK_NAME}-v${TRAVIS_BUILD_NUMBER}.apk" --header 'Content-Type: application/zip' --upload-file $VERSION_KEY/$APK_NAME.apk -X POST
+    cd $VERSION_KEY
+    for apk in *.apk;
+      apkName="${apk::-4}"
+      curl "https://uploads.github.com/repos/${RELEASE_REPO}/releases/${rID}/assets?access_token=${GITHUB_API_KEY}&name=${apkName}-v${TRAVIS_BUILD_NUMBER}.apk" --header 'Content-Type: application/zip' --upload-file $apk -X POST
+    done
 fi
 
 echo -e "Done\n"
