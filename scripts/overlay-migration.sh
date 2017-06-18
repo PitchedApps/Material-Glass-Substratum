@@ -1,186 +1,203 @@
 #!/bin/bash
 
 # Global
-# cd ..
 rootDir="$PWD"
-output="substratum/src/sample/assets/overlays/"
+outputModule="substratum"
+baseTheme="Clear"
 skipPng=false
 skipXml=false
 
-# $1 package name
-# $2 themeName
-# $3 relative dir
-newF() {
-  local flavor="type3_$2"
-  if [[ "$2" == "Clear" ]]; then
-      flavor="res"
-  fi
-  echo "$output$1/$flavor/$3"
+# $1 tag name
+tag() {
+  printf "####################\nMigrating %s\n####################\n" "$1"
 }
+
+# $1 flavor
+# $2 package
+# $3 folder
+# $4 relative path
+# $5 theme
+newF() {
+  local base="$outputModule/src/$1/assets/overlays/$2"
+  if [ -z "$4" ]; then # type file
+    echo "$base/$3"
+  elif [[ "$3" == "res" ]]; then # resource folder
+    if [[ "$5" == "$baseTheme" ]]; then # base theme
+      echo "$base/res/$4"
+    else
+      echo "$base/type3_$5/$4"
+    fi
+  else
+    echo "$base/$3/$4" # direct copy; ignore theming
+  fi
+}
+
+# $1 file path
+mkfileP() {
+  [ ! -d "$(dirname "$1")" ] && mkdir -p "$(dirname "$1")"
+  touch "$1";
+}
+
+# $1 relative path
+# $2 output path
+migrateDirect() {
+  local orig=$(readlink -f "$1")
+  cd $rootDir
+  [ ! -d "$(dirname "$2")" ] && mkdir -p "$(dirname "$2")"
+  cp -a "$orig" "$2"
+}
+
+# printf $(newF "delta" "com.android" "type2_test" "drawables/test.xml")
 
 # $1 input location (file, must end with _tint.png)
 # $2 tint color
 # $3 output location (folder)
 tint() {
-    local file="$(basename ${1%.*})"
-    local tintOutput="$3"
-    if [ "${tintOutput: -1}" != "/" ]; then
-        tintOutput="$tintOutput/"
-    fi
-    magick "$1" \( +clone -shave 1x1 \) -gravity center -compose out -composite \( "$1" -shave 1x1 -fill "$2" -colorize 100 \) -compose over -composite "$tintOutput${file::-5}.png"
-    # magick convert "$1" -fill "$2" -tint 100 "$tintOutput${file::-5}.png"
+  local file="$(basename ${1%.*})"
+  local tintOutput="$3"
+  if [ "${tintOutput: -1}" != "/" ]; then
+    tintOutput="$tintOutput/"
+  fi
+  cp "$1" "$tintOutput${file::-5}.png"
+  # magick "$1" \( +clone -shave 1x1 \) -gravity center -compose out -composite \( "$1" -shave 1x1 -fill "$2" -colorize 100 \) -compose over -composite "$tintOutput${file::-5}.png"
+  # magick convert "$1" -fill "$2" -tint 100 "$tintOutput${file::-5}.png"
 }
 
 # $1 string
 # $2 suffix to verify
 endsWith() {
-    if [[ "$1" == *"$2" ]]; then
-        return 0
-    fi
-    return 1
+  if [[ "$1" == *"$2" ]]; then
+    return 0
+  fi
+  return 1
 }
 
-# $1 original file location
+# $1 flavor
 # $2 package
-# $3 relative file name
-tintImages() {
-    local curr="$PWD"
-    local absoluteF=$(readlink -f "$1")
-    cd "$rootDir"
-    for theme in scripts/themes/*.sh; do
-        local themeName="${theme:15:-3}"
-        local newF="$(newF "$2" "$themeName" "$3")"
-        local newD="$(dirname "$newF")"
-        [ ! -d "$newD" ] && mkdir -p "$newD"
-        source "$theme"
-        local color=$(mainColor)
-        tint "$absoluteF" "$color" "$newD"
-    done
-    cd "$curr"
-}
-
-# $1 original file location
-# $2 package
-# $3 file name
+# $3 file location
 migrateCopy() {
-    local orig=$(readlink -f "$1")
-    local curr="$PWD"
-    cd "$rootDir"
-    for theme in scripts/themes/*.sh; do
-        themeName="$(basename ${theme%.*})"
-        local newF="$(newF "$2" "$themeName" "$3")"
-        [ ! -d "$(dirname "$newF")" ] && mkdir -p "$(dirname "$newF")"
-        cp -a "$orig" "$newF"
-    done
-    cd "$curr"
+  local orig=$(readlink -f "$3")
+  cd "$rootDir"
+  for theme in scripts/themes/*.sh; do
+    local themeName="$(basename ${theme%.*})"
+    local newF="$(newF "$1" "$2" "res" "$3" "$themeName")"
+    [ ! -d "$(dirname "$newF")" ] && mkdir -p "$(dirname "$newF")"
+    cp "$orig" "$newF"
+  done
 }
 
 # $1 content
-# $2 package
-# $3 relative file name
+# $2 flavor
+# $3 package
+# $4 file location
 migrateXml() {
-    local curr="$PWD"
-    cd "$rootDir"
-    # minify
-    local content="$1"
-    content="$(echo "$content" | perl -0777 -pe 's/<!--.*?-->//smg')"
-    content="$(echo "$content" | tr '[:space:]' ' ' | tr -s ' ' )"
-    content="$(echo "$content" | perl -0777 -pe 's/> </>\n</smg')"
-    # Replace all references with package private ones; note that $2 is the package name, not from the regex expression
-    content="$(echo "$content" | perl -0777 -pe "s/\@(style|drawable|dimen|string|id|color|layout)/@*$2:\1/smg")"
-    for theme in scripts/themes/*.sh; do
-        themeName="$(basename ${theme%.*})"
-        local newF="$(newF "$2" "$themeName" "$3")"
-        [ ! -d "$(dirname "$newF")" ] && mkdir -p "$(dirname "$newF")"
-        touch "$newF"
-        source "$theme"
-        themeXml "$content" > "$newF"
-    done
-    cd "$curr"
+  cd "$rootDir"
+  # minify
+  local content="$1"
+  local pkg="$3"
+  content="$(echo "$content" | perl -0777 -pe 's/<!--.*?-->//smg')"
+  content="$(echo "$content" | tr '[:space:]' ' ' | tr -s ' ' )"
+  content="$(echo "$content" | perl -0777 -pe 's/> </>\n</smg')"
+  # Replace all references with package private ones
+  content="$(echo "$content" | perl -0777 -pe "s/\@(style|drawable|dimen|string|id|color|layout)/@*$pkg:\1/smg")"
+  for theme in scripts/themes/*.sh; do
+    local themeName="$(basename ${theme%.*})"
+    local newF="$(newF "$2" "$pkg" "res" "$4" "$themeName")"
+    [ ! -d "$(dirname "$newF")" ] && mkdir -p "$(dirname "$newF")"
+    touch "$newF"
+    source "$theme"
+    themeXml "$content" > "$newF"
+  done
 }
 
-# $1 package
-# $2 appcompat contents
-portAppcompat() {
-    local curr="$PWD"
-    local conf="$2"
-    printf "AppCompat Conf:\t$conf\n"
-    cd "$rootDir"
-    cd appcompat/core
-    for f in $(find . -type f); do
-        migrate "$f" "$1"
-    done
-    if [[ "$conf" == *"tint"* ]]; then
-        cd ../tint
-    else
-        cd ../default
-    fi
-    for f in $(find . -type f); do
-        migrate "$f" "$1"
-    done
-    printf "Done AppCompat Migration\n"
-    cd "$curr"
-}
-
-# $1 file location
+# $1 flavor
 # $2 package
-migrate() {
-    local f="$1"
-    local package="$2"
-    local relative="${f:2}"
-    if endsWith "$relative" ".xml" && $skipXml ; then
-        continue
-    fi
-    if endsWith "$relative" ".png" && $skipPng ; then
-        continue
-    fi
-    printf "Migrating $relative\n"
-    if [ "${relative}" == "appcompat.txt" ]; then
-        portAppcompat "$package" "$(<"$f")"
-        continue
-    fi
-    if endsWith "$relative" "_tint.png" ; then
-        tintImages "$f" "$package" "$relative"
-        continue
-    fi
-    if [ "${relative##*.}" != "xml" ]; then
-        migrateCopy "$f" "$package" "$relative"
-        continue
-    fi
-    local content="$(<${f})"
-    migrateXml "$content" "$package" "$relative"
+# $3 appcompat contents
+portAppcompat() {
+  local conf="$3"
+  printf "AppCompat Conf:\t$conf\n"
+  cd "$rootDir"
+  cd appcompat/core
+  for f in $(find . -type f); do
+    migrate "$1" "$2" "$f"
+  done
+  if [[ "$conf" == *"tint"* ]]; then
+    cd ../tint
+  else
+    cd ../default
+  fi
+  for f in $(find . -type f); do
+    migrate "$1" "$2" "$f"
+  done
+  printf "Done AppCompat Migration\n"
 }
 
-# $1 package name
-migratePackage() {
-    local package="$1"
-    printf "####################\nMigrating $package\n####################\n"
-    if [ ! -d overlays/${package}/res ]; then
-        printf "Res not found\n"
-        continue
-    fi
-    cd "overlays/$package/res"
-    for f in $(find . -type f); do
-        migrate "$f" "$package"
-    done
-    cd "$rootDir"
+# $1 flavor
+# $2 package
+# $3 file location
+migrate() {
+  local f=${3:2}
+  if endsWith "$f" ".xml" && $skipXml ; then
+    continue
+  fi
+  if endsWith "$f" ".png" && $skipPng ; then
+    continue
+  fi
+  printf "Migrating $f\n"
+  if [ "$f" == "appcompat.txt" ]; then
+    (portAppcompat "$1" "$2" "$(<"$f")")
+    continue
+  fi
+  if [ "${f##*.}" != "xml" ]; then
+    (migrateCopy "$1" "$2" "$f")
+    continue
+  fi
+  local content="$(<${f})"
+  (migrateXml "$content" "$1" "$2" "$f")
 }
 
 main() {
-    printf "Beginning Migration to $output\n"
-    for package in overlays/*/; do
-        package="${package:9:-1}" # trim to package name
-        migratePackage "$package"
-    done
-    printf "\nDone\n"
+  printf "Beginning Migration from $rootDir to $output\n"
+  cd overlays
+  for flavor in */; do
+    if [[ -d "$flavor" && ! -L "$flavor" ]]; then
+      flavor=${flavor::-1}
+      tag "$flavor"
+      cd "$flavor"
+      for package in */; do
+        if [[ -d "$package" && ! -L "$package" ]]; then
+          package=${package::-1}
+          tag "$package"
+          cd "$package"
+          for packageContent in *; do
+            if [[ "$packageContent" == "res" ]]; then
+              # theme resources; apply themes and copy over
+              cd res
+              for f in $(find . -type f); do
+                migrate "$flavor" "$package" "$f"
+              done
+              cd ..
+            else
+              # base file/folder (eg type3/type2_*); copy over
+              printf "Migrating $packageContent\n"
+              local to="$(newF "$flavor" "$package" "$packageContent")"
+              (migrateDirect "$packageContent" "$to")
+            fi
+          done
+          cd ..
+        fi
+      done
+      cd ..
+    fi
+  done
+  printf "\nDone\n"
 }
 
 #skipPng=true
 # skipXml=true
 
 main
-
-#migratePackage com.whatsapp
+read -p "done"
 
 #cd scripts
 #sh overlay-verify.sh
