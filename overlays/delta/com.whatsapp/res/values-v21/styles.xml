@@ -220,11 +220,11 @@
     <item name="android:textColor">$T$</item>
   </style>
 
-  <style name="Theme.Prefs" parent="@style/Theme.App">
+  <style name="Theme.Prefs" parent="$style/Theme.App">
       <item name="android:icon">@null</item>
       <item name="android:backgroundTint">$B$</item>
   </style>
 
-  <style name="Toolbar" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+  <style name="Toolbar" parent="$style/ThemeOverlay.AppCompat.Dark.ActionBar" />
 
 </resources>

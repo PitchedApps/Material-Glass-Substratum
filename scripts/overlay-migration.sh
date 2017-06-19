@@ -85,7 +85,8 @@ migrateXml() {
   content="$(echo "$content" | tr '[:space:]' ' ' | tr -s ' ' )"
   content="$(echo "$content" | perl -0777 -pe 's/> </>\n</smg')"
   # Replace all references with package private ones
-  content="$(echo "$content" | perl -0777 -pe "s/\@(style|drawable|dimen|string|id|color|layout)/@*$pkg:\1/smg")"
+  content="$(echo "$content" | perl -0777 -pe "s/\@(dimen|string|id|color|layout)/@*$pkg:\1/smg")" # replace by default
+  content="$(echo "$content" | perl -0777 -pe "s/\\\$(style|drawable|dimen|string|id|color|layout)/@*$pkg:\1/smg")" # replace explicitly
   for theme in scripts/themes/*.sh; do
     local themeName="$(basename ${theme%.*})"
     local newF="$(newF "$themeName" "$2" "$pkg" "res" "$4")"
