@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="windowActionBar" format="boolean" />
+    <attr name="colorPrimary" format="color" />
+    <attr name="colorPrimaryDark" format="color" />
+    <attr name="windowNoTitle" format="boolean" />
+
+    <attr name="action_xpadding" format="dimension" />
+    <attr name="action_top_padding" format="dimension" />
+    <attr name="action_bottom_padding" format="dimension" />
+
+    <attr name="star_height" format="dimension" />
+    <attr name="star_color" format="color" />
+    <attr name="star_bg_color" format="color" />
+    <attr name="gap" format="dimension" />
+</resources>
