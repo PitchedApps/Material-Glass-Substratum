@@ -8,4 +8,5 @@
     </attr>
     <attr name="pressedTranslationZ" format="dimension" />
     <attr name="rippleColor" format="color" />
+    <attr name="srcCompat" format="reference" />
 </resources>
