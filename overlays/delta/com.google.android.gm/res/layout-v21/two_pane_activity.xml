@@ -11,7 +11,7 @@
                 <FrameLayout android:id="@id/conversation_list_place_holder" android:layout_width="fill_parent" android:layout_height="fill_parent" />
                 <include layout="@layout/floating_action_button" />
             </FrameLayout>
-            <com.android.mail.ui.ConversationViewFrame android:layout_gravity="left" android:id="@id/conversation_frame" android:layout_width="0.0dip" android:layout_height="fill_parent" style="@style/ConversationViewForegroundShadowStyle">
+            <com.android.mail.ui.ConversationViewFrame android:layout_gravity="left" android:id="@id/conversation_frame" android:layout_width="0.0dip" android:layout_height="fill_parent" style="$style/ConversationViewForegroundShadowStyle">
                 <FrameLayout android:id="@id/conversation_pane" android:layout_width="fill_parent" android:layout_height="fill_parent">
                     <ImageView android:layout_gravity="center" android:id="@id/conversation_pane_no_message_view" android:visibility="gone" android:layout_width="@dimen/empty_state_icon_size" android:layout_height="@dimen/empty_state_icon_size" />
                     <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/conversation_pager" />
