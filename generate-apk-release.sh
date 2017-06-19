@@ -31,7 +31,7 @@ if [ -s "builds/log.txt" ]; then    # error occurred
 
     echo "Create New Error Release"
 
-    API_JSON="$(printf '{"tag_name": "v%s","target_commitish": "master","name": "e%s","body": "Automatic Error Release e%s\n[Stable Release List](https://github.com/PitchedApps/Material-Glass-Substratum/releases)","draft": false,"prerelease": false}' $TRAVIS_BUILD_NUMBER $TRAVIS_BUILD_NUMBER $TRAVIS_BUILD_NUMBER)"
+    API_JSON="$(printf '{"tag_name": "v%s","target_commitish": "master","name": "e%s","body": "Automatic Error Release e%s \\[Stable Release List\\]\\(https://github.com/PitchedApps/Material-Glass-Substratum/releases\\)","draft": false,"prerelease": false}' $TRAVIS_BUILD_NUMBER $TRAVIS_BUILD_NUMBER $TRAVIS_BUILD_NUMBER)"
     newRelease="$(curl --data "$API_JSON" https://api.github.com/repos/$RELEASE_REPO/releases?access_token=$GITHUB_API_KEY)"
     printf "Release Data\n%s\n" "$newRelease"
     rID="$(echo "$newRelease" | jq ".id")"
