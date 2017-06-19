@@ -51,7 +51,7 @@
     <color name="date_picker_text_disabled">$T$</color>
     <color name="date_picker_text_normal">$T$</color>
     <color name="date_picker_view_animator">$B$</color>
-    <color name="date_text_color_read">#$TT$</color>
+    <color name="date_text_color_read">$TT$</color>
     <color name="date_text_color_unread">$T$</color>
     <color name="default_account_details_color">$T$</color>
     <color name="default_folder_background_color">$B$</color>
