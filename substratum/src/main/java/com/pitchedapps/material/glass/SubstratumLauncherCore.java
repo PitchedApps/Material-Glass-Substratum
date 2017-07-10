@@ -1,4 +1,4 @@
-package com.pitchedapps.material.glass.substratum.github;
+package com.pitchedapps.material.glass;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -11,6 +11,8 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.widget.Toast;
 
+import com.pitchedapps.material.glass.free.sample.R;
+
 import java.io.File;
 import java.util.ArrayList;
 
@@ -19,7 +21,7 @@ import projekt.substrate.SubstratumLoader;
 /**
  * Created by Allan Wang on 2016-08-03.
  */
-public class SubstratumLauncher extends Activity {
+public class SubstratumLauncherCore extends Activity {
 
     private static final String SUBSTRATUM_PACKAGE_NAME = "projekt.substratum";
     private static final int MINIMUM_SUBSTRATUM_VERSION = 510; // 510 is the final MM build

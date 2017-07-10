@@ -1,15 +1,15 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    package="com.pitchedapps.material.glass.free.sample">
+    xmlns:tools="http://schemas.android.com/tools">
 
     <application
+        tools:node="replace"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/DialogStyle"
-        tools:node="replace">
-        <activity android:name=".SubstratumLauncher">
+        android:theme="@style/DialogStyle">>
+        <activity
+            android:name="com.pitchedapps.material.glass.free.SubstratumLauncher">
             <intent-filter>
                 <action android:name="projekt.substratum.THEME" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -40,6 +40,5 @@
             android:name="Substratum_Plugin"
             android:value="@string/ThemePlugin" />
     </application>
-
 
 </manifest>

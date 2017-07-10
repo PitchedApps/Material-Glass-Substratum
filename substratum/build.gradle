@@ -1,16 +1,34 @@
-apply plugin: 'com.android.application'
+plugins {
+    id 'com.gladed.androidgitversion' version '0.3.4'
+}
 
+apply plugin: 'com.android.application'
+apply plugin: 'com.github.triplet.play'
+
+play {
+    jsonFile = file('../files/gplay-keys.json')
+    track = 'alpha'
+    errorOnSizeLimit = true
+    uploadImages = false
+    untrackOld = true
+}
 
 android {
     compileSdkVersion Integer.parseInt(project.TARGET_SDK)
     buildToolsVersion project.BUILD_TOOLS
 
+    androidGitVersion {
+        codeFormat = 'MMNNPPBB'
+        format = '%tag%%.count%%-commit%'
+        prefix 'v'
+    }
+
     defaultConfig {
-        applicationId project.APP_PACKAGE
+        applicationId project.APP_PACKAGE_SAMPLE
         minSdkVersion Integer.parseInt(project.MIN_SDK)
         targetSdkVersion Integer.parseInt(project.TARGET_SDK)
-        versionCode Integer.parseInt(project.VERSION_CODE)
-        versionName project.VERSION_NAME
+        versionCode androidGitVersion.code()
+        versionName androidGitVersion.name()
     }
 
     applicationVariants.all { variant ->
@@ -21,8 +39,19 @@ android {
     }
 
     signingConfigs {
+
+        def releaseProps = new Properties()
+        file("../files/play.properties").withInputStream { releaseProps.load(it) }
+
+        release {
+            storeFile file("../files/play.keystore")
+            storePassword releaseProps.getProperty('storePassword')
+            keyAlias releaseProps.getProperty('keyAlias')
+            keyPassword releaseProps.getProperty('keyPassword')
+        }
+
         test {
-            storeFile file("../test.keystore")
+            storeFile file("../files/test.keystore")
             storePassword "testkey"
             keyAlias "testKey"
             keyPassword "testkey"
@@ -50,22 +79,23 @@ android {
         //base contains actual build flavours
         Clear_sample {
             dimension "base"
-            resValue "string", "app_name", "MGlass Clear Test"
+            resValue "string", "app_name", "MGlass Delta"
             signingConfig signingConfigs.test
         }
         Clear_full {
+            applicationId project.APP_PACKAGE_PLAY
             dimension "base"
-            resValue "string", "app_name", "MGlass Clear"
-            signingConfig signingConfigs.test
+            resValue "string", "app_name", "Material Glass"
+            signingConfig signingConfigs.release
         }
         Dark_sample {
             dimension "base"
-            resValue "string", "app_name", "MGlass Dark Test"
+            resValue "string", "app_name", "MDark Delta"
             signingConfig signingConfigs.test
         }
         Dark_full {
             dimension "base"
-            resValue "string", "app_name", "MGlass Dark"
+            resValue "string", "app_name", "Material Dark"
             signingConfig signingConfigs.test
         }
     }

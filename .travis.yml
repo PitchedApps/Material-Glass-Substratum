@@ -5,26 +5,26 @@ os:
 - linux
 android:
   components:
-  #- tools
-  #- platform-tools
-  - build-tools-25.0.2
-  - android-25
+  - build-tools-26.0.0
+  - android-26
+  licenses:
+  - ".+"
 before_install:
+- openssl aes-256-cbc -K $encrypted_4c3a0fd697d8_key -iv $encrypted_4c3a0fd697d8_iv
+  -in files/glass.tar.enc -out glass.tar -d
+- tar xvf glass.tar
 - chmod +x gradlew
-- export JAVA8_HOME=/usr/lib/jvm/java-8-oracle
-- export JAVA_HOME=$JAVA8_HOME
-- mkdir "$ANDROID_HOME/licenses" || true
-- echo -e "\n8933bad161af4178b1185d1a37fbf41ea5269c55" > "$ANDROID_HOME/licenses/android-sdk-license"
-- echo -e "\n84831b9409646a918e30573bab4c9c91346d8abd" > "$ANDROID_HOME/licenses/android-sdk-preview-license"
 before_script:
 - chmod +x ./scripts/overlay-migration.sh
 - "./scripts/overlay-migration.sh"
 after_success:
-- chmod +x ./generate-apk-release.sh
-- "./generate-apk-release.sh"
+- if [[ "$TRAVIS_BRANCH" != "master" ]]; then chmod +x ./generate-apk-release.sh;
+  ./generate-apk-release.sh; fi
 script:
 - cd $TRAVIS_BUILD_DIR/
-- "./gradlew assembleRelease"
+- if [[ "$TRAVIS_BRANCH" == "master" ]]; then ./gradlew publishApkClear_deltaClear_fullRelease;
+  else ./gradlew assembleClear_deltaClear_sampleRelease assembleDark_deltaDark_sampleRelease;
+  fi
 notifications:
   email: false
   slack:
@@ -33,9 +33,11 @@ notifications:
     on_success: always
     on_failure: always
     template:
-    - "MG Build <%{build_url}|#%{build_number}> (<%{compare_url}|%{commit}>) %{result} in %{duration}"
+    - MG Build <%{build_url}|#%{build_number}> (<%{compare_url}|%{commit}>) %{result}
+      in %{duration}
     - "%{commit_subject}"
-    - "<https://github.com/PitchedApps/Material-Glass-Test-Builds/releases/tag/v%{build_number}|APK Download>"
+    - "<https://github.com/PitchedApps/Material-Glass-Test-Builds/releases/tag/v%{build_number}|APK
+      Download>"
 sudo: true
 cache:
   directories:
