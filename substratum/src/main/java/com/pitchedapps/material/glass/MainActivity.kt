@@ -1,32 +1,67 @@
 package com.pitchedapps.material.glass
 
-import android.app.Activity
 import android.os.Bundle
-import android.os.Handler
-import android.transition.Scene
-import android.transition.TransitionInflater
-import android.transition.TransitionManager
+import android.support.v7.app.AppCompatActivity
+import android.view.animation.AnimationUtils
+import ca.allanwang.kau.adapters.FastItemThemedAdapter
+import ca.allanwang.kau.animators.KauAnimator
+import ca.allanwang.kau.animators.SlideAnimatorAdd
+import ca.allanwang.kau.iitems.CardIItem
+import ca.allanwang.kau.utils.*
+import com.mikepenz.google_material_typeface_library.GoogleMaterial
 import kotlinx.android.synthetic.main.activity_main.*
 
 /**
  * Created by Allan Wang on 2017-07-10.
  */
-class MainActivity : Activity() {
+class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-//        animate()
-        val scene1 = Scene.getSceneForLayout(scrollView, R.layout.activity_main_start, this)
-        val scene2 = Scene.getSceneForLayout(scrollView, R.layout.activity_main_end, this)
-//        scene1.enter()
-        val transition = TransitionInflater.from(this).inflateTransition(R.transition.main_transition)
-
-        Handler().postDelayed({
-            TransitionManager.go(scene2, transition.setDuration(1000L))
-        }, 1000)
+        val fastAdapter = FastItemThemedAdapter<CardIItem>(textColor = color(R.color.text), backgroundColor = color(R.color.card))
+        with(recycler) {
+            adapter = fastAdapter
+            itemAnimator = KauAnimator(SlideAnimatorAdd(KAU_BOTTOM, slideFactor = 3f)).apply {
+                addDuration = 500
+                interpolator = AnimationUtils.loadInterpolator(this@MainActivity, android.R.interpolator.decelerate_quad)
+            }
+        }
+        toolbar.setTitle(R.string.ThemeName)
+        fab.apply {
+            setIcon(GoogleMaterial.Icon.gmd_format_paint)
+            setBackgroundColor(R.color.fab)
+        }
+        var logoHidden = false
+        appbar.addOnOffsetChangedListener { appBarLayout, verticalOffset ->
+            val percentage = Math.abs(verticalOffset).toFloat() / appBarLayout.totalScrollRange
+            if (percentage > 0.75f && !logoHidden) {
+                logoHidden = true
+                logo.fadeOut()
+            } else if (percentage <= 0.75f && logoHidden) {
+                logoHidden = false
+                logo.fadeIn()
+            }
+        }
+        postDelayed(500) {
+            backdrop.circularReveal {
+                fastAdapter.add(listOf(
+                        CardIItem { title = "TEST TEST TEST" },
+                        CardIItem { title = "TEST TEST TEST" },
+                        CardIItem { title = "TEST TEST TEST" },
+                        CardIItem { title = "TEST TEST TEST" },
+                        CardIItem { title = "TEST TEST TEST" },
+                        CardIItem { title = "TEST TEST TEST" },
+                        CardIItem { title = "TEST TEST TEST" },
+                        CardIItem { title = "TEST TEST TEST" },
+                        CardIItem { title = "TEST TEST TEST" }
+                ))
+            }
+            postDelayed(1000) {
+                fab.show()
+            }
+        }
     }
-
 
 
 //    fun animate() {
