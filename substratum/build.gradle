@@ -3,6 +3,8 @@ plugins {
 }
 
 apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
 apply plugin: 'com.github.triplet.play'
 
 play {
@@ -79,23 +81,23 @@ android {
         //base contains actual build flavours
         Clear_sample {
             dimension "base"
-            resValue "string", "app_name", "MGlass Delta"
+            resValue "string", "ThemeName", "MGlass Delta"
             signingConfig signingConfigs.test
         }
         Clear_full {
             applicationId project.APP_PACKAGE_PLAY
             dimension "base"
-            resValue "string", "app_name", "Material Glass"
+            resValue "string", "ThemeName", "Material Glass"
             signingConfig signingConfigs.release
         }
         Dark_sample {
             dimension "base"
-            resValue "string", "app_name", "MDark Delta"
+            resValue "string", "ThemeName", "MDark Delta"
             signingConfig signingConfigs.test
         }
         Dark_full {
             dimension "base"
-            resValue "string", "app_name", "Material Dark"
+            resValue "string", "ThemeName", "Material Dark"
             signingConfig signingConfigs.test
         }
     }
@@ -111,9 +113,6 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-//    testCompile 'junit:junit:4.12'
-//    compile "com.android.support:appcompat-v7:$project.ANDROID_SUPPORT_LIBS"
-//    compile "com.android.support:support-v4:$project.ANDROID_SUPPORT_LIBS"
     compile project(':substrate')
+    compile "org.jetbrains.kotlin:kotlin-stdlib-jre7:${KOTLIN}"
 }

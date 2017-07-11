@@ -11,8 +11,6 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.widget.Toast;
 
-import com.pitchedapps.material.glass.free.sample.R;
-
 import java.io.File;
 import java.util.ArrayList;
 

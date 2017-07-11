@@ -1,7 +1,0 @@
-<resources>
-    <string name="ThemeName">@string/app_name</string>
-    <string name="ThemeAuthor">Pitched Apps</string>
-    <string name="ThemeEmail">pitchedapps@gmail.com</string>
-    <string name="ThemeType">stock</string>
-    <string name="ThemePlugin">7.0.5</string>
-</resources>
