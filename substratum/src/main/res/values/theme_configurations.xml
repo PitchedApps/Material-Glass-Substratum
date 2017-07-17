@@ -17,6 +17,7 @@
     <bool name="ThemeSupportSamsung">false</bool>
 
     <!-- Put your theme changelog here -->
+<<<<<<< HEAD
     <string-array name="ThemeChangelog">
         <item>Change One</item>
         <item>Change Two</item>
@@ -24,4 +25,13 @@
         <item>Change Four</item>
         <item>Change Five</item>
     </string-array>
+=======
+    <!--<string-array name="ThemeChangelog">-->
+        <!--<item>Change One</item>-->
+        <!--<item>Change Two</item>-->
+        <!--<item>Change Three</item>-->
+        <!--<item>Change Four</item>-->
+        <!--<item>Change Five</item>-->
+    <!--</string-array>-->
+>>>>>>> 0ff1033aa221d09283f8b592a271432278f89f9b
 </resources>

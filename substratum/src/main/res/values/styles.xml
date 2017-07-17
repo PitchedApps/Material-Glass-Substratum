@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+<<<<<<< HEAD
     <style name="Theme" parent="android:Theme.DeviceDefault.NoActionBar">
+=======
+    <style name="MG" parent="@style/Theme.AppCompat.NoActionBar">
+>>>>>>> 0ff1033aa221d09283f8b592a271432278f89f9b
         <item name="android:windowContentTransitions">true</item>
         <item name="android:windowBackground">@color/background</item>
         <item name="android:windowShowWallpaper">true</item>
         <item name="android:navigationBarColor">@color/background</item>
+<<<<<<< HEAD
         <item name="android:statusBarColor">@color/background</item>
+=======
+        <item name="android:statusBarColor">@color/card</item>
+>>>>>>> 0ff1033aa221d09283f8b592a271432278f89f9b
         <item name="android:windowAllowEnterTransitionOverlap">true</item>
     </style>
 

@@ -62,7 +62,8 @@ android {
 
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled true
+            shrinkResources true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
@@ -112,7 +113,14 @@ android {
     }
 }
 
+repositories {
+    jcenter()
+    maven { url "https://jitpack.io" }
+    maven { url "https://maven.google.com" }
+}
+
 dependencies {
     compile project(':substrate')
-    compile "org.jetbrains.kotlin:kotlin-stdlib-jre7:${KOTLIN}"
+    compile "ca.allanwang.kau:core:$KAU"
+    compile "ca.allanwang.kau:adapter:$KAU"
 }

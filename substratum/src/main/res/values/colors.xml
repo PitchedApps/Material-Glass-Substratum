@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+<<<<<<< HEAD
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
     <color name="background">#80000000</color>
     <color name="background_transparent">#80000000</color>
+=======
+    <color name="text">#fff</color>
+    <color name="fab">#64b5f6</color>
+    <color name="card">#30000000</color>
+    <color name="background">#80000000</color>
+>>>>>>> 0ff1033aa221d09283f8b592a271432278f89f9b
 </resources>

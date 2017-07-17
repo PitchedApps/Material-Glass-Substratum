@@ -7,19 +7,15 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/ThemeName"
         android:supportsRtl="true"
-        android:theme="@style/Theme"
+        android:theme="@style/MG"
         tools:node="replace">
         <activity
             android:name=".MainActivity"
-            android:theme="@style/Theme">
+            android:theme="@style/MG">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity
-            android:name=".SubstratumLauncherCore"
-            android:theme="@style/Theme">
             <intent-filter>
                 <action android:name="projekt.substratum.THEME" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -29,6 +25,18 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <!--<activity-->
+            <!--android:name=".SubstratumLauncherCore"-->
+            <!--android:theme="@style/MG">-->
+            <!--<intent-filter>-->
+                <!--<action android:name="projekt.substratum.THEME" />-->
+                <!--<category android:name="android.intent.category.DEFAULT" />-->
+            <!--</intent-filter>-->
+            <!--<intent-filter>-->
+                <!--<action android:name="projekt.substratum.GET_KEYS" />-->
+                <!--<category android:name="android.intent.category.DEFAULT" />-->
+            <!--</intent-filter>-->
+        <!--</activity>-->
 
         <meta-data
             android:name="Substratum_Legacy"
@@ -52,7 +60,7 @@
         <!--android:name="Substratum_Wallpapers"-->
         <!--android:value="@string/ThemeWallpaperSource"/>-->
 
-        <!-- SUBSTRATUM INTERNAL USE: DO NOT TOUCH -->
+        <!-- SUBSTRATUM_PACKAGE INTERNAL USE: DO NOT TOUCH -->
         <meta-data
             android:name="Substratum_Plugin"
             android:value="10.0.1" />
