@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <item name="logo" type="id" />
-    <item name="linear" type="id" />
-    <item name="text" type="id" />
-    <item name="text1" type="id" />
-    <item name="text2" type="id" />
-    <item name="text3" type="id" />
-</resources>

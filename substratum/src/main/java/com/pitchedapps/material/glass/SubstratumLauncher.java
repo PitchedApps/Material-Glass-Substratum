@@ -19,7 +19,7 @@ import projekt.substrate.SubstratumLoader;
 /**
  * Created by Allan Wang on 2016-08-03.
  */
-public class SubstratumLauncherCore extends Activity {
+public class SubstratumLauncher extends Activity {
 
     private static final String SUBSTRATUM_PACKAGE_NAME = "projekt.substratum";
     private static final int MINIMUM_SUBSTRATUM_VERSION = 510; // 510 is the final MM build

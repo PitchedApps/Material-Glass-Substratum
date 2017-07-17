@@ -1,0 +1,15 @@
+<resources>
+    <string name="main_title">\nLet your app shine through with material darkness</string>
+    <string name="main_desc">Pitched Apps is proud to present %s, material design\'s first and longest lasting theme! Running since Lollipop, and still going with Nougat.
+        \nMade by 1 themer
+        \nTweaked for 1 500+ hours
+        \nUsed by 60 000+ users
+        \n\nPress the FAB to apply!</string>
+    <string name="xda_thread">XDA Thread</string>
+    <string name="xda_link" translatable="false">http://forum.xda-developers.com/google-nexus-5/themes-apps/theme-material-glass-t3005025</string>
+    <string name="proudly_open_sourced">Proudly open sourced on github</string>
+    <string name="github_url" translatable="false">https://github.com/PitchedApps/Material-Glass-Substratum</string>
+    <string name="contact_dev">Contact Dev</string>
+    <string name="email_subject">Material Glass Support</string>
+    <string name="email_dev" translatable="false">pitchedapps@gmail.com</string>
+</resources>
