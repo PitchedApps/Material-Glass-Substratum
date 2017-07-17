@@ -1,16 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<<<<<<< HEAD
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/scrollView"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#30ff0000"
-    android:orientation="vertical">
-
-    <include layout="@layout/activity_main_start" />
-
-</ScrollView>
-=======
 <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/coordinator"
@@ -80,4 +68,3 @@
         app:layout_anchorGravity="bottom|right|end" />
 
 </android.support.design.widget.CoordinatorLayout>
->>>>>>> 0ff1033aa221d09283f8b592a271432278f89f9b
