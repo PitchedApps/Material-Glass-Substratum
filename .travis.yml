@@ -24,7 +24,7 @@ after_success:
 script:
 - cd $TRAVIS_BUILD_DIR/
 - if [[ "$TRAVIS_BRANCH" == "master" ]]; then ./gradlew publishApkClear_deltaClear_fullRelease;
-  else ./gradlew assembleClear_deltaClear_sampleRelease assembleDark_deltaDark_sampleRelease;
+  else ./gradlew assembleRelease;
   fi
 notifications:
   email: false

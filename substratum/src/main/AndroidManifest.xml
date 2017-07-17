@@ -1,27 +1,46 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.pitchedapps.material.glass.free.sample">
+    package="com.pitchedapps.material.glass">
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="@string/ThemeName"
         android:supportsRtl="true"
-        android:theme="@style/DialogStyle"
+        android:theme="@style/MG"
         tools:node="replace">
-        <activity android:name=".SubstratumLauncher">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/MG">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
             <intent-filter>
                 <action android:name="projekt.substratum.THEME" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="projekt.substratum.GET_KEYS" />
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <!--<activity-->
+            <!--android:name=".SubstratumLauncherCore"-->
+            <!--android:theme="@style/MG">-->
+            <!--<intent-filter>-->
+                <!--<action android:name="projekt.substratum.THEME" />-->
+                <!--<category android:name="android.intent.category.DEFAULT" />-->
+            <!--</intent-filter>-->
+            <!--<intent-filter>-->
+                <!--<action android:name="projekt.substratum.GET_KEYS" />-->
+                <!--<category android:name="android.intent.category.DEFAULT" />-->
+            <!--</intent-filter>-->
+        <!--</activity>-->
 
         <meta-data
             android:name="Substratum_Legacy"
-            android:value="true" />
+            android:value="@bool/ThemeSupportLegacy" />
         <meta-data
             android:name="Substratum_Name"
             android:value="@string/ThemeName" />
@@ -30,15 +49,27 @@
             android:value="@string/ThemeAuthor" />
         <meta-data
             android:name="Substratum_Email"
-            android:value="@string/ThemeEmail" />
+            android:value="@string/ThemeAuthorEmail" />
+        <meta-data
+            android:name="Substratum_Samsung"
+            android:value="@bool/ThemeSupportSamsung" />
         <meta-data
             android:name="Substratum_ThemeReady"
-            android:value="@string/ThemeType" />
+            android:value="@string/ThemeReadyRequirement" />
+        <!--<meta-data-->
+        <!--android:name="Substratum_Wallpapers"-->
+        <!--android:value="@string/ThemeWallpaperSource"/>-->
 
-        <!-- SUBSTRATUM INTERNAL USE: DO NOT TOUCH -->
+        <!-- SUBSTRATUM_PACKAGE INTERNAL USE: DO NOT TOUCH -->
         <meta-data
             android:name="Substratum_Plugin"
-            android:value="@string/ThemePlugin" />
+            android:value="10.0.1" />
+        <!--<meta-data-->
+        <!--android:name="Substratum_Encryption"-->
+        <!--android:value="@string/encryption_status"/>-->
+        <!--<meta-data-->
+        <!--android:name="supports_third_party_theme_systems"-->
+        <!--android:value="@bool/SUPPORTS_THIRD_PARTY_THEME_SYSTEMS" />-->
     </application>
 
 
