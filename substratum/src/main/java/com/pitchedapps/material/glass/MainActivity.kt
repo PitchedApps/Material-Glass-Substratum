@@ -1,10 +1,14 @@
 package com.pitchedapps.material.glass
 
+import android.graphics.Color
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
+import android.view.Menu
+import android.view.MenuItem
 import android.view.animation.AnimationUtils
 import ca.allanwang.kau.adapters.FastItemThemedAdapter
 import ca.allanwang.kau.animators.KauAnimator
+import ca.allanwang.kau.changelog.showChangelog
 import ca.allanwang.kau.email.sendEmail
 import ca.allanwang.kau.iitems.CardIItem
 import ca.allanwang.kau.utils.*
@@ -112,5 +116,19 @@ class MainActivity : AppCompatActivity() {
                 fab.show()
             }
         }
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu): Boolean {
+        menuInflater.inflate(R.menu.menu_main, menu)
+        setMenuIcons(menu, Color.WHITE, R.id.action_changelog to GoogleMaterial.Icon.gmd_info)
+        return true
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when (item.itemId) {
+            R.id.action_changelog -> showChangelog(R.xml.changelog)
+            else -> return super.onOptionsItemSelected(item)
+        }
+        return true
     }
 }
