@@ -146,9 +146,9 @@
     <color name="rte_text_gray">$T$</color>
     <color name="rte_toolbar_separator_background">$RR$</color>
     <color name="search_banner_bg">$B$</color>
-    <color name="search_banner_text">$T$</color>
-    <color name="search_query_hint_text">$T$</color>
-    <color name="search_query_text">$T$</color>
+    <color name="search_banner_text">$AT$</color>
+    <color name="search_query_hint_text">$AT$</color>
+    <color name="search_query_text">$AT$</color>
     <color name="search_status_bar_color">#30000000</color>
     <color name="search_suggestion_item_text">$T$</color>
     <color name="senders_text_color">$T$</color>
