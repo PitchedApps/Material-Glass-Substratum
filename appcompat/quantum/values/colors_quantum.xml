@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-  <color name="quantum_black_100">$A$</color>
+  <color name="quantum_black_100">$T$</color>
   <color name="quantum_black_divider">$RR$</color>
   <color name="quantum_black_hint_text">$TTT$</color>
   <color name="quantum_black_secondary_text">$TT$</color>

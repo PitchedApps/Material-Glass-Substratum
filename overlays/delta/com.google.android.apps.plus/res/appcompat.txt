@@ -1,1 +1,1 @@
-tint quantum
+quantum

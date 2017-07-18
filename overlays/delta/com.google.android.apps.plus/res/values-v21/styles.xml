@@ -13,7 +13,7 @@
         <item name="android:paddingStart">16.0dip</item>
         <item name="android:paddingEnd">16.0dip</item>
     </style>
-    <style name="Theme.Settings" parent="@android:style/Theme.Material" />
+    <style name="Theme.Settings" parent="@android:style/Theme.DeviceDefault" />
 
     <style name="notificationCounter">
         <item name="android:textSize">10.0sp</item>

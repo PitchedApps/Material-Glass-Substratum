@@ -84,7 +84,7 @@
 	<color name="friend_locations_white_text">$T$</color>
 	<color name="generic_selected_item">$BB$</color>
 	<color name="gray_button_ripple">$R$</color>
-	<color name="grey_button_pressed">$BB$</color>
+	<color name="grey_button_pressed">$CC$</color>
 	<!--added 2 below-->
 	<color name="guns_list_click_overlay">#20000000</color>
 	<color name="guns_menu_overlay">#60000000</color>
@@ -108,9 +108,9 @@
 	<color name="one_up_divider">$RR$</color>
 	<color name="overlay_tint_dark">#59000000</color>
 	<color name="photos_home_background_color">$B$</color>
-	<color name="photos_home_tab_color">#ff4285f4</color>
+	<color name="photos_home_tab_color">$T$</color>
 	<color name="photos_home_tab_text_non_selected_color">$TTT$</color>
-	<color name="photos_home_tab_text_selected_color">#ff4285f4</color>
+	<color name="photos_home_tab_text_selected_color">$T$</color>
 	<color name="photos_host_background">$B$</color>
 	<color name="photo_action_bar_actionmode_background">$B$</color>
 	<color name="photo_action_bar_background">$O$</color>
