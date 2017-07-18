@@ -23,7 +23,7 @@ after_success:
   ./generate-apk-release.sh; fi
 script:
 - cd $TRAVIS_BUILD_DIR/
-- if [[ "$TRAVIS_BRANCH" == "master" ]]; then ./gradlew publishApkClear_deltaClear_fullRelease;
+- if [[ "$TRAVIS_BRANCH" == "master" ]]; then ./gradlew publishClear_deltaClear_fullRelease;
   else ./gradlew assembleRelease;
   fi
 notifications:
