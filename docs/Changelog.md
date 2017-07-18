@@ -1,5 +1,8 @@
 # Changelog
 
+## v3.3
+* Complete rebase to full automation
+
 ## v3.2
 * Framework: Complete rewrite for base colors
 * Settings: Fixed sub setting crash for Oxygen based roms

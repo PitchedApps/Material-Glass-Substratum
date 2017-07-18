@@ -6,12 +6,28 @@
     <item text="" />
     -->
 
+    <version title="v3.3"/>
+    <item text="Complete rebase to full automation" />
+    <item text="" />
+    <item text="" />
+    <item text="" />
+    <item text="" />
+    <item text="" />
+    <item text="" />
+    <item text="" />
+    <item text="" />
+    <item text="" />
+    <item text="" />
+    <item text="" />
+    <item text="" />
+    <item text="" />
+    <item text="" />
+    <item text="" />
+
     <version title="v3.2"/>
     <item text="Framework: Complete rewrite for base colors" />
     <item text="Settings: Fixed sub setting crash for Oxygen based roms" />
     <item text="Whatsapp: Fixed crash and themed chat sections" />
-    <item text="" />
-    <item text="" />
 
     <version title="v3.1" />
     <item text="Started changelog and automation" />

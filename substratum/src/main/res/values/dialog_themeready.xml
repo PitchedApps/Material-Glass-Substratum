@@ -1,5 +1,0 @@
-<resources>
-    <string name="and">and</string>
-
-    <style name="DialogStyle" parent="@android:style/Theme.DeviceDefault.Dialog.Alert" />
-</resources>
