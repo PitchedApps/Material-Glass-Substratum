@@ -2,6 +2,7 @@
 
 ## v3.3
 * Complete rebase to full automation
+* Spotify: fix build issue and tint
 
 ## v3.2
 * Framework: Complete rewrite for base colors
