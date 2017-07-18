@@ -123,4 +123,5 @@ dependencies {
     compile project(':substrate')
     compile "ca.allanwang.kau:core:$KAU"
     compile "ca.allanwang.kau:adapter:$KAU"
+    compile "com.mikepenz:community-material-typeface:${IICON_COMMUNITY}@aar"
 }

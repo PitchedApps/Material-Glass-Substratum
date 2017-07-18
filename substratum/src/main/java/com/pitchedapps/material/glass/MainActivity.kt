@@ -8,6 +8,7 @@ import ca.allanwang.kau.animators.KauAnimator
 import ca.allanwang.kau.email.sendEmail
 import ca.allanwang.kau.iitems.CardIItem
 import ca.allanwang.kau.utils.*
+import com.mikepenz.community_material_typeface_library.CommunityMaterial
 import com.mikepenz.fastadapter.IItem
 import com.mikepenz.google_material_typeface_library.GoogleMaterial
 import kotlinx.android.synthetic.main.activity_main.*
@@ -36,6 +37,7 @@ class MainActivity : AppCompatActivity() {
             }
         }
         statusBarColor = 0x30000000
+        setSupportActionBar(toolbar)
         toolbar.setTitle(R.string.ThemeName)
         fab.apply {
             setIcon(GoogleMaterial.Icon.gmd_format_paint)
@@ -74,20 +76,29 @@ class MainActivity : AppCompatActivity() {
                             desc = String.format(string(R.string.main_desc), string(R.string.ThemeName))
                         },
                         CardIItem {
+                            titleRes = R.string.join_beta
+                            descRes = R.string.join_beta_desc
+                            cardClick = { startLink(string(R.string.beta_url)) }
+                            imageIIcon = CommunityMaterial.Icon.cmd_beta
+                        },
+                        CardIItem {
                             titleRes = R.string.xda_thread
                             cardClick = { startLink(string(R.string.xda_link)) }
+                            imageIIcon = CommunityMaterial.Icon.cmd_xda
                         },
                         CardIItem {
                             titleRes = R.string.proudly_open_sourced
                             cardClick = { startLink(string(R.string.github_url)) }
+                            imageIIcon = CommunityMaterial.Icon.cmd_github_circle
                         },
                         CardIItem {
                             titleRes = R.string.contact_dev
                             cardClick = {
-                                sendEmail(R.string.email_dev, R.string.email_subject) {
+                                sendEmail(string(R.string.email_dev), string(R.string.ThemeName) + " Support") {
                                     checkPackage(SUBSTRATUM_PACKAGE, "Substratum")
                                 }
                             }
+                            imageIIcon = CommunityMaterial.Icon.cmd_email
                         }
                 ))
             }
