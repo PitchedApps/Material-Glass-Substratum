@@ -26,7 +26,6 @@ android {
     }
 
     defaultConfig {
-        applicationId project.APP_PACKAGE_SAMPLE
         minSdkVersion Integer.parseInt(project.MIN_SDK)
         targetSdkVersion Integer.parseInt(project.TARGET_SDK)
         versionCode androidGitVersion.code()
@@ -81,22 +80,25 @@ android {
 
         //base contains actual build flavours
         Clear_sample {
+            applicationId "com.pitchedapps.material.glass.sample"
             dimension "base"
             resValue "string", "ThemeName", "MGlass Delta"
             signingConfig signingConfigs.test
         }
         Clear_full {
-            applicationId project.APP_PACKAGE_PLAY
+            applicationId "com.pitchedapps.material.glass.free"
             dimension "base"
             resValue "string", "ThemeName", "Material Glass"
             signingConfig signingConfigs.release
         }
         Dark_sample {
+            applicationId "com.pitchedapps.material.dark.sample"
             dimension "base"
             resValue "string", "ThemeName", "MDark Delta"
             signingConfig signingConfigs.test
         }
         Dark_full {
+            applicationId "com.pitchedapps.material.dark.free"
             dimension "base"
             resValue "string", "ThemeName", "Material Dark"
             signingConfig signingConfigs.test

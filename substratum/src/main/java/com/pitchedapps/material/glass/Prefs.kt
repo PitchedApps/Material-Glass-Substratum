@@ -14,4 +14,7 @@ object Prefs : KPref() {
 
     var identifier: Int by kpref("identifier", -1)
 
+    val randomId:String
+    get() = "$identifier-$installDate"
+
 }

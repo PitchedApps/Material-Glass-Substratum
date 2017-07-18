@@ -98,19 +98,23 @@ class MainActivity : AppCompatActivity() {
                         },
                         CardIItem {
                             titleRes = R.string.xda_thread
+                            descRes = R.string.xda_thread_desc
                             cardClick = { startLink(string(R.string.xda_link)) }
                             imageIIcon = CommunityMaterial.Icon.cmd_xda
                         },
                         CardIItem {
-                            titleRes = R.string.proudly_open_sourced
+                            titleRes = R.string.open_sourced
+                            descRes = R.string.open_sourced_desc
                             cardClick = { startLink(string(R.string.github_url)) }
                             imageIIcon = CommunityMaterial.Icon.cmd_github_circle
                         },
                         CardIItem {
                             titleRes = R.string.contact_dev
+                            descRes = R.string.contact_dev_desc
                             cardClick = {
                                 sendEmail(string(R.string.email_dev), string(R.string.ThemeName) + " Support") {
                                     checkPackage(SUBSTRATUM_PACKAGE, "Substratum")
+                                    addItem("Random ID", Prefs.randomId)
                                 }
                             }
                             imageIIcon = CommunityMaterial.Icon.cmd_email

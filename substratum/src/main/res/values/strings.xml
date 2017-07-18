@@ -6,13 +6,16 @@
         \nUsed by 60 000+ users
         \n\nPress the FAB to apply!</string>
     <string name="xda_thread">XDA Thread</string>
+    <string name="xda_thread_desc">Join the discussion on xda</string>
     <string name="xda_link" translatable="false">http://forum.xda-developers.com/google-nexus-5/themes-apps/theme-material-glass-t3005025</string>
-    <string name="proudly_open_sourced">Proudly open sourced on github</string>
+    <string name="open_sourced">Proudly Open Sourced</string>
+    <string name="open_sourced_desc">Check out the overlay files of this theme on github</string>
     <string name="github_url" translatable="false">https://github.com/PitchedApps/Material-Glass-Substratum</string>
     <string name="join_beta">Join the beta program</string>
     <string name="join_beta_desc">Joining beta means much more frequent releases, at the expense that some of them may not be so great. However, being a beta tester and reporting issues is a key part in what makes this theme great.</string>
     <string name="beta_url" translatable="false">https://play.google.com/apps/testing/com.pitchedapps.material.glass.free</string>
     <string name="contact_dev">Contact Dev</string>
+    <string name="contact_dev_desc">For bug reports, suggestions, or comments, feel free to email me. Screenshots of issues help with development!</string>
     <string name="email_subject">Material Glass Support</string>
     <string name="email_dev" translatable="false">pitchedapps@gmail.com</string>
 </resources>
