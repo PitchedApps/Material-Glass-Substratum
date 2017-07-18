@@ -3,11 +3,13 @@
     package="com.pitchedapps.material.glass">
 
     <application
-        android:allowBackup="true"
+        android:name=".App"
+        android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/ThemeName"
         android:supportsRtl="true"
         android:theme="@style/MG"
+        tools:ignore="GoogleAppIndexingWarning"
         tools:node="replace">
         <activity
             android:name=".MainActivity"
@@ -25,18 +27,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <!--<activity-->
-            <!--android:name=".SubstratumLauncherCore"-->
-            <!--android:theme="@style/MG">-->
-            <!--<intent-filter>-->
-                <!--<action android:name="projekt.substratum.THEME" />-->
-                <!--<category android:name="android.intent.category.DEFAULT" />-->
-            <!--</intent-filter>-->
-            <!--<intent-filter>-->
-                <!--<action android:name="projekt.substratum.GET_KEYS" />-->
-                <!--<category android:name="android.intent.category.DEFAULT" />-->
-            <!--</intent-filter>-->
-        <!--</activity>-->
 
         <meta-data
             android:name="Substratum_Legacy"

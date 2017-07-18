@@ -3,6 +3,7 @@ package com.pitchedapps.material.glass
 import android.graphics.Color
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
+import android.support.v7.widget.DividerItemDecoration
 import android.view.Menu
 import android.view.MenuItem
 import android.view.animation.AnimationUtils
@@ -17,6 +18,7 @@ import com.mikepenz.fastadapter.IItem
 import com.mikepenz.google_material_typeface_library.GoogleMaterial
 import kotlinx.android.synthetic.main.activity_main.*
 import projekt.substrate.SubstratumLoader
+
 
 /**
  * Created by Allan Wang on 2017-07-10.
@@ -35,12 +37,15 @@ class MainActivity : AppCompatActivity() {
 
         val fastAdapter = FastItemThemedAdapter<IItem<*, *>>(textColor = color(R.color.text), backgroundColor = color(R.color.card))
         CardIItem.bindClickEvents(fastAdapter)
-        with(recycler) {
+        recycler.apply {
             adapter = fastAdapter
             itemAnimator = KauAnimator(MGSlideAdd()).apply {
                 addDuration = 500
                 interpolator = AnimationUtils.loadInterpolator(this@MainActivity, android.R.interpolator.decelerate_quad)
             }
+            val divider = DividerItemDecoration(this@MainActivity, DividerItemDecoration.VERTICAL)
+            divider.setDrawable(drawable(R.drawable.recycler_divider))
+            addItemDecoration(divider)
         }
         statusBarColor = 0x30000000
         setSupportActionBar(toolbar)
@@ -114,6 +119,10 @@ class MainActivity : AppCompatActivity() {
             }
             postDelayed(1000) {
                 fab.show()
+                if (BuildConfig.VERSION_CODE > Prefs.versionCode) {
+                    Prefs.versionCode = BuildConfig.VERSION_CODE
+                    showChangelog()
+                }
             }
         }
     }
@@ -126,9 +135,18 @@ class MainActivity : AppCompatActivity() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
-            R.id.action_changelog -> showChangelog(R.xml.changelog)
+            R.id.action_changelog -> showChangelog()
             else -> return super.onOptionsItemSelected(item)
         }
         return true
+    }
+
+    fun showChangelog() {
+        showChangelog(R.xml.changelog) {
+            titleColorRes(R.color.text)
+            contentColorRes(R.color.text)
+            positiveColorRes(R.color.text)
+            backgroundColorRes(R.color.dialog_background)
+        }
     }
 }
