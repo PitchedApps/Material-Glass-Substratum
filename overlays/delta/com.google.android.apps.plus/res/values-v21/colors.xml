@@ -27,7 +27,7 @@
 	<color name="album_info_background_color">$DD$</color>
 	<color name="album_more_background_color">$B$</color>
 	<color name="album_visibility_green">#ff0a9c55</color>
-	<color name="album_visibility_grey">#ffaaaaaa</color>
+	<color name="album_visibility_grey">$A$</color>
 	<color name="avatar_background_color">$B$</color>
 	<color name="bar_graph_border">$RR$</color>
 	<color name="bar_graph_content">#ff33b5e5</color>
@@ -88,18 +88,18 @@
 	<!--added 2 below-->
 	<color name="guns_list_click_overlay">#20000000</color>
 	<color name="guns_menu_overlay">#60000000</color>
-	<color name="host_background">#40000000</color>
+	<color name="host_background">$CCC$</color>
 	<color name="large_image_embed_border">$RR$</color>
 	<color name="large_image_text_background_color">$B$</color>
 	<color name="local_business_review_embed_background">$B$</color>
 	<color name="location_settings_disabled_color">$TTT$</color>
-	<color name="map_circle_fill">#2292b8db</color>
-	<color name="map_circle_stroke">#ff92b8db</color>
+	<color name="map_circle_fill">$RR$</color>
+	<color name="map_circle_stroke">$A$</color>
 
 	<color name="mediapicker_tile_text">$T$</color>
 	<color name="media_card_images_background">@android:color/transparent</color>
 	<color name="non_white_button_ripple">$R$</color>
-	<color name="notification_bar_background">#bb000000</color>
+	<color name="notification_bar_background">$DD$</color>
 	<color name="notification_count_background">$B$</color>
 	<color name="notification_divider">$R$</color>
 	<color name="notification_item_background_read">$O$</color>
@@ -120,11 +120,11 @@
 	<color name="photo_crop_highlight_color">$T$</color>
 	<color name="photo_loading_background">$B$</color>
 	<color name="photo_processing_background_color">$B$</color>
-	<color name="photo_selected_background_color">#66000000</color>
+	<color name="photo_selected_background_color">$BB$</color>
 	<color name="photo_tile_loading_backgrond">$B$</color>
 	<color name="play_fg_tabs">$T$</color>
 	<color name="play_tab_strip_bottom">$RR$</color>
-	<color name="play_tab_strip_side">#19ffffff</color>
+	<color name="play_tab_strip_side">$RR$</color>
 	<color name="poll_divider">$R$</color>
 	<color name="poll_option_image_separator_background_color">$B$</color>
 	<color name="poll_option_percent_bar_background_color">$B$</color>
@@ -141,7 +141,7 @@
 	<color name="promo_divider_color">$RR$</color>
 	<color name="promo_explore_topics_bg">$B$</color>
 	<color name="promo_survey_answer_bg">$B$</color>
-	
+
 	<!--11/03/2015-->
 
 	<!--controls number count text-->
@@ -154,18 +154,11 @@
 	<color name="riviera_comment_background">$B$</color>
 	<color name="riviera_media">#99999999</color>
 	<color name="riviera_media_overlay">#99000000</color>
-	<color name="riviera_promo_header_events">#ffcb4437</color>
-	<color name="riviera_relateds_hashtag_author_stripe_1">#ff404040</color>
-	<color name="riviera_relateds_hashtag_author_stripe_2">#ff737373</color>
-	<color name="riviera_relateds_hashtag_author_stripe_3">#ffaaaaaa</color>
-	<color name="riviera_relateds_hashtag_google_stripe_1">#ff427fed</color>
-	<color name="riviera_relateds_hashtag_google_stripe_2">#ff76a7fa</color>
-	<color name="riviera_relateds_hashtag_google_stripe_3">#ffa0c3ff</color>
 	<color name="search_opaque_bg_color">$B$</color>
 	<color name="search_query_highlight_color">#ff6f8fc7</color>
 
 	<color name="section_header_color">$BB$</color>
-	<color name="selected_photo_background">#66000000</color>
+	<color name="selected_photo_background">$RR$</color>
 	<color name="send_content_divider">$R$</color>
 	<color name="separator">$R$</color>
 	<color name="sharekit_light_background">$B$</color>
@@ -175,19 +168,19 @@
 	<color name="square_green_dark">#ff3e8a2a</color>
 	<color name="square_moderator_badge_color">#ff1c9e0a</color>
 	<color name="status_bar_background">$O$</color>
-	<color name="story_caption_placeholder_border_color">#99aaaaaa</color>
+	<color name="story_caption_placeholder_border_color">$R$</color>
 	<color name="story_card_subtitle_text_color">$TT$</color>
 	<color name="story_card_title_text_color">$T$</color>
 	<color name="story_edit_location_bottom_bar_background">$B$</color>
 	<color name="story_edit_location_bottom_bar_text_color">$T$</color>
 	<color name="story_edit_location_item_place_tag_address_color">$TT$</color>
 	<color name="story_edit_location_item_place_tag_text_color">$T$</color>
-	<color name="story_edit_location_pressed_color">#80323232</color>
+	<color name="story_edit_location_pressed_color">$BB$</color>
 	<color name="story_edit_location_separator">$R$</color>
 	<color name="story_edit_location_top_shadow_end_color">#00666666</color>
-	<color name="story_edit_location_top_shadow_start_color">#5f666666</color>
+	<color name="story_edit_location_top_shadow_start_color">#20000000</color>
 	<color name="story_edit_text_bg">$B$</color>
-	<color name="story_element_picker_unselected_overlay">#5a000000</color>
+	<color name="story_element_picker_unselected_overlay">$R$</color>
 	<color name="story_empty_state_background">$B$</color>
 	<color name="story_empty_state_body">$TT$</color>
 	<color name="story_empty_state_divider">$RR$</color>
@@ -197,7 +190,7 @@
 	<color name="story_hero_view_overlay_drop_shadow_start_color">$B$</color>
 	<color name="story_hero_view_overlay_secondary_text_color">$T$</color>
 	<color name="story_hero_view_overlay_text_color">$T$</color>
-	<color name="story_social_controls_background">#99000000</color>
+	<color name="story_social_controls_background">$B$</color>
 	<color name="story_welcome_promo_image_background">$B$</color>
 	<color name="stream_live_hangout_logo_background">$B$</color>
 	<color name="stream_one_up_comment_flagged_avatar_background">$B$</color>
@@ -209,9 +202,9 @@
 	<color name="text_black_54_percent">$TTT$</color>
 	<color name="text_black_87_percent">$TT$</color>
 	<color name="text_blue">$T$</color>
-	<color name="text_gray">#fff</color>
+	<color name="text_gray">$T$</color>
 	<color name="text_hint">$TT$</color>
-	<color name="text_normal">#ffaaaaaa</color>
+	<color name="text_normal">$T$</color>
 	<color name="text_red">#ffc3352c</color>
 	<color name="text_white">$T$</color>
 	<color name="text_white_26_percent">$R$</color>
@@ -256,7 +249,7 @@
 	<color name="collexion_learn_more_create_collexion_bg">$B$</color>
 	<color name="collexion_learn_more_illustration_page_bg">$B$</color>
 	<color name="navigation_background">$DD$</color>
-	<color name="navigation_selected_background">#cc222222</color>
+	<color name="navigation_selected_background">$RR$</color>
 	<color name="profile_follow_button_blocked_color">$RR$</color>
 	<color name="profile_follow_button_ripple_color">$TT$</color>
 	<color name="profile_follow_button_selected_color">$RR$</color>
@@ -266,49 +259,37 @@
 	<color name="text_grey_accessible_on_grey200">$TT$</color>
 
 
-	<color name="acl_circle_chip_color">@color/quantum_grey300</color>
-	<color name="acl_providers_checkmark_color">@color/quantum_googblue</color>
-	<color name="acl_providers_section_divider">@color/quantum_grey400</color>
+	<color name="acl_circle_chip_color">$A$</color>
+	<color name="acl_providers_checkmark_color">$A$</color>
+	<color name="acl_providers_section_divider">$RR$</color>
 	<color name="design_bottom_navigation_shadow_color">#14000000</color>
-	<color name="design_default_color_primary">#ff3f51b5</color>
-	<color name="design_default_color_primary_dark">#ff303f9f</color>
-	<color name="design_default_color_secondary">#ffff4081</color>
+	<color name="design_default_color_primary">$O$</color>
+	<color name="design_default_color_primary_dark">$O$</color>
+	<color name="design_default_color_secondary">$A$</color>
 	<color name="dim_overlay_color">$O$</color>
-	<color name="draft_icon_dark_foreground_color">#ff757575</color>
+	<color name="draft_icon_dark_foreground_color">$T$</color>
 	<color name="gif_background_color">#55000000</color>
-	<color name="ingest_date_tile_text">#ff33b5e5</color>
-	<color name="ingest_highlight_semitransparent">#8833b5e5</color>
-	<color name="loading_indicator_blue">#ff1d87e4</color>
-	<color name="loading_indicator_cyan">@color/quantum_cyan600</color>
-	<color name="loading_indicator_green">@color/quantum_lightgreen600</color>
-	<color name="loading_indicator_orange">@color/quantum_deeporange400</color>
-	<color name="loading_indicator_purple">@color/quantum_purpleA700</color>
-	<color name="loading_indicator_red">#ffe53935</color>
-	<color name="loading_indicator_yellow">@color/quantum_yellow800</color>
 	<color name="mediaview_gif_overlay_background_color">#55000000</color>
-	<color name="mtrl_btn_bg_color">#ff191919</color>
-	<color name="mtrl_btn_bg_color_disabled">#ffe3e3e3</color>
-	<color name="mtrl_btn_bg_color_highlight">#ff5e5e5e</color> <!--# @color/mtrl_btn_bg_color_pressed -->
-	<color name="mtrl_btn_bg_color_pressed">#ff5e5e5e</color>
-	<color name="notification_action_color_filter">@color/secondary_text_default_material_light</color>
-	<color name="notification_icon_bg_color">#ff9e9e9e</color>
-	<color name="notification_material_background_media_default_color">#ff424242</color>
+	<color name="mtrl_btn_bg_color">$C$</color>
+	<color name="mtrl_btn_bg_color_disabled">$CC$</color>
+	<color name="mtrl_btn_bg_color_highlight">$MM$</color> <!--# @color/mtrl_btn_bg_color_pressed -->
+	<color name="mtrl_btn_bg_color_pressed">$R$</color>
+	<color name="notification_icon_bg_color">$B$</color>
 	<color name="page_indicator_default">$R$</color>
-	<color name="page_indicator_default_active">#80ffffff</color>
+	<color name="page_indicator_default_active">$TTT$</color>
 	<color name="photo_crop_bg_color">$B$</color>
-	<color name="photo_crop_border_color">@color/quantum_grey</color>
+	<color name="photo_crop_border_color">$R$</color>
 	<color name="photo_crop_decal_color">$T$</color>
-	<color name="place_autocomplete_prediction_primary_text">#ff212121</color>
-	<color name="place_autocomplete_prediction_primary_text_highlight">#ff757575</color>
-	<color name="place_autocomplete_prediction_secondary_text">#ff757575</color>
-	<color name="place_autocomplete_search_hint">#42000000</color>
-	<color name="place_autocomplete_search_text">#de000000</color>
-	<color name="place_autocomplete_separator">#1f000000</color>
-	<color name="plus_accent">@color/quantum_googblue</color>
-	<color name="plus_accent_disabled">#424285f4</color>
-	<color name="sharecuts_section_divider">@color/quantum_grey300</color>
-	<color name="square_green_light">@color/quantum_googgreen500</color>
-	<color name="square_loading_image_background">@color/quantum_googgreen100</color>
-	<color name="transparent_follow_button_ripple_color">#44000000</color>
-	<color name="transparent_follow_button_selected_color">#33000000</color>
+	<color name="place_autocomplete_prediction_primary_text">$T$</color>
+	<color name="place_autocomplete_prediction_primary_text_highlight">$MM$</color>
+	<color name="place_autocomplete_prediction_secondary_text">$TT$</color>
+	<color name="place_autocomplete_search_hint">$TTT$</color>
+	<color name="place_autocomplete_search_text">$T$</color>
+	<color name="place_autocomplete_separator">$RR$</color>
+	<color name="plus_accent">$AT$</color>
+	<color name="plus_accent_disabled">$AT$</color>
+	<color name="sharecuts_section_divider">$RR$</color>
+	<color name="square_loading_image_background">$BB$</color>
+	<color name="transparent_follow_button_ripple_color">$R$</color>
+	<color name="transparent_follow_button_selected_color">$R$</color>
 </resources>
