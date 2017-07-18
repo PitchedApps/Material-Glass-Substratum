@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.android.mail.ui.search.MaterialSearchSuggestionsList android:orientation="vertical" android:id="@id/search_overlay_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.0"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.android.mail.ui.AutoResizeListView android:id="@id/search_overlay_suggestion_list" android:background="$D$" android:nextFocusUp="@id/search_actionbar_query_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@null" />
-    <View android:id="@id/search_overlay_scrim" android:background="#33000000" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
-</com.android.mail.ui.search.MaterialSearchSuggestionsList>
