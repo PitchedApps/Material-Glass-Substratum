@@ -16,6 +16,8 @@ import projekt.substrate.SubstratumLoader
 
 /**
  * Created by Allan Wang on 2017-07-10.
+ *
+ * The main ui
  */
 class MainActivity : AppCompatActivity() {
 
@@ -43,16 +45,20 @@ class MainActivity : AppCompatActivity() {
             setIcon(GoogleMaterial.Icon.gmd_format_paint)
             setOnClickListener {
                 if (!isAppInstalled(SUBSTRATUM_PACKAGE)) {
-                    toast(R.string.toast_substratum)
+                    toast(R.string.substratum_not_installed)
                     startPlayStoreLink(SUBSTRATUM_PACKAGE)
                 } else {
                     if (isAppEnabled(SUBSTRATUM_PACKAGE)) {
                         val intent = SubstratumLoader.launchThemeActivity(applicationContext,
-                                intent, getString(R.string.ThemeName), packageName)
+                                intent, string(R.string.ThemeName), packageName)
                         startActivity(intent)
                         finish()
                     } else {
-                        toast(R.string.toast_substratum_frozen)
+                        materialDialog {
+                            title(R.string.kau_error)
+                            content(R.string.substratum_frozen)
+                            positiveText(R.string.kau_ok)
+                        }
                     }
                 }
             }
