@@ -34,11 +34,18 @@
   <style name="Widget.MediaRouter.ChooserText.Primary.Light" parent="@style/Widget.MediaRouter.ChooserText.Primary">
     <item name="android:textColor">$T$</item>
   </style>
+  <style name="Widget.MediaRouter.ChooserText.Secondary" parent="@style/Widget.MediaRouter.ChooserText">
+      <item name="android:textSize">14.0sp</item>
+  </style>
   <style name="Widget.MediaRouter.ChooserText.Secondary.Dark" parent="@style/Widget.MediaRouter.ChooserText.Secondary">
     <item name="android:textColor">$TT$</item>
   </style>
   <style name="Widget.MediaRouter.ChooserText.Secondary.Light" parent="@style/Widget.MediaRouter.ChooserText.Secondary">
     <item name="android:textColor">$TT$</item>
+  </style>
+  <style name="Widget.MediaRouter.ControllerText" parent="@style/Widget.MediaRouter.ChooserText" />
+  <style name="Widget.MediaRouter.ControllerText.Primary" parent="@style/Widget.MediaRouter.ControllerText">
+      <item name="android:textSize">16.0sp</item>
   </style>
   <style name="Widget.MediaRouter.ControllerText.Primary.Dark" parent="@style/Widget.MediaRouter.ControllerText.Primary">
     <item name="android:textColor">$T$</item>
