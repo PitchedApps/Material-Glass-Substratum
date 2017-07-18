@@ -11,11 +11,11 @@ import java.util.Map;
 import java.util.Set;
 
 public class PortColors {
-    public static String packageName = "com.whatsapp",
-            solution = "User",
-            project = "com.whatsapp";
+    public static String packageName = "com.google.android.apps.plus",
+            solution = "Google",
+            project = packageName;
 
-    public static String writeDir = Config.defaultWrite + "values", //values directory to write new color file
+    public static String writeDir = Config.defaultWrite + "/values", //values directory to write new color file
             baseDir = Config.getVTSDir(solution, project), //values source directory
             themeDir = Config.getThemedDir(packageName); //values themed directory
 
@@ -23,7 +23,7 @@ public class PortColors {
             DEFAULT_VALUES = "values-v21";
 
     public static void backup() {
-        FileUtils.copyFile(themeDir + DEFAULT_VALUES, COLORS_XML, writeDir, "colors.backup.xml");
+        FileUtils.copyFile(themeDir + DEFAULT_VALUES, COLORS_XML, themeDir + DEFAULT_VALUES, "colors.backup.xml");
     }
 
     public static void main(String[] args) {
@@ -67,7 +67,7 @@ public class PortColors {
         sourceNames.forEach(s -> missing.add(refs.get(s)));
 
         //Create file
-        FileUtils.writeFile(writeDir, COLORS_XML, stillThemed, removed, missing);
+        FileUtils.writeFile(themeDir + DEFAULT_VALUES, COLORS_XML, stillThemed, removed, missing);
 
     }
 

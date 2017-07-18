@@ -7,14 +7,14 @@ import com.pitchedapps.theme.tools.utils.Private;
  */
 public class Config {
 
-    public static String defaultWrite = "substratum/src/factory/res/",
-            substratumSrc = "substratum/src";
+    public static String defaultWrite = "overlays-wip",
+            substratumSrc = "overlays/delta";
 
     public static String getVTSDir(String solution, String project) {
         return String.format(Private.VTS, solution, project);
     }
 
     public static String getThemedDir(String packageName) {
-        return String.format("substratum/src/sample/assets/overlays/%s/res/", packageName);
+        return String.format("overlays/delta/%s/res/", packageName);
     }
 }

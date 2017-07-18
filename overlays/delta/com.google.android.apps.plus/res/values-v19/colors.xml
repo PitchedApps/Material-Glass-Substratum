@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="generic_selected_item">#ff121212</color>
+    <color name="generic_selected_item">$BB$</color>
 </resources>

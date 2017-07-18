@@ -18,7 +18,7 @@
     <style name="notificationCounter">
         <item name="android:textSize">10.0sp</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textColor">$T$</item>
         <item name="android:gravity">center</item>
         <item name="android:layout_gravity">end|center|top</item>
         <item name="android:background">@drawable/notification_count_background</item>
@@ -30,7 +30,7 @@
     </style>
 
     <style name="FlatButtonSeparator">
-        <item name="android:background">#22ffffff</item>
+        <item name="android:background">$RR$</item>
         <item name="android:layout_width">1.0dip</item>
         <item name="android:layout_height">fill_parent</item>
         <item name="android:layout_marginTop">8.0dip</item>
@@ -39,19 +39,19 @@
     </style>
     <style name="FlatButtonBar">
         <item name="android:gravity">center_vertical</item>
-        <item name="android:background">#80000000</item>
+        <item name="android:background">$B$</item>
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">50.0dip</item>
     </style>
     <style name="FlatButtonBorder">
-        <item name="android:background">#80161616</item>
+        <item name="android:background">$BB$</item>
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">1.0dip</item>
     </style>
 
     <style name="Base.Widget.AppCompat.ActionButton" parent="">
         <item name="android:gravity">center</item>
-        <item name="android:background">#80000000</item>
+        <item name="android:background">$B$</item>
         <item name="android:paddingLeft">12.0dip</item>
         <item name="android:paddingRight">12.0dip</item>
         <item name="android:scaleType">center</item>
@@ -63,10 +63,10 @@
 
     <style name="Oob.Dialog" parent="@android:style/Theme.Material.Dialog">
         <item name="android:textSize">20.0sp</item>
-        <item name="android:textColor">#ddffffff</item>
+        <item name="android:textColor">$TT$</item>
     </style>
 
     <style name="Base.Widget.AppCompat.ListView" parent="@android:style/Widget.Material.ListView">
-        <item name="android:backgroundTint">#80000000</item>
+        <item name="android:backgroundTint">$B$</item>
     </style>
 </resources>

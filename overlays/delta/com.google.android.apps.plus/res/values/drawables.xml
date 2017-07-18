@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <item name="action_bar_bg_fullscreen" type="drawable">#80000000</item>
+    <item name="action_bar_bg_fullscreen" type="drawable">$B$</item>
 </resources>
