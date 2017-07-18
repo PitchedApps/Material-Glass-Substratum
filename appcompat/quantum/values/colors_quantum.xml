@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <color name="quantum_black_100">$T$</color>
+  <color name="quantum_black_divider">$RR$</color>
+  <color name="quantum_black_hint_text">$TTT$</color>
+  <color name="quantum_black_secondary_text">$TT$</color>
+  <color name="quantum_black_text">$T$</color>
+  <color name="quantum_grey">$T$</color>
+  <color name="quantum_grey100">$AB$</color>
+  <color name="quantum_grey200">$AB$</color>
+  <color name="quantum_grey300">$O$</color>
+  <color name="quantum_grey400">$O$</color>
+  <color name="quantum_grey50">$O$</color>
+  <color name="quantum_grey500">$T$</color>
+  <color name="quantum_grey600">$T$</color>
+  <color name="quantum_grey700">$T$</color>
+  <color name="quantum_grey800">$T$</color>
+  <color name="quantum_grey900">$T$</color>
+  <color name="quantum_greyblack1000">$T$</color>
+  <color name="quantum_greywhite1000">$A$</color>
+  <color name="quantum_lightblue600">$T$</color>
+  <color name="quantum_lightblue700">$T$</color>
+
+</resources>

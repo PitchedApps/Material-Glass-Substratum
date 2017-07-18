@@ -116,6 +116,13 @@ portAppcompat() {
   for f in $(find . -type f); do
     migrate "$1" "$2" "$f"
   done
+
+  if [[ "$conf" == *"quantum"* ]]; then
+    cd ../quantum
+    for f in $(find . -type f); do
+      migrate "$1" "$2" "$f"
+    done
+  fi
   printf "Done AppCompat Migration\n"
 }
 

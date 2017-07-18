@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<color name="acl_circle_color">$BB$</color>
+	<color name="acl_circle_empty_color">$BB$</color>
+	<color name="acl_extended_circles_color">$BB$</color>
+	<color name="acl_header_view_background">$B$</color>
+	<color name="acl_list_background">$B$</color>
+	<color name="acl_person_color">$TT$</color>
+	<color name="acl_picker_search_text">$T$</color>
+	<color name="acl_picker_section_divider">$R$</color>
+	<color name="acl_picker_selection_list_blue">#ff4285f4</color>
+	<color name="acl_picker_shareousel_dot_map_dot_color">$T$</color>
+	<color name="acl_picker_shareousel_dot_map_dot_color_selected">$T$</color>
+	<color name="acl_public_circle_color">$BB$</color>
+	<color name="acl_restricted_circle_color">$BB$</color>
+	<color name="acl_square_color">$BB$</color>
+	<color name="actionbar_gradient_text_shadow">#26000000</color>
+	<color name="actionbar_translucent_black_background">$B$</color>
+	<color name="action_bar_background">$O$</color>
+	<color name="album_background">$B$</color>
+	<color name="album_container_background_color">$B$</color>
+	<color name="album_cover_gradient_bottom">$B$</color>
+	<color name="album_disabled_color">$DD$</color>
+	<color name="album_footer_background_color">$B$</color>
+	<color name="album_image_more_background_color">$B$</color>
+	<color name="album_info_background_color">$DD$</color>
+	<color name="album_more_background_color">$B$</color>
+	<color name="album_visibility_green">#ff0a9c55</color>
+	<color name="album_visibility_grey">$A$</color>
+	<color name="avatar_background_color">$B$</color>
+	<color name="bar_graph_border">$RR$</color>
+	<color name="bar_graph_content">#ff33b5e5</color>
+	<color name="bar_graph_label">$T$</color>
+	<color name="bar_graph_value">$TT$</color>
+	<color name="black_12">#1f000000</color>
+	<!--theme?-->
+	<color name="blue_4">$TT$</color>
+	<color name="blue_button_ripple">$R$</color>
+	<color name="blue_separator">$R$</color>
+
+	<color name="bt_stroke_grey">$RR$</color>
+	<color name="bt_toastbar_button">$RR$</color>
+	<color name="bt_toastbar_shadow">@android:color/black</color>
+	<color name="bt_toastbar_text">$T$</color>
+	<color name="camera_tile_color">$TTT$</color>
+	<color name="card_background_selected">$BB$</color>
+	<color name="card_commenter_indicator">$BB$</color>
+	<color name="card_event_divider">$RR$</color>
+	<color name="card_event_going">#ff99cc00</color>
+	<color name="card_event_maybe">#ff33b5e5</color>
+	<color name="card_gray_spam_background">$BB$</color>
+	<color name="card_links_image_border">$RR$</color>
+	<color name="card_separator">$RR$</color>
+	<color name="clear">@android:color/transparent</color>
+	<color name="cloud_aam_promo_bg">$BB$</color>
+	<!--check-->
+	<color name="commenter_indicator">$BB$</color>
+	<color name="compose_empty_fg">$TT$</color>
+	<color name="compose_item_bg">$B$</color>
+	<color name="compose_location_list_item_bg">$B$</color>
+	<color name="contacts_sync_background_color">$B$</color>
+	<color name="contacts_sync_button_pressed_color">$BB$</color>
+	<color name="contacts_sync_button_stroke">$RR$</color>
+	<color name="container_header_background_color">$B$</color>
+	<color name="current_account_banner_bg">$B$</color>
+	<color name="default_bg">$B$</color>
+	<color name="error_message_background_color">#ff891313</color>
+	<color name="event_card_details_rsvp_background">$B$</color>
+	<color name="event_card_photo_pending_background_color">$B$</color>
+	<color name="event_info_background_color">$B$</color>
+	<color name="event_rsvp_attending_color">#ff41b349</color>
+	<color name="event_rsvp_maybe_color">#ff33b5e5</color>
+	<color name="friend_locations_actions_background">$DD$</color>
+	<color name="friend_locations_dark_text">$T$</color>
+	<color name="friend_locations_dialog_text">$T$</color>
+	<color name="friend_locations_divider">$R$</color>
+	<color name="friend_locations_grey_text">$TTT$</color>
+	<color name="friend_locations_link">$TT$</color>
+	<color name="friend_locations_list_title">$T$</color>
+	<color name="friend_locations_onboarding_a_background">$B$</color>
+	<color name="friend_locations_onboarding_b_background">$BB$</color>
+	<color name="friend_locations_opt_in_background">$B$</color>
+	<color name="friend_locations_white_text">$T$</color>
+	<color name="generic_selected_item">$BB$</color>
+	<color name="gray_button_ripple">$R$</color>
+	<color name="grey_button_pressed">$CC$</color>
+	<!--added 2 below-->
+	<color name="guns_list_click_overlay">#20000000</color>
+	<color name="guns_menu_overlay">#60000000</color>
+	<color name="host_background">$CCC$</color>
+	<color name="large_image_embed_border">$RR$</color>
+	<color name="large_image_text_background_color">$B$</color>
+	<color name="local_business_review_embed_background">$B$</color>
+	<color name="location_settings_disabled_color">$TTT$</color>
+	<color name="map_circle_fill">$RR$</color>
+	<color name="map_circle_stroke">$A$</color>
+
+	<color name="mediapicker_tile_text">$T$</color>
+	<color name="media_card_images_background">@android:color/transparent</color>
+	<color name="non_white_button_ripple">$R$</color>
+	<color name="notification_bar_background">$DD$</color>
+	<color name="notification_count_background">$B$</color>
+	<color name="notification_divider">$R$</color>
+	<color name="notification_item_background_read">$O$</color>
+	<color name="notification_item_background_unread">$OO$</color>
+	<color name="no_notifications_view_background">$O$</color>
+	<color name="one_up_divider">$RR$</color>
+	<color name="overlay_tint_dark">#59000000</color>
+	<color name="photos_home_background_color">$B$</color>
+	<color name="photos_home_tab_color">$T$</color>
+	<color name="photos_home_tab_text_non_selected_color">$TTT$</color>
+	<color name="photos_home_tab_text_selected_color">$T$</color>
+	<color name="photos_host_background">$B$</color>
+	<color name="photo_action_bar_actionmode_background">$B$</color>
+	<color name="photo_action_bar_background">$O$</color>
+	<color name="photo_action_bar_layout_divider_background">$R$</color>
+	<color name="photo_background_color">$B$</color>
+	<color name="photo_crop_dim_color">$DD$</color>
+	<color name="photo_crop_highlight_color">$T$</color>
+	<color name="photo_loading_background">$B$</color>
+	<color name="photo_processing_background_color">$B$</color>
+	<color name="photo_selected_background_color">$BB$</color>
+	<color name="photo_tile_loading_backgrond">$B$</color>
+	<color name="play_fg_tabs">$T$</color>
+	<color name="play_tab_strip_bottom">$RR$</color>
+	<color name="play_tab_strip_side">$RR$</color>
+	<color name="poll_divider">$R$</color>
+	<color name="poll_option_image_separator_background_color">$B$</color>
+	<color name="poll_option_percent_bar_background_color">$B$</color>
+	<color name="poll_option_stacked_image_background_color">$B$</color>
+	<color name="poll_option_title_black_background_color">$B$</color>
+	<color name="poll_option_title_blue_background_color">$B$</color>
+	<color name="poll_vote_count_text_color">$T$</color>
+	<color name="poll_vote_count_text_color_host_one_up">$T$</color>
+
+	<color name="profile_edit_bg">$B$</color>
+	<color name="profile_local_burgundy">#ff89001a</color>
+	<color name="promo_auto_backup_button_background">@android:color/transparent</color>
+	<color name="promo_auto_backup_button_background_pressed">$R$</color>
+	<color name="promo_divider_color">$RR$</color>
+	<color name="promo_explore_topics_bg">$B$</color>
+	<color name="promo_survey_answer_bg">$B$</color>
+
+	<!--11/03/2015-->
+
+	<!--controls number count text-->
+
+
+
+	<!--2016/03/12 both background and text-->
+
+	<color name="red_button_ripple">$R$</color>
+	<color name="riviera_comment_background">$B$</color>
+	<color name="riviera_media">#99999999</color>
+	<color name="riviera_media_overlay">#99000000</color>
+	<color name="search_opaque_bg_color">$B$</color>
+	<color name="search_query_highlight_color">#ff6f8fc7</color>
+
+	<color name="section_header_color">$BB$</color>
+	<color name="selected_photo_background">$RR$</color>
+	<color name="send_content_divider">$R$</color>
+	<color name="separator">$R$</color>
+	<color name="sharekit_light_background">$B$</color>
+	<color name="sharekit_text_normal">$TT$</color>
+	<color name="square_blocking_explanation_background">$B$</color>
+	<color name="square_card_divider">$R$</color>
+	<color name="square_green_dark">#ff3e8a2a</color>
+	<color name="square_moderator_badge_color">#ff1c9e0a</color>
+	<color name="status_bar_background">$O$</color>
+	<color name="story_caption_placeholder_border_color">$R$</color>
+	<color name="story_card_subtitle_text_color">$TT$</color>
+	<color name="story_card_title_text_color">$T$</color>
+	<color name="story_edit_location_bottom_bar_background">$B$</color>
+	<color name="story_edit_location_bottom_bar_text_color">$T$</color>
+	<color name="story_edit_location_item_place_tag_address_color">$TT$</color>
+	<color name="story_edit_location_item_place_tag_text_color">$T$</color>
+	<color name="story_edit_location_pressed_color">$BB$</color>
+	<color name="story_edit_location_separator">$R$</color>
+	<color name="story_edit_location_top_shadow_end_color">#00666666</color>
+	<color name="story_edit_location_top_shadow_start_color">#20000000</color>
+	<color name="story_edit_text_bg">$B$</color>
+	<color name="story_element_picker_unselected_overlay">$R$</color>
+	<color name="story_empty_state_background">$B$</color>
+	<color name="story_empty_state_body">$TT$</color>
+	<color name="story_empty_state_divider">$RR$</color>
+	<color name="story_empty_state_title">$TT$</color>
+	<color name="story_hero_view_overlay_color">$TT$</color>
+	<color name="story_hero_view_overlay_drop_shadow_end_color">@android:color/transparent</color>
+	<color name="story_hero_view_overlay_drop_shadow_start_color">$B$</color>
+	<color name="story_hero_view_overlay_secondary_text_color">$T$</color>
+	<color name="story_hero_view_overlay_text_color">$T$</color>
+	<color name="story_social_controls_background">$B$</color>
+	<color name="story_welcome_promo_image_background">$B$</color>
+	<color name="stream_live_hangout_logo_background">$B$</color>
+	<color name="stream_one_up_comment_flagged_avatar_background">$B$</color>
+	<color name="stream_one_up_comment_plus_one_inverse">#ffdd0000</color>
+	<color name="stream_one_up_stage_skyjam_preview_background">$B$</color>
+	<color name="switcher_background">$B$</color>
+	<color name="talladega_promo_upcoming_birthdays_background">$B$</color>
+	<color name="text_black_26_percent">$R$</color>
+	<color name="text_black_54_percent">$TTT$</color>
+	<color name="text_black_87_percent">$TT$</color>
+	<color name="text_blue">$T$</color>
+	<color name="text_gray">$T$</color>
+	<color name="text_hint">$TT$</color>
+	<color name="text_normal">$T$</color>
+	<color name="text_red">#ffc3352c</color>
+	<color name="text_white">$T$</color>
+	<color name="text_white_26_percent">$R$</color>
+	<color name="text_white_40_percent">$R$</color>
+	<color name="tile_background">$B$</color>
+	<color name="tile_background_selected">$BB$</color>
+	<color name="tile_photo_one_up_list_background">$B$</color>
+	<color name="tile_photo_one_up_notice_background">$B$</color>
+	<color name="tile_photo_one_up_notice_foreground">$T$</color>
+	<color name="translucent_black_title_background">$DD$</color>
+	<color name="transparent_bg">@android:color/transparent</color>
+
+	<color name="white_button_ripple">$R$</color>
+	<color name="write_place_review_bg">$B$</color>
+	<color name="year_row_divider">$R$</color>
+	<color name="youtube_settings_prompt_bg">$DD$</color>
+
+	<!--check bg_embed_lightgrey.9.png-->
+
+	<color name="acl_chip_view_collexion_text_color">$T$</color>
+	<!--check-->
+	<color name="acl_collexion_color">$BB$</color>
+	<color name="adb_override_title">$TTT$</color>
+	<color name="adb_override_value">#22000000</color>
+	<color name="default_experiment_title">$TTT$</color>
+	<color name="in_app_override_title">$T$</color>
+	<color name="in_app_override_value">#229900cc</color>
+	<color name="overridden_experiment_title">$T$</color>
+	<color name="quick_collect_header_background">$B$</color>
+
+
+	<color name="square_promo_header_color">#ff53a93f</color>
+
+
+	<!--07/02/2015-->
+	<color name="guns_notification_item_background_unread">$O$</color>
+	<color name="text_gray_accessible_on_grey200">$T$</color>
+
+	<!--11/20/2015-->
+	<color name="avatar_selected_stroke">$T$</color>
+	<color name="collexion_learn_more_button_bg">$B$</color>
+	<color name="collexion_learn_more_create_collexion_bg">$B$</color>
+	<color name="collexion_learn_more_illustration_page_bg">$B$</color>
+	<color name="navigation_background">$DD$</color>
+	<color name="navigation_selected_background">$RR$</color>
+	<color name="profile_follow_button_blocked_color">$RR$</color>
+	<color name="profile_follow_button_ripple_color">$TT$</color>
+	<color name="profile_follow_button_selected_color">$RR$</color>
+	<color name="search_grey_dark">$TT$</color>
+	<color name="search_grey_light">$TT$</color>
+
+	<color name="text_grey_accessible_on_grey200">$TT$</color>
+
+
+	<color name="acl_circle_chip_color">$A$</color>
+	<color name="acl_providers_checkmark_color">$A$</color>
+	<color name="acl_providers_section_divider">$RR$</color>
+	<color name="design_bottom_navigation_shadow_color">#14000000</color>
+	<color name="design_default_color_primary">$O$</color>
+	<color name="design_default_color_primary_dark">$O$</color>
+	<color name="design_default_color_secondary">$A$</color>
+	<color name="dim_overlay_color">$O$</color>
+	<color name="draft_icon_dark_foreground_color">$T$</color>
+	<color name="gif_background_color">#55000000</color>
+	<color name="mediaview_gif_overlay_background_color">#55000000</color>
+	<color name="mtrl_btn_bg_color">$C$</color>
+	<color name="mtrl_btn_bg_color_disabled">$CC$</color>
+	<color name="mtrl_btn_bg_color_highlight">$MM$</color> <!--# @color/mtrl_btn_bg_color_pressed -->
+	<color name="mtrl_btn_bg_color_pressed">$R$</color>
+	<color name="notification_icon_bg_color">$B$</color>
+	<color name="page_indicator_default">$R$</color>
+	<color name="page_indicator_default_active">$TTT$</color>
+	<color name="photo_crop_bg_color">$B$</color>
+	<color name="photo_crop_border_color">$R$</color>
+	<color name="photo_crop_decal_color">$T$</color>
+	<color name="place_autocomplete_prediction_primary_text">$T$</color>
+	<color name="place_autocomplete_prediction_primary_text_highlight">$MM$</color>
+	<color name="place_autocomplete_prediction_secondary_text">$TT$</color>
+	<color name="place_autocomplete_search_hint">$TTT$</color>
+	<color name="place_autocomplete_search_text">$T$</color>
+	<color name="place_autocomplete_separator">$RR$</color>
+	<color name="plus_accent">$AT$</color>
+	<color name="plus_accent_disabled">$AT$</color>
+	<color name="sharecuts_section_divider">$RR$</color>
+	<color name="square_loading_image_background">$BB$</color>
+	<color name="transparent_follow_button_ripple_color">$R$</color>
+	<color name="transparent_follow_button_selected_color">$R$</color>
+</resources>
