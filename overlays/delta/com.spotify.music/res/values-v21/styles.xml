@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="NotificationDividerLarge">
-        <item name="android:background">$RR$</item>
-        <item name="android:layout_width">1.0dip</item>
-        <item name="android:layout_height">fill_parent</item>
-        <item name="android:layout_marginTop">12.0dip</item>
-        <item name="android:layout_marginBottom">12.0dip</item>
-    </style>
-    <style name="NotificationDividerSmall">
-        <item name="android:background">$RR$</item>
-        <item name="android:layout_width">1.0px</item>
-        <item name="android:layout_height">fill_parent</item>
-        <item name="android:layout_marginTop">16.0dip</item>
-        <item name="android:layout_marginBottom">16.0dip</item>
-    </style>
-    <!-- <style name="NotificationButton">
+  <style name="NotificationDividerLarge">
+    <item name="android:background">$RR$</item>
+    <item name="android:layout_width">1.0dip</item>
+    <item name="android:layout_height">fill_parent</item>
+    <item name="android:layout_marginTop">12.0dip</item>
+    <item name="android:layout_marginBottom">12.0dip</item>
+  </style>
+  <style name="NotificationDividerSmall">
+    <item name="android:background">$RR$</item>
+    <item name="android:layout_width">1.0px</item>
+    <item name="android:layout_height">fill_parent</item>
+    <item name="android:layout_marginTop">16.0dip</item>
+    <item name="android:layout_marginBottom">16.0dip</item>
+  </style>
+  <!-- <style name="NotificationButton">
         <item name="android:tint">#f00</item>
         <item name="android:background">@drawable/bg_notification_button</item>
         <item name="android:layout_width">0.0dip</item>
@@ -22,22 +22,35 @@
         <item name="android:scaleType">centerInside</item>
         <item name="android:layout_weight">1.0</item>
     </style> -->
-    <style name="Widget.MediaRouter.ChooserText.Primary.Dark" parent="@style/Widget.MediaRouter.ChooserText.Primary">
-      <item name="android:textColor">$T$</item>
+  <style name="Widget.MediaRouter.ChooserText" parent="">
+    <item name="android:textStyle">normal</item>
+  </style>
+  <style name="Widget.MediaRouter.ChooserText.Primary" parent="@style/Widget.MediaRouter.ChooserText">
+    <item name="android:textSize">16.0sp</item>
+  </style>
+  <style name="Widget.MediaRouter.ChooserText.Primary.Dark" parent="@style/Widget.MediaRouter.ChooserText.Primary">
+    <item name="android:textColor">$T$</item>
   </style>
   <style name="Widget.MediaRouter.ChooserText.Primary.Light" parent="@style/Widget.MediaRouter.ChooserText.Primary">
-      <item name="android:textColor">$T$</item>
+    <item name="android:textColor">$T$</item>
+  </style>
+  <style name="Widget.MediaRouter.ChooserText.Secondary" parent="@style/Widget.MediaRouter.ChooserText">
+      <item name="android:textSize">14.0sp</item>
   </style>
   <style name="Widget.MediaRouter.ChooserText.Secondary.Dark" parent="@style/Widget.MediaRouter.ChooserText.Secondary">
-      <item name="android:textColor">$TT$</item>
+    <item name="android:textColor">$TT$</item>
   </style>
   <style name="Widget.MediaRouter.ChooserText.Secondary.Light" parent="@style/Widget.MediaRouter.ChooserText.Secondary">
-      <item name="android:textColor">$TT$</item>
+    <item name="android:textColor">$TT$</item>
+  </style>
+  <style name="Widget.MediaRouter.ControllerText" parent="@style/Widget.MediaRouter.ChooserText" />
+  <style name="Widget.MediaRouter.ControllerText.Primary" parent="@style/Widget.MediaRouter.ControllerText">
+      <item name="android:textSize">16.0sp</item>
   </style>
   <style name="Widget.MediaRouter.ControllerText.Primary.Dark" parent="@style/Widget.MediaRouter.ControllerText.Primary">
-      <item name="android:textColor">$T$</item>
+    <item name="android:textColor">$T$</item>
   </style>
   <style name="Widget.MediaRouter.ControllerText.Primary.Light" parent="@style/Widget.MediaRouter.ControllerText.Primary">
-      <item name="android:textColor">$T$</item>
+    <item name="android:textColor">$T$</item>
   </style>
 </resources>

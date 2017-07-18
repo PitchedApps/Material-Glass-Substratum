@@ -224,4 +224,7 @@
     <color name="suggest_bar_button_text_color">$T$</color>
     <color name="suggest_bar_description_text_color">$T$</color>
 
+    <color name="promo_teaser_bg">$B$</color>
+
+
 </resources>
