@@ -20,7 +20,7 @@ before_script:
 - "./scripts/overlay-migration.sh"
 after_success:
 - chmod +x ./generate-apk-release.sh
-- ./generate-apk-release.sh; fi
+- ./generate-apk-release.sh
 script:
 - cd $TRAVIS_BUILD_DIR/
 - if [[ "$TRAVIS_BRANCH" == "master" ]]; then ./gradlew publishClear_deltaClear_fullRelease;
