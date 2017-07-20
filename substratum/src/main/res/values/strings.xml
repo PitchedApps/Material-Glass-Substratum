@@ -7,7 +7,7 @@
         \n\nPress the FAB to apply!</string>
     <string name="xda_thread">XDA Thread</string>
     <string name="xda_thread_desc">Join the discussion on xda</string>
-    <string name="xda_link" translatable="false">http://forum.xda-developers.com/google-nexus-5/themes-apps/theme-material-glass-t3005025</string>
+    <string name="xda_url" translatable="false">http://forum.xda-developers.com/google-nexus-5/themes-apps/theme-material-glass-t3005025</string>
     <string name="open_sourced">Proudly Open Sourced</string>
     <string name="open_sourced_desc">Check out the overlay files of this theme on github</string>
     <string name="github_url" translatable="false">https://github.com/PitchedApps/Material-Glass-Substratum</string>
@@ -18,4 +18,8 @@
     <string name="contact_dev_desc">For bug reports, suggestions, or comments, feel free to email me. Screenshots of issues help with development!</string>
     <string name="email_subject">Material Glass Support</string>
     <string name="email_dev" translatable="false">pitchedapps@gmail.com</string>
+
+    <string name="cm_user">Hello CM Theme User</string>
+    <string name="cm_user_desc">This has been a long time in the making, but Material Glass has official dropped support for the CMTE and moved to substratum. This means that the theme is no longer updated for CM, but you may still find the old v3.3.0 build if you click this card.</string>
+    <string name="cm_legacy_url" translatable="false">https://www.androidfilehost.com/?fid=817550096634787340</string>
 </resources>

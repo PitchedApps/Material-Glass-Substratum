@@ -87,6 +87,11 @@ class MainActivity : AppCompatActivity() {
             backdrop.circularReveal {
                 fastAdapter.add(listOf(
                         CardIItem {
+                            titleRes = R.string.cm_user
+                            descRes = R.string.cm_user_desc
+                            cardClick = { startLink(string(R.string.cm_legacy_url)) }
+                        },
+                        CardIItem {
                             titleRes = R.string.main_title
                             desc = String.format(string(R.string.main_desc), string(R.string.ThemeName))
                         },
@@ -99,7 +104,7 @@ class MainActivity : AppCompatActivity() {
                         CardIItem {
                             titleRes = R.string.xda_thread
                             descRes = R.string.xda_thread_desc
-                            cardClick = { startLink(string(R.string.xda_link)) }
+                            cardClick = { startLink(string(R.string.xda_url)) }
                             imageIIcon = CommunityMaterial.Icon.cmd_xda
                         },
                         CardIItem {
