@@ -85,7 +85,7 @@ class MainActivity : AppCompatActivity() {
         }
         postDelayed(500) {
             backdrop.circularReveal {
-                fastAdapter.add(listOf(
+                val items = mutableListOf(
                         CardIItem {
                             titleRes = R.string.main_title
                             desc = String.format(string(R.string.main_desc), string(R.string.ThemeName))
@@ -99,7 +99,7 @@ class MainActivity : AppCompatActivity() {
                         CardIItem {
                             titleRes = R.string.xda_thread
                             descRes = R.string.xda_thread_desc
-                            cardClick = { startLink(string(R.string.xda_link)) }
+                            cardClick = { startLink(string(R.string.xda_url)) }
                             imageIIcon = CommunityMaterial.Icon.cmd_xda
                         },
                         CardIItem {
@@ -119,15 +119,16 @@ class MainActivity : AppCompatActivity() {
                             }
                             imageIIcon = CommunityMaterial.Icon.cmd_email
                         }
-                ))
+                )
+                if (isAppInstalled("org.cyanogenmod.theme.chooser") || isAppInstalled("com.cyngn.theme.chooser"))
+                    items.add(0, CardIItem {
+                        titleRes = R.string.cm_user
+                        descRes = R.string.cm_user_desc
+                        cardClick = { startLink(string(R.string.cm_legacy_url)) }
+                    })
+                fastAdapter.add(items)
             }
-            postDelayed(1000) {
-                fab.show()
-//                if (BuildConfig.VERSION_CODE > Prefs.versionCode) {
-//                    Prefs.versionCode = BuildConfig.VERSION_CODE
-//                    showChangelog()
-//                }
-            }
+            postDelayed(1000) { fab.show() }
         }
     }
 
@@ -146,7 +147,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun showChangelog() {
-        showChangelog(R.xml.changelog) {
+        showChangelog(R.xml.theme_changelog) {
             titleColorRes(R.color.text)
             contentColorRes(R.color.text)
             positiveColorRes(R.color.text)
