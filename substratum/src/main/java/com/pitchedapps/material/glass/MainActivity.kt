@@ -128,13 +128,7 @@ class MainActivity : AppCompatActivity() {
                     })
                 fastAdapter.add(items)
             }
-            postDelayed(1000) {
-                fab.show()
-//                if (BuildConfig.VERSION_CODE > Prefs.versionCode) {
-//                    Prefs.versionCode = BuildConfig.VERSION_CODE
-//                    showChangelog()
-//                }
-            }
+            postDelayed(1000) { fab.show() }
         }
     }
 
