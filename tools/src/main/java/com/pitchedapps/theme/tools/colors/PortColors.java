@@ -11,8 +11,8 @@ import java.util.Map;
 import java.util.Set;
 
 public class PortColors {
-    public static String packageName = "com.google.android.apps.plus",
-            solution = "Google",
+    public static String packageName = "com.pushbullet.android",
+            solution = "User",
             project = packageName;
 
     public static String writeDir = Config.defaultWrite + "/values", //values directory to write new color file
@@ -20,7 +20,7 @@ public class PortColors {
             themeDir = Config.getThemedDir(packageName); //values themed directory
 
     public static final String COLORS_XML = "colors.xml",
-            DEFAULT_VALUES = "values-v21";
+            DEFAULT_VALUES = "values";
 
     public static void backup() {
         FileUtils.copyFile(themeDir + DEFAULT_VALUES, COLORS_XML, themeDir + DEFAULT_VALUES, "colors.backup.xml");

@@ -1,51 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="bg_card">#30000000</color>
-    <color name="bg_card_container">#90000000</color>
-    <color name="bg_card_shadow">#03000000</color>
-    <color name="bg_widget">#90000000</color>
-    <color name="bg_window">#90000000</color>
-    <color name="black">#ff000000</color>
-    <color name="black10">#1a000000</color>
-    <color name="black15">#26ffffff</color>
-    <color name="black20">#33000000</color>
-    <color name="black54">#ccffffff</color>
-    <color name="black60">#30ffffff</color>
 
-    <color name="gray1">#a0161616</color>
-    <color name="gray2">#ddffffff</color>
-    <!--below are both text and background-->
-    <color name="gray3">#50ffffff</color>
-    <color name="gray4">#30ffffff</color>
 
-    <color name="mid_green">#ff4ab367</color>
 
-    <color name="red">#ffe85845</color>
 
-    <!--<color name="slightly_darker_green">#ff161616</color>-->
-    <color name="state_activated">#f00</color>
-    <color name="state_pressed">#f00</color>
+	<!--# com.pushbullet.android -->
 
-    <color name="text_hint">#ddffffff</color>
-    <color name="text_link">#ffffffff</color>
-    <color name="text_primary">#ffffffff</color>
-    <color name="text_secondary">#ddffffff</color>
-    <color name="tint_divider">#22ffffff</color>
-    <color name="tint_solid_divider">#22ffffff</color>
-    <color name="transparent">#00000000</color>
-    <color name="white">#a0000000</color>
-    <color name="white40">#4d000000</color>
-    <color name="white60">#99ffffff</color>
-    <color name="white65">#a6000000</color>
-    <color name="white90">#e6000000</color>
 
-    <!--new with material design-->
-    <color name="md_divider_black">#10ffffff</color>
-    <color name="bubble_share_icon">#ccffffff</color>
+	<color name="black10">#1a000000</color>
+	<color name="black15">#26ffffff</color>
+	<color name="black20">#33000000</color>
+	<color name="black54">#ccffffff</color>
+	<color name="black60">$R$</color>
 
-    <!--11/08/2015-->
-    <color name="app_accent">#fff</color>
-    <color name="app_primary">#000</color>
-    <color name="app_primary_dark">#000</color>
+	<color name="gray1">$DDD$</color>
+	<color name="gray2">$TT$</color>
+	<!--below are both text and background-->
+	<color name="gray3">$R$</color>
+	<color name="gray4">$R$</color>
 
+
+	<color name="red">#ffe85845</color>
+
+	<color name="state_pressed">#f00</color>
+
+	<color name="text_hint">$TT$</color>
+	<color name="text_link">$T$</color>
+	<color name="text_primary">$T$</color>
+	<color name="text_secondary">$TT$</color>
+	<color name="tint_divider">$RR$</color>
+	<color name="white40">#4d000000</color>
+	<color name="white60">$TTT$</color>
+	<color name="white65">#a6000000</color>
+	<color name="white90">#e6000000</color>
+
+	<!--new with material design-->
+	<color name="md_divider_black">$RR$</color>
+
+	<!--11/08/2015-->
+	<color name="app_accent">$T$</color>
+	<color name="app_primary">#000</color>
+	<color name="app_primary_dark">#000</color>
+
+	<color name="darkgreen">#ff38a06d</color>
+	<color name="design_bottom_navigation_shadow_color">#14000000</color>
+	<color name="indigo">#ff3f51b5</color>
+	<color name="indigo20">#333f51b5</color>
+	<color name="lightgreen">#ff6ec07c</color>
+	<color name="md_btn_selected">#33969696</color>
+	<color name="md_btn_selected_dark">#40cbcbcb</color>
+	<color name="md_divider_white">$RR$</color>
+	<color name="md_edittext_error">#ffdd2c00</color>
+	<color name="md_material_blue_600">#ff1e88e5</color>
+	<color name="md_material_blue_800">#ff1565c0</color>
+	<color name="midgreen">#ff4ab367</color>
+	<color name="midgreen20">#334ab367</color>
+	<color name="teal">#ff009688</color>
 </resources>
