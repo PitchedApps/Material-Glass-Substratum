@@ -1,9 +1,10 @@
 # Changelog
 
 ## v3.3
-* Complete rebase to full automation
-* Spotify: fix build issue and tint
+* Complete Rebase to full automation
+* Spotify: Fix build issue and tint
 * Gmail: Update search text color
+* App: Add link to legacy CM build
 
 ## v3.2
 * Framework: Complete rewrite for base colors
