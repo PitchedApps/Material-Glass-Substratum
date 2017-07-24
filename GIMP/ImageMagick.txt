@@ -1,0 +1,9 @@
+mogrify -format png32 *.png
+
+red *.png32 *.png
+
+BINTRAY
+
+gradlew bintrayUpload -PbintrayUser=asdfasdfvful -PbintrayKey=6c1e9bad304f53caa3c8c7dd9059ca8bbf7468c6 -PdryRun=false
+
+gradlew clean build bintrayUpload -PbintrayUser=asdfasdfvful -PbintrayKey=6c1e9bad304f53caa3c8c7dd9059ca8bbf7468c6 -PdryRun=false
