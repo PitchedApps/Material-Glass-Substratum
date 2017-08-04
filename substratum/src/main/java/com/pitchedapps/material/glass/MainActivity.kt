@@ -118,14 +118,13 @@ class MainActivity : AppCompatActivity() {
                                 }
                             }
                             imageIIcon = CommunityMaterial.Icon.cmd_email
+                        },
+                        CardIItem {
+                            titleRes = R.string.mg_legacy
+                            descRes = R.string.mg_legacy_desc
+                            cardClick = { startLink(string(R.string.mg_legacy_url)) }
                         }
                 )
-                if (isAppInstalled("org.cyanogenmod.theme.chooser") || isAppInstalled("com.cyngn.theme.chooser"))
-                    items.add(0, CardIItem {
-                        titleRes = R.string.cm_user
-                        descRes = R.string.cm_user_desc
-                        cardClick = { startLink(string(R.string.cm_legacy_url)) }
-                    })
                 fastAdapter.add(items)
             }
             postDelayed(1000) { fab.show() }
