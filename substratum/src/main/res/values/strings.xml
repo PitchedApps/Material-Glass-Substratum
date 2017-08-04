@@ -19,7 +19,7 @@
     <string name="email_subject">Material Glass Support</string>
     <string name="email_dev" translatable="false">pitchedapps@gmail.com</string>
 
-    <string name="cm_user">Hello CM Theme User</string>
-    <string name="cm_user_desc">This has been a long time in the making, but Material Glass has officially dropped support for the CMTE and moved to substratum. This means that the theme is no longer updated for CM, but you may still find the old v3.3.0 build if you click this card.</string>
-    <string name="cm_legacy_url" translatable="false">https://www.androidfilehost.com/?fid=817550096634787340</string>
+    <string name="mg_legacy">Material Glass Legacy</string>
+    <string name="mg_legacy_desc">This has been a long time in the making, but Material Glass has officially dropped support for the CMTE and moved to substratum. This means that the theme is no longer updated for CM, but you may still find the old v3.3.0 build if you click this card.</string>
+    <string name="mg_legacy_url" translatable="false">https://www.androidfilehost.com/?fid=817550096634787340</string>
 </resources>
