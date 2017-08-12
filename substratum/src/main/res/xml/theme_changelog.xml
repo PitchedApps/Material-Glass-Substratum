@@ -5,24 +5,17 @@
     <version title="v"/>
     <item text="" />
     -->
+	
+	
+	<version title="v3.4"/>
+    <item text="Theme pushbullet" />
+    <item text="Whatsapp: Fix crash in conversations. This is only for the latest stable build!" />
 
     <version title="v3.3"/>
     <item text="Complete Rebase to full automation" />
     <item text="Spotify: Fix build issue and tint" />
     <item text="Gmail: Update search text color" />
     <item text="App: Add link to legacy CM build" />
-    <item text="" />
-    <item text="" />
-    <item text="" />
-    <item text="" />
-    <item text="" />
-    <item text="" />
-    <item text="" />
-    <item text="" />
-    <item text="" />
-    <item text="" />
-    <item text="" />
-    <item text="" />
 
     <version title="v3.2"/>
     <item text="Framework: Complete rewrite for base colors" />
